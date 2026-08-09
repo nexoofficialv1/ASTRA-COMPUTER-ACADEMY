@@ -1,0 +1,277 @@
+{
+  "version": "1.0.0",
+  "status": "PASS",
+  "summary": {
+    "passed": 51,
+    "total": 51
+  },
+  "environment": {
+    "flutterSdkAvailable": false,
+    "dartSdkAvailable": false,
+    "note": "Source/build-contract validation only. GitHub Actions/local Flutter build remains the compile/runtime gate."
+  },
+  "metrics": {
+    "courses": 9,
+    "lessons": 60,
+    "interactivePracticals": 40,
+    "finalExamComponents": 9,
+    "databaseSchema": 4
+  },
+  "checks": [
+    {
+      "name": "pubspec version 1.0.0+10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "course count 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lesson count 60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "interactive practical count 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique course ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique lesson ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists .github/workflows/android-apk.yml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists scripts/bootstrap_android.sh",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists scripts/apply_android_branding.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists scripts/build_android_release.sh",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists ANDROID_BUILD_GUIDE.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists V10_ANDROID_RELEASE_HARDENING_STATUS.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists assets/branding/app_icon_1024.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists assets/branding/splash_logo.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists tool/android_overlay/res/values/styles.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists tool/android_overlay/res/values-v31/styles.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bash syntax scripts/bootstrap_android.sh",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bash syntax scripts/build_android_release.sh",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "python syntax scripts/apply_android_branding.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "python syntax scripts/source_release_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "xml parse tool/android_overlay/res/drawable-v21/launch_background.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "xml parse tool/android_overlay/res/values-night/styles.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "xml parse tool/android_overlay/res/values-v31/styles.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "xml parse tool/android_overlay/res/drawable/launch_background.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "xml parse tool/android_overlay/res/values/styles.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "xml parse tool/android_overlay/res/values/colors.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "workflow uses Flutter stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "workflow runs flutter analyze",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "workflow runs flutter test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "workflow builds release apk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "workflow uploads artifact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "workflow YAML parses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bootstrap uses current Flutter scaffold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bootstrap sets organization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bootstrap applies branding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "app label configured",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cleartext disabled",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "system backup disabled",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no release INTERNET permission overlay",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "launcher source is 1024x1024",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "launcher icon mdpi size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "launcher icon hdpi size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "launcher icon xhdpi size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "launcher icon xxhdpi size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "launcher icon xxxhdpi size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all relative Dart imports resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dart lexical delimiters balanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "final exam remains 9 components",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "database remains schema v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "narrow dashboard breakpoint added",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "narrow continue-card breakpoint added",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

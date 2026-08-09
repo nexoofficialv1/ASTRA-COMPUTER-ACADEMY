@@ -1,0 +1,2742 @@
+{
+  "schemaVersion": 3,
+  "courses": [
+    {
+      "id": "computer_fundamentals",
+      "title": "Computer Fundamentals",
+      "titleBn": "কম্পিউটার ফান্ডামেন্টালস",
+      "subtitleBn": "কম্পিউটার, হার্ডওয়্যার, সফটওয়্যার, ফাইল ও ফোল্ডারের ভিত্তি",
+      "icon": "🖥️",
+      "level": "Foundation",
+      "lessons": [
+        {
+          "id": "cf_001",
+          "titleBn": "কম্পিউটার কী ও কীভাবে কাজ করে",
+          "summaryBn": "Input → Process → Output → Storage ধারণা বোঝা।",
+          "durationMinutes": 8,
+          "type": "theory",
+          "contentBn": [
+            "কম্পিউটার এমন একটি ইলেকট্রনিক যন্ত্র যা নির্দেশ অনুযায়ী ডেটা গ্রহণ করে, প্রসেস করে, ফলাফল দেয় এবং প্রয়োজনে সংরক্ষণ করে।",
+            "Keyboard ও Mouse সাধারণ input device; CPU processing করে; Monitor output দেখায়; SSD/HDD তথ্য সংরক্ষণ করে।"
+          ],
+          "steps": [
+            "Input device চিনুন",
+            "Processing unit চিনুন",
+            "Output ও storage device আলাদা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "নিচের কোনটি Input Device?",
+              "options": [
+                "Monitor",
+                "Keyboard",
+                "Printer",
+                "Speaker"
+              ],
+              "correctIndex": 1,
+              "explanation": "Keyboard দিয়ে ব্যবহারকারী কম্পিউটারে তথ্য বা command প্রবেশ করায়, তাই এটি input device।"
+            }
+          ]
+        },
+        {
+          "id": "cf_002",
+          "titleBn": "ফাইল ও ফোল্ডার ম্যানেজমেন্ট",
+          "summaryBn": "File, folder, extension, copy, move, rename ও delete-এর ভিত্তি।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "ফাইল হলো তথ্যের একক সংরক্ষণ এবং ফোল্ডার ব্যবহার করা হয় ফাইলগুলোকে গুছিয়ে রাখার জন্য।"
+          ],
+          "steps": [
+            "Documents নামে একটি folder কল্পনা করে তৈরি করুন",
+            "একটি file rename করার ধাপ মনে করুন",
+            "Copy এবং Move-এর পার্থক্য ব্যাখ্যা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Copy করলে সাধারণত কী হয়?",
+              "options": [
+                "মূল ফাইল মুছে যায়",
+                "একটি duplicate তৈরি হয়",
+                "ফাইল corrupt হয়",
+                "folder delete হয়"
+              ],
+              "correctIndex": 1,
+              "explanation": "Copy করলে মূল ফাইল রেখে অন্য স্থানে তার আরেকটি কপি তৈরি করা যায়।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ms_word",
+      "title": "MS Word",
+      "titleBn": "MS Word",
+      "subtitleBn": "Typing, formatting, paragraph, table ও office document তৈরি",
+      "icon": "📄",
+      "level": "Foundation",
+      "lessons": [
+        {
+          "id": "word_001",
+          "titleBn": "Word Interface ও Document তৈরি",
+          "summaryBn": "Ribbon, tab, document area এবং save ধারণা।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Microsoft Word ব্যবহার করা হয় letter, application, report, notice, resume এবং অন্যান্য document তৈরি করতে।"
+          ],
+          "steps": [
+            "Home tab-এর কাজ",
+            "Insert tab-এর কাজ",
+            "Save ও Save As-এর পার্থক্য"
+          ],
+          "quiz": [
+            {
+              "question": "নতুন table যোগ করতে সাধারণত কোন tab ব্যবহার করা হয়?",
+              "options": [
+                "Home",
+                "Insert",
+                "Review",
+                "View"
+              ],
+              "correctIndex": 1,
+              "explanation": "Word-এর Insert tab থেকে Table, Picture, Shape ইত্যাদি যোগ করা যায়।"
+            }
+          ]
+        },
+        {
+          "id": "word_002",
+          "titleBn": "Text Formatting Practical",
+          "summaryBn": "Bold, Italic, Underline, Font Size ও Alignment অনুশীলন।",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "Formatting-এর উদ্দেশ্য হলো document-কে পড়তে সহজ এবং পেশাদার করা।"
+          ],
+          "steps": [
+            "একটি heading লিখুন",
+            "Heading Bold করুন",
+            "Font Size 16 নির্ধারণ করুন",
+            "Paragraph Justify করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Justify alignment কী করে?",
+              "options": [
+                "শুধু বামে রাখে",
+                "শুধু ডানে রাখে",
+                "দুই প্রান্ত সমানভাবে সাজায়",
+                "Text মুছে দেয়"
+              ],
+              "correctIndex": 2,
+              "explanation": "Justify paragraph-এর বাম ও ডান প্রান্তকে সমানভাবে সাজায়।"
+            }
+          ],
+          "practicalKind": "word_formatting",
+          "practicalData": {
+            "taskTitle": "Formatting Task 01",
+            "instruction": "Heading-এ “COMPUTER TRAINING NOTICE” লিখুন। নিচের paragraph লিখে Heading Bold ও 16 pt করুন এবং Paragraph Justify করুন।",
+            "task": {
+              "headingText": "COMPUTER TRAINING NOTICE",
+              "paragraphText": "All students are requested to attend the practical computer class regularly and complete the assigned exercises.",
+              "headingStyle": {
+                "bold": true,
+                "fontSize": 16
+              },
+              "paragraphStyle": {
+                "alignment": "justify"
+              }
+            }
+          }
+        },
+        {
+          "id": "word_003",
+          "titleBn": "Table তৈরি ও Data Entry Practical",
+          "summaryBn": "Word document-এর মধ্যে table insert করে নির্দিষ্ট data বসানো।",
+          "durationMinutes": 18,
+          "type": "practical",
+          "contentBn": [
+            "Insert → Table ব্যবহার করে row ও column নির্ধারণ করা যায়। Table-এর প্রতিটি cell-এ আলাদা data লেখা যায়।"
+          ],
+          "steps": [
+            "STUDENT MARKS heading লিখুন",
+            "Heading Bold, 16 pt এবং Center করুন",
+            "4 Row × 3 Column table তৈরি করুন",
+            "দেওয়া data ঠিকভাবে table-এ লিখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "word_table",
+          "practicalData": {
+            "taskTitle": "Table Task 02",
+            "instruction": "“STUDENT MARKS” heading লিখে Bold, 16 pt ও Center করুন। এরপর 4 × 3 table insert করে: Name | Word | Excel; Riya | 85 | 90; Amit | 78 | 82; Suman | 88 | 86 লিখুন।",
+            "task": {
+              "headingText": "STUDENT MARKS",
+              "headingStyle": {
+                "bold": true,
+                "fontSize": 16,
+                "alignment": "center"
+              },
+              "table": {
+                "rows": 4,
+                "columns": 3,
+                "cells": [
+                  [
+                    "Name",
+                    "Word",
+                    "Excel"
+                  ],
+                  [
+                    "Riya",
+                    "85",
+                    "90"
+                  ],
+                  [
+                    "Amit",
+                    "78",
+                    "82"
+                  ],
+                  [
+                    "Suman",
+                    "88",
+                    "86"
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "word_004",
+          "titleBn": "Leave Application Practical",
+          "summaryBn": "একটি পরিষ্কার ও professional leave application তৈরি করা।",
+          "durationMinutes": 20,
+          "type": "practical",
+          "contentBn": [
+            "Application তৈরি করার সময় subject, salutation, মূল বক্তব্য ও closing পরিষ্কারভাবে সাজানো জরুরি।"
+          ],
+          "steps": [
+            "APPLICATION FOR LEAVE heading লিখুন",
+            "Heading Bold, 16 pt ও Center করুন",
+            "দেওয়া application body টাইপ করুন",
+            "Body 12 pt ও Justify করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "word_document",
+          "practicalData": {
+            "taskTitle": "Application Task 03",
+            "instruction": "Heading এবং body হুবহু লিখুন। Heading Bold, 16 pt ও Center; body 12 pt ও Justify করুন।",
+            "task": {
+              "headingText": "APPLICATION FOR LEAVE",
+              "paragraphText": "To The Head of the Institution. Subject: Prayer for three days leave. Sir/Madam, I respectfully request leave for three days due to urgent family work. I shall be grateful for your kind consideration. Yours faithfully, Rahul Das.",
+              "headingStyle": {
+                "bold": true,
+                "fontSize": 16,
+                "alignment": "center"
+              },
+              "paragraphStyle": {
+                "fontSize": 12,
+                "alignment": "justify"
+              }
+            }
+          }
+        },
+        {
+          "id": "word_005",
+          "titleBn": "Official Letter Practical",
+          "summaryBn": "Office-style letter typing ও paragraph formatting practice।",
+          "durationMinutes": 22,
+          "type": "practical",
+          "contentBn": [
+            "Official letter-এ recipient, subject, concise body এবং closing সঠিকভাবে রাখা হয়।"
+          ],
+          "steps": [
+            "OFFICIAL LETTER heading লিখুন",
+            "Heading Bold ও Center করুন",
+            "Letter body নির্ভুলভাবে টাইপ করুন",
+            "Paragraph Justify করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "word_document",
+          "practicalData": {
+            "taskTitle": "Letter Task 04",
+            "instruction": "দেওয়া official letter body টাইপ করে professional formatting দিন।",
+            "task": {
+              "headingText": "OFFICIAL LETTER",
+              "paragraphText": "To The Manager, ABC Services. Subject: Request for correction of customer record. Sir/Madam, Please arrange to correct the customer name in the office record as per the supporting document submitted with this letter. Kindly update the record at the earliest. Yours faithfully, Office Assistant.",
+              "headingStyle": {
+                "bold": true,
+                "fontSize": 16,
+                "alignment": "center"
+              },
+              "paragraphStyle": {
+                "fontSize": 12,
+                "alignment": "justify"
+              }
+            }
+          }
+        },
+        {
+          "id": "word_006",
+          "titleBn": "Notice Writing Practical",
+          "summaryBn": "Short notice তৈরি, heading emphasis ও clean alignment।",
+          "durationMinutes": 18,
+          "type": "practical",
+          "contentBn": [
+            "Notice ছোট, স্পষ্ট এবং দ্রুত পড়ার উপযোগী হওয়া উচিত। Heading আলাদা করে চোখে পড়ার মতো করা হয়।"
+          ],
+          "steps": [
+            "NOTICE লিখুন",
+            "Heading Bold, Underline, 16 pt ও Center করুন",
+            "দেওয়া notice body লিখুন",
+            "Body Left alignment রাখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "word_document",
+          "practicalData": {
+            "taskTitle": "Notice Task 05",
+            "instruction": "NOTICE heading Bold + Underline + 16 pt + Center করুন এবং body 12 pt Left alignment-এ লিখুন।",
+            "task": {
+              "headingText": "NOTICE",
+              "paragraphText": "All students are informed that the computer practical examination will be held on 20 August 2026 at 10:00 AM in the Computer Lab. Students must report fifteen minutes before the examination.",
+              "headingStyle": {
+                "bold": true,
+                "underline": true,
+                "fontSize": 16,
+                "alignment": "center"
+              },
+              "paragraphStyle": {
+                "fontSize": 12,
+                "alignment": "left"
+              }
+            }
+          }
+        },
+        {
+          "id": "word_007",
+          "titleBn": "Resume তৈরি Practical",
+          "summaryBn": "Resume heading, career objective এবং personal detail table তৈরি।",
+          "durationMinutes": 28,
+          "type": "practical",
+          "contentBn": [
+            "Resume-এ তথ্য সংক্ষিপ্ত, structured এবং সহজে scan করা যায় এমনভাবে সাজানো উচিত।"
+          ],
+          "steps": [
+            "RESUME heading তৈরি করুন",
+            "Heading Bold, 18 pt ও Center করুন",
+            "Career Objective paragraph লিখুন",
+            "6 × 2 personal detail table তৈরি করে data বসান"
+          ],
+          "quiz": [],
+          "practicalKind": "word_table",
+          "practicalData": {
+            "taskTitle": "Resume Task 06",
+            "instruction": "RESUME heading ও Career Objective লিখে 6 × 2 table-এ ব্যক্তিগত ও skill details বসান।",
+            "task": {
+              "headingText": "RESUME",
+              "paragraphText": "Career Objective: To build a responsible career where I can use my computer and office skills effectively and continue learning.",
+              "headingStyle": {
+                "bold": true,
+                "fontSize": 18,
+                "alignment": "center"
+              },
+              "paragraphStyle": {
+                "fontSize": 12,
+                "alignment": "justify"
+              },
+              "table": {
+                "rows": 6,
+                "columns": 2,
+                "cells": [
+                  [
+                    "Name",
+                    "Rahul Das"
+                  ],
+                  [
+                    "Qualification",
+                    "Higher Secondary"
+                  ],
+                  [
+                    "Skills",
+                    "MS Word, MS Excel, Data Entry"
+                  ],
+                  [
+                    "Mobile",
+                    "9876543210"
+                  ],
+                  [
+                    "Email",
+                    "rahul@example.com"
+                  ],
+                  [
+                    "Location",
+                    "Kalna, West Bengal"
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "word_008",
+          "titleBn": "Page Setup, Save As, PDF ও Print",
+          "summaryBn": "Document-এর orientation, margin, Save As, PDF এবং Print Preview-এর মৌলিক workflow শিখুন.",
+          "durationMinutes": 12,
+          "type": "theory",
+          "contentBn": [
+            "Word document তৈরি করার পর file name ও save format ঠিকভাবে নির্বাচন করা জরুরি। DOCX editable থাকে, আর PDF সাধারণত final share/print-এর জন্য ব্যবহার করা হয়।",
+            "Page Setup থেকে Portrait/Landscape orientation ও margin বদলানো যায়। Print করার আগে Print Preview দেখে page break, margin এবং content ঠিক আছে কি না যাচাই করা উচিত।"
+          ],
+          "steps": [
+            "File name অর্থপূর্ণ রাখুন",
+            "Page Layout থেকে Orientation ও Margins চিনুন",
+            "Save As-এ DOCX/PDF পার্থক্য বুঝুন",
+            "Print Preview দেখে তারপর print করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Final document share করার জন্য সাধারণত কোন format বেশি উপযোগী?",
+              "options": [
+                "TXT",
+                "PDF",
+                "BMP",
+                "EXE"
+              ],
+              "correctIndex": 1,
+              "explanation": "PDF layout স্থির রাখে এবং share/print-এর জন্য বহুল ব্যবহৃত।"
+            },
+            {
+              "question": "Landscape বলতে কী বোঝায়?",
+              "options": [
+                "Page লম্বালম্বি",
+                "Page আড়াআড়ি",
+                "Font bold",
+                "File delete"
+              ],
+              "correctIndex": 1,
+              "explanation": "Landscape orientation-এ page width height-এর চেয়ে বেশি হয়।"
+            }
+          ]
+        },
+        {
+          "id": "word_009",
+          "titleBn": "Save As ও Print Practical",
+          "summaryBn": "নির্দেশনা অনুযায়ী file name, PDF, page orientation, margin ও print preview সেট করুন.",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "এটি offline simulation; বাস্তব file overwrite বা printer ব্যবহার হবে না।"
+          ],
+          "steps": [
+            "File name Office_Application দিন",
+            "PDF format বেছে নিন",
+            "Portrait + Normal margin রাখুন",
+            "Save As করুন",
+            "Print Preview খুলে 1 copy রাখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "word_workflow",
+          "practicalData": {
+            "instruction": "Document-টি Office_Application নামে PDF হিসেবে Save As করুন; Portrait, Normal margin এবং 1 copy Print Preview প্রস্তুত করুন।",
+            "task": {
+              "filename": "Office_Application",
+              "format": "PDF",
+              "orientation": "Portrait",
+              "margins": "Normal",
+              "copies": 1,
+              "requireSave": true,
+              "requirePrintPreview": true
+            }
+          }
+        },
+        {
+          "id": "word_010",
+          "titleBn": "Header, Footer ও Page Number",
+          "summaryBn": "দীর্ঘ document-এ page identity, footer note ও automatic page number-এর ব্যবহার।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Header প্রতিটি page-এর উপরের পুনরাবৃত্ত অংশ, Footer নিচের অংশ। Page Number ব্যবহার করলে বহু-page document গুছিয়ে রাখা সহজ হয়।",
+            "Different First Page ব্যবহার করলে cover page-এ header/footer আলাদা রাখা যায়।"
+          ],
+          "steps": [
+            "Insert > Header/Footer চিনুন",
+            "Page Number-এর position নির্বাচন বুঝুন",
+            "Different First Page কখন ব্যবহার করবেন তা বুঝুন"
+          ],
+          "quiz": [
+            {
+              "question": "Page Number-এর প্রধান সুবিধা কী?",
+              "options": [
+                "Font বড় করে",
+                "পৃষ্ঠা শনাক্ত ও ক্রম বজায় রাখতে",
+                "File delete করতে",
+                "Internet চালাতে"
+              ],
+              "correctIndex": 1,
+              "explanation": "বহু-page document-এ page number পাঠককে সঠিক ক্রম ও পৃষ্ঠা শনাক্ত করতে সাহায্য করে।"
+            }
+          ]
+        },
+        {
+          "id": "word_011",
+          "titleBn": "Header, Footer ও Page Number Practical",
+          "summaryBn": "একটি office report-এ header, footer এবং bottom-center page number সেট করুন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "এটি Word-এর page element workflow-এর offline simulation।"
+          ],
+          "steps": [
+            "Header-এ ASTRA OFFICE REPORT লিখুন",
+            "Footer-এ Confidential লিখুন",
+            "Page Number Bottom Center দিন",
+            "Different First Page বন্ধ রাখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "word_page_elements",
+          "practicalData": {
+            "instruction": "Office report-এ Header = ASTRA OFFICE REPORT, Footer = Confidential, Page Number = Bottom Center এবং Different First Page = Off রাখুন।",
+            "task": {
+              "header": "ASTRA OFFICE REPORT",
+              "footer": "Confidential",
+              "pageNumberPosition": "Bottom Center",
+              "differentFirstPage": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ms_excel",
+      "title": "MS Excel",
+      "titleBn": "MS Excel",
+      "subtitleBn": "Cell, data table, formula, calculation ও office sheet",
+      "icon": "📊",
+      "level": "Foundation",
+      "lessons": [
+        {
+          "id": "excel_001",
+          "titleBn": "Workbook, Worksheet, Row, Column ও Cell",
+          "summaryBn": "Spreadsheet-এর মৌলিক কাঠামো শেখা।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Excel worksheet-এ column অক্ষর দিয়ে এবং row সংখ্যা দিয়ে চিহ্নিত হয়। Column B ও Row 3-এর intersection হলো B3 cell।"
+          ],
+          "steps": [
+            "A1 cell শনাক্ত করুন",
+            "Row ও Column-এর পার্থক্য বলুন",
+            "Workbook ও Worksheet আলাদা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Column C এবং Row 5-এর cell address কোনটি?",
+              "options": [
+                "5C",
+                "C5",
+                "C-5",
+                "Row5C"
+              ],
+              "correctIndex": 1,
+              "explanation": "Excel cell address প্রথমে column letter এবং পরে row number দিয়ে লেখা হয়: C5।"
+            }
+          ]
+        },
+        {
+          "id": "excel_002",
+          "titleBn": "প্রথম Formula Practical",
+          "summaryBn": "দুটি cell যোগ করে total বের করা।",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "Excel formula সবসময় = চিহ্ন দিয়ে শুরু হয়। যেমন B2 এবং C2 যোগ করতে =B2+C2।"
+          ],
+          "steps": [
+            "B2-তে 15000 ধরুন",
+            "C2-তে 3000 ধরুন",
+            "D2-তে =B2+C2 লিখুন",
+            "ফলাফল 18000 হওয়া উচিত"
+          ],
+          "quiz": [
+            {
+              "question": "B2 ও C2 যোগ করার সঠিক formula কোনটি?",
+              "options": [
+                "B2+C2",
+                "=B2+C2",
+                "SUM B2 C2",
+                "B2=C2"
+              ],
+              "correctIndex": 1,
+              "explanation": "Excel formula = দিয়ে শুরু হয়, তাই =B2+C2 সঠিক।"
+            }
+          ],
+          "practicalKind": "excel_formula",
+          "practicalData": {
+            "taskTitle": "Formula Task 01",
+            "instruction": "Rahul-এর Basic 15000 এবং HRA 3000 দেওয়া আছে। D2 cell-এ formula ব্যবহার করে Total বের করুন। সরাসরি 18000 লিখলে পূর্ণ score হবে না।",
+            "rows": 5,
+            "columns": 4,
+            "startCell": "D2",
+            "initialCells": {
+              "A1": "Name",
+              "B1": "Basic",
+              "C1": "HRA",
+              "D1": "Total",
+              "A2": "Rahul",
+              "B2": "15000",
+              "C2": "3000"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "D2",
+                  "label": "Rahul Total",
+                  "value": 18000,
+                  "requireFormula": true,
+                  "formula": "=B2+C2"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_003",
+          "titleBn": "SUM, AVERAGE, MIN, MAX ও COUNT Practical",
+          "summaryBn": "একটি marks list থেকে Excel function ব্যবহার করে summary বের করা।",
+          "durationMinutes": 22,
+          "type": "practical",
+          "contentBn": [
+            "Range-এর ওপর function ব্যবহার করলে অনেক data একসঙ্গে দ্রুত calculate করা যায়। যেমন =SUM(B2:B5)।"
+          ],
+          "steps": [
+            "B7-এ Total বের করুন",
+            "B8-এ Average বের করুন",
+            "B9-এ Highest mark বের করুন",
+            "B10-এ Lowest mark বের করুন",
+            "B11-এ numeric entry count করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_functions",
+          "practicalData": {
+            "taskTitle": "Function Task 02",
+            "instruction": "B2:B5 marks থেকে B7:B11 cell-এ যথাক্রমে SUM, AVERAGE, MAX, MIN এবং COUNT formula ব্যবহার করুন।",
+            "rows": 11,
+            "columns": 3,
+            "startCell": "B7",
+            "initialCells": {
+              "A1": "Student",
+              "B1": "Marks",
+              "A2": "Riya",
+              "B2": "85",
+              "A3": "Amit",
+              "B3": "78",
+              "A4": "Suman",
+              "B4": "88",
+              "A5": "Nila",
+              "B5": "91",
+              "A7": "Total",
+              "A8": "Average",
+              "A9": "Highest",
+              "A10": "Lowest",
+              "A11": "Count"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "B7",
+                  "label": "Total Marks",
+                  "value": 342,
+                  "requireFormula": true,
+                  "formula": "=SUM(B2:B5)"
+                },
+                {
+                  "cell": "B8",
+                  "label": "Average Marks",
+                  "value": 85.5,
+                  "requireFormula": true,
+                  "formula": "=AVERAGE(B2:B5)"
+                },
+                {
+                  "cell": "B9",
+                  "label": "Highest Marks",
+                  "value": 91,
+                  "requireFormula": true,
+                  "formula": "=MAX(B2:B5)"
+                },
+                {
+                  "cell": "B10",
+                  "label": "Lowest Marks",
+                  "value": 78,
+                  "requireFormula": true,
+                  "formula": "=MIN(B2:B5)"
+                },
+                {
+                  "cell": "B11",
+                  "label": "Student Count",
+                  "value": 4,
+                  "requireFormula": true,
+                  "formula": "=COUNT(B2:B5)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_004",
+          "titleBn": "Office Salary Sheet Practical",
+          "summaryBn": "একাধিক employee-এর Basic ও HRA থেকে Total salary formula দিয়ে বের করা।",
+          "durationMinutes": 20,
+          "type": "practical",
+          "contentBn": [
+            "Office data sheet-এ একই calculation বহু row-এ করতে হয়। প্রতিটি row-এর cell reference ঠিক রাখা জরুরি।"
+          ],
+          "steps": [
+            "D2-এ Rahul-এর Total লিখুন",
+            "D3-এ Amit-এর Total লিখুন",
+            "D4-এ Suman-এর Total লিখুন",
+            "প্রতিটি cell-এ formula ব্যবহার করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_office_sheet",
+          "practicalData": {
+            "taskTitle": "Office Sheet Task 03",
+            "instruction": "Basic + HRA করে D2:D4-এ Total বের করুন। প্রতিটি row-এ সংশ্লিষ্ট cell reference ব্যবহার করে formula লিখতে হবে।",
+            "rows": 6,
+            "columns": 4,
+            "startCell": "D2",
+            "initialCells": {
+              "A1": "Name",
+              "B1": "Basic",
+              "C1": "HRA",
+              "D1": "Total",
+              "A2": "Rahul",
+              "B2": "15000",
+              "C2": "3000",
+              "A3": "Amit",
+              "B3": "18000",
+              "C3": "3600",
+              "A4": "Suman",
+              "B4": "22000",
+              "C4": "4400"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "D2",
+                  "label": "Rahul Total",
+                  "value": 18000,
+                  "requireFormula": true,
+                  "formula": "=B2+C2"
+                },
+                {
+                  "cell": "D3",
+                  "label": "Amit Total",
+                  "value": 21600,
+                  "requireFormula": true,
+                  "formula": "=B3+C3"
+                },
+                {
+                  "cell": "D4",
+                  "label": "Suman Total",
+                  "value": 26400,
+                  "requireFormula": true,
+                  "formula": "=B4+C4"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_005",
+          "titleBn": "Mark Sheet Practical",
+          "summaryBn": "Subject marks থেকে Total ও Percentage calculate করা।",
+          "durationMinutes": 25,
+          "type": "practical",
+          "contentBn": [
+            "Mark sheet-এ Total এবং Percentage formula দিয়ে calculate করলে manual error কমে।"
+          ],
+          "steps": [
+            "E2:E4-এ Total বের করুন",
+            "F2:F4-এ Percentage বের করুন",
+            "প্রতিটি result formula দিয়ে তৈরি করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_marksheet",
+          "practicalData": {
+            "taskTitle": "Mark Sheet Task 04",
+            "instruction": "প্রতিটি student-এর Total এবং Percentage formula দিয়ে বের করুন। Percentage = Total / 300 × 100।",
+            "rows": 6,
+            "columns": 6,
+            "startCell": "E2",
+            "initialCells": {
+              "A1": "Name",
+              "B1": "English",
+              "C1": "Math",
+              "D1": "Computer",
+              "E1": "Total",
+              "F1": "Percentage",
+              "A2": "Riya",
+              "B2": "80",
+              "C2": "70",
+              "D2": "60",
+              "A3": "Amit",
+              "B3": "75",
+              "C3": "85",
+              "D3": "80",
+              "A4": "Suman",
+              "B4": "90",
+              "C4": "90",
+              "D4": "90"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "E2",
+                  "label": "Riya Total",
+                  "value": 210,
+                  "requireFormula": true,
+                  "formula": "=SUM(B2:D2)"
+                },
+                {
+                  "cell": "F2",
+                  "label": "Riya Percentage",
+                  "value": 70,
+                  "requireFormula": true,
+                  "formula": "=E2/300*100"
+                },
+                {
+                  "cell": "E3",
+                  "label": "Amit Total",
+                  "value": 240,
+                  "requireFormula": true,
+                  "formula": "=SUM(B3:D3)"
+                },
+                {
+                  "cell": "F3",
+                  "label": "Amit Percentage",
+                  "value": 80,
+                  "requireFormula": true,
+                  "formula": "=E3/300*100"
+                },
+                {
+                  "cell": "E4",
+                  "label": "Suman Total",
+                  "value": 270,
+                  "requireFormula": true,
+                  "formula": "=SUM(B4:D4)"
+                },
+                {
+                  "cell": "F4",
+                  "label": "Suman Percentage",
+                  "value": 90,
+                  "requireFormula": true,
+                  "formula": "=E4/300*100"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_006",
+          "titleBn": "Attendance Sheet Practical",
+          "summaryBn": "Present day থেকে attendance percentage calculate করা।",
+          "durationMinutes": 20,
+          "type": "practical",
+          "contentBn": [
+            "Attendance percentage সাধারণত Present Days / Total Working Days × 100 formula-তে বের করা হয়।"
+          ],
+          "steps": [
+            "D2:D4-এ attendance percentage বের করুন",
+            "প্রতিটি row-এ cell reference ব্যবহার করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_attendance",
+          "practicalData": {
+            "taskTitle": "Attendance Task 05",
+            "instruction": "D2:D4-এ Present / Total Days × 100 formula ব্যবহার করে attendance percentage বের করুন।",
+            "rows": 6,
+            "columns": 4,
+            "startCell": "D2",
+            "initialCells": {
+              "A1": "Name",
+              "B1": "Total Days",
+              "C1": "Present",
+              "D1": "Attendance %",
+              "A2": "Rahul",
+              "B2": "25",
+              "C2": "23",
+              "A3": "Amit",
+              "B3": "25",
+              "C3": "20",
+              "A4": "Suman",
+              "B4": "25",
+              "C4": "24"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "D2",
+                  "label": "Rahul Attendance",
+                  "value": 92,
+                  "requireFormula": true,
+                  "formula": "=C2/B2*100"
+                },
+                {
+                  "cell": "D3",
+                  "label": "Amit Attendance",
+                  "value": 80,
+                  "requireFormula": true,
+                  "formula": "=C3/B3*100"
+                },
+                {
+                  "cell": "D4",
+                  "label": "Suman Attendance",
+                  "value": 96,
+                  "requireFormula": true,
+                  "formula": "=C4/B4*100"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_007",
+          "titleBn": "Stock Register Practical",
+          "summaryBn": "Opening, Received ও Issued থেকে Closing Stock বের করা।",
+          "durationMinutes": 22,
+          "type": "practical",
+          "contentBn": [
+            "Stock register-এ Closing = Opening + Received - Issued। Formula ব্যবহার করলে inventory calculation consistent থাকে।"
+          ],
+          "steps": [
+            "E2:E4-এ Closing Stock বের করুন",
+            "Opening + Received - Issued formula ব্যবহার করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_stock",
+          "practicalData": {
+            "taskTitle": "Stock Register Task 06",
+            "instruction": "E2:E4-এ Closing Stock = Opening + Received - Issued formula ব্যবহার করুন।",
+            "rows": 6,
+            "columns": 5,
+            "startCell": "E2",
+            "initialCells": {
+              "A1": "Item",
+              "B1": "Opening",
+              "C1": "Received",
+              "D1": "Issued",
+              "E1": "Closing",
+              "A2": "Keyboard",
+              "B2": "20",
+              "C2": "10",
+              "D2": "8",
+              "A3": "Mouse",
+              "B3": "30",
+              "C3": "15",
+              "D3": "12",
+              "A4": "Pendrive",
+              "B4": "25",
+              "C4": "5",
+              "D4": "9"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "E2",
+                  "label": "Keyboard Closing",
+                  "value": 22,
+                  "requireFormula": true,
+                  "formula": "=B2+C2-D2"
+                },
+                {
+                  "cell": "E3",
+                  "label": "Mouse Closing",
+                  "value": 33,
+                  "requireFormula": true,
+                  "formula": "=B3+C3-D3"
+                },
+                {
+                  "cell": "E4",
+                  "label": "Pendrive Closing",
+                  "value": 21,
+                  "requireFormula": true,
+                  "formula": "=B4+C4-D4"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_008",
+          "titleBn": "Billing Sheet Practical",
+          "summaryBn": "Quantity × Rate থেকে Amount এবং Grand Total calculate করা।",
+          "durationMinutes": 25,
+          "type": "practical",
+          "contentBn": [
+            "Billing sheet-এ প্রতিটি item-এর Amount = Quantity × Rate এবং শেষে SUM দিয়ে Grand Total বের করা হয়।"
+          ],
+          "steps": [
+            "D2:D4-এ item amount বের করুন",
+            "D5-এ Grand Total বের করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_billing",
+          "practicalData": {
+            "taskTitle": "Billing Task 07",
+            "instruction": "প্রতিটি item-এর Amount = Qty × Rate; D5-এ SUM ব্যবহার করে Grand Total বের করুন।",
+            "rows": 6,
+            "columns": 4,
+            "startCell": "D2",
+            "initialCells": {
+              "A1": "Item",
+              "B1": "Qty",
+              "C1": "Rate",
+              "D1": "Amount",
+              "A2": "Keyboard",
+              "B2": "2",
+              "C2": "650",
+              "A3": "Mouse",
+              "B3": "3",
+              "C3": "350",
+              "A4": "Pendrive",
+              "B4": "4",
+              "C4": "500",
+              "A5": "Grand Total"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "D2",
+                  "label": "Keyboard Amount",
+                  "value": 1300,
+                  "requireFormula": true,
+                  "formula": "=B2*C2"
+                },
+                {
+                  "cell": "D3",
+                  "label": "Mouse Amount",
+                  "value": 1050,
+                  "requireFormula": true,
+                  "formula": "=B3*C3"
+                },
+                {
+                  "cell": "D4",
+                  "label": "Pendrive Amount",
+                  "value": 2000,
+                  "requireFormula": true,
+                  "formula": "=B4*C4"
+                },
+                {
+                  "cell": "D5",
+                  "label": "Grand Total",
+                  "value": 4350,
+                  "requireFormula": true,
+                  "formula": "=SUM(D2:D4)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_009",
+          "titleBn": "IF, COUNTIF, SUMIF ও VLOOKUP পরিচিতি",
+          "summaryBn": "Condition, criteria এবং lookup ব্যবহার করে office data analysis-এর ভিত্তি শিখুন.",
+          "durationMinutes": 15,
+          "type": "theory",
+          "contentBn": [
+            "IF() কোনো condition সত্য বা মিথ্যা হলে আলাদা result দেয়। যেমন =IF(B2>=40,\"Pass\",\"Fail\")।",
+            "COUNTIF() criteria মিলে কতটি record আছে গোনে; SUMIF() criteria মেলা record-এর amount যোগ করে। VLOOKUP() একটি code বা key দেখে table থেকে সম্পর্কিত value বের করে।"
+          ],
+          "steps": [
+            "IF-এর condition/result structure বুঝুন",
+            "COUNTIF-এ range ও criteria চিনুন",
+            "SUMIF-এ criteria range ও sum range আলাদা করুন",
+            "VLOOKUP exact match-এ FALSE ব্যবহার করুন"
+          ],
+          "quiz": [
+            {
+              "question": "=IF(B2>=40,\"Pass\",\"Fail\")-এ B2=55 হলে result কী?",
+              "options": [
+                "Fail",
+                "Pass",
+                "55",
+                "Error"
+              ],
+              "correctIndex": 1,
+              "explanation": "55 >= 40 সত্য, তাই IF প্রথম result Pass ফেরত দেয়।"
+            },
+            {
+              "question": "COUNTIF-এর কাজ কী?",
+              "options": [
+                "সব সংখ্যা যোগ",
+                "শর্ত মেলা cell গণনা",
+                "শুধু average",
+                "file save"
+              ],
+              "correctIndex": 1,
+              "explanation": "COUNTIF নির্দিষ্ট criteria মেলা cell/record-এর সংখ্যা গোনে।"
+            }
+          ]
+        },
+        {
+          "id": "excel_010",
+          "titleBn": "IF Formula — Result Sheet Practical",
+          "summaryBn": "Marks থেকে Pass/Fail নির্ধারণ করুন.",
+          "durationMinutes": 14,
+          "type": "practical",
+          "contentBn": [
+            "প্রতিটি ছাত্রের marks দেখে IF formula ব্যবহার করুন।"
+          ],
+          "steps": [
+            "C2-এ IF formula দিন",
+            "formula pattern নিচের row-এ প্রয়োগ করুন",
+            "result যাচাই করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_if",
+          "practicalData": {
+            "taskTitle": "IF Task 08",
+            "instruction": "Marks 40 বা তার বেশি হলে Pass, না হলে Fail দেখান।",
+            "rows": 6,
+            "columns": 3,
+            "startCell": "C2",
+            "initialCells": {
+              "A1": "Name",
+              "B1": "Marks",
+              "C1": "Result",
+              "A2": "Riya",
+              "B2": "72",
+              "A3": "Amit",
+              "B3": "35",
+              "A4": "Sohan",
+              "B4": "40",
+              "A5": "Mita",
+              "B5": "28"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "C2",
+                  "label": "Riya Result",
+                  "value": "Pass",
+                  "requireFormula": true,
+                  "formula": "=IF(B2>=40,\"Pass\",\"Fail\")"
+                },
+                {
+                  "cell": "C3",
+                  "label": "Amit Result",
+                  "value": "Fail",
+                  "requireFormula": true,
+                  "formula": "=IF(B3>=40,\"Pass\",\"Fail\")"
+                },
+                {
+                  "cell": "C4",
+                  "label": "Sohan Result",
+                  "value": "Pass",
+                  "requireFormula": true,
+                  "formula": "=IF(B4>=40,\"Pass\",\"Fail\")"
+                },
+                {
+                  "cell": "C5",
+                  "label": "Mita Result",
+                  "value": "Fail",
+                  "requireFormula": true,
+                  "formula": "=IF(B5>=40,\"Pass\",\"Fail\")"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_011",
+          "titleBn": "COUNTIF ও SUMIF — Expense Analysis",
+          "summaryBn": "Category অনুযায়ী record count এবং মোট amount বের করুন.",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "Office expense list থেকে নির্দিষ্ট category-এর সংখ্যা ও মোট খরচ হিসাব করুন।"
+          ],
+          "steps": [
+            "D2-এ COUNTIF ব্যবহার করুন",
+            "D3-এ SUMIF ব্যবহার করুন",
+            "criteria Office রাখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_criteria",
+          "practicalData": {
+            "taskTitle": "Criteria Task 09",
+            "instruction": "Office category কতটি আছে এবং তার মোট Amount কত—formula দিয়ে বের করুন।",
+            "rows": 7,
+            "columns": 4,
+            "startCell": "D2",
+            "initialCells": {
+              "A1": "Category",
+              "B1": "Amount",
+              "C1": "Summary",
+              "D1": "Value",
+              "A2": "Office",
+              "B2": "500",
+              "A3": "Travel",
+              "B3": "900",
+              "A4": "Office",
+              "B4": "750",
+              "A5": "Food",
+              "B5": "350",
+              "A6": "Office",
+              "B6": "250",
+              "C2": "Office Count",
+              "C3": "Office Total"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "D2",
+                  "label": "Office Count",
+                  "value": 3,
+                  "requireFormula": true,
+                  "formula": "=COUNTIF(A2:A6,\"Office\")"
+                },
+                {
+                  "cell": "D3",
+                  "label": "Office Total",
+                  "value": 1500,
+                  "requireFormula": true,
+                  "formula": "=SUMIF(A2:A6,\"Office\",B2:B6)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_012",
+          "titleBn": "VLOOKUP — Product Price Lookup",
+          "summaryBn": "Product code লিখে table থেকে price বের করুন.",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "Lookup table থেকে exact match ব্যবহার করে price আনুন।"
+          ],
+          "steps": [
+            "F2-এ VLOOKUP formula দিন",
+            "Lookup value E2 ব্যবহার করুন",
+            "Table A2:C5 এবং column index 3 দিন",
+            "FALSE দিয়ে exact match করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_lookup",
+          "practicalData": {
+            "taskTitle": "Lookup Task 10",
+            "instruction": "E2-এর product code দেখে A2:C5 table থেকে Price F2-এ আনুন।",
+            "rows": 6,
+            "columns": 6,
+            "startCell": "F2",
+            "initialCells": {
+              "A1": "Code",
+              "B1": "Product",
+              "C1": "Price",
+              "A2": "P101",
+              "B2": "Keyboard",
+              "C2": "650",
+              "A3": "P102",
+              "B3": "Mouse",
+              "C3": "350",
+              "A4": "P103",
+              "B4": "Pendrive",
+              "C4": "500",
+              "A5": "P104",
+              "B5": "Headset",
+              "C5": "900",
+              "E1": "Lookup Code",
+              "F1": "Price",
+              "E2": "P101"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "F2",
+                  "label": "Keyboard Price",
+                  "value": 650,
+                  "requireFormula": true,
+                  "formula": "=VLOOKUP(E2,A2:C5,3,FALSE)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_013",
+          "titleBn": "Percentage Formula Practical",
+          "summaryBn": "প্রাপ্ত নম্বর ও পূর্ণমান থেকে percentage formula তৈরি করুন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "Percentage = Obtained / Total × 100. Formula ব্যবহার করলে source value বদলালে result-ও বদলাবে।"
+          ],
+          "steps": [
+            "D2 cell select করুন",
+            "=C2/B2*100 লিখুন",
+            "Result 80 হচ্ছে কি না দেখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_percentage",
+          "practicalData": {
+            "taskTitle": "Percentage Task 11",
+            "instruction": "Total Marks B2 এবং Obtained Marks C2 থেকে D2-এ percentage বের করুন।",
+            "rows": 4,
+            "columns": 4,
+            "startCell": "D2",
+            "initialCells": {
+              "A1": "Name",
+              "B1": "Total",
+              "C1": "Obtained",
+              "D1": "Percentage",
+              "A2": "Rahul",
+              "B2": "500",
+              "C2": "400"
+            },
+            "task": {
+              "expectedCells": [
+                {
+                  "cell": "D2",
+                  "label": "Percentage",
+                  "value": 80,
+                  "requireFormula": true,
+                  "formula": "=C2/B2*100"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "excel_014",
+          "titleBn": "Sort ও Filter Practical",
+          "summaryBn": "একটি office list-কে Marks অনুযায়ী sort এবং Department অনুযায়ী filter করুন।",
+          "durationMinutes": 14,
+          "type": "practical",
+          "contentBn": [
+            "Sort data-এর order বদলায়; Filter শর্ত অনুযায়ী নির্দিষ্ট row দেখায়, মূল data মুছে দেয় না।"
+          ],
+          "steps": [
+            "Sort by Marks বেছে নিন",
+            "Descending করুন",
+            "Filter column Department নিন",
+            "Office value দেখান"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_workflow",
+          "practicalData": {
+            "instruction": "Marks column Descending sort করুন এবং Department = Office filter দিন।",
+            "headers": [
+              "Name",
+              "Department",
+              "Marks",
+              "Status"
+            ],
+            "rows": [
+              [
+                "Amit",
+                "Office",
+                "72",
+                "Present"
+              ],
+              [
+                "Rina",
+                "Sales",
+                "88",
+                "Present"
+              ],
+              [
+                "Kamal",
+                "Office",
+                "91",
+                "Present"
+              ],
+              [
+                "Mita",
+                "Office",
+                "65",
+                "Absent"
+              ],
+              [
+                "Suman",
+                "Sales",
+                "79",
+                "Present"
+              ]
+            ],
+            "task": {
+              "sortColumn": "Marks",
+              "sortDirection": "desc",
+              "filterColumn": "Department",
+              "filterValue": "Office"
+            }
+          }
+        },
+        {
+          "id": "excel_015",
+          "titleBn": "Chart তৈরি Practical",
+          "summaryBn": "মাসভিত্তিক sales data থেকে Column Chart নির্বাচন করুন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "Chart সংখ্যার trend দ্রুত বুঝতে সাহায্য করে। Column chart category-wise comparison-এর জন্য উপযোগী।"
+          ],
+          "steps": [
+            "Data table দেখুন",
+            "Chart Type থেকে Column বেছে নিন",
+            "Preview দেখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_workflow",
+          "practicalData": {
+            "instruction": "নিচের Month-Sales data-এর জন্য Column Chart নির্বাচন করুন।",
+            "headers": [
+              "Month",
+              "Sales"
+            ],
+            "rows": [
+              [
+                "Jan",
+                "12000"
+              ],
+              [
+                "Feb",
+                "15500"
+              ],
+              [
+                "Mar",
+                "14200"
+              ],
+              [
+                "Apr",
+                "18000"
+              ]
+            ],
+            "task": {
+              "chartType": "Column"
+            }
+          }
+        },
+        {
+          "id": "excel_016",
+          "titleBn": "Excel Print Setup Practical",
+          "summaryBn": "Wide worksheet-কে Landscape এবং Fit to One Page করে Print Preview করুন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "Wide table print করার সময় Landscape orientation ও Fit Sheet on One Page ব্যবহার করলে column কাটা পড়া কমে।"
+          ],
+          "steps": [
+            "Orientation Landscape করুন",
+            "Fit sheet on one page চালু করুন",
+            "Print Preview খুলুন"
+          ],
+          "quiz": [],
+          "practicalKind": "excel_workflow",
+          "practicalData": {
+            "instruction": "Worksheet-টি Landscape করুন, Fit sheet on one page চালু করুন এবং Print Preview খুলুন।",
+            "headers": [
+              "Item",
+              "Qty",
+              "Rate",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Keyboard",
+                "2",
+                "650",
+                "1300"
+              ],
+              [
+                "Mouse",
+                "3",
+                "350",
+                "1050"
+              ],
+              [
+                "Pendrive",
+                "4",
+                "500",
+                "2000"
+              ]
+            ],
+            "task": {
+              "orientation": "Landscape",
+              "requireFitToOnePage": true,
+              "requirePrintPreview": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "data_entry",
+      "title": "Data Entry",
+      "titleBn": "Data Entry",
+      "subtitleBn": "সঠিক ও দ্রুত তথ্য এন্ট্রি, form entry এবং accuracy skill",
+      "icon": "⌨️",
+      "level": "Job Skill",
+      "lessons": [
+        {
+          "id": "de_001",
+          "titleBn": "Data Entry Accuracy",
+          "summaryBn": "Speed-এর আগে accuracy কেন জরুরি।",
+          "durationMinutes": 8,
+          "type": "theory",
+          "contentBn": [
+            "Data entry-তে ভুল নাম, তারিখ, মোবাইল নম্বর বা amount গুরুতর সমস্যা তৈরি করতে পারে। তাই verification বাধ্যতামূলক অভ্যাস।"
+          ],
+          "steps": [
+            "Source পড়ুন",
+            "Field অনুযায়ী data লিখুন",
+            "শেষে source-এর সঙ্গে মিলিয়ে যাচাই করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Data entry-তে প্রথম priority কী হওয়া উচিত?",
+              "options": [
+                "শুধু speed",
+                "Accuracy",
+                "Font color",
+                "Animation"
+              ],
+              "correctIndex": 1,
+              "explanation": "ভুল data দ্রুত entry করার চেয়ে সঠিক data entry বেশি গুরুত্বপূর্ণ।"
+            }
+          ]
+        },
+        {
+          "id": "de_002",
+          "titleBn": "Form Entry Practical",
+          "summaryBn": "Name, DOB, mobile ও address সঠিক field-এ বসানো।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "একটি source document থেকে তথ্য নিয়ে নির্দিষ্ট field-এ বসানোই structured form data entry-এর সাধারণ কাজ।"
+          ],
+          "steps": [
+            "Name field-এ নাম লিখুন",
+            "DOB সঠিক format-এ দিন",
+            "Mobile number digit-by-digit যাচাই করুন",
+            "Submit-এর আগে সব field পুনরায় মিলিয়ে দেখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "data_entry",
+          "practicalData": {
+            "fields": [
+              {
+                "key": "name",
+                "label": "Name",
+                "value": "Rahul Das"
+              },
+              {
+                "key": "dob",
+                "label": "DOB",
+                "value": "12/05/2001"
+              },
+              {
+                "key": "mobile",
+                "label": "Mobile",
+                "value": "9876543210"
+              },
+              {
+                "key": "address",
+                "label": "Address",
+                "value": "Kalna, Purba Bardhaman"
+              }
+            ],
+            "taskTitle": "Form Entry Task 01",
+            "instruction": "Source card দেখে প্রতিটি field হুবহু entry করুন। Submit করার আগে mobile ও DOB পুনরায় মিলিয়ে দেখুন।",
+            "targetMinutes": 2
+          }
+        },
+        {
+          "id": "de_003",
+          "titleBn": "Student Registration Entry",
+          "summaryBn": "একাধিক field-সহ registration form দ্রুত ও নির্ভুলভাবে পূরণ।",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "Structured data entry-তে field mapping ঠিক রাখা জরুরি—source-এর তথ্য ভুল field-এ গেলে record unusable হতে পারে।"
+          ],
+          "steps": [
+            "Source card পড়ুন",
+            "সব field যথাস্থানে লিখুন",
+            "DOB, mobile ও email বিশেষভাবে যাচাই করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "data_entry",
+          "practicalData": {
+            "taskTitle": "Registration Entry Task 02",
+            "instruction": "নিচের source record দেখে 8টি field সঠিকভাবে entry করুন।",
+            "targetMinutes": 3,
+            "fields": [
+              {
+                "key": "student_id",
+                "label": "Student ID",
+                "value": "AST-2026-0142"
+              },
+              {
+                "key": "name",
+                "label": "Name",
+                "value": "Riya Mondal"
+              },
+              {
+                "key": "dob",
+                "label": "DOB",
+                "value": "18/09/2008"
+              },
+              {
+                "key": "course",
+                "label": "Course",
+                "value": "Basic Computer Course"
+              },
+              {
+                "key": "mobile",
+                "label": "Mobile",
+                "value": "9876501234"
+              },
+              {
+                "key": "email",
+                "label": "Email",
+                "value": "riya.mondal@example.com"
+              },
+              {
+                "key": "guardian",
+                "label": "Guardian",
+                "value": "Sanjay Mondal"
+              },
+              {
+                "key": "address",
+                "label": "Address",
+                "value": "Kalna, Purba Bardhaman"
+              }
+            ]
+          }
+        },
+        {
+          "id": "de_004",
+          "titleBn": "Invoice Data Entry",
+          "summaryBn": "Invoice number, date, item, quantity, rate ও amount entry practice।",
+          "durationMinutes": 14,
+          "type": "practical",
+          "contentBn": [
+            "Invoice entry-তে numeric value ও code ভুল হলে accounts mismatch হতে পারে।"
+          ],
+          "steps": [
+            "Invoice number হুবহু লিখুন",
+            "Date format বজায় রাখুন",
+            "Qty, Rate ও Amount digit-by-digit check করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "data_entry",
+          "practicalData": {
+            "taskTitle": "Invoice Entry Task 03",
+            "instruction": "Source invoice দেখে প্রতিটি field ঠিকভাবে entry করুন।",
+            "targetMinutes": 2,
+            "fields": [
+              {
+                "key": "invoice",
+                "label": "Invoice No",
+                "value": "INV-2026-104"
+              },
+              {
+                "key": "date",
+                "label": "Date",
+                "value": "09/08/2026"
+              },
+              {
+                "key": "customer",
+                "label": "Customer",
+                "value": "Rahul Das"
+              },
+              {
+                "key": "item",
+                "label": "Item",
+                "value": "Keyboard"
+              },
+              {
+                "key": "qty",
+                "label": "Quantity",
+                "value": "2"
+              },
+              {
+                "key": "rate",
+                "label": "Rate",
+                "value": "650"
+              },
+              {
+                "key": "amount",
+                "label": "Amount",
+                "value": "1300"
+              }
+            ]
+          }
+        },
+        {
+          "id": "de_005",
+          "titleBn": "Office Master Record Entry",
+          "summaryBn": "Mixed text, ID, date, phone ও location field-সহ advanced form entry।",
+          "durationMinutes": 18,
+          "type": "practical",
+          "contentBn": [
+            "Master record entry-তে consistency ও verification সবচেয়ে গুরুত্বপূর্ণ।"
+          ],
+          "steps": [
+            "প্রথমে source scan করুন",
+            "ID ও phone আলাদা করে verify করুন",
+            "সব field entry শেষে full review করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "data_entry",
+          "practicalData": {
+            "taskTitle": "Master Record Task 04",
+            "instruction": "10টি field-এর master record নির্ভুলভাবে entry করুন।",
+            "targetMinutes": 4,
+            "fields": [
+              {
+                "key": "record_id",
+                "label": "Record ID",
+                "value": "EMP-WB-2026-0087"
+              },
+              {
+                "key": "name",
+                "label": "Name",
+                "value": "Amit Kumar Pal"
+              },
+              {
+                "key": "department",
+                "label": "Department",
+                "value": "Accounts"
+              },
+              {
+                "key": "designation",
+                "label": "Designation",
+                "value": "Data Entry Operator"
+              },
+              {
+                "key": "join_date",
+                "label": "Joining Date",
+                "value": "01/07/2026"
+              },
+              {
+                "key": "mobile",
+                "label": "Mobile",
+                "value": "9830012345"
+              },
+              {
+                "key": "email",
+                "label": "Email",
+                "value": "amit.pal@example.com"
+              },
+              {
+                "key": "district",
+                "label": "District",
+                "value": "Purba Bardhaman"
+              },
+              {
+                "key": "state",
+                "label": "State",
+                "value": "West Bengal"
+              },
+              {
+                "key": "status",
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "typing",
+      "title": "Typing",
+      "titleBn": "Typing Practice",
+      "subtitleBn": "English typing, accuracy, WPM এবং keyboard confidence",
+      "icon": "⌨",
+      "level": "Foundation",
+      "lessons": [
+        {
+          "id": "typing_001",
+          "titleBn": "Home Row Keys",
+          "summaryBn": "ASDF JKL; থেকে touch typing-এর ভিত্তি।",
+          "durationMinutes": 10,
+          "type": "practical",
+          "contentBn": [
+            "Touch typing-এ আঙুলের নির্দিষ্ট home position থাকে। বাম হাত ASDF এবং ডান হাত JKL; keys-এর ওপর থাকে।"
+          ],
+          "steps": [
+            "বাম হাত ASDF-এ রাখুন",
+            "ডান হাত JKL;-এ রাখুন",
+            "Keyboard না দেখে ধীরে ধীরে অনুশীলন করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Touch typing-এর home row-এ বাম হাতের keys কোনগুলো?",
+              "options": [
+                "QWER",
+                "ASDF",
+                "ZXCV",
+                "UIOP"
+              ],
+              "correctIndex": 1,
+              "explanation": "Standard touch typing-এ বাম হাতের home keys হলো A, S, D, F।"
+            }
+          ],
+          "practicalKind": "typing",
+          "practicalData": {
+            "targetText": "The quick brown fox jumps over the lazy dog. Practice slowly and focus on accuracy before speed.",
+            "targetWpm": 15,
+            "targetAccuracy": 90,
+            "taskTitle": "Typing Drill 01"
+          }
+        },
+        {
+          "id": "typing_002",
+          "titleBn": "English Office Typing",
+          "summaryBn": "Office-style English paragraph speed ও accuracy practice।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "Office typing-এ punctuation, capitalization এবং spacing ঠিক রাখা speed-এর মতোই গুরুত্বপূর্ণ।"
+          ],
+          "steps": [
+            "Text আগে একবার পড়ুন",
+            "Keyboard না দেখে যতটা সম্ভব টাইপ করুন",
+            "শেষে punctuation ও spelling মিলিয়ে দেখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "typing",
+          "practicalData": {
+            "taskTitle": "Typing Drill 02",
+            "targetWpm": 22,
+            "targetAccuracy": 94,
+            "targetText": "Please verify the customer record carefully before saving the form. Accurate data entry helps the office avoid delays and repeated corrections."
+          }
+        },
+        {
+          "id": "typing_003",
+          "titleBn": "বাংলা Typing Practice",
+          "summaryBn": "বাংলা বাক্য নির্ভুলভাবে টাইপ করার অনুশীলন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "বাংলা typing-এ বানান, কারচিহ্ন এবং spacing ঠিক রাখা গুরুত্বপূর্ণ।"
+          ],
+          "steps": [
+            "বাক্যটি ভালো করে পড়ুন",
+            "ধীরে শুরু করুন",
+            "বানান ও spacing মিলিয়ে দেখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "typing",
+          "practicalData": {
+            "taskTitle": "বাংলা Typing Drill 03",
+            "targetWpm": 15,
+            "targetAccuracy": 92,
+            "targetText": "কম্পিউটার শেখার সবচেয়ে ভালো উপায় হলো নিয়মিত অনুশীলন করা এবং প্রতিটি কাজ নিজে হাতে সম্পন্ন করা।"
+          }
+        },
+        {
+          "id": "typing_004",
+          "titleBn": "Mixed Office Record Typing",
+          "summaryBn": "Text, number ও code মিলিয়ে বাস্তব office record typing।",
+          "durationMinutes": 14,
+          "type": "practical",
+          "contentBn": [
+            "বাস্তব data typing-এ letter, number, slash, hyphen এবং punctuation একসঙ্গে থাকে।"
+          ],
+          "steps": [
+            "Code ও date character-by-character মিলিয়ে লিখুন",
+            "Number typing-এ extra digit এড়ান",
+            "Submit-এর আগে source compare করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "typing",
+          "practicalData": {
+            "taskTitle": "Typing Drill 04",
+            "targetWpm": 18,
+            "targetAccuracy": 96,
+            "targetText": "Invoice No: INV-2026-104 | Date: 09/08/2026 | Customer: Rahul Das | Amount: 4350 | Status: PAID"
+          }
+        }
+      ]
+    },
+    {
+      "id": "windows_basics",
+      "title": "Windows Basics",
+      "titleBn": "Windows ও File Management",
+      "subtitleBn": "Desktop, File Explorer, folder, rename, move ও delete হাতে-কলমে শেখা",
+      "icon": "🗂️",
+      "level": "Foundation",
+      "lessons": [
+        {
+          "id": "windows_001",
+          "titleBn": "Windows Desktop ও File Explorer",
+          "summaryBn": "Desktop, taskbar, drive, folder path এবং File Explorer-এর মৌলিক ব্যবহার।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Windows-এ Desktop হলো কাজ শুরুর প্রধান screen। File Explorer দিয়ে drive, folder এবং file দেখা ও সাজানো যায়।",
+            "Address path দেখে বোঝা যায় বর্তমানে কোন folder-এর ভিতরে কাজ করছেন।"
+          ],
+          "steps": [
+            "Desktop, Taskbar ও Start-এর ভূমিকা বুঝুন",
+            "File Explorer-এ Documents ও Downloads চিনুন",
+            "File আর Folder-এর পার্থক্য মনে রাখুন"
+          ],
+          "quiz": [
+            {
+              "question": "File Explorer-এর প্রধান কাজ কী?",
+              "options": [
+                "ইন্টারনেট চালানো",
+                "ফাইল ও ফোল্ডার পরিচালনা",
+                "শুধু টাইপ করা",
+                "ভিডিও edit করা"
+              ],
+              "correctIndex": 1,
+              "explanation": "File Explorer দিয়ে file/folder দেখা, তৈরি, copy, move, rename ও delete করা যায়।"
+            }
+          ]
+        },
+        {
+          "id": "windows_002",
+          "titleBn": "Folder তৈরি ও File Move Practical",
+          "summaryBn": "নতুন folder তৈরি করে একটি file সঠিক folder-এ move করুন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "এই lab-এ একটি নিরাপদ offline File Manager simulation ব্যবহার করবেন।"
+          ],
+          "steps": [
+            "Office Work নামে folder তৈরি করুন",
+            "memo.txt file-টি Office Work folder-এ move করুন",
+            "Task Check দিয়ে ফল দেখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "windows_file_manager",
+          "practicalData": {
+            "taskTitle": "Create & Move",
+            "instruction": "Documents-এ Office Work folder তৈরি করুন এবং memo.txt file-টি সেখানে move করুন।",
+            "startFolder": "Documents",
+            "initialFolders": [],
+            "initialFiles": [
+              {
+                "name": "memo.txt",
+                "folder": "Documents"
+              },
+              {
+                "name": "photo.jpg",
+                "folder": "Downloads"
+              }
+            ],
+            "requirements": [
+              {
+                "type": "create_folder",
+                "name": "Office Work"
+              },
+              {
+                "type": "move_file",
+                "name": "memo.txt",
+                "folder": "Office Work"
+              }
+            ]
+          }
+        },
+        {
+          "id": "windows_003",
+          "titleBn": "Rename ও Delete Practical",
+          "summaryBn": "ভুল file name ঠিক করুন এবং অপ্রয়োজনীয় file delete করুন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "Office file গুছিয়ে রাখার জন্য meaningful filename ও অপ্রয়োজনীয় file পরিষ্কার রাখা জরুরি।"
+          ],
+          "steps": [
+            "draft.txt rename করে final_report.txt করুন",
+            "temp.tmp delete করুন",
+            "Task Check করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "windows_file_manager",
+          "practicalData": {
+            "taskTitle": "Rename & Delete",
+            "instruction": "Documents folder-এর draft.txt-কে final_report.txt করুন এবং temp.tmp delete করুন।",
+            "startFolder": "Documents",
+            "initialFolders": [
+              "Office Work"
+            ],
+            "initialFiles": [
+              {
+                "name": "draft.txt",
+                "folder": "Documents"
+              },
+              {
+                "name": "temp.tmp",
+                "folder": "Documents"
+              },
+              {
+                "name": "salary.xlsx",
+                "folder": "Office Work"
+              }
+            ],
+            "requirements": [
+              {
+                "type": "rename_file",
+                "from": "draft.txt",
+                "to": "final_report.txt",
+                "folder": "Documents"
+              },
+              {
+                "type": "delete_file",
+                "name": "temp.tmp"
+              }
+            ]
+          }
+        },
+        {
+          "id": "windows_004",
+          "titleBn": "Copy, Move, Rename ও Delete—কখন কোনটি",
+          "summaryBn": "প্রতিটি file operation-এর ব্যবহার ও ঝুঁকি বুঝুন।",
+          "durationMinutes": 8,
+          "type": "theory",
+          "contentBn": [
+            "Copy করলে মূল file রেখে duplicate তৈরি হয়; Move করলে file-এর location বদলে যায়। Rename নাম বদলায়, আর Delete file সরিয়ে দেয়।",
+            "গুরুত্বপূর্ণ file delete করার আগে নাম ও location যাচাই করা ভালো অভ্যাস।"
+          ],
+          "steps": [
+            "Copy বনাম Move আলাদা করুন",
+            "Filename-এ অর্থপূর্ণ নাম ব্যবহার করুন",
+            "Delete করার আগে file যাচাই করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Move করলে কী হয়?",
+              "options": [
+                "একটি duplicate থাকে",
+                "File-এর location বদলে যায়",
+                "File-এর নাম বদলে যায়",
+                "File print হয়"
+              ],
+              "correctIndex": 1,
+              "explanation": "Move operation file বা folder-কে এক location থেকে অন্য location-এ স্থানান্তর করে।"
+            }
+          ]
+        },
+        {
+          "id": "windows_005",
+          "titleBn": "গুরুত্বপূর্ণ Keyboard Shortcut",
+          "summaryBn": "Copy, Paste, Save, Undo, Find এবং app switching-এর দ্রুত shortcut শিখুন.",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Keyboard shortcut কাজের গতি অনেক বাড়ায়। Ctrl+C copy, Ctrl+V paste, Ctrl+S save, Ctrl+Z undo, Ctrl+F find এবং Alt+Tab open app বদলাতে ব্যবহৃত হয়।"
+          ],
+          "steps": [
+            "Ctrl+C / Ctrl+V মনে রাখুন",
+            "Ctrl+S ঘনঘন ব্যবহার করুন",
+            "ভুল হলে Ctrl+Z",
+            "Alt+Tab দিয়ে app switch করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Undo shortcut কোনটি?",
+              "options": [
+                "Ctrl+P",
+                "Ctrl+Z",
+                "Ctrl+F",
+                "Alt+F4"
+              ],
+              "correctIndex": 1,
+              "explanation": "Ctrl+Z শেষ action undo করে।"
+            }
+          ]
+        },
+        {
+          "id": "windows_006",
+          "titleBn": "Keyboard Shortcut Practical",
+          "summaryBn": "Virtual keyboard-এ নির্ধারিত shortcut sequence সম্পন্ন করুন.",
+          "durationMinutes": 10,
+          "type": "practical",
+          "contentBn": [
+            "মোবাইলে virtual Ctrl/Alt key ব্যবহার করে desktop shortcut practice করুন।"
+          ],
+          "steps": [
+            "Copy",
+            "Paste",
+            "Save",
+            "App Switch",
+            "Undo"
+          ],
+          "quiz": [],
+          "practicalKind": "keyboard_shortcuts",
+          "practicalData": {
+            "instruction": "প্রতিটি নির্দেশ একবার করে সঠিক shortcut দিয়ে সম্পন্ন করুন। Sequence বদলাবেন না।",
+            "prompts": [
+              "Selected text Copy করুন",
+              "Paste করুন",
+              "Document Save করুন",
+              "পরের open app-এ যান",
+              "শেষ কাজ Undo করুন"
+            ],
+            "expected": [
+              "CTRL+C",
+              "CTRL+V",
+              "CTRL+S",
+              "ALT+TAB",
+              "CTRL+Z"
+            ]
+          }
+        },
+        {
+          "id": "windows_007",
+          "titleBn": "Desktop, Start Menu, Taskbar ও Window Control",
+          "summaryBn": "Windows desktop-এর প্রধান অংশ ও open app পরিচালনা শেখা।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Desktop হলো কাজের প্রধান workspace। Start menu থেকে app খোলা যায়, Taskbar open app দেখায় এবং window-কে minimize, restore, switch বা close করা যায়।"
+          ],
+          "steps": [
+            "Start menu চিনুন",
+            "Taskbar icon চিনুন",
+            "Minimize, Restore ও Close-এর পার্থক্য বুঝুন"
+          ],
+          "quiz": [
+            {
+              "question": "Minimize করলে কী হয়?",
+              "options": [
+                "App uninstall হয়",
+                "Window taskbar-এ থাকে কিন্তু screen থেকে সরে যায়",
+                "File delete হয়",
+                "Computer shutdown হয়"
+              ],
+              "correctIndex": 1,
+              "explanation": "Minimize window বন্ধ করে না; সেটি taskbar-এ active/open থাকে।"
+            }
+          ]
+        },
+        {
+          "id": "windows_008",
+          "titleBn": "Windows Desktop ও Taskbar Practical",
+          "summaryBn": "Start menu, File Explorer, Settings, minimize/restore এবং app switching practice করুন।",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "এটি নিরাপদ offline Windows-style sandbox; device-এর বাস্তব app/settings পরিবর্তন হবে না।"
+          ],
+          "steps": [
+            "Start খুলুন",
+            "File Explorer চালু করুন",
+            "Window minimize ও restore করুন",
+            "Settings খুলুন",
+            "Taskbar দিয়ে window switch করুন",
+            "একটি window close করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "windows_desktop",
+          "practicalData": {
+            "instruction": "Task checklist অনুযায়ী simulated Windows desktop ব্যবহার করুন।",
+            "requirements": [
+              {
+                "action": "open_start",
+                "label": "Start menu খুলুন"
+              },
+              {
+                "action": "launch_explorer",
+                "label": "File Explorer চালু করুন"
+              },
+              {
+                "action": "minimize_window",
+                "label": "একটি window Minimize করুন"
+              },
+              {
+                "action": "restore_window",
+                "label": "Taskbar থেকে window Restore করুন"
+              },
+              {
+                "action": "launch_settings",
+                "label": "Settings খুলুন"
+              },
+              {
+                "action": "switch_window",
+                "label": "Taskbar দিয়ে open window Switch করুন"
+              },
+              {
+                "action": "close_window",
+                "label": "একটি window Close করুন"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "internet_basics",
+      "title": "Internet Basics",
+      "titleBn": "Internet Basics",
+      "subtitleBn": "Browser, search, URL, HTTPS, download/upload ও online safety",
+      "icon": "🌐",
+      "level": "Foundation",
+      "lessons": [
+        {
+          "id": "internet_001",
+          "titleBn": "Browser, Search ও URL",
+          "summaryBn": "Browser, search engine, website address ও URL-এর ভিত্তি।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Browser দিয়ে website দেখা হয়, আর search engine ব্যবহার করে প্রয়োজনীয় তথ্য খোঁজা যায়।",
+            "URL হলো website/page-এর ঠিকানা। HTTPS সাধারণত encrypted connection নির্দেশ করে, তবে শুধু HTTPS দেখেই কোনো site সম্পূর্ণ বিশ্বাসযোগ্য ধরে নেওয়া উচিত নয়।"
+          ],
+          "steps": [
+            "Browser ও search engine-এর পার্থক্য বুঝুন",
+            "URL bar চিনুন",
+            "HTTPS ও domain name যাচাই করুন"
+          ],
+          "quiz": [
+            {
+              "question": "URL কী?",
+              "options": [
+                "কম্পিউটারের RAM",
+                "ওয়েব ঠিকানা",
+                "Keyboard shortcut",
+                "Excel formula"
+              ],
+              "correctIndex": 1,
+              "explanation": "URL একটি web resource বা page-এর address।"
+            }
+          ]
+        },
+        {
+          "id": "internet_002",
+          "titleBn": "Safe Search & HTTPS Practical",
+          "summaryBn": "Search result খুলে URL ও HTTPS চিহ্নিত করুন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "এই browser সম্পূর্ণ offline simulator; কোনো real website খোলা হবে না।"
+          ],
+          "steps": [
+            "computer লিখে search করুন",
+            "Computer Basics result খুলুন",
+            "Page secure HTTPS কি না উত্তর দিন"
+          ],
+          "quiz": [],
+          "practicalKind": "internet_browser",
+          "practicalData": {
+            "taskTitle": "Safe Search",
+            "instruction": "\"computer\" শব্দ ব্যবহার করে search করুন, Computer Basics result খুলুন এবং URL দেখে HTTPS secure কি না উত্তর দিন।",
+            "pages": [
+              {
+                "id": "computer_basics",
+                "title": "Computer Basics Learning",
+                "url": "https://learn.astra.local/computer-basics",
+                "body": "Offline practice page for computer fundamentals, files, Word and Excel.",
+                "keywords": [
+                  "computer",
+                  "basics",
+                  "course"
+                ]
+              },
+              {
+                "id": "games",
+                "title": "Free Games",
+                "url": "http://games.example.local/free",
+                "body": "Mock non-secure practice result.",
+                "keywords": [
+                  "games",
+                  "free"
+                ]
+              }
+            ],
+            "requirements": [
+              {
+                "type": "search_contains",
+                "value": "computer"
+              },
+              {
+                "type": "open_page",
+                "pageId": "computer_basics"
+              },
+              {
+                "type": "secure_answer",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "internet_003",
+          "titleBn": "Download ও Upload Practical",
+          "summaryBn": "একটি mock portal-এ file download এবং upload-এর ধাপ practice করুন।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "Download মানে internet থেকে device-এ data আনা, আর Upload মানে device থেকে কোনো online service-এ data পাঠানো।"
+          ],
+          "steps": [
+            "form লিখে search করুন",
+            "Application Portal result খুলুন",
+            "Sample file download করুন",
+            "Sample file upload করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "internet_browser",
+          "practicalData": {
+            "taskTitle": "Download & Upload",
+            "instruction": "\"form\" search করে Application Portal খুলুন, sample file download এবং upload দুটোই complete করুন।",
+            "pages": [
+              {
+                "id": "application_portal",
+                "title": "Application Form Portal",
+                "url": "https://forms.astra.local/application",
+                "body": "Practice portal: download a sample form and upload a completed sample file.",
+                "keywords": [
+                  "form",
+                  "application",
+                  "portal"
+                ],
+                "allowDownload": true,
+                "allowUpload": true
+              },
+              {
+                "id": "news",
+                "title": "Daily News",
+                "url": "https://news.example.local",
+                "body": "Mock news page.",
+                "keywords": [
+                  "news"
+                ]
+              }
+            ],
+            "requirements": [
+              {
+                "type": "search_contains",
+                "value": "form"
+              },
+              {
+                "type": "open_page",
+                "pageId": "application_portal"
+              },
+              {
+                "type": "download"
+              },
+              {
+                "type": "upload"
+              }
+            ]
+          }
+        },
+        {
+          "id": "internet_004",
+          "titleBn": "Password, OTP ও Phishing Safety",
+          "summaryBn": "Password, OTP, suspicious link এবং phishing থেকে নিরাপদ থাকার নিয়ম।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "OTP, password, PIN বা recovery code অপরিচিত কাউকে দেওয়া উচিত নয়। Link খুলবার আগে domain name ও message-এর উৎস যাচাই করুন।",
+            "অতিরিক্ত চাপ, পুরস্কারের লোভ বা account বন্ধ হওয়ার ভয় দেখিয়ে credential চাইলে phishing-এর সম্ভাবনা থাকে।"
+          ],
+          "steps": [
+            "OTP কখনো share করবেন না",
+            "Unknown link যাচাই করুন",
+            "Strong unique password ব্যবহার করুন"
+          ],
+          "quiz": [
+            {
+              "question": "অপরিচিত ব্যক্তি OTP চাইলে কী করবেন?",
+              "options": [
+                "দিয়ে দেব",
+                "OTP share করব না",
+                "Social media-তে post করব",
+                "Browser বন্ধ করলেই হবে"
+              ],
+              "correctIndex": 1,
+              "explanation": "OTP authentication secret; এটি অন্য কাউকে দেওয়া উচিত নয়।"
+            }
+          ]
+        },
+        {
+          "id": "internet_005",
+          "titleBn": "Email-এর ভিত্তি: To, CC, Subject, Body ও Attachment",
+          "summaryBn": "Professional email-এর অংশ এবং attachment পাঠানোর সঠিক পদ্ধতি।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "To-তে মূল recipient, CC-তে informed recipient, Subject-এ email-এর উদ্দেশ্য এবং Body-তে মূল message থাকে। Attachment পাঠানোর আগে file name ও recipient যাচাই করা জরুরি।",
+            "OTP, password বা sensitive তথ্য অপ্রয়োজনে email-এ পাঠানো উচিত নয়।"
+          ],
+          "steps": [
+            "To ও CC-এর পার্থক্য বুঝুন",
+            "স্পষ্ট Subject লিখুন",
+            "Attachment পাঠানোর আগে file check করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Email-এর Subject কেমন হওয়া উচিত?",
+              "options": [
+                "ফাঁকা",
+                "কাজের উদ্দেশ্য সংক্ষেপে স্পষ্ট",
+                "শুধু emoji",
+                "Password লেখা"
+              ],
+              "correctIndex": 1,
+              "explanation": "স্পষ্ট subject recipient-কে email-এর উদ্দেশ্য দ্রুত বুঝতে সাহায্য করে।"
+            }
+          ]
+        },
+        {
+          "id": "internet_006",
+          "titleBn": "Email Compose ও Attachment Practical",
+          "summaryBn": "Offline email simulator-এ recipient, subject, body ও PDF attachment দিয়ে mail পাঠান।",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "এটি training simulation; কোনো real email পাঠানো হবে না এবং কোনো account login প্রয়োজন নেই।"
+          ],
+          "steps": [
+            "To address লিখুন",
+            "Subject লিখুন",
+            "Body-তে monthly report attached উল্লেখ করুন",
+            "সঠিক PDF attach করুন",
+            "Send করুন"
+          ],
+          "quiz": [],
+          "practicalKind": "email_compose",
+          "practicalData": {
+            "instruction": "To: training@astra.local, Subject: Monthly Report - August লিখুন। Body-তে monthly report এবং attached—দুটি কথা রাখুন। Monthly_Report_August.pdf attach করে Send করুন।",
+            "mockFiles": [
+              "Monthly_Report_August.pdf",
+              "Attendance.xlsx",
+              "Photo.jpg",
+              "Notes.txt"
+            ],
+            "task": {
+              "to": "training@astra.local",
+              "subject": "Monthly Report - August",
+              "bodyKeywords": [
+                "monthly report",
+                "attached"
+              ],
+              "attachment": "Monthly_Report_August.pdf",
+              "requireSend": true
+            }
+          }
+        },
+        {
+          "id": "internet_007",
+          "titleBn": "Email Safety: Phishing ও Suspicious Attachment",
+          "summaryBn": "ভুয়া sender, জরুরি password request এবং অচেনা attachment শনাক্ত করা।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Unknown sender, spelling-mistake domain, ভয় দেখিয়ে দ্রুত login করতে বলা, password/OTP চাওয়া এবং unexpected executable attachment phishing-এর common warning sign।"
+          ],
+          "steps": [
+            "Sender address যাচাই করুন",
+            "Link-এর domain দেখুন",
+            "Unexpected attachment না খুলে verify করুন"
+          ],
+          "quiz": [
+            {
+              "question": "অচেনা email-এ OTP চাইলে কী করবেন?",
+              "options": [
+                "OTP পাঠাব",
+                "Email verify না করে attachment খুলব",
+                "OTP দেব না এবং sender/official channel যাচাই করব",
+                "Password-ও পাঠাব"
+              ],
+              "correctIndex": 2,
+              "explanation": "OTP বা password গোপন তথ্য; সন্দেহজনক email-এ কখনো দেওয়া উচিত নয়।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ms_powerpoint",
+      "title": "MS PowerPoint",
+      "titleBn": "MS PowerPoint",
+      "subtitleBn": "Slide, layout, theme, bullet এবং presentation তৈরি হাতে-কলমে শেখা",
+      "icon": "📽️",
+      "level": "Foundation",
+      "lessons": [
+        {
+          "id": "ppt_001",
+          "titleBn": "PowerPoint ও Slide-এর ভিত্তি",
+          "summaryBn": "Presentation, slide, title, content, theme ও layout-এর মৌলিক ধারণা.",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "PowerPoint presentation একাধিক slide নিয়ে তৈরি হয়। প্রতিটি slide-এ title, text, ছবি, chart বা অন্যান্য content থাকতে পারে।",
+            "একটি presentation-এ একই theme ও পরিষ্কার layout ব্যবহার করলে তা বেশি professional দেখায়।"
+          ],
+          "steps": [
+            "New Presentation ও New Slide বুঝুন",
+            "Title ও Content placeholder চিনুন",
+            "Theme-এর ভূমিকা বুঝুন",
+            "Bullet list সংক্ষিপ্ত রাখুন"
+          ],
+          "quiz": [
+            {
+              "question": "Presentation-এর একেকটি page-কে কী বলা হয়?",
+              "options": [
+                "Cell",
+                "Slide",
+                "Sheet",
+                "Folder"
+              ],
+              "correctIndex": 1,
+              "explanation": "PowerPoint presentation একাধিক slide নিয়ে গঠিত।"
+            }
+          ]
+        },
+        {
+          "id": "ppt_002",
+          "titleBn": "Two-Slide Presentation Practical",
+          "summaryBn": "Title slide এবং course module slide তৈরি করুন.",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "দুইটি slide-এ একটি ছোট training presentation তৈরি করুন।"
+          ],
+          "steps": [
+            "Professional theme নিন",
+            "Slide 1 title লিখুন",
+            "New Slide যোগ করুন",
+            "Slide 2-এ bullet content দিন"
+          ],
+          "quiz": [],
+          "practicalKind": "powerpoint",
+          "practicalData": {
+            "instruction": "Professional theme-এ 2টি slide তৈরি করুন। Slide 1 title “Computer Training”; Slide 2 title “Course Modules”, body-তে “Word” লিখুন এবং Bullets চালু করুন।",
+            "task": {
+              "minSlides": 2,
+              "theme": "Professional",
+              "slideChecks": [
+                {
+                  "slide": 1,
+                  "titleContains": "Computer Training"
+                },
+                {
+                  "slide": 2,
+                  "titleContains": "Course Modules",
+                  "bodyContains": "Word",
+                  "bullets": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ppt_003",
+          "titleBn": "Office Meeting Presentation Practical",
+          "summaryBn": "৩-slide-এর একটি সংক্ষিপ্ত office presentation তৈরি করুন.",
+          "durationMinutes": 18,
+          "type": "practical",
+          "contentBn": [
+            "বাস্তব office meeting-এর মতো title, agenda ও action slide তৈরি করুন।"
+          ],
+          "steps": [
+            "3টি slide রাখুন",
+            "Agenda slide-এ bullet ব্যবহার করুন",
+            "Action slide-এ Deadline লিখুন"
+          ],
+          "quiz": [],
+          "practicalKind": "powerpoint",
+          "practicalData": {
+            "instruction": "Light theme-এ 3টি slide করুন: 1) Monthly Review, 2) Agenda—body-তে Sales এবং bullets, 3) Action Plan—body-তে Deadline।",
+            "task": {
+              "minSlides": 3,
+              "theme": "Light",
+              "slideChecks": [
+                {
+                  "slide": 1,
+                  "titleContains": "Monthly Review"
+                },
+                {
+                  "slide": 2,
+                  "titleContains": "Agenda",
+                  "bodyContains": "Sales",
+                  "bullets": true
+                },
+                {
+                  "slide": 3,
+                  "titleContains": "Action Plan",
+                  "bodyContains": "Deadline"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ppt_004",
+          "titleBn": "Presentation Best Practices",
+          "summaryBn": "কম text, readable font, consistent design এবং presentation delivery-এর নিয়ম.",
+          "durationMinutes": 9,
+          "type": "theory",
+          "contentBn": [
+            "একটি slide-এ খুব বেশি paragraph না দিয়ে ছোট bullet ব্যবহার করা ভালো। Title স্পষ্ট, font readable এবং theme consistent হওয়া উচিত।",
+            "Presentation-এর আগে slide order ও spelling পরীক্ষা করা উচিত।"
+          ],
+          "steps": [
+            "এক slide-এ একটি মূল idea",
+            "ছোট bullet ব্যবহার করুন",
+            "Contrast ও readable font রাখুন",
+            "শেষে spelling ও order check করুন"
+          ],
+          "quiz": [
+            {
+              "question": "ভালো slide-এর জন্য কোনটি উপযুক্ত?",
+              "options": [
+                "অনেক বড় paragraph",
+                "সংক্ষিপ্ত bullet",
+                "প্রতি slide-এ আলাদা theme",
+                "খুব ছোট font"
+              ],
+              "correctIndex": 1,
+              "explanation": "সংক্ষিপ্ত bullet audience-কে দ্রুত মূল বিষয় বুঝতে সাহায্য করে।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "office_projects",
+      "title": "Office Projects",
+      "titleBn": "Real Office Projects",
+      "subtitleBn": "Word, Excel, file management, data entry ও typing একসঙ্গে ব্যবহার",
+      "icon": "🧰",
+      "level": "Job Skill",
+      "lessons": [
+        {
+          "id": "office_project_001",
+          "titleBn": "Office Workflow: একটি কাজ শুরু থেকে শেষ",
+          "summaryBn": "Folder naming, document, spreadsheet, data entry ও final checking এক workflow-এ আনুন।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "বাস্তব office কাজে একটি task প্রায়ই একাধিক skill চায়—প্রথমে folder তৈরি, তারপর Word document, Excel হিসাব, data entry এবং final checking।",
+            "সব file-এর নাম ও version পরিষ্কার রাখলে ভুল কমে এবং পরে কাজ খুঁজে পাওয়া সহজ হয়।"
+          ],
+          "steps": [
+            "Task requirement পড়ুন",
+            "Project folder ও filenames পরিকল্পনা করুন",
+            "Document ও spreadsheet complete করুন",
+            "শেষে spelling/data/formula verify করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Office project শুরুতে ভালো অভ্যাস কোনটি?",
+              "options": [
+                "যেকোনো নামে file save করা",
+                "Requirement পড়ে folder/file plan করা",
+                "সব data মুখস্থ করা",
+                "Formula না ব্যবহার করা"
+              ],
+              "correctIndex": 1,
+              "explanation": "Requirement ও file structure আগে পরিকল্পনা করলে workflow পরিষ্কার থাকে।"
+            }
+          ]
+        },
+        {
+          "id": "office_project_002",
+          "titleBn": "Monthly Office Report Project",
+          "summaryBn": "একটি integrated office assignment সম্পন্ন করুন।",
+          "durationMinutes": 20,
+          "type": "practical",
+          "contentBn": [
+            "এই project-এ file naming, Word subject, Excel formula, data entry এবং typing—পাঁচটি skill একসঙ্গে পরীক্ষা হবে।"
+          ],
+          "steps": [
+            "প্রতিটি task পড়ে নির্দিষ্ট answer দিন",
+            "Excel formula syntax ঠিক রাখুন",
+            "Typing text হুবহু লিখুন",
+            "শেষে Project জমা দিন"
+          ],
+          "quiz": [],
+          "practicalKind": "office_project",
+          "practicalData": {
+            "projectTitle": "Monthly Office Report — Integrated Assignment",
+            "instruction": "নিচের পাঁচটি mini-task সম্পন্ন করুন। প্রতিটি task সমান নম্বর বহন করে।",
+            "tasks": [
+              {
+                "id": "folder",
+                "label": "Project Folder",
+                "prompt": "Monthly office report রাখার folder-এর নির্দিষ্ট নাম লিখুন।",
+                "hint": "Folder name",
+                "expected": "Monthly Report",
+                "match": "exact"
+              },
+              {
+                "id": "word_subject",
+                "label": "Word Document Subject",
+                "prompt": "Official letter-এর subject line লিখুন: Monthly Performance Report",
+                "hint": "Subject text",
+                "expected": "Monthly Performance Report",
+                "match": "exact"
+              },
+              {
+                "id": "excel_formula",
+                "label": "Excel Total Formula",
+                "prompt": "B2 থেকে B5-এর মোট বের করার formula লিখুন।",
+                "hint": "=SUM(...)",
+                "expected": "=SUM(B2:B5)",
+                "match": "formula"
+              },
+              {
+                "id": "data_entry",
+                "label": "Data Entry Value",
+                "prompt": "Office Name field-এ লিখুন: Kalna Office",
+                "hint": "Office name",
+                "expected": "Kalna Office",
+                "match": "exact"
+              },
+              {
+                "id": "typing",
+                "label": "Typing Check",
+                "prompt": "হুবহু লিখুন: Report checked and ready for submission.",
+                "hint": "Exact sentence",
+                "expected": "Report checked and ready for submission.",
+                "match": "exact"
+              }
+            ]
+          }
+        },
+        {
+          "id": "office_project_003",
+          "titleBn": "Basic Computer Job Readiness Checklist",
+          "summaryBn": "বাস্তব office কাজের আগে Word, Excel, file, email ও safety skill পুনরালোচনা।",
+          "durationMinutes": 12,
+          "type": "theory",
+          "contentBn": [
+            "একজন entry-level office user-এর file naming, Word formatting, Excel formula, data entry accuracy, email attachment, print preview এবং basic cyber safety জানা দরকার।",
+            "Final Practical Exam এই core skill-গুলোর নির্বাচিত practical score থেকে তৈরি হবে।"
+          ],
+          "steps": [
+            "Word ও Excel practical revise করুন",
+            "File/desktop workflow revise করুন",
+            "Email ও internet safety revise করুন",
+            "Final Practical Exam দিন"
+          ],
+          "quiz": [
+            {
+              "question": "Office file পাঠানোর আগে সবচেয়ে ভালো অভ্যাস কোনটি?",
+              "options": [
+                "Random filename",
+                "File name, content ও recipient যাচাই",
+                "Extension মুছে ফেলা",
+                "OTP যোগ করা"
+              ],
+              "correctIndex": 1,
+              "explanation": "সঠিক filename, content ও recipient যাচাই করলে ভুল file/ভুল ব্যক্তিকে পাঠানোর ঝুঁকি কমে।"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
