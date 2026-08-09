@@ -389,7 +389,7 @@ class _WelcomeCard extends StatelessWidget {
                 width: 46,
                 height: 46,
                 decoration: BoxDecoration(
-                  color: AppTheme.royalBlue.withOpacity(.10),
+                  color: AppTheme.royalBlue.withValues(alpha: .10),
                   shape: BoxShape.circle,
                 ),
                 child: const Icon(Icons.person_rounded, color: AppTheme.royalBlue),

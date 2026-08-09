@@ -253,7 +253,7 @@ class _ExcelWorkflowLabScreenState extends State<ExcelWorkflowLabScreen> {
               child: Column(
                 children: [
                   DropdownButtonFormField<String>(
-                    value: _sortColumn,
+                    initialValue: _sortColumn,
                     decoration: const InputDecoration(labelText: 'Sort by'),
                     items: [for (final header in _headers) DropdownMenuItem(value: header, child: Text(header))],
                     onChanged: (value) => setState(() => _sortColumn = value),
@@ -277,7 +277,7 @@ class _ExcelWorkflowLabScreenState extends State<ExcelWorkflowLabScreen> {
               child: Column(
                 children: [
                   DropdownButtonFormField<String>(
-                    value: _filterColumn,
+                    initialValue: _filterColumn,
                     decoration: const InputDecoration(labelText: 'Filter column'),
                     items: [for (final header in _headers) DropdownMenuItem(value: header, child: Text(header))],
                     onChanged: (value) => setState(() {
@@ -287,7 +287,8 @@ class _ExcelWorkflowLabScreenState extends State<ExcelWorkflowLabScreen> {
                   ),
                   const SizedBox(height: 8),
                   DropdownButtonFormField<String>(
-                    value: filterValues.contains(_filterValue) ? _filterValue : null,
+                    key: ValueKey('filter-value-$_filterColumn'),
+                    initialValue: filterValues.contains(_filterValue) ? _filterValue : null,
                     decoration: const InputDecoration(labelText: 'Show only'),
                     items: [for (final value in filterValues) DropdownMenuItem(value: value, child: Text(value))],
                     onChanged: filterValues.isEmpty ? null : (value) => setState(() => _filterValue = value),

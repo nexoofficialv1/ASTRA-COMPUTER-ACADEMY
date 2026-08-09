@@ -76,20 +76,29 @@ class _QuizScreenState extends State<QuizScreen> {
                 ),
           ),
           const SizedBox(height: 18),
-          for (var i = 0; i < question.options.length; i++)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 10),
-              child: RadioListTile<int>(
-                value: i,
-                groupValue: _selected,
-                onChanged: _answered ? null : (value) => setState(() => _selected = value),
-                title: Text(question.options[i]),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(14),
-                  side: BorderSide(color: Theme.of(context).dividerColor),
-                ),
-              ),
+          RadioGroup<int>(
+            groupValue: _selected,
+            onChanged: (value) {
+              if (!_answered) setState(() => _selected = value);
+            },
+            child: Column(
+              children: [
+                for (var i = 0; i < question.options.length; i++)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 10),
+                    child: RadioListTile<int>(
+                      value: i,
+                      enabled: !_answered,
+                      title: Text(question.options[i]),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        side: BorderSide(color: Theme.of(context).dividerColor),
+                      ),
+                    ),
+                  ),
+              ],
             ),
+          ),
           if (_answered) ...[
             const SizedBox(height: 8),
             Card(

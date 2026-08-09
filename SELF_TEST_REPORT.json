@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "status": "PASS",
+  "version": "1.0.1",
+  "status": "FAIL",
   "summary": {
-    "passed": 51,
-    "total": 51
+    "passed": 44,
+    "total": 45
   },
   "environment": {
     "flutterSdkAvailable": false,
@@ -19,7 +19,7 @@
   },
   "checks": [
     {
-      "name": "pubspec version 1.0.0+10",
+      "name": "pubspec version 1.0.1+11",
       "passed": true,
       "detail": ""
     },
@@ -174,11 +174,6 @@
       "detail": ""
     },
     {
-      "name": "workflow YAML parses",
-      "passed": true,
-      "detail": ""
-    },
-    {
       "name": "bootstrap uses current Flutter scaffold",
       "passed": true,
       "detail": ""
@@ -214,34 +209,9 @@
       "detail": ""
     },
     {
-      "name": "launcher source is 1024x1024",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "launcher icon mdpi size",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "launcher icon hdpi size",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "launcher icon xhdpi size",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "launcher icon xxhdpi size",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "launcher icon xxxhdpi size",
-      "passed": true,
-      "detail": ""
+      "name": "branding image inspection",
+      "passed": false,
+      "detail": "No module named 'PIL'"
     },
     {
       "name": "all relative Dart imports resolve",

@@ -36,7 +36,7 @@ Offline-first Flutter learning app for Bengali learners, built around **Theory -
 Push this repository to GitHub, open **Actions -> Build Android APK -> Run workflow**. The workflow creates the Android scaffold compatible with the pinned Flutter 3.44.7 stable SDK, applies ASTRA branding, validates the Dart/Flutter source and builds the APK.
 
 Expected artifact:
-`ASTRA-COMPUTER-ACADEMY-v1.0.0-APK`
+`ASTRA-COMPUTER-ACADEMY-v1.0.1-APK`
 
 ## Build locally
 With Flutter and Android tooling installed:
@@ -47,7 +47,7 @@ chmod +x scripts/bootstrap_android.sh scripts/build_android_release.sh
 ```
 
 Expected file:
-`dist/ASTRA_COMPUTER_ACADEMY_v1.0.0.apk`
+`dist/ASTRA_COMPUTER_ACADEMY_v1.0.1.apk`
 
 See `ANDROID_BUILD_GUIDE.md` for details.
 

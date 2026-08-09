@@ -5,10 +5,10 @@
 2. Open **Actions** -> **Build Android APK**.
 3. Choose **Run workflow**, or push to `main`.
 4. The workflow creates a Flutter-compatible Android scaffold, applies ASTRA branding, runs analysis/tests, builds the release APK and uploads it as an Actions artifact.
-5. Download artifact `ASTRA-COMPUTER-ACADEMY-v1.0.0-APK`.
+5. Download artifact `ASTRA-COMPUTER-ACADEMY-v1.0.1-APK`.
 
 Expected APK inside the artifact:
-`ASTRA_COMPUTER_ACADEMY_v1.0.0.apk`
+`ASTRA_COMPUTER_ACADEMY_v1.0.1.apk`
 
 ## Local machine with Flutter installed
 ```bash
@@ -17,7 +17,7 @@ chmod +x scripts/bootstrap_android.sh scripts/build_android_release.sh
 ```
 
 Output:
-`dist/ASTRA_COMPUTER_ACADEMY_v1.0.0.apk`
+`dist/ASTRA_COMPUTER_ACADEMY_v1.0.1.apk`
 
 ## Why Android is generated at build time
 Flutter's Android Gradle template changes over time. `scripts/bootstrap_android.sh` asks the Flutter SDK used for that build to generate its own compatible Android scaffold, then applies only ASTRA-specific overlay resources and manifest hardening. This avoids pinning an old AGP/Kotlin/Gradle template in the application source.

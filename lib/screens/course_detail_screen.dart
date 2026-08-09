@@ -87,7 +87,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen> {
               child: Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(.09),
+                  color: Colors.white.withValues(alpha: .09),
                   borderRadius: BorderRadius.circular(18),
                   border: Border.all(color: Colors.white12),
                 ),
@@ -219,8 +219,8 @@ class _LessonList extends StatelessWidget {
               height: 40,
               decoration: BoxDecoration(
                 color: completed
-                    ? AppTheme.success.withOpacity(.10)
-                    : AppTheme.royalBlue.withOpacity(.09),
+                    ? AppTheme.success.withValues(alpha: .10)
+                    : AppTheme.royalBlue.withValues(alpha: .09),
                 borderRadius: BorderRadius.circular(12),
               ),
               alignment: Alignment.center,

@@ -137,7 +137,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                   const SizedBox(height: 14),
                   DropdownButtonFormField<String>(
-                    value: _language,
+                    initialValue: _language,
                     decoration: const InputDecoration(
                       labelText: 'Preferred Language',
                       prefixIcon: Icon(Icons.language_rounded),

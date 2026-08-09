@@ -48,7 +48,7 @@ class CourseCard extends StatelessWidget {
                 width: compact ? 44 : 50,
                 height: compact ? 44 : 50,
                 decoration: BoxDecoration(
-                  color: accent.withOpacity(.12),
+                  color: accent.withValues(alpha: .12),
                   borderRadius: BorderRadius.circular(13),
                 ),
                 alignment: Alignment.center,

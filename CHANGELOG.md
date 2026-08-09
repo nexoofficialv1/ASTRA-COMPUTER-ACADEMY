@@ -1,3 +1,11 @@
+
+## v1.0.1 - Flutter 3.44 analyze hotfix
+- Migrated progress indicator theme to `ThemeData.progressIndicatorTheme` / `ProgressIndicatorThemeData`.
+- Prevented `flutter create` from leaving the template `MyApp` widget test in ASTRA builds.
+- Migrated deprecated color opacity calls to `withValues(alpha:)`.
+- Migrated `DropdownButtonFormField.value` to `initialValue` with a keyed dependent filter field.
+- Migrated quiz radio controls to `RadioGroup`.
+- Fixed flow-control brace lints in the Excel formula parser.
 # Changelog
 
 ## 0.9.0 - UI Implementation / Android Release Hardening Part 1

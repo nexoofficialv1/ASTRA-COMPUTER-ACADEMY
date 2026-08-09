@@ -83,7 +83,7 @@ class _CourseLibraryScreenState extends State<CourseLibraryScreen> {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
                     decoration: BoxDecoration(
-                      color: AppTheme.royalBlue.withOpacity(.10),
+                      color: AppTheme.royalBlue.withValues(alpha: .10),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(

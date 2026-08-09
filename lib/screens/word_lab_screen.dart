@@ -527,7 +527,7 @@ class _WordLabScreenState extends State<WordLabScreen> {
           Container(
             width: double.infinity,
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
-            color: Theme.of(context).colorScheme.primaryContainer.withOpacity(0.45),
+            color: Theme.of(context).colorScheme.primaryContainer.withValues(alpha: 0.45),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

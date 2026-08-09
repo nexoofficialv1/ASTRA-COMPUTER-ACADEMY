@@ -1,7 +1,7 @@
 name: astra_computer_academy
 description: Offline-first interactive computer learning app foundation.
 publish_to: 'none'
-version: 1.0.0+10
+version: 1.0.1+11
 
 environment:
   sdk: '>=3.4.0 <4.0.0'

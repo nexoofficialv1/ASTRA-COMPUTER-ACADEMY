@@ -43,7 +43,7 @@ def lexical_balance():
     return failures
 
 pub=(ROOT/'pubspec.yaml').read_text()
-check('pubspec version 1.0.0+10','version: 1.0.0+10' in pub)
+check('pubspec version 1.0.1+11','version: 1.0.1+11' in pub)
 raw=json.loads((ROOT/'assets/content/curriculum.json').read_text(encoding='utf-8'))
 courses=raw['courses']; lessons=[l for c in courses for l in c['lessons']]
 practicals=[l for l in lessons if l.get('practicalKind')]
@@ -140,7 +140,7 @@ check('narrow continue-card breakpoint added','constraints.maxWidth < 350' in ho
 
 passed=sum(c['passed'] for c in checks)
 report={
-    'version':'1.0.0',
+    'version':'1.0.1',
     'status':'PASS' if passed==len(checks) else 'FAIL',
     'summary':{'passed':passed,'total':len(checks)},
     'environment':{

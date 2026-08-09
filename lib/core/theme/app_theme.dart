@@ -90,10 +90,10 @@ class AppTheme {
           textStyle: const TextStyle(fontWeight: FontWeight.w800),
         ),
       ),
-      linearProgressIndicatorTheme: const LinearProgressIndicatorThemeData(
+      progressIndicatorTheme: const ProgressIndicatorThemeData(
         color: royalBlue,
         linearTrackColor: Color(0xFFE6ECF6),
-        minHeight: 7,
+        linearMinHeight: 7,
         borderRadius: BorderRadius.all(Radius.circular(20)),
       ),
       dividerColor: const Color(0xFFE7EBF3),

@@ -141,7 +141,7 @@ class _PracticalTile extends StatelessWidget {
           width: 44,
           height: 44,
           decoration: BoxDecoration(
-            color: AppTheme.royalBlue.withOpacity(.10),
+            color: AppTheme.royalBlue.withValues(alpha: .10),
             borderRadius: BorderRadius.circular(12),
           ),
           alignment: Alignment.center,

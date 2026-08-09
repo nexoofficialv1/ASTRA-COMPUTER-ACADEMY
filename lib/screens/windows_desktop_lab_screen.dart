@@ -363,7 +363,7 @@ class _WindowsDesktopLabScreenState extends State<WindowsDesktopLabScreen> {
                     bottom: 0,
                     height: 52,
                     child: Container(
-                      color: Theme.of(context).colorScheme.surface.withOpacity(0.94),
+                      color: Theme.of(context).colorScheme.surface.withValues(alpha: 0.94),
                       child: Row(
                         children: [
                           IconButton(

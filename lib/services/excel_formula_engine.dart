@@ -511,9 +511,13 @@ class _ArithmeticParser {
 
     if (_isLetter(source.codeUnitAt(index))) {
       final start = index;
-      while (index < source.length && _isLetter(source.codeUnitAt(index))) index++;
+      while (index < source.length && _isLetter(source.codeUnitAt(index))) {
+        index++;
+      }
       final digitStart = index;
-      while (index < source.length && _isDigit(source.codeUnitAt(index))) index++;
+      while (index < source.length && _isDigit(source.codeUnitAt(index))) {
+        index++;
+      }
       if (digitStart == index) throw const _FormulaException('#NAME?');
       return referenceResolver(source.substring(start, index).toUpperCase());
     }
@@ -540,7 +544,9 @@ class _ArithmeticParser {
   }
 
   void _skipSpaces() {
-    while (index < source.length && source[index].trim().isEmpty) index++;
+    while (index < source.length && source[index].trim().isEmpty) {
+      index++;
+    }
   }
 
   bool _consume(String token) {
