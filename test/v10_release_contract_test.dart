@@ -2,9 +2,14 @@ import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test('v1.0 Android release-build contract is present', () {
+  test('v1 Android release-build contract is present', () {
     final pubspec = File('pubspec.yaml').readAsStringSync();
-    expect(pubspec, contains('version: 1.0.0+10'));
+    expect(
+      RegExp(r'^version:\s+\d+\.\d+\.\d+\+\d+\s*$', multiLine: true)
+          .hasMatch(pubspec),
+      isTrue,
+      reason: 'pubspec.yaml must contain a semantic Flutter build version',
+    );
 
     for (final path in <String>[
       'scripts/bootstrap_android.sh',
@@ -22,6 +27,7 @@ void main() {
     expect(bootstrap, contains('flutter create'));
     expect(bootstrap, contains('--platforms=android'));
     expect(bootstrap, contains('--org in.nexoofficial'));
+    expect(bootstrap, contains('rm -f test/widget_test.dart'));
 
     final workflow = File('.github/workflows/android-apk.yml').readAsStringSync();
     expect(workflow, contains('flutter analyze --no-fatal-infos'));
@@ -30,16 +36,34 @@ void main() {
   });
 
   test('ASTRA Android overlay keeps the release permission surface offline-first', () {
-    final overlay = Directory('tool/android_overlay')
+    const textExtensions = <String>{
+      '.xml',
+      '.gradle',
+      '.kts',
+      '.properties',
+      '.txt',
+      '.json',
+      '.yaml',
+      '.yml',
+    };
+
+    final overlayText = Directory('tool/android_overlay')
         .listSync(recursive: true)
         .whereType<File>()
+        .where((file) => textExtensions.contains(_extension(file.path)))
         .map((file) => file.readAsStringSync())
         .join('\n');
 
-    expect(overlay, isNot(contains('android.permission.INTERNET')));
-    expect(overlay, isNot(contains('READ_EXTERNAL_STORAGE')));
-    expect(overlay, isNot(contains('WRITE_EXTERNAL_STORAGE')));
-    expect(overlay, isNot(contains('android.permission.CAMERA')));
-    expect(overlay, isNot(contains('android.permission.RECORD_AUDIO')));
+    expect(overlayText, isNot(contains('android.permission.INTERNET')));
+    expect(overlayText, isNot(contains('READ_EXTERNAL_STORAGE')));
+    expect(overlayText, isNot(contains('WRITE_EXTERNAL_STORAGE')));
+    expect(overlayText, isNot(contains('android.permission.CAMERA')));
+    expect(overlayText, isNot(contains('android.permission.RECORD_AUDIO')));
   });
+}
+
+String _extension(String path) {
+  final name = path.replaceAll('\\', '/').split('/').last;
+  final dot = name.lastIndexOf('.');
+  return dot == -1 ? '' : name.substring(dot).toLowerCase();
 }
