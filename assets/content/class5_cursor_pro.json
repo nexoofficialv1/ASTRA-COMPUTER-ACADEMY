@@ -274,7 +274,46 @@
               "correctIndex": 0,
               "explanation": "Move একটি file বা folder-কে অন্য location-এ স্থানান্তর করে।"
             }
-          ]
+          ],
+          "practicalKind": "windows_file_manager",
+          "practicalData": {
+            "instruction": "Documents folder থেকে শুরু করুন। Class5 নামে folder তৈরি করুন, Notes.txt-কে Class5 folder-এ move করে ComputerNotes.txt নামে rename করুন এবং Old.tmp delete করুন।",
+            "startFolder": "Documents",
+            "initialFolders": [
+              "School"
+            ],
+            "initialFiles": [
+              {
+                "name": "Notes.txt",
+                "folder": "Documents"
+              },
+              {
+                "name": "Old.tmp",
+                "folder": "Documents"
+              }
+            ],
+            "requirements": [
+              {
+                "type": "create_folder",
+                "name": "Class5"
+              },
+              {
+                "type": "move_file",
+                "name": "Notes.txt",
+                "folder": "Class5"
+              },
+              {
+                "type": "rename_file",
+                "from": "Notes.txt",
+                "to": "ComputerNotes.txt",
+                "folder": "Class5"
+              },
+              {
+                "type": "delete_file",
+                "name": "Old.tmp"
+              }
+            ]
+          }
         },
         {
           "id": "c5_03_03",
@@ -303,7 +342,18 @@
               "correctIndex": 0,
               "explanation": "Browser internet/web content দেখার application।"
             }
-          ]
+          ],
+          "practicalKind": "windows_personalization",
+          "practicalData": {
+            "instruction": "Windows Settings ও Control Panel খুলুন, Wallpaper এবং Theme পরিবর্তন করুন এবং Browser launch করুন।",
+            "requiredActions": [
+              "open_settings",
+              "open_control_panel",
+              "change_wallpaper",
+              "change_theme",
+              "open_browser"
+            ]
+          }
         }
       ]
     },
@@ -323,7 +373,7 @@
           "titleBn": "Move/Copy Text, Spelling, Grammar, Thesaurus ও Find/Replace",
           "summaryBn": "Document edit ও proofread করার advanced tools শেখা।",
           "durationMinutes": 15,
-          "type": "theory",
+          "type": "practical",
           "contentBn": [
             "Word-এ text select করে Cut/Copy/Paste ব্যবহার করে content স্থানান্তর বা duplicate করা যায়। Find দ্রুত নির্দিষ্ট শব্দ খুঁজে দেয় এবং Replace একই ধরনের text পরিবর্তনে সাহায্য করে।",
             "Spelling/Grammar tools ভুল শনাক্ত করতে সাহায্য করে, আর Thesaurus কাছাকাছি অর্থের alternative word খুঁজতে কাজে লাগে।"
@@ -345,7 +395,27 @@
               "correctIndex": 0,
               "explanation": "Find and Replace একই text দ্রুত খুঁজে পরিবর্তন করতে পারে।"
             }
-          ]
+          ],
+          "practicalKind": "word_advanced",
+          "practicalData": {
+            "mode": "editing_proofing",
+            "instruction": "Spelling/Grammar, Thesaurus এবং Find & Replace ব্যবহার করে document ঠিক করুন।",
+            "starterText": "The quik student uses old tools. A quick learner checks every document before saving.",
+            "findText": "old",
+            "replaceText": "modern",
+            "requirements": [
+              {
+                "type": "find_replace",
+                "replacement": "modern"
+              },
+              {
+                "type": "spell_check"
+              },
+              {
+                "type": "thesaurus"
+              }
+            ]
+          }
         },
         {
           "id": "c5_04_02",
@@ -374,7 +444,32 @@
               "correctIndex": 0,
               "explanation": "ক্রম বা sequence দেখাতে numbered list উপযোগী।"
             }
-          ]
+          ],
+          "practicalKind": "word_advanced",
+          "practicalData": {
+            "mode": "formatting",
+            "instruction": "Heading/document-এ Bold, Center, 18 pt Font, Numbered List এবং Landscape orientation ব্যবহার করুন।",
+            "starterText": "SCHOOL COMPUTER CLUB\nLearn computer basics\nPractice safely\nCreate a digital project",
+            "requirements": [
+              {
+                "type": "bold"
+              },
+              {
+                "type": "center"
+              },
+              {
+                "type": "font_size",
+                "value": 18
+              },
+              {
+                "type": "numbered_list"
+              },
+              {
+                "type": "orientation",
+                "value": "Landscape"
+              }
+            ]
+          }
         },
         {
           "id": "c5_04_03",
@@ -404,7 +499,31 @@
               "correctIndex": 0,
               "explanation": "Text Wrapping image ও text-এর layout নিয়ন্ত্রণ করে।"
             }
-          ]
+          ],
+          "practicalKind": "word_advanced",
+          "practicalData": {
+            "mode": "graphics_wordart",
+            "instruction": "Picture insert করুন, Square Text Wrapping বেছে নিন, Draw tool ব্যবহার করুন, WordArt title লিখুন এবং document Save করুন।",
+            "starterText": "Healthy Technology Poster\nUse technology responsibly and creatively.",
+            "requirements": [
+              {
+                "type": "insert_picture"
+              },
+              {
+                "type": "text_wrap",
+                "value": "Square"
+              },
+              {
+                "type": "draw"
+              },
+              {
+                "type": "wordart"
+              },
+              {
+                "type": "save"
+              }
+            ]
+          }
         }
       ]
     },
@@ -624,7 +743,59 @@
               "correctIndex": 0,
               "explanation": "ব্যক্তিগত credential অজানা site-এ দেওয়া নিরাপদ নয়।"
             }
-          ]
+          ],
+          "practicalKind": "internet_browser",
+          "practicalData": {
+            "instruction": "climate keyword দিয়ে search করুন, trusted school project page খুলুন, HTTPS secure কি না শনাক্ত করুন এবং sample worksheet download করুন।",
+            "pages": [
+              {
+                "id": "school_project",
+                "title": "Climate and Clean Water School Project",
+                "url": "https://school.example/climate-water",
+                "body": "A child-safe practice page about climate, clean water, responsible consumption and school projects.",
+                "keywords": [
+                  "climate",
+                  "water",
+                  "school",
+                  "project",
+                  "environment"
+                ],
+                "allowDownload": true,
+                "allowUpload": false
+              },
+              {
+                "id": "unsafe_offer",
+                "title": "Suspicious Free Prize Page",
+                "url": "http://unsafe.example/free-prize",
+                "body": "This simulated page asks for a password and personal details. Learners should avoid sharing credentials.",
+                "keywords": [
+                  "free",
+                  "prize",
+                  "password",
+                  "unsafe"
+                ],
+                "allowDownload": false,
+                "allowUpload": false
+              }
+            ],
+            "requirements": [
+              {
+                "type": "search_contains",
+                "value": "climate"
+              },
+              {
+                "type": "open_page",
+                "pageId": "school_project"
+              },
+              {
+                "type": "secure_answer",
+                "value": true
+              },
+              {
+                "type": "download"
+              }
+            ]
+          }
         }
       ]
     },

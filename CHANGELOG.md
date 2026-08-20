@@ -1,3 +1,11 @@
+## 1.1.0+15 - Class V Windows Word Internet Integration
+- Connected Class V Files/Folders to the existing offline File Manager simulator.
+- Added an interactive Windows 10 personalization lab for Settings, Control Panel, Wallpaper, Theme and Browser launch.
+- Added an advanced Word 2019 learning lab covering Find/Replace, spelling check, Thesaurus, formatting, page orientation, graphics, Text Wrapping, Draw, WordArt and Save.
+- Connected Class V safe-search practice to the existing offline Internet Browser simulator.
+- Added integration tests for all six mapped Class V lessons.
+- Existing Basic Computer certification and final-exam scope remains unchanged.
+
 ## 1.1.0+14 - Class V Interactive Learning Labs
 - Added the full Class V school-course foundation: 9 syllabus-aligned chapters and 27 original Bengali-first ASTRA lessons.
 - Added Paint 3D simulator practicals for tools practice and Healthy Food Poster activity.

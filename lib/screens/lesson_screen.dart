@@ -16,6 +16,8 @@ import 'typing_lab_screen.dart';
 import 'word_lab_screen.dart';
 import 'word_page_elements_lab_screen.dart';
 import 'windows_desktop_lab_screen.dart';
+import 'windows_personalization_lab_screen.dart';
+import 'word_advanced_lab_screen.dart';
 import 'paint3d_lab_screen.dart';
 import 'scratch_lab_screen.dart';
 import 'ai_decision_lab_screen.dart';
@@ -191,6 +193,30 @@ class LessonScreen extends StatelessWidget {
       await Navigator.of(context).push(
         MaterialPageRoute(
           builder: (_) => ShortcutLabScreen(
+            lesson: lesson,
+            progressRepository: progressRepository,
+          ),
+        ),
+      );
+      return;
+    }
+
+    if (lesson.practicalKind == 'windows_personalization') {
+      await Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (_) => WindowsPersonalizationLabScreen(
+            lesson: lesson,
+            progressRepository: progressRepository,
+          ),
+        ),
+      );
+      return;
+    }
+
+    if (lesson.practicalKind == 'word_advanced') {
+      await Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (_) => WordAdvancedLabScreen(
             lesson: lesson,
             progressRepository: progressRepository,
           ),
