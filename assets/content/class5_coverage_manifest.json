@@ -1,0 +1,908 @@
+{
+  "schemaVersion": 1,
+  "grade": 5,
+  "course": "Computer Science",
+  "alignment": "Cursor Pro Class V syllabus-aligned; original ASTRA instructional content, no copied textbook prose/artwork.",
+  "completionRule": "Every required topic must map to an existing lesson with textual evidence; practical-required topics must map to the expected interactive practical.",
+  "chapters": [
+    {
+      "courseId": "c5_how_computer_works",
+      "title": "1. How Computer Works?",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c1_evolution",
+          "topic": "Evolution of computers",
+          "lessonId": "c5_01_01",
+          "keywords": [
+            "বিবর্তন"
+          ]
+        },
+        {
+          "id": "c1_gen1",
+          "topic": "First Generation - Vacuum Tube",
+          "lessonId": "c5_01_01",
+          "keywords": [
+            "Vacuum Tube"
+          ]
+        },
+        {
+          "id": "c1_gen2",
+          "topic": "Second Generation - Transistor",
+          "lessonId": "c5_01_01",
+          "keywords": [
+            "Transistor"
+          ]
+        },
+        {
+          "id": "c1_gen3",
+          "topic": "Third Generation - Integrated Circuit",
+          "lessonId": "c5_01_01",
+          "keywords": [
+            "Integrated Circuit"
+          ]
+        },
+        {
+          "id": "c1_gen4",
+          "topic": "Fourth Generation - Microprocessor",
+          "lessonId": "c5_01_01",
+          "keywords": [
+            "Microprocessor"
+          ]
+        },
+        {
+          "id": "c1_gen5",
+          "topic": "Fifth Generation - AI / intelligent computing",
+          "lessonId": "c5_01_01",
+          "keywords": [
+            "AI"
+          ]
+        },
+        {
+          "id": "c1_ipo",
+          "topic": "Input-Processing-Output cycle",
+          "lessonId": "c5_01_02",
+          "keywords": [
+            "Input",
+            "Processing",
+            "Output"
+          ]
+        },
+        {
+          "id": "c1_storage",
+          "topic": "Storage in the computer working cycle",
+          "lessonId": "c5_01_02",
+          "keywords": [
+            "Storage"
+          ]
+        },
+        {
+          "id": "c1_input",
+          "topic": "Input devices",
+          "lessonId": "c5_01_03",
+          "keywords": [
+            "input device"
+          ],
+          "practicalKind": "concept_sort"
+        },
+        {
+          "id": "c1_cpu",
+          "topic": "Processing device / CPU",
+          "lessonId": "c5_01_03",
+          "keywords": [
+            "CPU"
+          ],
+          "practicalKind": "concept_sort"
+        },
+        {
+          "id": "c1_output",
+          "topic": "Output devices",
+          "lessonId": "c5_01_03",
+          "keywords": [
+            "output device"
+          ],
+          "practicalKind": "concept_sort"
+        },
+        {
+          "id": "c1_memory",
+          "topic": "Memory - RAM and secondary storage",
+          "lessonId": "c5_01_03",
+          "keywords": [
+            "RAM",
+            "SSD"
+          ],
+          "practicalKind": "concept_sort"
+        }
+      ]
+    },
+    {
+      "courseId": "c5_hardware_software",
+      "title": "2. Hardware & Software",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c2_hardware",
+          "topic": "Hardware",
+          "lessonId": "c5_02_01",
+          "keywords": [
+            "hardware"
+          ]
+        },
+        {
+          "id": "c2_hardware_examples",
+          "topic": "Hardware examples",
+          "lessonId": "c5_02_01",
+          "keywords": [
+            "Monitor",
+            "keyboard",
+            "mouse"
+          ]
+        },
+        {
+          "id": "c2_software",
+          "topic": "Software",
+          "lessonId": "c5_02_02",
+          "keywords": [
+            "Software"
+          ]
+        },
+        {
+          "id": "c2_system",
+          "topic": "System software / Operating System",
+          "lessonId": "c5_02_02",
+          "keywords": [
+            "Operating System",
+            "system software"
+          ]
+        },
+        {
+          "id": "c2_application",
+          "topic": "Application software",
+          "lessonId": "c5_02_02",
+          "keywords": [
+            "application software"
+          ]
+        },
+        {
+          "id": "c2_relation",
+          "topic": "Hardware-software relationship",
+          "lessonId": "c5_02_03",
+          "keywords": [
+            "hardware",
+            "software",
+            "CPU"
+          ],
+          "practicalKind": "concept_sort"
+        }
+      ]
+    },
+    {
+      "courseId": "c5_windows10",
+      "title": "3. Getting Around in Windows 10",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c3_os",
+          "topic": "Role of Windows / Operating System",
+          "lessonId": "c5_03_01",
+          "keywords": [
+            "Operating System"
+          ]
+        },
+        {
+          "id": "c3_boot",
+          "topic": "Booting",
+          "lessonId": "c5_03_01",
+          "keywords": [
+            "boot"
+          ]
+        },
+        {
+          "id": "c3_desktop",
+          "topic": "Desktop",
+          "lessonId": "c5_03_01",
+          "keywords": [
+            "desktop"
+          ]
+        },
+        {
+          "id": "c3_start",
+          "topic": "Start Menu",
+          "lessonId": "c5_03_01",
+          "keywords": [
+            "Start"
+          ]
+        },
+        {
+          "id": "c3_taskbar",
+          "topic": "Taskbar",
+          "lessonId": "c5_03_01",
+          "keywords": [
+            "taskbar"
+          ]
+        },
+        {
+          "id": "c3_file",
+          "topic": "Files",
+          "lessonId": "c5_03_02",
+          "keywords": [
+            "File"
+          ],
+          "practicalKind": "windows_file_manager"
+        },
+        {
+          "id": "c3_folder",
+          "topic": "Folders",
+          "lessonId": "c5_03_02",
+          "keywords": [
+            "folder"
+          ],
+          "practicalKind": "windows_file_manager"
+        },
+        {
+          "id": "c3_copy_move",
+          "topic": "Copy / Move / Rename / Delete",
+          "lessonId": "c5_03_02",
+          "keywords": [
+            "Copy",
+            "Move",
+            "Rename",
+            "Delete"
+          ],
+          "practicalKind": "windows_file_manager"
+        },
+        {
+          "id": "c3_settings",
+          "topic": "Control Panel / Settings",
+          "lessonId": "c5_03_03",
+          "keywords": [
+            "Control Panel"
+          ],
+          "practicalKind": "windows_personalization"
+        },
+        {
+          "id": "c3_browser",
+          "topic": "Browser in Windows",
+          "lessonId": "c5_03_03",
+          "keywords": [
+            "Browser"
+          ],
+          "practicalKind": "windows_personalization"
+        },
+        {
+          "id": "c3_wallpaper",
+          "topic": "Wallpaper",
+          "lessonId": "c5_03_03",
+          "keywords": [
+            "Wallpaper"
+          ],
+          "practicalKind": "windows_personalization"
+        },
+        {
+          "id": "c3_theme",
+          "topic": "Themes",
+          "lessonId": "c5_03_03",
+          "keywords": [
+            "theme"
+          ],
+          "practicalKind": "windows_personalization"
+        }
+      ]
+    },
+    {
+      "courseId": "c5_word2019",
+      "title": "4. Advanced Features of Word 2019",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c4_copy_move",
+          "topic": "Move / Copy text",
+          "lessonId": "c5_04_01",
+          "keywords": [
+            "Cut",
+            "Copy",
+            "Paste"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_spelling",
+          "topic": "Spelling and Grammar",
+          "lessonId": "c5_04_01",
+          "keywords": [
+            "Spelling",
+            "Grammar"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_thesaurus",
+          "topic": "Thesaurus",
+          "lessonId": "c5_04_01",
+          "keywords": [
+            "Thesaurus"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_find",
+          "topic": "Find and Replace",
+          "lessonId": "c5_04_01",
+          "keywords": [
+            "Find",
+            "Replace"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_textformat",
+          "topic": "Text formatting",
+          "lessonId": "c5_04_02",
+          "keywords": [
+            "Font",
+            "bold",
+            "italic"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_para",
+          "topic": "Paragraph formatting",
+          "lessonId": "c5_04_02",
+          "keywords": [
+            "Alignment",
+            "line spacing"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_list",
+          "topic": "Bullets and Numbering",
+          "lessonId": "c5_04_02",
+          "keywords": [
+            "Bullets",
+            "Numbering"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_page",
+          "topic": "Page formatting",
+          "lessonId": "c5_04_02",
+          "keywords": [
+            "margin",
+            "orientation"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_graphics",
+          "topic": "Graphics / Picture",
+          "lessonId": "c5_04_03",
+          "keywords": [
+            "picture",
+            "graphic"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_wrap",
+          "topic": "Text Wrapping",
+          "lessonId": "c5_04_03",
+          "keywords": [
+            "Text Wrapping"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_draw",
+          "topic": "Draw tools",
+          "lessonId": "c5_04_03",
+          "keywords": [
+            "Draw"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_wordart",
+          "topic": "WordArt",
+          "lessonId": "c5_04_03",
+          "keywords": [
+            "WordArt"
+          ],
+          "practicalKind": "word_advanced"
+        },
+        {
+          "id": "c4_save",
+          "topic": "Saving documents",
+          "lessonId": "c5_04_03",
+          "keywords": [
+            "Save"
+          ],
+          "practicalKind": "word_advanced"
+        }
+      ]
+    },
+    {
+      "courseId": "c5_paint3d",
+      "title": "5. Enjoying with Paint 3D",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c5_interface",
+          "topic": "Paint 3D interface / workspace",
+          "lessonId": "c5_05_01",
+          "keywords": [
+            "Paint 3D",
+            "Workspace"
+          ]
+        },
+        {
+          "id": "c5_2d",
+          "topic": "2D shapes",
+          "lessonId": "c5_05_02",
+          "keywords": [
+            "2D"
+          ],
+          "practicalKind": "paint3d"
+        },
+        {
+          "id": "c5_3d",
+          "topic": "3D shapes",
+          "lessonId": "c5_05_02",
+          "keywords": [
+            "3D"
+          ],
+          "practicalKind": "paint3d"
+        },
+        {
+          "id": "c5_brush",
+          "topic": "Brushes and colour",
+          "lessonId": "c5_05_02",
+          "keywords": [
+            "brush"
+          ],
+          "practicalKind": "paint3d"
+        },
+        {
+          "id": "c5_sticker",
+          "topic": "Stickers",
+          "lessonId": "c5_05_02",
+          "keywords": [
+            "sticker"
+          ],
+          "practicalKind": "paint3d"
+        },
+        {
+          "id": "c5_canvas",
+          "topic": "Canvas",
+          "lessonId": "c5_05_01",
+          "keywords": [
+            "canvas"
+          ]
+        },
+        {
+          "id": "c5_save_open",
+          "topic": "Save and Open project",
+          "lessonId": "c5_05_03",
+          "keywords": [
+            "save"
+          ],
+          "practicalKind": "paint3d"
+        },
+        {
+          "id": "c5_poster",
+          "topic": "Healthy Food Poster project",
+          "lessonId": "c5_05_03",
+          "keywords": [
+            "healthy-food",
+            "Poster"
+          ],
+          "practicalKind": "paint3d"
+        }
+      ]
+    },
+    {
+      "courseId": "c5_internet",
+      "title": "6. Introduction to Internet",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c6_history",
+          "topic": "Internet history",
+          "lessonId": "c5_06_01",
+          "keywords": [
+            "research network"
+          ]
+        },
+        {
+          "id": "c6_network",
+          "topic": "Internet as network of networks",
+          "lessonId": "c5_06_01",
+          "keywords": [
+            "network"
+          ]
+        },
+        {
+          "id": "c6_browser",
+          "topic": "Browser",
+          "lessonId": "c5_06_02",
+          "keywords": [
+            "Browser"
+          ]
+        },
+        {
+          "id": "c6_website",
+          "topic": "Website",
+          "lessonId": "c5_06_02",
+          "keywords": [
+            "Website"
+          ]
+        },
+        {
+          "id": "c6_webpage",
+          "topic": "Web Page",
+          "lessonId": "c5_06_02",
+          "keywords": [
+            "web page"
+          ]
+        },
+        {
+          "id": "c6_url",
+          "topic": "URL",
+          "lessonId": "c5_06_02",
+          "keywords": [
+            "URL"
+          ]
+        },
+        {
+          "id": "c6_search",
+          "topic": "Search Engine",
+          "lessonId": "c5_06_02",
+          "keywords": [
+            "Search engine"
+          ]
+        },
+        {
+          "id": "c6_browse",
+          "topic": "Browsing / keyword search",
+          "lessonId": "c5_06_03",
+          "keywords": [
+            "Search"
+          ],
+          "practicalKind": "internet_browser"
+        },
+        {
+          "id": "c6_trust",
+          "topic": "Trusted sources",
+          "lessonId": "c5_06_03",
+          "keywords": [
+            "trusted source"
+          ],
+          "practicalKind": "internet_browser"
+        },
+        {
+          "id": "c6_safety",
+          "topic": "Cyber safety / passwords / suspicious links",
+          "lessonId": "c5_06_03",
+          "keywords": [
+            "password",
+            "Suspicious"
+          ],
+          "practicalKind": "internet_browser"
+        }
+      ]
+    },
+    {
+      "courseId": "c5_scratch_intro",
+      "title": "7. Introduction to Scratch 3",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c7_intro",
+          "topic": "Scratch 3 introduction",
+          "lessonId": "c5_07_01",
+          "keywords": [
+            "Scratch 3"
+          ]
+        },
+        {
+          "id": "c7_stage",
+          "topic": "Stage",
+          "lessonId": "c5_07_01",
+          "keywords": [
+            "Stage"
+          ]
+        },
+        {
+          "id": "c7_sprite",
+          "topic": "Sprite",
+          "lessonId": "c5_07_01",
+          "keywords": [
+            "Sprite"
+          ]
+        },
+        {
+          "id": "c7_palette",
+          "topic": "Blocks Palette / Coding Area",
+          "lessonId": "c5_07_01",
+          "keywords": [
+            "Blocks Palette",
+            "Coding Area"
+          ]
+        },
+        {
+          "id": "c7_pen",
+          "topic": "Pen blocks",
+          "lessonId": "c5_07_02",
+          "keywords": [
+            "Pen"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c7_move_turn",
+          "topic": "Move / Turn / Repeat",
+          "lessonId": "c5_07_02",
+          "keywords": [
+            "Move",
+            "Turn",
+            "Repeat"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c7_duplicate",
+          "topic": "Duplicate Sprite",
+          "lessonId": "c5_07_03",
+          "keywords": [
+            "duplicate"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c7_save",
+          "topic": "Save project",
+          "lessonId": "c5_07_03",
+          "keywords": [
+            "save"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c7_open",
+          "topic": "Open project",
+          "lessonId": "c5_07_03",
+          "keywords": [
+            "open"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c7_exit",
+          "topic": "Exit workflow",
+          "lessonId": "c5_07_03",
+          "keywords": [
+            "Exit"
+          ],
+          "practicalKind": "scratch"
+        }
+      ]
+    },
+    {
+      "courseId": "c5_scratch_programming",
+      "title": "8. Simple Programming in Scratch",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c8_library",
+          "topic": "Sprite Library",
+          "lessonId": "c5_08_01",
+          "keywords": [
+            "Sprite Library"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c8_costume",
+          "topic": "Costume",
+          "lessonId": "c5_08_01",
+          "keywords": [
+            "Costume"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c8_backdrop",
+          "topic": "Backdrop",
+          "lessonId": "c5_08_01",
+          "keywords": [
+            "Backdrop"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c8_say",
+          "topic": "Say block",
+          "lessonId": "c5_08_02",
+          "keywords": [
+            "Say block"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c8_repeat",
+          "topic": "Repeat block",
+          "lessonId": "c5_08_02",
+          "keywords": [
+            "Repeat"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c8_event",
+          "topic": "Events",
+          "lessonId": "c5_08_02",
+          "keywords": [
+            "Event"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c8_sound",
+          "topic": "Sound",
+          "lessonId": "c5_08_02",
+          "keywords": [
+            "Sound"
+          ],
+          "practicalKind": "scratch"
+        },
+        {
+          "id": "c8_quiz",
+          "topic": "Quiz Game project",
+          "lessonId": "c5_08_03",
+          "keywords": [
+            "Quiz"
+          ],
+          "practicalKind": "scratch"
+        }
+      ]
+    },
+    {
+      "courseId": "c5_ai",
+      "title": "9. Human vs Artificial Intelligence",
+      "status": "complete",
+      "topics": [
+        {
+          "id": "c9_intelligence",
+          "topic": "Meaning of intelligence",
+          "lessonId": "c5_09_01",
+          "keywords": [
+            "intelligence"
+          ]
+        },
+        {
+          "id": "c9_human",
+          "topic": "Human Intelligence",
+          "lessonId": "c5_09_01",
+          "keywords": [
+            "Human Intelligence"
+          ]
+        },
+        {
+          "id": "c9_ai",
+          "topic": "Artificial Intelligence",
+          "lessonId": "c5_09_01",
+          "keywords": [
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "id": "c9_compare",
+          "topic": "Human vs AI comparison",
+          "lessonId": "c5_09_02",
+          "keywords": [
+            "Human",
+            "AI"
+          ]
+        },
+        {
+          "id": "c9_apps",
+          "topic": "AI applications",
+          "lessonId": "c5_09_02",
+          "keywords": [
+            "application"
+          ]
+        },
+        {
+          "id": "c9_pattern",
+          "topic": "Pattern / prediction",
+          "lessonId": "c5_09_03",
+          "keywords": [
+            "pattern"
+          ],
+          "practicalKind": "ai_decision"
+        },
+        {
+          "id": "c9_rps",
+          "topic": "Rock-Paper-Scissors AI activity",
+          "lessonId": "c5_09_03",
+          "keywords": [
+            "Rock"
+          ],
+          "practicalKind": "ai_decision"
+        },
+        {
+          "id": "c9_verify",
+          "topic": "AI uncertainty and verification",
+          "lessonId": "c5_09_03",
+          "keywords": [
+            "verify"
+          ],
+          "practicalKind": "ai_decision"
+        }
+      ]
+    }
+  ],
+  "crossCutting": [
+    {
+      "id": "sdg",
+      "title": "SDG / real-world connection",
+      "lessonId": "c5_05_03",
+      "keywords": [
+        "SDG"
+      ]
+    },
+    {
+      "id": "cyber_ethics",
+      "title": "Cyber safety and ethics",
+      "lessonId": "c5_06_03",
+      "keywords": [
+        "Cyber Smart"
+      ]
+    },
+    {
+      "id": "art",
+      "title": "Art integration",
+      "lessonId": "c5_05_03",
+      "keywords": [
+        "Art Integration"
+      ]
+    },
+    {
+      "id": "cross_curricular",
+      "title": "Cross-curricular application",
+      "lessonId": "c5_04_03",
+      "keywords": [
+        "Cross-Curricular"
+      ]
+    },
+    {
+      "id": "computational_thinking",
+      "title": "Computational thinking",
+      "lessonId": "c5_07_02",
+      "keywords": [
+        "Computational Thinking"
+      ]
+    },
+    {
+      "id": "higher_order",
+      "title": "Compare / infer / reason",
+      "lessonId": "c5_09_03",
+      "keywords": [
+        "Inference Practice"
+      ]
+    },
+    {
+      "id": "healthy_living",
+      "title": "Healthy living connection",
+      "lessonId": "c5_05_03",
+      "keywords": [
+        "Healthy Living"
+      ]
+    }
+  ],
+  "verifiedTopicCount": 87,
+  "verifiedChapterCount": 9,
+  "coverageTagFormat": "topic:<topic-id> / cross:<cross-cutting-id>"
+}

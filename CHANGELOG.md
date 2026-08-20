@@ -1,3 +1,13 @@
+## 1.1.0+17 - Class V Full Syllabus Completion Audit
+- Added a machine-checkable Class V coverage manifest covering all 9 chapters and 80+ required syllabus topics.
+- Closed previously non-interactive practical gaps in Chapters 1 and 2 with a Concept Sort lab.
+- Completed Paint 3D project Save/Open workflow.
+- Completed Scratch project workflow: Duplicate Sprite, Save, Open and Exit.
+- Added interactive Sprite Library, Costume and Backdrop scene setup.
+- Added original SDG, Healthy Living, Art Integration, Cyber Ethics, Cross-Curricular, Computational Thinking and higher-order reasoning activities.
+- Added full coverage audit tests that fail CI if a required topic or practical mapping is missing.
+- No database migration is required.
+
 ## 1.1.0+16 - Class V Assessment & Progress
 - Added a Chapter Test for every Class V chapter using the chapter's own ASTRA quiz bank.
 - Chapter Tests persist best score in the existing progress store; pass mark is 60%.

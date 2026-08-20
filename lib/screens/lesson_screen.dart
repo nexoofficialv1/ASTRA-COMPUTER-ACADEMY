@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/lesson.dart';
 import '../services/progress_repository.dart';
 import 'data_entry_lab_screen.dart';
+import 'concept_sort_lab_screen.dart';
 import 'excel_lab_screen.dart';
 import 'excel_workflow_lab_screen.dart';
 import 'file_manager_lab_screen.dart';
@@ -33,6 +34,18 @@ class LessonScreen extends StatelessWidget {
   final ProgressRepository progressRepository;
 
   Future<void> _openNext(BuildContext context) async {
+    if (lesson.practicalKind == 'concept_sort') {
+      await Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (_) => ConceptSortLabScreen(
+            lesson: lesson,
+            progressRepository: progressRepository,
+          ),
+        ),
+      );
+      return;
+    }
+
     if (lesson.practicalKind == 'typing') {
       await Navigator.of(context).push(
         MaterialPageRoute(

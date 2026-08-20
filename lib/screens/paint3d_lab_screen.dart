@@ -20,6 +20,8 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
   final TextEditingController _titleController = TextEditingController();
   final List<_CanvasObject> _objects = [];
   var _brushStrokes = 0;
+  var _saved = false;
+  var _opened = false;
   var _saving = false;
 
   int get _shape2D => _objects.where((item) => item.kind == '2d').length;
@@ -35,7 +37,23 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
       _objects.clear();
       _brushStrokes = 0;
       _titleController.clear();
+      _saved = false;
+      _opened = false;
     });
+  }
+
+  void _saveProject() {
+    setState(() => _saved = true);
+  }
+
+  void _openProject() {
+    if (!_saved) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('আগে project Save করুন।')),
+      );
+      return;
+    }
+    setState(() => _opened = true);
   }
 
   int _score() {
@@ -49,7 +67,10 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
     if (data['requireTitle'] == true) {
       checks.add(_titleController.text.trim().length >= 3);
     }
-    return ((checks.where((item) => item).length / checks.length) * 100).round();
+    if (data['requireSave'] == true) checks.add(_saved);
+    if (data['requireOpen'] == true) checks.add(_opened);
+    return ((checks.where((item) => item).length / checks.length) * 100)
+        .round();
   }
 
   Future<void> _evaluate() async {
@@ -66,6 +87,8 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
         'brushStrokes': _brushStrokes,
         'stickers': _stickers,
         'hasTitle': _titleController.text.trim().isNotEmpty,
+        'savedProject': _saved,
+        'openedProject': _opened,
         'mode': widget.lesson.practicalData['mode'],
       },
     );
@@ -74,9 +97,17 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
     await showDialog<void>(
       context: context,
       builder: (context) => AlertDialog(
-        title: Text(score >= 70 ? 'Practical Completed' : 'আরও একটু Practice করুন'),
+        title: Text(
+          score >= 70
+              ? 'Practical Completed'
+              : 'আরও একটু Practice করুন',
+        ),
         content: Text(
-          'Score: $score%\n২D: $_shape2D • ৩D: $_shape3D • Brush: $_brushStrokes • Sticker: $_stickers',
+          'Score: $score%\n'
+          '2D: $_shape2D • 3D: $_shape3D • Brush: $_brushStrokes • '
+          'Sticker: $_stickers\n'
+          'Save: ${_saved ? 'Done' : 'Pending'} • '
+          'Open: ${_opened ? 'Done' : 'Pending'}',
         ),
         actions: [
           FilledButton(
@@ -97,6 +128,10 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
   @override
   Widget build(BuildContext context) {
     final posterMode = widget.lesson.practicalData['requireTitle'] == true;
+    final needsSaveOpen =
+        widget.lesson.practicalData['requireSave'] == true ||
+            widget.lesson.practicalData['requireOpen'] == true;
+
     return Scaffold(
       appBar: AppBar(title: const Text('Paint 3D Lab')),
       body: ListView(
@@ -112,7 +147,8 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
           ),
           const SizedBox(height: 6),
           const Text(
-            'Tools ব্যবহার করে canvas-এ object যোগ করুন। এটি একটি learning simulator—বাস্তব Paint 3D নয়।',
+            'Tools ব্যবহার করে canvas-এ object যোগ করুন। '
+            'এটি একটি learning simulator—বাস্তব Paint 3D নয়।',
           ),
           if (posterMode) ...[
             const SizedBox(height: 14),
@@ -132,27 +168,21 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
             runSpacing: 8,
             children: [
               FilledButton.tonalIcon(
-                onPressed: () => _add(
-                  '2d',
-                  'Circle',
-                  Icons.circle_outlined,
-                ),
+                onPressed: () =>
+                    _add('2d', 'Circle', Icons.circle_outlined),
                 icon: const Icon(Icons.circle_outlined),
                 label: const Text('2D Shape'),
               ),
               FilledButton.tonalIcon(
-                onPressed: () => _add(
-                  '3d',
-                  'Cube',
-                  Icons.view_in_ar_rounded,
-                ),
+                onPressed: () =>
+                    _add('3d', 'Cube', Icons.view_in_ar_rounded),
                 icon: const Icon(Icons.view_in_ar_rounded),
                 label: const Text('3D Shape'),
               ),
               FilledButton.tonalIcon(
                 onPressed: () => setState(() => _brushStrokes += 1),
                 icon: const Icon(Icons.brush_rounded),
-                label: const Text('Brush'),
+                label: const Text('Brush / Colour'),
               ),
               FilledButton.tonalIcon(
                 onPressed: () => _add(
@@ -170,6 +200,36 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
               ),
             ],
           ),
+          if (needsSaveOpen) ...[
+            const SizedBox(height: 12),
+            Row(
+              children: [
+                Expanded(
+                  child: OutlinedButton.icon(
+                    onPressed: _saveProject,
+                    icon: Icon(
+                      _saved
+                          ? Icons.check_circle_rounded
+                          : Icons.save_rounded,
+                    ),
+                    label: Text(_saved ? 'Saved' : 'Save Project'),
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: OutlinedButton.icon(
+                    onPressed: _openProject,
+                    icon: Icon(
+                      _opened
+                          ? Icons.check_circle_rounded
+                          : Icons.folder_open_rounded,
+                    ),
+                    label: Text(_opened ? 'Opened' : 'Open Project'),
+                  ),
+                ),
+              ],
+            ),
+          ],
           const SizedBox(height: 18),
           Card(
             child: Container(
@@ -222,7 +282,8 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
           ),
           const SizedBox(height: 12),
           Text(
-            'Progress: 2D $_shape2D • 3D $_shape3D • Brush $_brushStrokes • Sticker $_stickers',
+            'Progress: 2D $_shape2D • 3D $_shape3D • '
+            'Brush $_brushStrokes • Sticker $_stickers',
           ),
         ],
       ),
@@ -231,7 +292,9 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
         child: FilledButton.icon(
           onPressed: _saving ? null : _evaluate,
           icon: const Icon(Icons.fact_check_rounded),
-          label: Text(_saving ? 'Saving...' : 'Evaluate Practical'),
+          label: Text(
+            _saving ? 'Saving...' : 'Evaluate Practical',
+          ),
         ),
       ),
     );
@@ -240,6 +303,7 @@ class _Paint3DLabScreenState extends State<Paint3DLabScreen> {
 
 class _CanvasObject {
   const _CanvasObject(this.kind, this.label, this.icon);
+
   final String kind;
   final String label;
   final IconData icon;

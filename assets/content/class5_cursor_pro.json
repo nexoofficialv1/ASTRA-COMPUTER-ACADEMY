@@ -24,14 +24,16 @@
           "contentBn": [
             "কম্পিউটার একদিনে তৈরি হয়নি। বিভিন্ন সময়ে নতুন electronic technology ব্যবহারের ফলে computer-এর speed, size, reliability এবং capability বদলেছে।",
             "সাধারণভাবে computer evolution-কে পাঁচটি generation-এ বোঝানো হয়: Vacuum Tube, Transistor, Integrated Circuit (IC), Microprocessor এবং AI/advanced processing ভিত্তিক আধুনিক generation।",
-            "Generation মনে রাখার উদ্দেশ্য শুধু সাল মুখস্থ করা নয়; কোন technology কীভাবে computer-কে ছোট, দ্রুত ও শক্তিশালী করেছে সেটি বোঝা।"
+            "Generation মনে রাখার উদ্দেশ্য শুধু সাল মুখস্থ করা নয়; কোন technology কীভাবে computer-কে ছোট, দ্রুত ও শক্তিশালী করেছে সেটি বোঝা।",
+            "NCF Thinking Practice: 1st থেকে 5th Generation তুলনা করে কোন প্রযুক্তিগত পরিবর্তনে size কমেছে, speed বেড়েছে এবং capability বেড়েছে—নিজের ভাষায় inference করুন।"
           ],
           "steps": [
             "1st: Vacuum Tube",
             "2nd: Transistor",
             "3rd: IC",
             "4th: Microprocessor",
-            "5th: AI ও advanced intelligent computing"
+            "5th: AI ও advanced intelligent computing",
+            "Think & Compare: Vacuum Tube → Transistor → IC → Microprocessor → AI ধারাটি কারণ-ফল হিসেবে ব্যাখ্যা করুন।"
           ],
           "quiz": [
             {
@@ -45,6 +47,14 @@
               "correctIndex": 1,
               "explanation": "Second Generation-এর মূল প্রযুক্তিগত পরিবর্তন ছিল transistor-এর ব্যবহার।"
             }
+          ],
+          "coverageTags": [
+            "topic:c1_evolution",
+            "topic:c1_gen1",
+            "topic:c1_gen2",
+            "topic:c1_gen3",
+            "topic:c1_gen4",
+            "topic:c1_gen5"
           ]
         },
         {
@@ -74,6 +84,10 @@
               "correctIndex": 1,
               "explanation": "CPU নির্দেশ ও data process করে।"
             }
+          ],
+          "coverageTags": [
+            "topic:c1_ipo",
+            "topic:c1_storage"
           ]
         },
         {
@@ -84,12 +98,14 @@
           "type": "practical",
           "contentBn": [
             "Keyboard, mouse, scanner ও microphone সাধারণ input device; monitor, printer ও speaker output device। CPU processing-এর কেন্দ্রীয় অংশ।",
-            "Memory বলতে computer-এর data ও instruction রাখার ব্যবস্থা বোঝায়। RAM কাজ চলাকালীন temporary memory হিসেবে ব্যবহৃত হয়; SSD/HDD দীর্ঘমেয়াদি storage হিসেবে কাজ করে।"
+            "Memory বলতে computer-এর data ও instruction রাখার ব্যবস্থা বোঝায়। RAM কাজ চলাকালীন temporary memory হিসেবে ব্যবহৃত হয়; SSD/HDD দীর্ঘমেয়াদি storage হিসেবে কাজ করে।",
+            "Cross-Curricular Science Link: Input, processing, output ও memory ধারণাকে মানব sensory input, thinking এবং response-এর সঙ্গে তুলনা করে similarity ও difference খুঁজুন।"
           ],
           "steps": [
             "৫টি input device লিখুন",
             "৩টি output device লিখুন",
-            "RAM ও SSD/HDD-এর কাজ আলাদা করে বলুন"
+            "RAM ও SSD/HDD-এর কাজ আলাদা করে বলুন",
+            "Try It: বাড়ির একটি digital device-এর Input → Process → Output → Storage flow লিখুন।"
           ],
           "quiz": [
             {
@@ -103,6 +119,53 @@
               "correctIndex": 0,
               "explanation": "RAM চলমান program ও data-এর working memory হিসেবে ব্যবহৃত হয়।"
             }
+          ],
+          "practicalKind": "concept_sort",
+          "practicalData": {
+            "instruction": "প্রতিটি device-কে Input, Processing, Output, Memory বা Storage category-তে রাখুন।",
+            "categories": [
+              "Input",
+              "Processing",
+              "Output",
+              "Memory",
+              "Storage"
+            ],
+            "items": [
+              {
+                "label": "Keyboard",
+                "category": "Input"
+              },
+              {
+                "label": "Mouse",
+                "category": "Input"
+              },
+              {
+                "label": "CPU",
+                "category": "Processing"
+              },
+              {
+                "label": "Monitor",
+                "category": "Output"
+              },
+              {
+                "label": "Printer",
+                "category": "Output"
+              },
+              {
+                "label": "RAM",
+                "category": "Memory"
+              },
+              {
+                "label": "SSD",
+                "category": "Storage"
+              }
+            ]
+          },
+          "coverageTags": [
+            "topic:c1_cpu",
+            "topic:c1_input",
+            "topic:c1_memory",
+            "topic:c1_output"
           ]
         }
       ]
@@ -146,6 +209,10 @@
               "correctIndex": 2,
               "explanation": "Keyboard একটি physical input device।"
             }
+          ],
+          "coverageTags": [
+            "topic:c2_hardware",
+            "topic:c2_hardware_examples"
           ]
         },
         {
@@ -175,6 +242,11 @@
               "correctIndex": 0,
               "explanation": "MS Word একটি application software।"
             }
+          ],
+          "coverageTags": [
+            "topic:c2_application",
+            "topic:c2_software",
+            "topic:c2_system"
           ]
         },
         {
@@ -185,11 +257,13 @@
           "type": "practical",
           "contentBn": [
             "User যখন keyboard দিয়ে Word-এ text টাইপ করে, keyboard hardware input পাঠায়, Word software সেটি গ্রহণ করে, CPU process করে এবং monitor hardware result দেখায়।",
-            "এই কারণে hardware এবং software একে অপরের পরিপূরক। শুধু hardware বা শুধু software দিয়ে সম্পূর্ণ user task চালানো যায় না।"
+            "এই কারণে hardware এবং software একে অপরের পরিপূরক। শুধু hardware বা শুধু software দিয়ে সম্পূর্ণ user task চালানো যায় না।",
+            "Cyber Ethics: software ব্যবহার করার সময় legal/licensed source, safe installation এবং অন্যের digital work-এর প্রতি respect রাখা responsible technology use-এর অংশ।"
           ],
           "steps": [
             "Typing-এর hardware/software chain ব্যাখ্যা করুন",
-            "Printing-এর hardware/software chain ব্যাখ্যা করুন"
+            "Printing-এর hardware/software chain ব্যাখ্যা করুন",
+            "Think & Apply: একই task-এ কোন hardware এবং কোন software একসঙ্গে কাজ করছে তা identify করুন।"
           ],
           "quiz": [
             {
@@ -203,6 +277,44 @@
               "correctIndex": 0,
               "explanation": "Print command software থেকে আসে এবং printer hardware output দেয়।"
             }
+          ],
+          "practicalKind": "concept_sort",
+          "practicalData": {
+            "instruction": "প্রতিটি item-কে Hardware, System Software বা Application Software হিসেবে classify করুন।",
+            "categories": [
+              "Hardware",
+              "System Software",
+              "Application Software"
+            ],
+            "items": [
+              {
+                "label": "Keyboard",
+                "category": "Hardware"
+              },
+              {
+                "label": "CPU",
+                "category": "Hardware"
+              },
+              {
+                "label": "Windows 10",
+                "category": "System Software"
+              },
+              {
+                "label": "MS Word",
+                "category": "Application Software"
+              },
+              {
+                "label": "Paint 3D",
+                "category": "Application Software"
+              },
+              {
+                "label": "Scratch 3",
+                "category": "Application Software"
+              }
+            ]
+          },
+          "coverageTags": [
+            "topic:c2_relation"
           ]
         }
       ]
@@ -245,6 +357,13 @@
               "correctIndex": 0,
               "explanation": "Start button taskbar-এর অংশ।"
             }
+          ],
+          "coverageTags": [
+            "topic:c3_boot",
+            "topic:c3_desktop",
+            "topic:c3_os",
+            "topic:c3_start",
+            "topic:c3_taskbar"
           ]
         },
         {
@@ -313,7 +432,12 @@
                 "name": "Old.tmp"
               }
             ]
-          }
+          },
+          "coverageTags": [
+            "topic:c3_copy_move",
+            "topic:c3_file",
+            "topic:c3_folder"
+          ]
         },
         {
           "id": "c5_03_03",
@@ -323,12 +447,14 @@
           "type": "practical",
           "contentBn": [
             "Windows settings বা Control Panel থেকে device, display, account এবং অন্যান্য configuration পরিচালনা করা যায়।",
-            "Wallpaper desktop-এর background image এবং theme একসঙ্গে color, background ও appearance-এর কিছু setting বদলাতে পারে। Browser web page দেখার application।"
+            "Wallpaper desktop-এর background image এবং theme একসঙ্গে color, background ও appearance-এর কিছু setting বদলাতে পারে। Browser web page দেখার application।",
+            "Cyber Smart: personalization করার সময় unknown theme বা unsafe download এড়ান; device settings বদলানোর আগে trusted adult বা teacher-এর guidance নিন।"
           ],
           "steps": [
             "Wallpaper পরিবর্তনের উদ্দেশ্য বলুন",
             "Theme ও Wallpaper-এর পার্থক্য বলুন",
-            "Browser-এর কাজ লিখুন"
+            "Browser-এর কাজ লিখুন",
+            "Safety Check: secure settings, screen lock ও trusted browser ব্যবহারের তিনটি কারণ বলুন।"
           ],
           "quiz": [
             {
@@ -353,7 +479,13 @@
               "change_theme",
               "open_browser"
             ]
-          }
+          },
+          "coverageTags": [
+            "topic:c3_browser",
+            "topic:c3_settings",
+            "topic:c3_theme",
+            "topic:c3_wallpaper"
+          ]
         }
       ]
     },
@@ -415,7 +547,13 @@
                 "type": "thesaurus"
               }
             ]
-          }
+          },
+          "coverageTags": [
+            "topic:c4_copy_move",
+            "topic:c4_find",
+            "topic:c4_spelling",
+            "topic:c4_thesaurus"
+          ]
         },
         {
           "id": "c5_04_02",
@@ -469,7 +607,13 @@
                 "value": "Landscape"
               }
             ]
-          }
+          },
+          "coverageTags": [
+            "topic:c4_list",
+            "topic:c4_page",
+            "topic:c4_para",
+            "topic:c4_textformat"
+          ]
         },
         {
           "id": "c5_04_03",
@@ -479,13 +623,15 @@
           "type": "practical",
           "contentBn": [
             "Word document-এ picture বা graphic insert করার পরে Text Wrapping ব্যবহার করে text ও image-এর অবস্থান নিয়ন্ত্রণ করা যায়।",
-            "Draw tools annotation বা drawing-এ সাহায্য করে এবং WordArt decorative text তৈরি করে। কাজ শেষে document যথাযথ file name দিয়ে Save করা জরুরি।"
+            "Draw tools annotation বা drawing-এ সাহায্য করে এবং WordArt decorative text তৈরি করে। কাজ শেষে document যথাযথ file name দিয়ে Save করা জরুরি।",
+            "Cross-Curricular Activity: Science বা Social Studies-এর একটি topic নিয়ে picture, heading, WordArt ও clean page layout ব্যবহার করে one-page report পরিকল্পনা করুন।"
           ],
           "steps": [
             "Picture insert করার ধাপ বলুন",
             "Text Wrapping কেন দরকার ব্যাখ্যা করুন",
             "WordArt-এর একটি উপযুক্ত ব্যবহার লিখুন",
-            "সঠিক file name দিয়ে Save করুন"
+            "সঠিক file name দিয়ে Save করুন",
+            "Project: একটি subject report-এ readable design এবং meaningful graphics ব্যবহার করুন।"
           ],
           "quiz": [
             {
@@ -523,7 +669,15 @@
                 "type": "save"
               }
             ]
-          }
+          },
+          "coverageTags": [
+            "cross:cross_curricular",
+            "topic:c4_draw",
+            "topic:c4_graphics",
+            "topic:c4_save",
+            "topic:c4_wordart",
+            "topic:c4_wrap"
+          ]
         }
       ]
     },
@@ -565,6 +719,10 @@
               "correctIndex": 0,
               "explanation": "Paint 3D drawing ও visual creation-এর জন্য তৈরি।"
             }
+          ],
+          "coverageTags": [
+            "topic:c5_canvas",
+            "topic:c5_interface"
           ]
         },
         {
@@ -604,7 +762,13 @@
             "required3D": 1,
             "requiredBrush": 1,
             "requiredSticker": 1
-          }
+          },
+          "coverageTags": [
+            "topic:c5_2d",
+            "topic:c5_3d",
+            "topic:c5_brush",
+            "topic:c5_sticker"
+          ]
         },
         {
           "id": "c5_05_03",
@@ -614,13 +778,17 @@
           "type": "practical",
           "contentBn": [
             "Project-based learning-এ বিভিন্ন tool একসঙ্গে ব্যবহার করতে হয়। Healthy Food poster-এ পরিষ্কার title, fruit/vegetable-inspired shapes, balanced color এবং short message রাখা যায়।",
-            "এই project-এ লক্ষ্য হলো শুধু সুন্দর drawing নয়; information-কে visualভাবে সহজে বোঝানো।"
+            "এই project-এ লক্ষ্য হলো শুধু সুন্দর drawing নয়; information-কে visualভাবে সহজে বোঝানো।",
+            "SDG Link: Healthy Living, responsible consumption এবং well-being বিষয়কে visual poster-এর মাধ্যমে communicate করা যায়।",
+            "Art Integration: shape, colour, spacing ও visual balance ব্যবহার করে technology এবং creativity একসঙ্গে প্রয়োগ করুন।",
+            "Healthy Living Project: healthy food choice-এর positive message তৈরি করুন; fear-based বা misleading health claim ব্যবহার করবেন না।"
           ],
           "steps": [
             "Poster title ঠিক করুন",
             "কমপক্ষে ৩টি healthy-food visual element পরিকল্পনা করুন",
             "Color ও sticker সীমিত ও অর্থপূর্ণভাবে ব্যবহার করুন",
-            "Project save করার file name ঠিক করুন"
+            "Project save করার file name ঠিক করুন",
+            "Project Review: message clarity, visual balance, Save এবং Open workflow যাচাই করুন।"
           ],
           "quiz": [
             {
@@ -643,8 +811,17 @@
             "required3D": 1,
             "requiredBrush": 1,
             "requiredSticker": 2,
-            "requireTitle": true
-          }
+            "requireTitle": true,
+            "requireSave": true,
+            "requireOpen": true
+          },
+          "coverageTags": [
+            "cross:art",
+            "cross:healthy_living",
+            "cross:sdg",
+            "topic:c5_poster",
+            "topic:c5_save_open"
+          ]
         }
       ]
     },
@@ -685,6 +862,10 @@
               "correctIndex": 0,
               "explanation": "Internet বহু network-কে যুক্ত করে।"
             }
+          ],
+          "coverageTags": [
+            "topic:c6_history",
+            "topic:c6_network"
           ]
         },
         {
@@ -714,6 +895,13 @@
               "correctIndex": 0,
               "explanation": "URL web resource-এর address নির্দেশ করে।"
             }
+          ],
+          "coverageTags": [
+            "topic:c6_browser",
+            "topic:c6_search",
+            "topic:c6_url",
+            "topic:c6_webpage",
+            "topic:c6_website"
           ]
         },
         {
@@ -724,12 +912,14 @@
           "type": "practical",
           "contentBn": [
             "Search করার সময় ছোট কিন্তু নির্দিষ্ট keyword ব্যবহার করলে ভালো result পাওয়া যায়। একই information একাধিক trusted source থেকে মিলিয়ে দেখা ভালো অভ্যাস।",
-            "Unknown link, suspicious download, password চাওয়া page বা ব্যক্তিগত তথ্যের অনুরোধে সতর্ক থাকতে হবে। শিশুদের ক্ষেত্রে trusted adult/teacher-এর guidance গুরুত্বপূর্ণ।"
+            "Unknown link, suspicious download, password চাওয়া page বা ব্যক্তিগত তথ্যের অনুরোধে সতর্ক থাকতে হবে। শিশুদের ক্ষেত্রে trusted adult/teacher-এর guidance গুরুত্বপূর্ণ।",
+            "Cyber Smart & Ethics: password, OTP, address, phone number বা private information unknown site-এ দেবেন না; suspicious link বা download trusted adult/teacher-কে দেখান।"
           ],
           "steps": [
             "একটি school project-এর জন্য ৩টি search keyword লিখুন",
             "Trusted source বোঝার ২টি লক্ষণ লিখুন",
-            "Suspicious link পেলে কী করবেন লিখুন"
+            "Suspicious link পেলে কী করবেন লিখুন",
+            "Source Check: author/source, HTTPS, purpose এবং cross-verification দেখে information বিচার করুন।"
           ],
           "quiz": [
             {
@@ -795,7 +985,13 @@
                 "type": "download"
               }
             ]
-          }
+          },
+          "coverageTags": [
+            "cross:cyber_ethics",
+            "topic:c6_browse",
+            "topic:c6_safety",
+            "topic:c6_trust"
+          ]
         }
       ]
     },
@@ -837,6 +1033,12 @@
               "correctIndex": 0,
               "explanation": "Scratch project-এর character/object-কে Sprite বলা হয়।"
             }
+          ],
+          "coverageTags": [
+            "topic:c7_intro",
+            "topic:c7_palette",
+            "topic:c7_sprite",
+            "topic:c7_stage"
           ]
         },
         {
@@ -847,12 +1049,14 @@
           "type": "practical",
           "contentBn": [
             "Scratch-এ block-এর order খুব গুরুত্বপূর্ণ। Move, Turn, Repeat এবং Pen block সঠিক sequence-এ দিলে sprite দিয়ে geometric pattern আঁকা যায়।",
-            "একই instruction বারবার দরকার হলে Repeat block code-কে ছোট ও পরিষ্কার করে।"
+            "একই instruction বারবার দরকার হলে Repeat block code-কে ছোট ও পরিষ্কার করে।",
+            "Computational Thinking: একটি বড় drawing problem-কে Move, Turn, Repeat এবং Pen-এর ছোট repeatable steps-এ ভাঙা হলো decomposition ও pattern-based problem solving-এর উদাহরণ।"
           ],
           "steps": [
             "Pen down-এর পরে move block কেন দরকার বলুন",
             "Square আঁকতে repeat count কত হতে পারে চিন্তা করুন",
-            "Turn angle কীভাবে shape বদলায় ব্যাখ্যা করুন"
+            "Turn angle কীভাবে shape বদলায় ব্যাখ্যা করুন",
+            "Math Link: square, triangle বা polygon-এর turn angle নিয়ে পরীক্ষা করুন।"
           ],
           "quiz": [
             {
@@ -877,7 +1081,12 @@
               "move10",
               "turn15"
             ]
-          }
+          },
+          "coverageTags": [
+            "cross:computational_thinking",
+            "topic:c7_move_turn",
+            "topic:c7_pen"
+          ]
         },
         {
           "id": "c5_07_03",
@@ -887,7 +1096,8 @@
           "type": "practical",
           "contentBn": [
             "একই ধরনের sprite দরকার হলে duplicate করলে সময় বাঁচে। তবে প্রতিটি sprite-এর script ও property দেখে নেওয়া দরকার।",
-            "Project নিয়মিত save করলে কাজ হারানোর ঝুঁকি কমে। Existing project open করে editing চালিয়ে যাওয়া যায়।"
+            "Project নিয়মিত save করলে কাজ হারানোর ঝুঁকি কমে। Existing project open করে editing চালিয়ে যাওয়া যায়।",
+            "Project Save/Open শেষ হলে application থেকে নিরাপদভাবে Exit করুন।"
           ],
           "steps": [
             "Sprite duplicate করার উপকারিতা বলুন",
@@ -906,6 +1116,24 @@
               "correctIndex": 0,
               "explanation": "আগের project চালিয়ে যেতে project open করতে হয়।"
             }
+          ],
+          "practicalKind": "scratch",
+          "practicalData": {
+            "mode": "project_workflow",
+            "taskTitle": "Duplicate, Save, Open and Exit Project",
+            "requiredBlocks": [],
+            "requiredActions": [
+              "duplicate_sprite",
+              "save_project",
+              "open_project",
+              "exit_project"
+            ]
+          },
+          "coverageTags": [
+            "topic:c7_duplicate",
+            "topic:c7_exit",
+            "topic:c7_open",
+            "topic:c7_save"
           ]
         }
       ]
@@ -926,7 +1154,7 @@
           "titleBn": "Sprite Library, Costume ও Backdrop",
           "summaryBn": "Project scene ও character সাজানো।",
           "durationMinutes": 13,
-          "type": "theory",
+          "type": "practical",
           "contentBn": [
             "Sprite Library থেকে project-এর জন্য নতুন character নেওয়া যায়। Costume sprite-এর appearance বদলাতে সাহায্য করে এবং Backdrop stage-এর background তৈরি করে।",
             "Story বা game design-এর আগে character, scene ও objective পরিকল্পনা করলে programming সহজ হয়।"
@@ -948,6 +1176,22 @@
               "correctIndex": 0,
               "explanation": "Scratch stage-এর background হলো Backdrop।"
             }
+          ],
+          "practicalKind": "scratch",
+          "practicalData": {
+            "mode": "scene_setup",
+            "taskTitle": "Sprite Library, Costume and Backdrop",
+            "requiredBlocks": [],
+            "requiredActions": [
+              "select_sprite",
+              "choose_costume",
+              "choose_backdrop"
+            ]
+          },
+          "coverageTags": [
+            "topic:c8_backdrop",
+            "topic:c8_costume",
+            "topic:c8_library"
           ]
         },
         {
@@ -989,7 +1233,13 @@
               "repeat4",
               "play_sound"
             ]
-          }
+          },
+          "coverageTags": [
+            "topic:c8_event",
+            "topic:c8_repeat",
+            "topic:c8_say",
+            "topic:c8_sound"
+          ]
         },
         {
           "id": "c5_08_03",
@@ -999,13 +1249,15 @@
           "type": "practical",
           "contentBn": [
             "Quiz game-এ প্রশ্ন দেখানো, user response নেওয়া এবং correct/incorrect feedback দেওয়ার একটি স্পষ্ট flow দরকার।",
-            "Game logic বানানোর আগে flow লিখুন: Start → Ask Question → Check Answer → Feedback → Next Question/End। এই computational thinking debugging সহজ করে।"
+            "Game logic বানানোর আগে flow লিখুন: Start → Ask Question → Check Answer → Feedback → Next Question/End। এই computational thinking debugging সহজ করে।",
+            "Collaboration & Debugging: quiz game test করার সময় friend-এর feedback নিন, ভুল block order খুঁজুন এবং একবারে একটি change করে result compare করুন।"
           ],
           "steps": [
             "৩টি quiz question লিখুন",
             "Correct answer ও wrong answer-এর feedback ঠিক করুন",
             "Start event নির্বাচন করুন",
-            "Game end message ঠিক করুন"
+            "Game end message ঠিক করুন",
+            "Project Check: question → answer → feedback flow test করুন।"
           ],
           "quiz": [
             {
@@ -1030,7 +1282,10 @@
               "wait_answer",
               "say_result"
             ]
-          }
+          },
+          "coverageTags": [
+            "topic:c8_quiz"
+          ]
         }
       ]
     },
@@ -1072,6 +1327,11 @@
               "correctIndex": 0,
               "explanation": "Problem solving intelligence-এর একটি গুরুত্বপূর্ণ অংশ।"
             }
+          ],
+          "coverageTags": [
+            "topic:c9_ai",
+            "topic:c9_human",
+            "topic:c9_intelligence"
           ]
         },
         {
@@ -1102,6 +1362,10 @@
               "correctIndex": 0,
               "explanation": "AI ভুল করতে পারে, তাই গুরুত্বপূর্ণ তথ্য যাচাই করা উচিত।"
             }
+          ],
+          "coverageTags": [
+            "topic:c9_apps",
+            "topic:c9_compare"
           ]
         },
         {
@@ -1112,13 +1376,16 @@
           "type": "practical",
           "contentBn": [
             "Rock–Paper–Scissors activity ব্যবহার করে rules, choices এবং computer decision-এর ধারণা বোঝানো যায়। Random choice আর learned pattern-based choice এক জিনিস নয়—এই পার্থক্যটি বোঝা জরুরি।",
-            "Activity শেষে প্রশ্ন করুন: computer কি সত্যিই 'ভাবছে', নাকি rule/data অনুসারে output দিচ্ছে? এই প্রশ্ন AI literacy গড়ে তোলে।"
+            "Activity শেষে প্রশ্ন করুন: computer কি সত্যিই 'ভাবছে', নাকি rule/data অনুসারে output দিচ্ছে? এই প্রশ্ন AI literacy গড়ে তোলে।",
+            "Inference Practice: আগের choices থেকে pattern দেখে prediction করা inference-এর উদাহরণ; prediction certainty নয়।",
+            "AI Ethics: AI ভুল বা biased হতে পারে। গুরুত্বপূর্ণ result verify করুন, private data শেয়ার করবেন না এবং human judgement বজায় রাখুন।"
           ],
           "steps": [
             "Rock, Paper, Scissors-এর তিনটি rule লিখুন",
             "Random choice কী ব্যাখ্যা করুন",
             "Pattern-based prediction কী হতে পারে আলোচনা করুন",
-            "Computer decision ও human decision তুলনা করুন"
+            "Computer decision ও human decision তুলনা করুন",
+            "Compare & Reason: Human judgement এবং AI prediction-এর strength ও limitation লিখুন।"
           ],
           "quiz": [
             {
@@ -1138,7 +1405,13 @@
             "mode": "rock_paper_scissors",
             "taskTitle": "Pattern Predictor: Rock–Paper–Scissors",
             "minimumRounds": 5
-          }
+          },
+          "coverageTags": [
+            "cross:higher_order",
+            "topic:c9_pattern",
+            "topic:c9_rps",
+            "topic:c9_verify"
+          ]
         }
       ]
     }
