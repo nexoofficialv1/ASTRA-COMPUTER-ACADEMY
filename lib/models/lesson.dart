@@ -12,6 +12,10 @@ class Lesson {
     required this.quiz,
     required this.practicalKind,
     required this.practicalData,
+    this.titleEn = '',
+    this.summaryEn = '',
+    this.contentEn = const [],
+    this.stepsEn = const [],
   });
 
   final String id;
@@ -25,8 +29,15 @@ class Lesson {
   final String? practicalKind;
   final Map<String, dynamic> practicalData;
 
+  final String titleEn;
+  final String summaryEn;
+  final List<String> contentEn;
+  final List<String> stepsEn;
+
   bool get isPractical => type == 'practical';
   bool get hasInteractivePractical => practicalKind != null;
+  bool get hasEnglishExplanation =>
+      summaryEn.trim().isNotEmpty || contentEn.isNotEmpty || stepsEn.isNotEmpty;
 
   factory Lesson.fromJson(Map<String, dynamic> json) {
     return Lesson(
@@ -44,6 +55,10 @@ class Lesson {
       practicalData: Map<String, dynamic>.from(
         json['practicalData'] as Map<String, dynamic>? ?? const {},
       ),
+      titleEn: json['titleEn'] as String? ?? '',
+      summaryEn: json['summaryEn'] as String? ?? '',
+      contentEn: List<String>.from(json['contentEn'] as List<dynamic>? ?? const []),
+      stepsEn: List<String>.from(json['stepsEn'] as List<dynamic>? ?? const []),
     );
   }
 }

@@ -314,6 +314,57 @@ class LessonScreen extends StatelessWidget {
             Text(paragraph, style: const TextStyle(fontSize: 16, height: 1.6)),
             const SizedBox(height: 14),
           ],
+          if (lesson.hasEnglishExplanation) ...[
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Row(
+                      children: [
+                        Icon(Icons.translate_rounded, size: 20),
+                        SizedBox(width: 8),
+                        Text(
+                          'English Explanation',
+                          style: TextStyle(fontWeight: FontWeight.w900),
+                        ),
+                      ],
+                    ),
+                    if (lesson.titleEn.trim().isNotEmpty) ...[
+                      const SizedBox(height: 12),
+                      Text(
+                        lesson.titleEn,
+                        style: const TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w900,
+                        ),
+                      ),
+                    ],
+                    if (lesson.summaryEn.trim().isNotEmpty) ...[
+                      const SizedBox(height: 8),
+                      Text(
+                        lesson.summaryEn,
+                        style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.w700,
+                          height: 1.5,
+                        ),
+                      ),
+                    ],
+                    for (final paragraph in lesson.contentEn) ...[
+                      const SizedBox(height: 10),
+                      Text(
+                        paragraph,
+                        style: const TextStyle(fontSize: 15, height: 1.55),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 14),
+          ],
           if (lesson.steps.isNotEmpty) ...[
             const SizedBox(height: 8),
             Text(
@@ -335,6 +386,28 @@ class LessonScreen extends StatelessWidget {
                   ],
                 ),
               ),
+            if (lesson.stepsEn.isNotEmpty) ...[
+              const SizedBox(height: 8),
+              Text(
+                lesson.isPractical
+                    ? 'Practice Steps — English'
+                    : 'Key Points — English',
+                style: const TextStyle(fontWeight: FontWeight.w900),
+              ),
+              const SizedBox(height: 8),
+              for (var i = 0; i < lesson.stepsEn.length; i++)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 9),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      CircleAvatar(radius: 12, child: Text('${i + 1}')),
+                      const SizedBox(width: 10),
+                      Expanded(child: Text(lesson.stepsEn[i])),
+                    ],
+                  ),
+                ),
+            ],
           ],
         ],
       ),

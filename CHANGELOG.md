@@ -1,3 +1,11 @@
+## 1.1.0+18 - Class V Bengali + English Learning Content
+- Added English explanations directly below Bengali explanations for all 27 Class V lessons.
+- Added English lesson titles, summaries, explanations and practice/key-point steps.
+- Added bilingual quiz questions, options and answer explanations.
+- Bengali remains primary; English is a direct supporting explanation underneath.
+- English fields remain optional for the existing Foundation curriculum.
+- Added bilingual integrity tests for all Class V lessons and quizzes.
+
 ## 1.1.0+17 - Class V Full Syllabus Completion Audit
 - Added a machine-checkable Class V coverage manifest covering all 9 chapters and 80+ required syllabus topics.
 - Closed previously non-interactive practical gaps in Chapters 1 and 2 with a Concept Sort lab.

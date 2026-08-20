@@ -75,6 +75,15 @@ class _QuizScreenState extends State<QuizScreen> {
                   fontWeight: FontWeight.w800,
                 ),
           ),
+          if (question.questionEn.trim().isNotEmpty) ...[
+            const SizedBox(height: 8),
+            Text(
+              question.questionEn,
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w700,
+                  ),
+            ),
+          ],
           const SizedBox(height: 18),
           RadioGroup<int>(
             groupValue: _selected,
@@ -89,7 +98,21 @@ class _QuizScreenState extends State<QuizScreen> {
                     child: RadioListTile<int>(
                       value: i,
                       enabled: !_answered,
-                      title: Text(question.options[i]),
+                      title: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(question.options[i]),
+                          if (i < question.optionsEn.length &&
+                              question.optionsEn[i].trim().isNotEmpty)
+                            Padding(
+                              padding: const EdgeInsets.only(top: 3),
+                              child: Text(
+                                question.optionsEn[i],
+                                style: Theme.of(context).textTheme.bodySmall,
+                              ),
+                            ),
+                        ],
+                      ),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14),
                         side: BorderSide(color: Theme.of(context).dividerColor),
@@ -104,7 +127,21 @@ class _QuizScreenState extends State<QuizScreen> {
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(16),
-                child: Text(question.explanation),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(question.explanation),
+                    if (question.explanationEn.trim().isNotEmpty) ...[
+                      const Divider(height: 24),
+                      const Text(
+                        'English Explanation',
+                        style: TextStyle(fontWeight: FontWeight.w900),
+                      ),
+                      const SizedBox(height: 6),
+                      Text(question.explanationEn),
+                    ],
+                  ],
+                ),
               ),
             ),
           ],

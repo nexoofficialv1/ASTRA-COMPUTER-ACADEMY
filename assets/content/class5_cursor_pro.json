@@ -45,7 +45,15 @@
                 "Cloud"
               ],
               "correctIndex": 1,
-              "explanation": "Second Generation-এর মূল প্রযুক্তিগত পরিবর্তন ছিল transistor-এর ব্যবহার।"
+              "explanation": "Second Generation-এর মূল প্রযুক্তিগত পরিবর্তন ছিল transistor-এর ব্যবহার।",
+              "questionEn": "What replaced vacuum tubes in second-generation computers?",
+              "optionsEn": [
+                "Integrated Circuits",
+                "Transistors",
+                "Microprocessors",
+                "Cloud Computing"
+              ],
+              "explanationEn": "Second-generation computers used transistors instead of vacuum tubes."
             }
           ],
           "coverageTags": [
@@ -55,6 +63,19 @@
             "topic:c1_gen3",
             "topic:c1_gen4",
             "topic:c1_gen5"
+          ],
+          "titleEn": "Evolution of Computers and the Five Generations",
+          "summaryEn": "Learn how computers developed from vacuum tubes to modern AI-oriented systems.",
+          "contentEn": [
+            "Computers evolved through major technological stages. Vacuum tubes were replaced by transistors, then integrated circuits, microprocessors and finally advanced intelligent computing.",
+            "The purpose of studying generations is to understand how each technology made computers smaller, faster, more reliable and more capable."
+          ],
+          "stepsEn": [
+            "1st: Vacuum Tubes",
+            "2nd: Transistors",
+            "3rd: Integrated Circuits",
+            "4th: Microprocessors",
+            "5th: AI and advanced intelligent computing"
           ]
         },
         {
@@ -82,12 +103,32 @@
                 "Printer"
               ],
               "correctIndex": 1,
-              "explanation": "CPU নির্দেশ ও data process করে।"
+              "explanation": "CPU নির্দেশ ও data process করে।",
+              "questionEn": "Where does most computer processing take place?",
+              "optionsEn": [
+                "Monitor",
+                "CPU",
+                "Keyboard",
+                "Printer"
+              ],
+              "explanationEn": "The CPU processes instructions and data."
             }
           ],
           "coverageTags": [
             "topic:c1_ipo",
             "topic:c1_storage"
+          ],
+          "titleEn": "How a Computer Works: Input → Processing → Output",
+          "summaryEn": "Understand the basic working cycle of a computer.",
+          "contentEn": [
+            "A computer receives data through input devices, processes it in the CPU, presents results through output devices and can store information for later use.",
+            "For example, typing numbers into a calculator is input, calculation is processing, the answer on screen is output and saving it is storage."
+          ],
+          "stepsEn": [
+            "Identify the input.",
+            "Identify the processing stage.",
+            "Identify the output.",
+            "Explain where storage is used."
           ]
         },
         {
@@ -117,7 +158,15 @@
                 "Speaker"
               ],
               "correctIndex": 0,
-              "explanation": "RAM চলমান program ও data-এর working memory হিসেবে ব্যবহৃত হয়।"
+              "explanation": "RAM চলমান program ও data-এর working memory হিসেবে ব্যবহৃত হয়।",
+              "questionEn": "Which one is temporary working memory?",
+              "optionsEn": [
+                "RAM",
+                "Printer",
+                "Mouse",
+                "Speaker"
+              ],
+              "explanationEn": "RAM is used as temporary working memory while programs are running."
             }
           ],
           "practicalKind": "concept_sort",
@@ -166,6 +215,18 @@
             "topic:c1_input",
             "topic:c1_memory",
             "topic:c1_output"
+          ],
+          "titleEn": "Input, Output, Processing Devices and Memory",
+          "summaryEn": "Recognize common devices and understand memory and storage.",
+          "contentEn": [
+            "Keyboard, mouse, scanner and microphone are input devices. Monitor, printer and speaker are output devices. The CPU is the main processing component.",
+            "RAM is temporary working memory, while SSD and HDD are used for longer-term storage."
+          ],
+          "stepsEn": [
+            "List input devices.",
+            "List output devices.",
+            "Explain the role of the CPU.",
+            "Compare RAM with SSD/HDD."
           ]
         }
       ]
@@ -207,12 +268,32 @@
                 "Scratch project"
               ],
               "correctIndex": 2,
-              "explanation": "Keyboard একটি physical input device।"
+              "explanation": "Keyboard একটি physical input device।",
+              "questionEn": "Which of these is hardware?",
+              "optionsEn": [
+                "MS Word",
+                "Windows",
+                "Keyboard",
+                "Scratch project"
+              ],
+              "explanationEn": "A keyboard is a physical input device, so it is hardware."
             }
           ],
           "coverageTags": [
             "topic:c2_hardware",
             "topic:c2_hardware_examples"
+          ],
+          "titleEn": "What is Hardware?",
+          "summaryEn": "Identify the physical parts of a computer.",
+          "contentEn": [
+            "Hardware means the physical components of a computer that can be seen or touched, such as the monitor, keyboard, mouse, motherboard, printer and storage devices.",
+            "Hardware needs software instructions to perform useful tasks."
+          ],
+          "stepsEn": [
+            "Identify input hardware.",
+            "Identify output hardware.",
+            "Identify processing hardware.",
+            "Identify storage hardware."
           ]
         },
         {
@@ -240,13 +321,32 @@
                 "Firmware-only"
               ],
               "correctIndex": 0,
-              "explanation": "MS Word একটি application software।"
+              "explanation": "MS Word একটি application software।",
+              "questionEn": "What type of software is MS Word?",
+              "optionsEn": [
+                "Application Software",
+                "Input Device",
+                "Storage Hardware",
+                "Firmware only"
+              ],
+              "explanationEn": "MS Word is application software."
             }
           ],
           "coverageTags": [
             "topic:c2_application",
             "topic:c2_software",
             "topic:c2_system"
+          ],
+          "titleEn": "What is Software?",
+          "summaryEn": "Understand system software and application software.",
+          "contentEn": [
+            "Software is a set of programs and instructions that tells computer hardware what to do.",
+            "Windows is system software. MS Word, Paint 3D, browsers and Scratch are examples of application software."
+          ],
+          "stepsEn": [
+            "Give an example of system software.",
+            "Give examples of application software.",
+            "Explain the role of an operating system."
           ]
         },
         {
@@ -275,7 +375,15 @@
                 "RAM ও paper only"
               ],
               "correctIndex": 0,
-              "explanation": "Print command software থেকে আসে এবং printer hardware output দেয়।"
+              "explanation": "Print command software থেকে আসে এবং printer hardware output দেয়।",
+              "questionEn": "Which pair works together when printing a document?",
+              "optionsEn": [
+                "Printer and software",
+                "Mouse and table",
+                "Speaker and pencil",
+                "RAM and paper only"
+              ],
+              "explanationEn": "Software sends the print command and the printer produces the output."
             }
           ],
           "practicalKind": "concept_sort",
@@ -315,6 +423,17 @@
           },
           "coverageTags": [
             "topic:c2_relation"
+          ],
+          "titleEn": "How Hardware and Software Work Together",
+          "summaryEn": "Understand how hardware and software depend on each other.",
+          "contentEn": [
+            "When a user types in Word, the keyboard sends input, Word handles the text, the CPU processes it and the monitor displays the result.",
+            "Hardware and software work together to complete user tasks. Responsible users should also use software from trusted and legal sources."
+          ],
+          "stepsEn": [
+            "Explain the typing hardware-software chain.",
+            "Explain the printing hardware-software chain.",
+            "Identify hardware and software used in one everyday task."
           ]
         }
       ]
@@ -355,7 +474,15 @@
                 "Web page-এ"
               ],
               "correctIndex": 0,
-              "explanation": "Start button taskbar-এর অংশ।"
+              "explanation": "Start button taskbar-এর অংশ।",
+              "questionEn": "What normally appears after Windows finishes booting?",
+              "optionsEn": [
+                "Desktop",
+                "Printer page",
+                "Keyboard cable",
+                "Spreadsheet cell"
+              ],
+              "explanationEn": "After Windows loads, the desktop is normally displayed."
             }
           ],
           "coverageTags": [
@@ -364,6 +491,18 @@
             "topic:c3_os",
             "topic:c3_start",
             "topic:c3_taskbar"
+          ],
+          "titleEn": "Windows 10: Booting, Desktop and Main Parts",
+          "summaryEn": "Learn the basic flow from starting Windows to using the desktop.",
+          "contentEn": [
+            "The operating system coordinates hardware and applications. During booting, Windows loads and then shows the desktop.",
+            "The desktop includes icons, the Start menu and the taskbar, which help users open programs and switch between tasks."
+          ],
+          "stepsEn": [
+            "Understand booting.",
+            "Recognize the desktop.",
+            "Locate the Start menu.",
+            "Recognize the taskbar."
           ]
         },
         {
@@ -391,7 +530,15 @@
                 "Undo typing"
               ],
               "correctIndex": 0,
-              "explanation": "Move একটি file বা folder-কে অন্য location-এ স্থানান্তর করে।"
+              "explanation": "Move একটি file বা folder-কে অন্য location-এ স্থানান্তর করে।",
+              "questionEn": "What is the main purpose of a folder?",
+              "optionsEn": [
+                "Organize files",
+                "Print documents",
+                "Increase screen size",
+                "Replace RAM"
+              ],
+              "explanationEn": "Folders are used to organize files and subfolders."
             }
           ],
           "practicalKind": "windows_file_manager",
@@ -437,6 +584,18 @@
             "topic:c3_copy_move",
             "topic:c3_file",
             "topic:c3_folder"
+          ],
+          "titleEn": "Files and Folders",
+          "summaryEn": "Practice organizing files and folders in Windows.",
+          "contentEn": [
+            "A file stores information such as a document, image or project. A folder organizes files and other folders.",
+            "Important file-management actions include creating folders, moving or copying files, renaming files and deleting items carefully."
+          ],
+          "stepsEn": [
+            "Create a folder.",
+            "Move or copy a file.",
+            "Rename a file.",
+            "Delete an unnecessary file."
           ]
         },
         {
@@ -466,7 +625,15 @@
                 "File extension"
               ],
               "correctIndex": 0,
-              "explanation": "Browser internet/web content দেখার application।"
+              "explanation": "Browser internet/web content দেখার application।",
+              "questionEn": "Which feature changes the desktop background?",
+              "optionsEn": [
+                "Wallpaper",
+                "CPU",
+                "RAM",
+                "Recycle Bin"
+              ],
+              "explanationEn": "Wallpaper is the image displayed as the desktop background."
             }
           ],
           "practicalKind": "windows_personalization",
@@ -485,6 +652,19 @@
             "topic:c3_settings",
             "topic:c3_theme",
             "topic:c3_wallpaper"
+          ],
+          "titleEn": "Control Panel, Browser, Wallpaper and Themes",
+          "summaryEn": "Explore Windows settings and personalization safely.",
+          "contentEn": [
+            "Windows Settings and Control Panel are used to manage system settings. A browser is used to access websites.",
+            "Wallpaper changes the desktop background and themes change the visual appearance. Avoid unsafe downloads and unknown themes."
+          ],
+          "stepsEn": [
+            "Open Settings and Control Panel.",
+            "Change wallpaper.",
+            "Change theme.",
+            "Open a browser.",
+            "Use trusted settings and downloads."
           ]
         }
       ]
@@ -525,7 +705,15 @@
                 "Status Bar"
               ],
               "correctIndex": 0,
-              "explanation": "Find and Replace একই text দ্রুত খুঁজে পরিবর্তন করতে পারে।"
+              "explanation": "Find and Replace একই text দ্রুত খুঁজে পরিবর্তন করতে পারে।",
+              "questionEn": "Which tool can change the same word in many places quickly?",
+              "optionsEn": [
+                "Find and Replace",
+                "Zoom",
+                "Print Preview",
+                "Status Bar"
+              ],
+              "explanationEn": "Find and Replace searches for selected text and replaces matching occurrences."
             }
           ],
           "practicalKind": "word_advanced",
@@ -553,6 +741,18 @@
             "topic:c4_find",
             "topic:c4_spelling",
             "topic:c4_thesaurus"
+          ],
+          "titleEn": "Editing, Proofing and Find & Replace in Word 2019",
+          "summaryEn": "Use advanced editing and proofing tools in Word.",
+          "contentEn": [
+            "Cut, Copy and Paste move or duplicate text. Spelling and Grammar tools help find writing errors.",
+            "The Thesaurus suggests similar words, while Find and Replace can change repeated text quickly throughout a document."
+          ],
+          "stepsEn": [
+            "Use Cut, Copy and Paste.",
+            "Run Spelling and Grammar check.",
+            "Use the Thesaurus.",
+            "Use Find and Replace."
           ]
         },
         {
@@ -580,7 +780,15 @@
                 "Internet disconnect করতে"
               ],
               "correctIndex": 0,
-              "explanation": "ক্রম বা sequence দেখাতে numbered list উপযোগী।"
+              "explanation": "ক্রম বা sequence দেখাতে numbered list উপযোগী।",
+              "questionEn": "Which setting changes Portrait to Landscape?",
+              "optionsEn": [
+                "Orientation",
+                "Thesaurus",
+                "Clipboard",
+                "Word Count"
+              ],
+              "explanationEn": "Page Orientation controls Portrait and Landscape layouts."
             }
           ],
           "practicalKind": "word_advanced",
@@ -613,6 +821,18 @@
             "topic:c4_page",
             "topic:c4_para",
             "topic:c4_textformat"
+          ],
+          "titleEn": "Text, Paragraph, List and Page Formatting",
+          "summaryEn": "Format text, paragraphs, lists and pages in Word.",
+          "contentEn": [
+            "Text formatting includes font, size, bold and italic. Paragraph formatting includes alignment and spacing.",
+            "Bullets and numbering organize lists, while page settings include margins and portrait or landscape orientation."
+          ],
+          "stepsEn": [
+            "Apply text formatting.",
+            "Use paragraph alignment.",
+            "Create a list.",
+            "Change page orientation."
           ]
         },
         {
@@ -643,7 +863,15 @@
                 "Task Manager"
               ],
               "correctIndex": 0,
-              "explanation": "Text Wrapping image ও text-এর layout নিয়ন্ত্রণ করে।"
+              "explanation": "Text Wrapping image ও text-এর layout নিয়ন্ত্রণ করে।",
+              "questionEn": "Which feature controls how text flows around a picture?",
+              "optionsEn": [
+                "Text Wrapping",
+                "Thesaurus",
+                "Spell Check",
+                "Taskbar"
+              ],
+              "explanationEn": "Text Wrapping controls the relationship between an image and nearby text."
             }
           ],
           "practicalKind": "word_advanced",
@@ -677,6 +905,19 @@
             "topic:c4_save",
             "topic:c4_wordart",
             "topic:c4_wrap"
+          ],
+          "titleEn": "Graphics, Text Wrapping, Draw, WordArt and Saving",
+          "summaryEn": "Create richer Word documents using graphics and design tools.",
+          "contentEn": [
+            "Word can insert pictures and control how text wraps around them. The Draw tools support simple annotations and WordArt creates decorative headings.",
+            "Saving preserves the document for later use. Use clear file names and suitable folders."
+          ],
+          "stepsEn": [
+            "Insert a picture.",
+            "Choose Text Wrapping.",
+            "Use Draw tools.",
+            "Create WordArt.",
+            "Save the document."
           ]
         }
       ]
@@ -717,12 +958,31 @@
                 "Disk formatting only"
               ],
               "correctIndex": 0,
-              "explanation": "Paint 3D drawing ও visual creation-এর জন্য তৈরি।"
+              "explanation": "Paint 3D drawing ও visual creation-এর জন্য তৈরি।",
+              "questionEn": "What is the main working area in Paint 3D called?",
+              "optionsEn": [
+                "Canvas",
+                "Taskbar",
+                "Inbox",
+                "Formula Bar"
+              ],
+              "explanationEn": "The canvas is the main area where visual objects are created."
             }
           ],
           "coverageTags": [
             "topic:c5_canvas",
             "topic:c5_interface"
+          ],
+          "titleEn": "Getting Started with Paint 3D",
+          "summaryEn": "Recognize the Paint 3D workspace and main tools.",
+          "contentEn": [
+            "Paint 3D is used to create and edit 2D and 3D visual projects.",
+            "The workspace contains a canvas and tools for shapes, brushes, stickers and other visual elements."
+          ],
+          "stepsEn": [
+            "Locate the workspace.",
+            "Locate the canvas.",
+            "Identify the main tool groups."
           ]
         },
         {
@@ -751,7 +1011,15 @@
                 "Formula Bar"
               ],
               "correctIndex": 0,
-              "explanation": "3D Shapes depth-যুক্ত object তৈরির জন্য।"
+              "explanation": "3D Shapes depth-যুক্ত object তৈরির জন্য।",
+              "questionEn": "Which type of shape includes depth?",
+              "optionsEn": [
+                "3D shape",
+                "2D shape only",
+                "Text cursor",
+                "Browser tab"
+              ],
+              "explanationEn": "A 3D shape represents depth as well as height and width."
             }
           ],
           "practicalKind": "paint3d",
@@ -768,6 +1036,18 @@
             "topic:c5_3d",
             "topic:c5_brush",
             "topic:c5_sticker"
+          ],
+          "titleEn": "2D Shapes, 3D Shapes, Brushes and Stickers",
+          "summaryEn": "Use common Paint 3D tools in a practice project.",
+          "contentEn": [
+            "2D shapes are flat, while 3D shapes include depth. Brushes add colour or freehand marks and stickers decorate a design.",
+            "Combining these tools helps learners understand basic visual composition."
+          ],
+          "stepsEn": [
+            "Add 2D shapes.",
+            "Add a 3D shape.",
+            "Use a brush or colour.",
+            "Add a sticker."
           ]
         },
         {
@@ -800,7 +1080,15 @@
                 "File name না দেওয়া"
               ],
               "correctIndex": 0,
-              "explanation": "Poster-এর মূল কাজ হলো message পরিষ্কারভাবে communicate করা।"
+              "explanation": "Poster-এর মূল কাজ হলো message পরিষ্কারভাবে communicate করা।",
+              "questionEn": "Why should a Paint 3D project be saved?",
+              "optionsEn": [
+                "To open and continue it later",
+                "To erase the canvas",
+                "To switch off the monitor",
+                "To remove all shapes"
+              ],
+              "explanationEn": "Saving keeps the project so it can be opened and edited later."
             }
           ],
           "practicalKind": "paint3d",
@@ -821,6 +1109,19 @@
             "cross:sdg",
             "topic:c5_poster",
             "topic:c5_save_open"
+          ],
+          "titleEn": "Project: Healthy Food Poster",
+          "summaryEn": "Create, save and reopen a Healthy Food poster.",
+          "contentEn": [
+            "A poster communicates an idea visually using a title, shapes, colour and stickers.",
+            "Saving keeps the project for later, and opening a saved project allows further editing. Use healthy-living messages responsibly and avoid misleading claims."
+          ],
+          "stepsEn": [
+            "Create a clear title.",
+            "Use shapes, colour and stickers.",
+            "Save the project.",
+            "Open the saved project.",
+            "Review clarity and visual balance."
           ]
         }
       ]
@@ -860,12 +1161,31 @@
                 "একটি offline folder"
               ],
               "correctIndex": 0,
-              "explanation": "Internet বহু network-কে যুক্ত করে।"
+              "explanation": "Internet বহু network-কে যুক্ত করে।",
+              "questionEn": "Which description best matches the Internet?",
+              "optionsEn": [
+                "A network of networks",
+                "One single computer",
+                "Only a printer connection",
+                "A type of keyboard"
+              ],
+              "explanationEn": "The Internet connects many different networks together."
             }
           ],
           "coverageTags": [
             "topic:c6_history",
             "topic:c6_network"
+          ],
+          "titleEn": "Introduction and History of the Internet",
+          "summaryEn": "Understand the Internet as a network of networks.",
+          "contentEn": [
+            "The Internet connects many computer networks around the world and allows devices and people to exchange information.",
+            "It developed from earlier research and communication networks into the global system used today."
+          ],
+          "stepsEn": [
+            "Explain 'network of networks'.",
+            "Describe early research networks.",
+            "Give examples of Internet use."
           ]
         },
         {
@@ -893,7 +1213,15 @@
                 "USB keyboard"
               ],
               "correctIndex": 0,
-              "explanation": "URL web resource-এর address নির্দেশ করে।"
+              "explanation": "URL web resource-এর address নির্দেশ করে।",
+              "questionEn": "What is a URL?",
+              "optionsEn": [
+                "A web address",
+                "A printer cable",
+                "A CPU instruction",
+                "A folder icon"
+              ],
+              "explanationEn": "A URL identifies the address of a web resource."
             }
           ],
           "coverageTags": [
@@ -902,6 +1230,18 @@
             "topic:c6_url",
             "topic:c6_webpage",
             "topic:c6_website"
+          ],
+          "titleEn": "Basic Internet Terms",
+          "summaryEn": "Learn browser, website, web page, URL and search engine.",
+          "contentEn": [
+            "A browser is used to access web content. A website is a collection of related web pages.",
+            "A URL is a web address, and a search engine helps users find information using keywords."
+          ],
+          "stepsEn": [
+            "Define browser.",
+            "Explain website and web page.",
+            "Explain URL.",
+            "Explain search engine."
           ]
         },
         {
@@ -931,7 +1271,15 @@
                 "যে কোনো file download করা"
               ],
               "correctIndex": 0,
-              "explanation": "ব্যক্তিগত credential অজানা site-এ দেওয়া নিরাপদ নয়।"
+              "explanation": "ব্যক্তিগত credential অজানা site-এ দেওয়া নিরাপদ নয়।",
+              "questionEn": "What should you do if an unknown site asks for your OTP?",
+              "optionsEn": [
+                "Do not share it and tell a trusted adult",
+                "Share it immediately",
+                "Post it publicly",
+                "Use it as a username"
+              ],
+              "explanationEn": "OTPs and passwords are private security information and should not be shared."
             }
           ],
           "practicalKind": "internet_browser",
@@ -991,6 +1339,19 @@
             "topic:c6_browse",
             "topic:c6_safety",
             "topic:c6_trust"
+          ],
+          "titleEn": "Browsing, Search Engines and Cyber Safety",
+          "summaryEn": "Search responsibly and protect private information online.",
+          "contentEn": [
+            "Search engines use keywords to find relevant pages. Reliable information should be checked for source, purpose, security and consistency with other trusted sources.",
+            "Never share passwords, OTPs, addresses, phone numbers or other private information on unknown websites. Avoid suspicious links and downloads."
+          ],
+          "stepsEn": [
+            "Search with useful keywords.",
+            "Open a relevant page.",
+            "Check HTTPS.",
+            "Compare trusted sources.",
+            "Protect private information."
           ]
         }
       ]
@@ -1031,7 +1392,15 @@
                 "Folder"
               ],
               "correctIndex": 0,
-              "explanation": "Scratch project-এর character/object-কে Sprite বলা হয়।"
+              "explanation": "Scratch project-এর character/object-কে Sprite বলা হয়।",
+              "questionEn": "What is a programmable object in Scratch called?",
+              "optionsEn": [
+                "Sprite",
+                "Cell",
+                "Folder",
+                "Slide"
+              ],
+              "explanationEn": "A Sprite is a programmable character or object in Scratch."
             }
           ],
           "coverageTags": [
@@ -1039,6 +1408,18 @@
             "topic:c7_palette",
             "topic:c7_sprite",
             "topic:c7_stage"
+          ],
+          "titleEn": "Introduction to Scratch 3 and Its Interface",
+          "summaryEn": "Recognize the main parts of the Scratch 3 workspace.",
+          "contentEn": [
+            "Scratch 3 is a block-based programming environment used to create interactive stories, animations and games.",
+            "The Stage shows the project, Sprites are programmable objects, the Blocks Palette contains coding blocks and the Coding Area is where blocks are assembled."
+          ],
+          "stepsEn": [
+            "Locate the Stage.",
+            "Identify a Sprite.",
+            "Find the Blocks Palette.",
+            "Find the Coding Area."
           ]
         },
         {
@@ -1068,7 +1449,15 @@
                 "Sensing only"
               ],
               "correctIndex": 0,
-              "explanation": "Repeat একটি control structure।"
+              "explanation": "Repeat একটি control structure।",
+              "questionEn": "Which block repeats the same actions several times?",
+              "optionsEn": [
+                "Repeat",
+                "Delete",
+                "Print",
+                "Save As"
+              ],
+              "explanationEn": "Repeat runs a sequence multiple times."
             }
           ],
           "practicalKind": "scratch",
@@ -1086,6 +1475,19 @@
             "cross:computational_thinking",
             "topic:c7_move_turn",
             "topic:c7_pen"
+          ],
+          "titleEn": "Drawing Colourful Shapes with Pen Blocks",
+          "summaryEn": "Use Pen, Move, Turn and Repeat blocks to draw shapes.",
+          "contentEn": [
+            "Pen blocks let a sprite draw while it moves. Move and Turn control motion, while Repeat runs the same instructions several times.",
+            "This is also an example of computational thinking because a larger drawing problem is broken into smaller repeatable steps."
+          ],
+          "stepsEn": [
+            "Use Pen Down.",
+            "Move the sprite.",
+            "Turn by an angle.",
+            "Repeat the pattern.",
+            "Experiment with polygon angles."
           ]
         },
         {
@@ -1114,7 +1516,15 @@
                 "Browser history delete করা"
               ],
               "correctIndex": 0,
-              "explanation": "আগের project চালিয়ে যেতে project open করতে হয়।"
+              "explanation": "আগের project চালিয়ে যেতে project open করতে হয়।",
+              "questionEn": "Why is a Scratch project saved?",
+              "optionsEn": [
+                "So it can be opened later",
+                "To delete sprites",
+                "To stop the keyboard",
+                "To remove all blocks"
+              ],
+              "explanationEn": "Saving preserves the project for later use."
             }
           ],
           "practicalKind": "scratch",
@@ -1134,6 +1544,18 @@
             "topic:c7_exit",
             "topic:c7_open",
             "topic:c7_save"
+          ],
+          "titleEn": "Duplicate, Save, Open and Exit a Scratch Project",
+          "summaryEn": "Practice basic Scratch project-management actions.",
+          "contentEn": [
+            "Duplicating a sprite creates another similar object. Saving keeps a project for later and opening loads it again.",
+            "After checking that work is saved, the project can be closed safely."
+          ],
+          "stepsEn": [
+            "Duplicate a sprite.",
+            "Save the project.",
+            "Open the saved project.",
+            "Exit safely."
           ]
         }
       ]
@@ -1174,7 +1596,15 @@
                 "Driver"
               ],
               "correctIndex": 0,
-              "explanation": "Scratch stage-এর background হলো Backdrop।"
+              "explanation": "Scratch stage-এর background হলো Backdrop।",
+              "questionEn": "What changes the Scratch Stage background?",
+              "optionsEn": [
+                "Backdrop",
+                "Costume",
+                "Mouse pointer",
+                "Spreadsheet cell"
+              ],
+              "explanationEn": "A Backdrop is the background shown on the Stage."
             }
           ],
           "practicalKind": "scratch",
@@ -1192,6 +1622,17 @@
             "topic:c8_backdrop",
             "topic:c8_costume",
             "topic:c8_library"
+          ],
+          "titleEn": "Sprites, Costumes and Backdrops",
+          "summaryEn": "Set up a Scratch scene using visual project elements.",
+          "contentEn": [
+            "The Sprite Library provides ready-made sprites. Costumes change how sprites look.",
+            "Backdrops change the Stage background and help establish the setting of a project."
+          ],
+          "stepsEn": [
+            "Choose a sprite.",
+            "Choose or change a costume.",
+            "Choose a backdrop."
           ]
         },
         {
@@ -1220,7 +1661,15 @@
                 "File Extension"
               ],
               "correctIndex": 0,
-              "explanation": "Green Flag একটি event trigger।"
+              "explanation": "Green Flag একটি event trigger।",
+              "questionEn": "What is the purpose of an Event block?",
+              "optionsEn": [
+                "Start a script when something happens",
+                "Print a Word document",
+                "Format a disk",
+                "Create a Windows folder"
+              ],
+              "explanationEn": "Event blocks trigger scripts in response to actions or project events."
             }
           ],
           "practicalKind": "scratch",
@@ -1239,6 +1688,18 @@
             "topic:c8_repeat",
             "topic:c8_say",
             "topic:c8_sound"
+          ],
+          "titleEn": "Speech, Repetition, Events and Sound",
+          "summaryEn": "Make a Scratch project respond, speak, repeat actions and play sounds.",
+          "contentEn": [
+            "Say blocks display speech, Repeat blocks repeat actions and Event blocks start scripts when something happens.",
+            "Sound blocks add audio feedback and make projects more interactive."
+          ],
+          "stepsEn": [
+            "Start with an Event.",
+            "Use a Say block.",
+            "Use Repeat.",
+            "Play a sound."
           ]
         },
         {
@@ -1269,7 +1730,15 @@
                 "Keyboard বড় হয়"
               ],
               "correctIndex": 0,
-              "explanation": "Flow planning program logic পরিষ্কার করে।"
+              "explanation": "Flow planning program logic পরিষ্কার করে।",
+              "questionEn": "What should a quiz program do after asking a question?",
+              "optionsEn": [
+                "Wait for the user's answer",
+                "Close immediately",
+                "Delete the sprite",
+                "Turn off the computer"
+              ],
+              "explanationEn": "The program needs user input before it can respond to the answer."
             }
           ],
           "practicalKind": "scratch",
@@ -1285,6 +1754,19 @@
           },
           "coverageTags": [
             "topic:c8_quiz"
+          ],
+          "titleEn": "Project: Build a Quiz Game in Scratch",
+          "summaryEn": "Create a simple question-and-answer program.",
+          "contentEn": [
+            "A quiz game asks a question, waits for an answer and then gives feedback such as Correct or Try Again.",
+            "Plan the flow before coding and test the program carefully. Debug one change at a time."
+          ],
+          "stepsEn": [
+            "Start with an event.",
+            "Ask a question.",
+            "Wait for an answer.",
+            "Give feedback.",
+            "Test the full flow."
           ]
         }
       ]
@@ -1325,13 +1807,32 @@
                 "শুধু file extension"
               ],
               "correctIndex": 0,
-              "explanation": "Problem solving intelligence-এর একটি গুরুত্বপূর্ণ অংশ।"
+              "explanation": "Problem solving intelligence-এর একটি গুরুত্বপূর্ণ অংশ।",
+              "questionEn": "Which ability is associated with intelligence?",
+              "optionsEn": [
+                "Learning and problem solving",
+                "Only increasing screen brightness",
+                "Only printing paper",
+                "Only storing files"
+              ],
+              "explanationEn": "Learning, reasoning and problem solving are important parts of intelligence."
             }
           ],
           "coverageTags": [
             "topic:c9_ai",
             "topic:c9_human",
             "topic:c9_intelligence"
+          ],
+          "titleEn": "What is Intelligence?",
+          "summaryEn": "Understand intelligence and the basic idea of artificial intelligence.",
+          "contentEn": [
+            "Intelligence includes learning, reasoning, understanding, problem solving and adapting to new situations.",
+            "Human intelligence uses broad experience, senses, emotions and judgement. Artificial Intelligence uses computer systems to perform selected intelligent tasks."
+          ],
+          "stepsEn": [
+            "Describe intelligence.",
+            "Give examples of human intelligence.",
+            "Give examples of AI-based tasks."
           ]
         },
         {
@@ -1360,12 +1861,32 @@
                 "Source কখনো না দেখা"
               ],
               "correctIndex": 0,
-              "explanation": "AI ভুল করতে পারে, তাই গুরুত্বপূর্ণ তথ্য যাচাই করা উচিত।"
+              "explanation": "AI ভুল করতে পারে, তাই গুরুত্বপূর্ণ তথ্য যাচাই করা উচিত।",
+              "questionEn": "Which statement is most accurate?",
+              "optionsEn": [
+                "Humans and AI have different strengths",
+                "AI is always correct",
+                "Humans never make mistakes",
+                "AI understands everything like a human"
+              ],
+              "explanationEn": "Humans and AI have different strengths and limitations."
             }
           ],
           "coverageTags": [
             "topic:c9_apps",
             "topic:c9_compare"
+          ],
+          "titleEn": "Human Intelligence vs Artificial Intelligence",
+          "summaryEn": "Compare human and artificial intelligence.",
+          "contentEn": [
+            "Humans use broad experience, values, emotions and context. AI can process large amounts of data quickly and perform specific tasks consistently.",
+            "AI is used in recommendations, voice assistants, image recognition, translation and pattern detection, but it does not understand every situation exactly like a human."
+          ],
+          "stepsEn": [
+            "List human strengths.",
+            "List AI strengths.",
+            "Identify AI applications.",
+            "Explain why human judgement matters."
           ]
         },
         {
@@ -1397,7 +1918,15 @@
                 "শুধু Word-এ"
               ],
               "correctIndex": 0,
-              "explanation": "Random choice pattern শেখে না; learned prediction data pattern ব্যবহার করতে পারে।"
+              "explanation": "Random choice pattern শেখে না; learned prediction data pattern ব্যবহার করতে পারে।",
+              "questionEn": "What should you remember about an AI prediction?",
+              "optionsEn": [
+                "It may be wrong and should be verified",
+                "It is always certain",
+                "It never uses data",
+                "It should replace all human judgement"
+              ],
+              "explanationEn": "AI outputs can be uncertain or incorrect, so important results should be verified."
             }
           ],
           "practicalKind": "ai_decision",
@@ -1411,6 +1940,19 @@
             "topic:c9_pattern",
             "topic:c9_rps",
             "topic:c9_verify"
+          ],
+          "titleEn": "AI Activity: Rock–Paper–Scissors and Prediction",
+          "summaryEn": "Explore pattern-based prediction and the limits of AI.",
+          "contentEn": [
+            "A simple predictor can look at earlier choices and use a pattern to guess what might happen next. This demonstrates prediction from data.",
+            "A prediction is not certainty. AI can be wrong or biased, so important outputs should be verified and private data should be protected."
+          ],
+          "stepsEn": [
+            "Play several rounds.",
+            "Observe the pattern used.",
+            "Compare prediction with result.",
+            "Explain why prediction can be wrong.",
+            "Compare human judgement with AI prediction."
           ]
         }
       ]
