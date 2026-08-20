@@ -5,6 +5,7 @@ import '../services/content_repository.dart';
 import '../services/progress_repository.dart';
 import '../widgets/course_card.dart';
 import 'course_detail_screen.dart';
+import 'school_progress_screen.dart';
 
 class CourseLibraryScreen extends StatefulWidget {
   const CourseLibraryScreen({
@@ -37,6 +38,18 @@ class _CourseLibraryScreenState extends State<CourseLibraryScreen> {
   int _completed(Course course) => course.lessons
       .where((lesson) => _progress[lesson.id]?.completed == true)
       .length;
+
+  Future<void> _openSchoolProgress(List<Course> courses) async {
+    await Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => SchoolProgressScreen(
+          courses: courses,
+          progressRepository: widget.progressRepository,
+        ),
+      ),
+    );
+    _reload();
+  }
 
   Future<void> _openCourse(Course course) async {
     await Navigator.of(context).push(
@@ -129,6 +142,12 @@ class _CourseLibraryScreenState extends State<CourseLibraryScreen> {
                   subtitle:
                       'Class V • Computer Science • Cursor Pro syllabus-aligned',
                   badge: '${schoolCourses.length} chapters',
+                ),
+                const SizedBox(height: 12),
+                FilledButton.tonalIcon(
+                  onPressed: () => _openSchoolProgress(schoolCourses),
+                  icon: const Icon(Icons.dashboard_customize_rounded),
+                  label: const Text('Open Class V Progress Dashboard'),
                 ),
                 const SizedBox(height: 12),
                 for (final course in schoolCourses) ...[

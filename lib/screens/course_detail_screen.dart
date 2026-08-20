@@ -3,6 +3,8 @@ import '../core/theme/app_theme.dart';
 import '../models/course.dart';
 import '../models/lesson.dart';
 import '../services/progress_repository.dart';
+import '../services/school_assessment_service.dart';
+import 'chapter_test_screen.dart';
 import 'lesson_screen.dart';
 
 class CourseDetailScreen extends StatefulWidget {
@@ -38,6 +40,18 @@ class _CourseDetailScreenState extends State<CourseDetailScreen> {
     if (index <= 0) return true;
     if (_progress[lesson.id]?.completed == true) return true;
     return _progress[widget.course.lessons[index - 1].id]?.completed == true;
+  }
+
+  Future<void> _openChapterTest() async {
+    await Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => ChapterTestScreen(
+          course: widget.course,
+          progressRepository: widget.progressRepository,
+        ),
+      ),
+    );
+    _reload();
   }
 
   Future<void> _openLesson(Lesson lesson) async {
@@ -78,6 +92,18 @@ class _CourseDetailScreenState extends State<CourseDetailScreen> {
             ],
           ),
         ),
+        bottomNavigationBar: widget.course.isSchoolCourse
+            ? SafeArea(
+                minimum: const EdgeInsets.all(12),
+                child: FilledButton.icon(
+                  onPressed: _openChapterTest,
+                  icon: const Icon(Icons.fact_check_rounded),
+                  label: Text(
+                    'Chapter Test • Best ${_progress[SchoolAssessmentService.chapterTestId(widget.course)]?.bestScore ?? 0}%',
+                  ),
+                ),
+              )
+            : null,
         body: Column(
           children: [
             Container(

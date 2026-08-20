@@ -1,3 +1,11 @@
+## 1.1.0+16 - Class V Assessment & Progress
+- Added a Chapter Test for every Class V chapter using the chapter's own ASTRA quiz bank.
+- Chapter Tests persist best score in the existing progress store; pass mark is 60%.
+- Added a gated Class V Final Exam with one representative question from each of the 9 chapters; pass mark is 70%.
+- Added a dedicated Class V School Progress Dashboard with lesson completion, practical average, chapter-test status and final-exam score.
+- Added school assessment service tests.
+- No database schema migration is required; assessment scores use stable synthetic progress IDs.
+
 ## 1.1.0+15 - Class V Windows Word Internet Integration
 - Connected Class V Files/Folders to the existing offline File Manager simulator.
 - Added an interactive Windows 10 personalization lab for Settings, Control Panel, Wallpaper, Theme and Browser launch.
