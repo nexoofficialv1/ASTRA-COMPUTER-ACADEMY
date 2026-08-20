@@ -1,3 +1,12 @@
+## 1.1.0 - Class V School Course Foundation
+- Added a separate School Courses track without changing the existing Basic Computer certification scope.
+- Added Class V Computer Science curriculum aligned to the 9-chapter Cursor Pro syllabus structure using original ASTRA lesson text.
+- Added 27 offline Bengali-first lessons covering computer generations, hardware/software, Windows 10, Word 2019, Paint 3D, Internet, Scratch 3 and AI.
+- Added School Courses grouping in the Courses screen.
+- Added a dedicated Class V curriculum integrity test.
+- Prepared the content model for future grade-aware school courses.
+- Paint 3D, Scratch and AI interactive simulators remain scheduled for the next implementation phase.
+
 
 ## v1.0.1 - Flutter 3.44 analyze hotfix
 - Migrated progress indicator theme to `ThemeData.progressIndicatorTheme` / `ProgressIndicatorThemeData`.
