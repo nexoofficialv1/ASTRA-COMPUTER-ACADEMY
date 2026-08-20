@@ -60,12 +60,12 @@ jobs:
       - name: Name artifact
         run: |
           mkdir -p dist
-          cp build/app/outputs/flutter-apk/app-release.apk dist/ASTRA_COMPUTER_ACADEMY_v1.0.2.apk
-          sha256sum dist/ASTRA_COMPUTER_ACADEMY_v1.0.2.apk > dist/ASTRA_COMPUTER_ACADEMY_v1.0.2.apk.sha256
+          cp build/app/outputs/flutter-apk/app-release.apk dist/ASTRA_COMPUTER_ACADEMY_v1.1.0.apk
+          sha256sum dist/ASTRA_COMPUTER_ACADEMY_v1.1.0.apk > dist/ASTRA_COMPUTER_ACADEMY_v1.1.0.apk.sha256
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: ASTRA-COMPUTER-ACADEMY-v1.0.2-APK
+          name: ASTRA-COMPUTER-ACADEMY-v1.1.0-APK
           path: dist/*
           if-no-files-found: error

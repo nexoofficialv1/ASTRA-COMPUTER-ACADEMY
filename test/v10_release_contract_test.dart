@@ -29,6 +29,17 @@ void main() {
     expect(bootstrap, contains('--org in.nexoofficial'));
     expect(bootstrap, contains('rm -f test/widget_test.dart'));
 
+    final branding =
+        File('scripts/apply_android_branding.py').readAsStringSync();
+    expect(
+      branding,
+      contains("escaped_namespace = '`in`.nexoofficial.astra_computer_academy'"),
+    );
+    expect(
+      branding,
+      contains("g = g.replace(escaped_namespace, expected)"),
+    );
+
     final workflow = File('.github/workflows/android-apk.yml').readAsStringSync();
     expect(workflow, contains('flutter analyze --no-fatal-infos'));
     expect(workflow, contains('flutter test'));

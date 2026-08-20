@@ -37,7 +37,23 @@ if not gradle.exists():
     raise SystemExit('Generated Android app Gradle file not found.')
 g = gradle.read_text(encoding='utf-8')
 expected = 'in.nexoofficial.astra_computer_academy'
+
+# Flutter's Kotlin template may escape the leading Kotlin keyword `in` inside
+# the namespace string when --org starts with in.*. Android namespace expects
+# the JVM/Java package spelling without Kotlin source backticks.
+escaped_namespace = '`in`.nexoofficial.astra_computer_academy'
+if escaped_namespace in g:
+    g = g.replace(escaped_namespace, expected)
+    gradle.write_text(g, encoding='utf-8')
+
 if expected not in g:
-    print(f'WARNING: expected application id {expected} was not found in {gradle.name}', file=sys.stderr)
+    raise SystemExit(
+        f'Expected Android application id/namespace {expected} was not found in {gradle.name}'
+    )
+if escaped_namespace in g:
+    raise SystemExit(
+        f'Invalid escaped Android namespace remains in {gradle.name}: {escaped_namespace}'
+    )
 
 print('ASTRA Android branding/hardening applied.')
+print(f'Android namespace normalized: {expected}')
