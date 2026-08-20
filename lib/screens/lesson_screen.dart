@@ -16,6 +16,9 @@ import 'typing_lab_screen.dart';
 import 'word_lab_screen.dart';
 import 'word_page_elements_lab_screen.dart';
 import 'windows_desktop_lab_screen.dart';
+import 'paint3d_lab_screen.dart';
+import 'scratch_lab_screen.dart';
+import 'ai_decision_lab_screen.dart';
 
 class LessonScreen extends StatelessWidget {
   const LessonScreen({
@@ -188,6 +191,42 @@ class LessonScreen extends StatelessWidget {
       await Navigator.of(context).push(
         MaterialPageRoute(
           builder: (_) => ShortcutLabScreen(
+            lesson: lesson,
+            progressRepository: progressRepository,
+          ),
+        ),
+      );
+      return;
+    }
+
+    if (lesson.practicalKind == 'paint3d') {
+      await Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (_) => Paint3DLabScreen(
+            lesson: lesson,
+            progressRepository: progressRepository,
+          ),
+        ),
+      );
+      return;
+    }
+
+    if (lesson.practicalKind == 'scratch') {
+      await Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (_) => ScratchLabScreen(
+            lesson: lesson,
+            progressRepository: progressRepository,
+          ),
+        ),
+      );
+      return;
+    }
+
+    if (lesson.practicalKind == 'ai_decision') {
+      await Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (_) => AiDecisionLabScreen(
             lesson: lesson,
             progressRepository: progressRepository,
           ),

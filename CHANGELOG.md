@@ -1,3 +1,12 @@
+## 1.1.0+14 - Class V Interactive Learning Labs
+- Added the full Class V school-course foundation: 9 syllabus-aligned chapters and 27 original Bengali-first ASTRA lessons.
+- Added Paint 3D simulator practicals for tools practice and Healthy Food Poster activity.
+- Added Scratch 3 drag/drop block-programming simulator for colourful shapes, events/sound and mini quiz-game tasks.
+- Added an offline AI pattern-prediction activity using Rock-Paper-Scissors to teach prediction, uncertainty and verification.
+- Added Class V practical routing and integrity tests.
+- Kept the existing Basic Computer Foundation certification/final-exam scope unchanged.
+- No copyrighted book text or artwork is bundled; content is original ASTRA material aligned to the supplied syllabus structure.
+
 
 ## v1.0.1 - Flutter 3.44 analyze hotfix
 - Migrated progress indicator theme to `ThemeData.progressIndicatorTheme` / `ProgressIndicatorThemeData`.

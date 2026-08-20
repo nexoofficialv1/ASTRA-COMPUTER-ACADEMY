@@ -1,0 +1,975 @@
+{
+  "schemaVersion": 1,
+  "track": "school",
+  "grade": 5,
+  "alignmentNote": "Original ASTRA lessons aligned to the chapter/topic structure of Cursor Pro Class 5; no book text or artwork is bundled.",
+  "courses": [
+    {
+      "id": "c5_how_computer_works",
+      "title": "How Computer Works?",
+      "titleBn": "1. How Computer Works?",
+      "subtitleBn": "কম্পিউটারের বিবর্তন, generations, IPO cycle, devices ও memory",
+      "icon": "🧠",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_01_01",
+          "titleBn": "কম্পিউটারের বিবর্তন ও পাঁচটি Generation",
+          "summaryBn": "Vacuum Tube থেকে AI-oriented আধুনিক কম্পিউটার পর্যন্ত পরিবর্তনের ধারাটি বোঝা।",
+          "durationMinutes": 14,
+          "type": "theory",
+          "contentBn": [
+            "কম্পিউটার একদিনে তৈরি হয়নি। বিভিন্ন সময়ে নতুন electronic technology ব্যবহারের ফলে computer-এর speed, size, reliability এবং capability বদলেছে।",
+            "সাধারণভাবে computer evolution-কে পাঁচটি generation-এ বোঝানো হয়: Vacuum Tube, Transistor, Integrated Circuit (IC), Microprocessor এবং AI/advanced processing ভিত্তিক আধুনিক generation।",
+            "Generation মনে রাখার উদ্দেশ্য শুধু সাল মুখস্থ করা নয়; কোন technology কীভাবে computer-কে ছোট, দ্রুত ও শক্তিশালী করেছে সেটি বোঝা।"
+          ],
+          "steps": [
+            "1st: Vacuum Tube",
+            "2nd: Transistor",
+            "3rd: IC",
+            "4th: Microprocessor",
+            "5th: AI ও advanced intelligent computing"
+          ],
+          "quiz": [
+            {
+              "question": "Second Generation computer-এ Vacuum Tube-এর পরিবর্তে কী ব্যবহার শুরু হয়?",
+              "options": [
+                "IC",
+                "Transistor",
+                "Microprocessor",
+                "Cloud"
+              ],
+              "correctIndex": 1,
+              "explanation": "Second Generation-এর মূল প্রযুক্তিগত পরিবর্তন ছিল transistor-এর ব্যবহার।"
+            }
+          ]
+        },
+        {
+          "id": "c5_01_02",
+          "titleBn": "কম্পিউটারের Basic Working: Input → Process → Output",
+          "summaryBn": "একটি computer কীভাবে data গ্রহণ করে, process করে এবং result দেয় তা বোঝা।",
+          "durationMinutes": 12,
+          "type": "theory",
+          "contentBn": [
+            "Computer কাজ করার একটি সহজ model হলো Input → Processing → Output → Storage। User input device দিয়ে data বা instruction দেয়, processor সেটি process করে, output device result দেখায় এবং storage device প্রয়োজনে data সংরক্ষণ করে।",
+            "একটি calculator app-এ 25 + 17 টাইপ করা input, CPU-র calculation processing, 42 দেখানো output এবং result save করলে সেটি storage-এর উদাহরণ।"
+          ],
+          "steps": [
+            "Input চিহ্নিত করুন",
+            "Processing কোথায় হয় বোঝুন",
+            "Output ও Storage-এর পার্থক্য বলুন"
+          ],
+          "quiz": [
+            {
+              "question": "Computer-এর calculation-এর প্রধান processing কোথায় হয়?",
+              "options": [
+                "Monitor",
+                "CPU",
+                "Keyboard",
+                "Printer"
+              ],
+              "correctIndex": 1,
+              "explanation": "CPU নির্দেশ ও data process করে।"
+            }
+          ]
+        },
+        {
+          "id": "c5_01_03",
+          "titleBn": "Input, Output, Processing Device ও Memory",
+          "summaryBn": "বিভিন্ন device-এর কাজ এবং primary/secondary memory-এর মৌলিক ধারণা।",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "Keyboard, mouse, scanner ও microphone সাধারণ input device; monitor, printer ও speaker output device। CPU processing-এর কেন্দ্রীয় অংশ।",
+            "Memory বলতে computer-এর data ও instruction রাখার ব্যবস্থা বোঝায়। RAM কাজ চলাকালীন temporary memory হিসেবে ব্যবহৃত হয়; SSD/HDD দীর্ঘমেয়াদি storage হিসেবে কাজ করে।"
+          ],
+          "steps": [
+            "৫টি input device লিখুন",
+            "৩টি output device লিখুন",
+            "RAM ও SSD/HDD-এর কাজ আলাদা করে বলুন"
+          ],
+          "quiz": [
+            {
+              "question": "নিচের কোনটি temporary working memory?",
+              "options": [
+                "RAM",
+                "Printer",
+                "Mouse",
+                "Speaker"
+              ],
+              "correctIndex": 0,
+              "explanation": "RAM চলমান program ও data-এর working memory হিসেবে ব্যবহৃত হয়।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5_hardware_software",
+      "title": "Hardware & Software",
+      "titleBn": "2. Hardware & Software",
+      "subtitleBn": "Hardware, software ও তাদের পারস্পরিক সম্পর্ক",
+      "icon": "🧩",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_02_01",
+          "titleBn": "Hardware কী?",
+          "summaryBn": "Computer-এর যেসব physical অংশ দেখা বা স্পর্শ করা যায় সেগুলো চেনা।",
+          "durationMinutes": 10,
+          "type": "theory",
+          "contentBn": [
+            "Computer-এর physical components-কে hardware বলা হয়। Monitor, keyboard, mouse, motherboard, CPU cabinet, printer এবং storage device hardware-এর উদাহরণ।",
+            "Hardware নিজে থেকে meaningful কাজ করতে পারে না; তাকে কাজ করাতে software instruction প্রয়োজন।"
+          ],
+          "steps": [
+            "Input hardware",
+            "Output hardware",
+            "Processing hardware",
+            "Storage hardware"
+          ],
+          "quiz": [
+            {
+              "question": "নিচের কোনটি hardware?",
+              "options": [
+                "MS Word",
+                "Windows",
+                "Keyboard",
+                "Scratch project"
+              ],
+              "correctIndex": 2,
+              "explanation": "Keyboard একটি physical input device।"
+            }
+          ]
+        },
+        {
+          "id": "c5_02_02",
+          "titleBn": "Software কী?",
+          "summaryBn": "System software ও application software-এর মৌলিক পার্থক্য।",
+          "durationMinutes": 12,
+          "type": "theory",
+          "contentBn": [
+            "Software হলো instruction ও program-এর সমষ্টি যা hardware-কে নির্দিষ্ট কাজ করতে নির্দেশ দেয়।",
+            "Operating System যেমন Windows system software-এর উদাহরণ। MS Word, Paint 3D, browser এবং Scratch-এর মতো program application software হিসেবে ব্যবহার করা হয়।"
+          ],
+          "steps": [
+            "System software-এর উদাহরণ দিন",
+            "Application software-এর উদাহরণ দিন",
+            "Operating System-এর ভূমিকা বলুন"
+          ],
+          "quiz": [
+            {
+              "question": "MS Word কোন ধরনের software?",
+              "options": [
+                "Application Software",
+                "Input Device",
+                "Storage Hardware",
+                "Firmware-only"
+              ],
+              "correctIndex": 0,
+              "explanation": "MS Word একটি application software।"
+            }
+          ]
+        },
+        {
+          "id": "c5_02_03",
+          "titleBn": "Hardware ও Software একসঙ্গে কীভাবে কাজ করে",
+          "summaryBn": "একটি কাজ সম্পন্ন করতে hardware ও software-এর dependency বোঝা।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "User যখন keyboard দিয়ে Word-এ text টাইপ করে, keyboard hardware input পাঠায়, Word software সেটি গ্রহণ করে, CPU process করে এবং monitor hardware result দেখায়।",
+            "এই কারণে hardware এবং software একে অপরের পরিপূরক। শুধু hardware বা শুধু software দিয়ে সম্পূর্ণ user task চালানো যায় না।"
+          ],
+          "steps": [
+            "Typing-এর hardware/software chain ব্যাখ্যা করুন",
+            "Printing-এর hardware/software chain ব্যাখ্যা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Document print করার সময় কোন জোড়াটি একসঙ্গে কাজ করে?",
+              "options": [
+                "Printer ও software",
+                "Mouse ও table",
+                "Speaker ও pencil",
+                "RAM ও paper only"
+              ],
+              "correctIndex": 0,
+              "explanation": "Print command software থেকে আসে এবং printer hardware output দেয়।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5_windows10",
+      "title": "Getting Around in Windows 10",
+      "titleBn": "3. Getting Around in Windows 10",
+      "subtitleBn": "Booting, Desktop, Files/Folders, Control Panel, Browser ও personalization",
+      "icon": "🪟",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_03_01",
+          "titleBn": "Windows 10: Booting, Desktop ও প্রধান অংশ",
+          "summaryBn": "Computer চালু হওয়া থেকে Desktop screen পর্যন্ত basic flow বোঝা।",
+          "durationMinutes": 12,
+          "type": "theory",
+          "contentBn": [
+            "Operating System computer-এর hardware ও application-এর মধ্যে coordination করে। Windows 10 চালু হলে boot process সম্পন্ন হয়ে desktop দেখা যায়।",
+            "Desktop-এ icons, taskbar, Start menu এবং notification area-এর মতো অংশ থাকে। এগুলো program চালু করা ও computer পরিচালনায় সাহায্য করে।"
+          ],
+          "steps": [
+            "Start Menu চিহ্নিত করুন",
+            "Taskbar-এর কাজ বলুন",
+            "Desktop icon কী কাজে লাগে ব্যাখ্যা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Windows-এর Start button সাধারণত কোথায় থাকে?",
+              "options": [
+                "Taskbar-এ",
+                "Printer-এ",
+                "Keyboard-এর ভিতরে",
+                "Web page-এ"
+              ],
+              "correctIndex": 0,
+              "explanation": "Start button taskbar-এর অংশ।"
+            }
+          ]
+        },
+        {
+          "id": "c5_03_02",
+          "titleBn": "Files ও Folders",
+          "summaryBn": "File, folder, rename, copy, move ও delete-এর ধারণা।",
+          "durationMinutes": 14,
+          "type": "practical",
+          "contentBn": [
+            "File হলো নির্দিষ্ট data বা document-এর সংরক্ষিত unit এবং folder ফাইলগুলোকে গুছিয়ে রাখতে ব্যবহৃত হয়।",
+            "একই file-এর duplicate তৈরি করতে Copy ব্যবহার করা যায়, আর location বদলাতে Move ব্যবহার করা হয়। Rename নাম বদলায়; Delete অপ্রয়োজনীয় item সরায়।"
+          ],
+          "steps": [
+            "Class5 নামে folder কল্পনা করে তৈরি করুন",
+            "Notes.txt file-কে ComputerNotes.txt নামে rename করার ধাপ লিখুন",
+            "Copy ও Move-এর পার্থক্য লিখুন"
+          ],
+          "quiz": [
+            {
+              "question": "File-এর location বদলাতে সাধারণত কোন action ব্যবহার করা হয়?",
+              "options": [
+                "Move",
+                "Zoom",
+                "Print",
+                "Undo typing"
+              ],
+              "correctIndex": 0,
+              "explanation": "Move একটি file বা folder-কে অন্য location-এ স্থানান্তর করে।"
+            }
+          ]
+        },
+        {
+          "id": "c5_03_03",
+          "titleBn": "Control Panel, Browser, Wallpaper ও Themes",
+          "summaryBn": "Windows personalization ও basic settings-এর পরিচয়।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "Windows settings বা Control Panel থেকে device, display, account এবং অন্যান্য configuration পরিচালনা করা যায়।",
+            "Wallpaper desktop-এর background image এবং theme একসঙ্গে color, background ও appearance-এর কিছু setting বদলাতে পারে। Browser web page দেখার application।"
+          ],
+          "steps": [
+            "Wallpaper পরিবর্তনের উদ্দেশ্য বলুন",
+            "Theme ও Wallpaper-এর পার্থক্য বলুন",
+            "Browser-এর কাজ লিখুন"
+          ],
+          "quiz": [
+            {
+              "question": "Web page দেখার জন্য কোন ধরনের application ব্যবহার করা হয়?",
+              "options": [
+                "Browser",
+                "Calculator only",
+                "Printer driver only",
+                "File extension"
+              ],
+              "correctIndex": 0,
+              "explanation": "Browser internet/web content দেখার application।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5_word2019",
+      "title": "Advanced Features of Word 2019",
+      "titleBn": "4. Advanced Features of Word 2019",
+      "subtitleBn": "Editing, formatting, page design, graphics, Draw, WordArt ও saving",
+      "icon": "📄",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_04_01",
+          "titleBn": "Move/Copy Text, Spelling, Grammar, Thesaurus ও Find/Replace",
+          "summaryBn": "Document edit ও proofread করার advanced tools শেখা।",
+          "durationMinutes": 15,
+          "type": "theory",
+          "contentBn": [
+            "Word-এ text select করে Cut/Copy/Paste ব্যবহার করে content স্থানান্তর বা duplicate করা যায়। Find দ্রুত নির্দিষ্ট শব্দ খুঁজে দেয় এবং Replace একই ধরনের text পরিবর্তনে সাহায্য করে।",
+            "Spelling/Grammar tools ভুল শনাক্ত করতে সাহায্য করে, আর Thesaurus কাছাকাছি অর্থের alternative word খুঁজতে কাজে লাগে।"
+          ],
+          "steps": [
+            "Copy ও Move-এর পার্থক্য",
+            "Find ও Replace-এর ব্যবহার",
+            "Thesaurus কেন ব্যবহার হয়"
+          ],
+          "quiz": [
+            {
+              "question": "একই শব্দ document-এর অনেক জায়গায় পরিবর্তন করতে কোন tool সবচেয়ে কার্যকর?",
+              "options": [
+                "Find and Replace",
+                "Zoom",
+                "Print Preview",
+                "Status Bar"
+              ],
+              "correctIndex": 0,
+              "explanation": "Find and Replace একই text দ্রুত খুঁজে পরিবর্তন করতে পারে।"
+            }
+          ]
+        },
+        {
+          "id": "c5_04_02",
+          "titleBn": "Text, Paragraph, List ও Page Formatting",
+          "summaryBn": "Readable ও সুন্দর document তৈরির formatting skills।",
+          "durationMinutes": 16,
+          "type": "practical",
+          "contentBn": [
+            "Font, size, bold, italic, underline ও color text formatting-এর অংশ। Alignment, line spacing এবং indentation paragraph formatting-এর অংশ।",
+            "Bullets ও Numbering list-কে structured করে। Page formatting-এর মধ্যে margin, orientation ও page size-এর মতো setting থাকতে পারে।"
+          ],
+          "steps": [
+            "একটি heading Bold ও Center করুন",
+            "৩টি item-এর numbered list তৈরি করার ধাপ লিখুন",
+            "Portrait ও Landscape orientation-এর পার্থক্য বলুন"
+          ],
+          "quiz": [
+            {
+              "question": "Numbered list কোথায় বেশি উপযোগী?",
+              "options": [
+                "ধাপ বা ক্রম দেখাতে",
+                "Monitor বন্ধ করতে",
+                "File delete করতে",
+                "Internet disconnect করতে"
+              ],
+              "correctIndex": 0,
+              "explanation": "ক্রম বা sequence দেখাতে numbered list উপযোগী।"
+            }
+          ]
+        },
+        {
+          "id": "c5_04_03",
+          "titleBn": "Graphics, Text Wrapping, Draw, WordArt ও Saving",
+          "summaryBn": "Picture ও decorative content দিয়ে document enrich করা।",
+          "durationMinutes": 16,
+          "type": "practical",
+          "contentBn": [
+            "Word document-এ picture বা graphic insert করার পরে Text Wrapping ব্যবহার করে text ও image-এর অবস্থান নিয়ন্ত্রণ করা যায়।",
+            "Draw tools annotation বা drawing-এ সাহায্য করে এবং WordArt decorative text তৈরি করে। কাজ শেষে document যথাযথ file name দিয়ে Save করা জরুরি।"
+          ],
+          "steps": [
+            "Picture insert করার ধাপ বলুন",
+            "Text Wrapping কেন দরকার ব্যাখ্যা করুন",
+            "WordArt-এর একটি উপযুক্ত ব্যবহার লিখুন",
+            "সঠিক file name দিয়ে Save করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Image-এর চারপাশে text কীভাবে বসবে তা নিয়ন্ত্রণ করতে কোন feature ব্যবহৃত হয়?",
+              "options": [
+                "Text Wrapping",
+                "Caps Lock",
+                "Recycle Bin",
+                "Task Manager"
+              ],
+              "correctIndex": 0,
+              "explanation": "Text Wrapping image ও text-এর layout নিয়ন্ত্রণ করে।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5_paint3d",
+      "title": "Enjoying with Paint 3D",
+      "titleBn": "5. Enjoying with Paint 3D",
+      "subtitleBn": "Paint 3D interface, 2D/3D shapes, brush, stickers ও poster project",
+      "icon": "🎨",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_05_01",
+          "titleBn": "Paint 3D Window ও Tools পরিচিতি",
+          "summaryBn": "Paint 3D শুরু করা এবং workspace-এর প্রধান tools চেনা।",
+          "durationMinutes": 11,
+          "type": "theory",
+          "contentBn": [
+            "Paint 3D এমন একটি creative application যেখানে 2D drawing-এর পাশাপাশি 3D object নিয়ে basic কাজ করা যায়।",
+            "Workspace-এ brushes, shapes, stickers এবং canvas-related tools ব্যবহার করে visual composition তৈরি করা যায়।"
+          ],
+          "steps": [
+            "2D tool চিহ্নিত করুন",
+            "3D tool-এর উদ্দেশ্য বলুন",
+            "Canvas-এর কাজ ব্যাখ্যা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Paint 3D প্রধানত কী ধরনের কাজে ব্যবহার করা যায়?",
+              "options": [
+                "Drawing ও visual design",
+                "Spreadsheet formula only",
+                "Email server setup only",
+                "Disk formatting only"
+              ],
+              "correctIndex": 0,
+              "explanation": "Paint 3D drawing ও visual creation-এর জন্য তৈরি।"
+            }
+          ]
+        },
+        {
+          "id": "c5_05_02",
+          "titleBn": "2D Shapes, 3D Shapes, Brush Colour ও Stickers",
+          "summaryBn": "Basic object তৈরি ও সাজানোর কৌশল।",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "2D shape flat visual element, আর 3D shape depth সহ object-এর ধারণা দেয়। Brush tool দিয়ে color বা freehand drawing করা যায়।",
+            "Sticker design-এর decorative element হিসেবে ব্যবহার করা যায়। Object selection, size ও position ঠিক রাখলে poster পরিষ্কার দেখায়।"
+          ],
+          "steps": [
+            "একটি 2D circle আঁকার পরিকল্পনা করুন",
+            "একটি 3D object যোগ করুন",
+            "Brush দিয়ে color দিন",
+            "একটি sticker যোগ করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Depth সহ object তৈরির জন্য কোন tool category উপযোগী?",
+              "options": [
+                "3D Shapes",
+                "Spelling",
+                "Mail Merge",
+                "Formula Bar"
+              ],
+              "correctIndex": 0,
+              "explanation": "3D Shapes depth-যুক্ত object তৈরির জন্য।"
+            }
+          ],
+          "practicalKind": "paint3d",
+          "practicalData": {
+            "mode": "tools_practice",
+            "taskTitle": "Paint 3D Tools Practice",
+            "required2D": 2,
+            "required3D": 1,
+            "requiredBrush": 1,
+            "requiredSticker": 1
+          }
+        },
+        {
+          "id": "c5_05_03",
+          "titleBn": "Project: Healthy Food Poster",
+          "summaryBn": "2D/3D shapes, colour ও stickers ব্যবহার করে একটি healthy-food awareness poster পরিকল্পনা।",
+          "durationMinutes": 18,
+          "type": "practical",
+          "contentBn": [
+            "Project-based learning-এ বিভিন্ন tool একসঙ্গে ব্যবহার করতে হয়। Healthy Food poster-এ পরিষ্কার title, fruit/vegetable-inspired shapes, balanced color এবং short message রাখা যায়।",
+            "এই project-এ লক্ষ্য হলো শুধু সুন্দর drawing নয়; information-কে visualভাবে সহজে বোঝানো।"
+          ],
+          "steps": [
+            "Poster title ঠিক করুন",
+            "কমপক্ষে ৩টি healthy-food visual element পরিকল্পনা করুন",
+            "Color ও sticker সীমিত ও অর্থপূর্ণভাবে ব্যবহার করুন",
+            "Project save করার file name ঠিক করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Poster design-এর সবচেয়ে গুরুত্বপূর্ণ লক্ষ্য কোনটি?",
+              "options": [
+                "Message পরিষ্কারভাবে পৌঁছানো",
+                "সব tool একসঙ্গে ব্যবহার করা",
+                "শুধু বেশি color ব্যবহার করা",
+                "File name না দেওয়া"
+              ],
+              "correctIndex": 0,
+              "explanation": "Poster-এর মূল কাজ হলো message পরিষ্কারভাবে communicate করা।"
+            }
+          ],
+          "practicalKind": "paint3d",
+          "practicalData": {
+            "mode": "healthy_food_poster",
+            "taskTitle": "Healthy Food Poster",
+            "required2D": 2,
+            "required3D": 1,
+            "requiredBrush": 1,
+            "requiredSticker": 2,
+            "requireTitle": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "c5_internet",
+      "title": "Introduction to Internet",
+      "titleBn": "6. Introduction to Internet",
+      "subtitleBn": "Internet history, basic terms, browsing, search engines ও safe use",
+      "icon": "🌐",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_06_01",
+          "titleBn": "Internet কী এবং এর সংক্ষিপ্ত ইতিহাস",
+          "summaryBn": "Network of networks হিসেবে Internet-এর মৌলিক ধারণা।",
+          "durationMinutes": 12,
+          "type": "theory",
+          "contentBn": [
+            "Internet বিশ্বজুড়ে বহু network ও device-কে সংযুক্ত করে information exchange সম্ভব করে। এটি web browsing, communication, learning এবং online services-এর ভিত্তি।",
+            "Internet ধীরে ধীরে research network থেকে সাধারণ মানুষের দৈনন্দিন communication ও information platform-এ পরিণত হয়েছে।"
+          ],
+          "steps": [
+            "Internet ও Web একই জিনিস নয়—পার্থক্যটি বোঝার চেষ্টা করুন",
+            "Online communication-এর দুটি উদাহরণ দিন"
+          ],
+          "quiz": [
+            {
+              "question": "Internet-কে সহজভাবে কী বলা যায়?",
+              "options": [
+                "Network of networks",
+                "একটি মাত্র computer",
+                "শুধু printer cable",
+                "একটি offline folder"
+              ],
+              "correctIndex": 0,
+              "explanation": "Internet বহু network-কে যুক্ত করে।"
+            }
+          ]
+        },
+        {
+          "id": "c5_06_02",
+          "titleBn": "Browser, Website, Web Page, URL ও Search Engine",
+          "summaryBn": "Internet ব্যবহারের গুরুত্বপূর্ণ basic terms শেখা।",
+          "durationMinutes": 14,
+          "type": "theory",
+          "contentBn": [
+            "Browser হলো web content দেখার application। Website বহু related web page-এর collection হতে পারে, আর URL কোনো web resource-এর address হিসেবে কাজ করে।",
+            "Search engine keyword ব্যবহার করে relevant web information খুঁজতে সাহায্য করে। Search result দেখার সময় source-এর বিশ্বাসযোগ্যতা যাচাই করা গুরুত্বপূর্ণ।"
+          ],
+          "steps": [
+            "Browser ও Search Engine-এর পার্থক্য",
+            "URL-এর কাজ",
+            "ভালো search keyword-এর উদাহরণ"
+          ],
+          "quiz": [
+            {
+              "question": "কোনটি web address বোঝায়?",
+              "options": [
+                "URL",
+                "CPU",
+                "RAM",
+                "USB keyboard"
+              ],
+              "correctIndex": 0,
+              "explanation": "URL web resource-এর address নির্দেশ করে।"
+            }
+          ]
+        },
+        {
+          "id": "c5_06_03",
+          "titleBn": "Browsing ও Safe Search Practice",
+          "summaryBn": "সঠিক keyword, trusted source ও cyber safety-এর basic অভ্যাস।",
+          "durationMinutes": 14,
+          "type": "practical",
+          "contentBn": [
+            "Search করার সময় ছোট কিন্তু নির্দিষ্ট keyword ব্যবহার করলে ভালো result পাওয়া যায়। একই information একাধিক trusted source থেকে মিলিয়ে দেখা ভালো অভ্যাস।",
+            "Unknown link, suspicious download, password চাওয়া page বা ব্যক্তিগত তথ্যের অনুরোধে সতর্ক থাকতে হবে। শিশুদের ক্ষেত্রে trusted adult/teacher-এর guidance গুরুত্বপূর্ণ।"
+          ],
+          "steps": [
+            "একটি school project-এর জন্য ৩টি search keyword লিখুন",
+            "Trusted source বোঝার ২টি লক্ষণ লিখুন",
+            "Suspicious link পেলে কী করবেন লিখুন"
+          ],
+          "quiz": [
+            {
+              "question": "Unknown website password চাইলে কী করা উচিত?",
+              "options": [
+                "সতর্ক হয়ে verification ছাড়া password না দেওয়া",
+                "সব password পাঠানো",
+                "বন্ধুর password দেওয়া",
+                "যে কোনো file download করা"
+              ],
+              "correctIndex": 0,
+              "explanation": "ব্যক্তিগত credential অজানা site-এ দেওয়া নিরাপদ নয়।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5_scratch_intro",
+      "title": "Introduction to Scratch 3",
+      "titleBn": "7. Introduction to Scratch 3",
+      "subtitleBn": "Scratch interface, blocks, pen, sprite, duplicate, save/open project",
+      "icon": "🐱",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_07_01",
+          "titleBn": "Scratch 3 কী এবং Interface পরিচিতি",
+          "summaryBn": "Block-based programming environment-এর মৌলিক অংশ চেনা।",
+          "durationMinutes": 13,
+          "type": "theory",
+          "contentBn": [
+            "Scratch 3 একটি block-based programming environment যেখানে code block জুড়ে animation, story ও game তৈরি করা যায়।",
+            "Stage, Sprite, Blocks Palette, Coding Area এবং Sprite List—এই অংশগুলো বুঝলে project তৈরি করা সহজ হয়।"
+          ],
+          "steps": [
+            "Stage চিহ্নিত করুন",
+            "Sprite কী ব্যাখ্যা করুন",
+            "Blocks Palette-এর কাজ বলুন"
+          ],
+          "quiz": [
+            {
+              "question": "Scratch-এ character/object-কে সাধারণত কী বলা হয়?",
+              "options": [
+                "Sprite",
+                "Cell",
+                "Slide",
+                "Folder"
+              ],
+              "correctIndex": 0,
+              "explanation": "Scratch project-এর character/object-কে Sprite বলা হয়।"
+            }
+          ]
+        },
+        {
+          "id": "c5_07_02",
+          "titleBn": "Blocks ও Pen: Colourful Shapes",
+          "summaryBn": "Sequence ও Pen block ব্যবহার করে shape drawing-এর logic বোঝা।",
+          "durationMinutes": 16,
+          "type": "practical",
+          "contentBn": [
+            "Scratch-এ block-এর order খুব গুরুত্বপূর্ণ। Move, Turn, Repeat এবং Pen block সঠিক sequence-এ দিলে sprite দিয়ে geometric pattern আঁকা যায়।",
+            "একই instruction বারবার দরকার হলে Repeat block code-কে ছোট ও পরিষ্কার করে।"
+          ],
+          "steps": [
+            "Pen down-এর পরে move block কেন দরকার বলুন",
+            "Square আঁকতে repeat count কত হতে পারে চিন্তা করুন",
+            "Turn angle কীভাবে shape বদলায় ব্যাখ্যা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "একই কাজ বহুবার চালাতে কোন block category-এর Repeat ব্যবহার করা হয়?",
+              "options": [
+                "Control",
+                "Looks only",
+                "Sound only",
+                "Sensing only"
+              ],
+              "correctIndex": 0,
+              "explanation": "Repeat একটি control structure।"
+            }
+          ],
+          "practicalKind": "scratch",
+          "practicalData": {
+            "mode": "colourful_shapes",
+            "taskTitle": "Colourful Shapes with Pen",
+            "requiredBlocks": [
+              "pen_down",
+              "repeat4",
+              "move10",
+              "turn15"
+            ]
+          }
+        },
+        {
+          "id": "c5_07_03",
+          "titleBn": "Duplicate Sprite, Save, Open ও Exit",
+          "summaryBn": "Project organization এবং basic file workflow।",
+          "durationMinutes": 12,
+          "type": "practical",
+          "contentBn": [
+            "একই ধরনের sprite দরকার হলে duplicate করলে সময় বাঁচে। তবে প্রতিটি sprite-এর script ও property দেখে নেওয়া দরকার।",
+            "Project নিয়মিত save করলে কাজ হারানোর ঝুঁকি কমে। Existing project open করে editing চালিয়ে যাওয়া যায়।"
+          ],
+          "steps": [
+            "Sprite duplicate করার উপকারিতা বলুন",
+            "Project-এর meaningful file name দিন",
+            "Save ও Open-এর পার্থক্য লিখুন"
+          ],
+          "quiz": [
+            {
+              "question": "Existing project আবার edit করতে প্রথমে কোন কাজ দরকার?",
+              "options": [
+                "Project Open করা",
+                "Printer চালু করা",
+                "Wallpaper বদলানো",
+                "Browser history delete করা"
+              ],
+              "correctIndex": 0,
+              "explanation": "আগের project চালিয়ে যেতে project open করতে হয়।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5_scratch_programming",
+      "title": "Simple Programming in Scratch",
+      "titleBn": "8. Simple Programming in Scratch",
+      "subtitleBn": "Sprite, costume, backdrop, Say, Repeat, Events, Sound ও quiz-game logic",
+      "icon": "🎮",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_08_01",
+          "titleBn": "Sprite Library, Costume ও Backdrop",
+          "summaryBn": "Project scene ও character সাজানো।",
+          "durationMinutes": 13,
+          "type": "theory",
+          "contentBn": [
+            "Sprite Library থেকে project-এর জন্য নতুন character নেওয়া যায়। Costume sprite-এর appearance বদলাতে সাহায্য করে এবং Backdrop stage-এর background তৈরি করে।",
+            "Story বা game design-এর আগে character, scene ও objective পরিকল্পনা করলে programming সহজ হয়।"
+          ],
+          "steps": [
+            "একটি quiz host sprite নির্বাচন করুন",
+            "কমপক্ষে ২টি costume-এর ব্যবহার ভাবুন",
+            "Quiz-এর জন্য backdrop পরিকল্পনা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Stage-এর background-কে Scratch-এ কী বলা হয়?",
+              "options": [
+                "Backdrop",
+                "Formula",
+                "Footer",
+                "Driver"
+              ],
+              "correctIndex": 0,
+              "explanation": "Scratch stage-এর background হলো Backdrop।"
+            }
+          ]
+        },
+        {
+          "id": "c5_08_02",
+          "titleBn": "Say, Repeat, Events ও Sound",
+          "summaryBn": "Interactive behavior তৈরির গুরুত্বপূর্ণ programming blocks।",
+          "durationMinutes": 15,
+          "type": "practical",
+          "contentBn": [
+            "Say block sprite-কে message দেখাতে পারে। Event block নির্দিষ্ট ঘটনা ঘটলে script শুরু করে, যেমন green flag click।",
+            "Repeat block action পুনরাবৃত্তি করে এবং Sound block feedback বা effect দিতে পারে। এগুলো মিলিয়ে interactive project তৈরি করা যায়।"
+          ],
+          "steps": [
+            "Green Flag event দিয়ে script শুরু করুন—কাগজে block sequence লিখুন",
+            "Say message যোগ করুন",
+            "Repeat ব্যবহারের একটি উদাহরণ দিন",
+            "Correct answer-এর জন্য sound feedback পরিকল্পনা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Green Flag click হলে script শুরু করার জন্য কোন ধারণা ব্যবহৃত হয়?",
+              "options": [
+                "Event",
+                "Storage",
+                "Page Margin",
+                "File Extension"
+              ],
+              "correctIndex": 0,
+              "explanation": "Green Flag একটি event trigger।"
+            }
+          ],
+          "practicalKind": "scratch",
+          "practicalData": {
+            "mode": "events_sound",
+            "taskTitle": "Events, Repeat and Sound",
+            "requiredBlocks": [
+              "when_tapped",
+              "say_hello",
+              "repeat4",
+              "play_sound"
+            ]
+          }
+        },
+        {
+          "id": "c5_08_03",
+          "titleBn": "Project: Quiz Game in Scratch",
+          "summaryBn": "Question, response, feedback ও score-flow নিয়ে একটি simple quiz game design।",
+          "durationMinutes": 20,
+          "type": "practical",
+          "contentBn": [
+            "Quiz game-এ প্রশ্ন দেখানো, user response নেওয়া এবং correct/incorrect feedback দেওয়ার একটি স্পষ্ট flow দরকার।",
+            "Game logic বানানোর আগে flow লিখুন: Start → Ask Question → Check Answer → Feedback → Next Question/End। এই computational thinking debugging সহজ করে।"
+          ],
+          "steps": [
+            "৩টি quiz question লিখুন",
+            "Correct answer ও wrong answer-এর feedback ঠিক করুন",
+            "Start event নির্বাচন করুন",
+            "Game end message ঠিক করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Programming-এর আগে flow লিখে নেওয়ার প্রধান সুবিধা কী?",
+              "options": [
+                "Logic পরিষ্কার হয় ও bug কমানো সহজ হয়",
+                "Computer দ্রুত চার্জ হয়",
+                "Printer ink বাড়ে",
+                "Keyboard বড় হয়"
+              ],
+              "correctIndex": 0,
+              "explanation": "Flow planning program logic পরিষ্কার করে।"
+            }
+          ],
+          "practicalKind": "scratch",
+          "practicalData": {
+            "mode": "quiz_game",
+            "taskTitle": "Mini Quiz Game",
+            "requiredBlocks": [
+              "when_tapped",
+              "say_question",
+              "wait_answer",
+              "say_result"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "c5_ai",
+      "title": "Human vs Artificial Intelligence",
+      "titleBn": "9. Human vs Artificial Intelligence",
+      "subtitleBn": "Intelligence, AI, human-vs-machine comparison, ethics ও AI activity",
+      "icon": "🤖",
+      "level": "Class V",
+      "track": "school",
+      "grade": 5,
+      "curriculumLabel": "Class V • Cursor Pro syllabus-aligned",
+      "lessons": [
+        {
+          "id": "c5_09_01",
+          "titleBn": "Intelligence কী?",
+          "summaryBn": "Learning, reasoning, problem solving ও decision-making-এর basic ধারণা।",
+          "durationMinutes": 12,
+          "type": "theory",
+          "contentBn": [
+            "Intelligence বলতে information বুঝে শেখা, pattern চিনতে পারা, reason করা, সমস্যা সমাধান এবং পরিস্থিতি অনুযায়ী সিদ্ধান্ত নেওয়ার ক্ষমতার সমষ্টি বোঝানো যায়।",
+            "মানুষ অভিজ্ঞতা, context, emotion, values এবং social understanding ব্যবহার করে সিদ্ধান্ত নিতে পারে।"
+          ],
+          "steps": [
+            "Learning-এর উদাহরণ দিন",
+            "Reasoning-এর উদাহরণ দিন",
+            "Problem solving-এর উদাহরণ দিন"
+          ],
+          "quiz": [
+            {
+              "question": "নিচের কোনটি intelligence-এর সঙ্গে সম্পর্কিত?",
+              "options": [
+                "Problem solving",
+                "শুধু screen size",
+                "শুধু battery level",
+                "শুধু file extension"
+              ],
+              "correctIndex": 0,
+              "explanation": "Problem solving intelligence-এর একটি গুরুত্বপূর্ণ অংশ।"
+            }
+          ]
+        },
+        {
+          "id": "c5_09_02",
+          "titleBn": "Artificial Intelligence ও Human vs AI",
+          "summaryBn": "AI কী করে এবং মানুষের সক্ষমতার সঙ্গে এর পার্থক্য কোথায়।",
+          "durationMinutes": 15,
+          "type": "theory",
+          "contentBn": [
+            "Artificial Intelligence এমন computer system বা technique বোঝায় যা data ও algorithm ব্যবহার করে prediction, classification, language handling বা decision-support-এর মতো কাজ করতে পারে।",
+            "AI নির্দিষ্ট task-এ খুব দ্রুত data process করতে পারে, কিন্তু মানুষের মতো সর্বাঙ্গীণ common sense, emotion, moral judgement বা real-world understanding সব ক্ষেত্রে থাকে না।",
+            "AI result ব্যবহার করার সময় ভুল, bias এবং privacy-এর ঝুঁকি বিবেচনা করা দরকার।"
+          ],
+          "steps": [
+            "Human strength-এর ৩টি উদাহরণ",
+            "AI strength-এর ৩টি উদাহরণ",
+            "AI output যাচাই করা কেন দরকার"
+          ],
+          "quiz": [
+            {
+              "question": "AI result ব্যবহার করার সময় কোন অভ্যাসটি ভালো?",
+              "options": [
+                "গুরুত্বপূর্ণ তথ্য যাচাই করা",
+                "সব output অন্ধভাবে বিশ্বাস করা",
+                "Private data সবসময় share করা",
+                "Source কখনো না দেখা"
+              ],
+              "correctIndex": 0,
+              "explanation": "AI ভুল করতে পারে, তাই গুরুত্বপূর্ণ তথ্য যাচাই করা উচিত।"
+            }
+          ]
+        },
+        {
+          "id": "c5_09_03",
+          "titleBn": "AI Fun Activity: Rock–Paper–Scissors",
+          "summaryBn": "Rule-based decision ও simple machine behavior-এর মাধ্যমে AI ধারণা নিয়ে আলোচনা।",
+          "durationMinutes": 16,
+          "type": "practical",
+          "contentBn": [
+            "Rock–Paper–Scissors activity ব্যবহার করে rules, choices এবং computer decision-এর ধারণা বোঝানো যায়। Random choice আর learned pattern-based choice এক জিনিস নয়—এই পার্থক্যটি বোঝা জরুরি।",
+            "Activity শেষে প্রশ্ন করুন: computer কি সত্যিই 'ভাবছে', নাকি rule/data অনুসারে output দিচ্ছে? এই প্রশ্ন AI literacy গড়ে তোলে।"
+          ],
+          "steps": [
+            "Rock, Paper, Scissors-এর তিনটি rule লিখুন",
+            "Random choice কী ব্যাখ্যা করুন",
+            "Pattern-based prediction কী হতে পারে আলোচনা করুন",
+            "Computer decision ও human decision তুলনা করুন"
+          ],
+          "quiz": [
+            {
+              "question": "Random choice আর learned pattern-based prediction কি একই?",
+              "options": [
+                "না",
+                "হ্যাঁ, সবসময়",
+                "শুধু printer-এ",
+                "শুধু Word-এ"
+              ],
+              "correctIndex": 0,
+              "explanation": "Random choice pattern শেখে না; learned prediction data pattern ব্যবহার করতে পারে।"
+            }
+          ],
+          "practicalKind": "ai_decision",
+          "practicalData": {
+            "mode": "rock_paper_scissors",
+            "taskTitle": "Pattern Predictor: Rock–Paper–Scissors",
+            "minimumRounds": 5
+          }
+        }
+      ]
+    }
+  ]
+}
