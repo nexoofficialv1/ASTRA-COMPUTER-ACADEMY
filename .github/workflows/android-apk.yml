@@ -3,7 +3,7 @@ name: Build Android APK
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [ main, feature/class5-interactive-labs ]
     paths:
       - 'lib/**'
       - 'assets/**'
@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Java 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
@@ -60,12 +60,12 @@ jobs:
       - name: Name artifact
         run: |
           mkdir -p dist
-          cp build/app/outputs/flutter-apk/app-release.apk dist/ASTRA_COMPUTER_ACADEMY_v1.1.0.apk
-          sha256sum dist/ASTRA_COMPUTER_ACADEMY_v1.1.0.apk > dist/ASTRA_COMPUTER_ACADEMY_v1.1.0.apk.sha256
+          cp build/app/outputs/flutter-apk/app-release.apk dist/ASTRA_COMPUTER_ACADEMY_v1.1.0_build22.apk
+          sha256sum dist/ASTRA_COMPUTER_ACADEMY_v1.1.0_build22.apk > dist/ASTRA_COMPUTER_ACADEMY_v1.1.0_build22.apk.sha256
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: ASTRA-COMPUTER-ACADEMY-v1.1.0-APK
+          name: ASTRA-COMPUTER-ACADEMY-v1.1.0-build22-APK
           path: dist/*
           if-no-files-found: error

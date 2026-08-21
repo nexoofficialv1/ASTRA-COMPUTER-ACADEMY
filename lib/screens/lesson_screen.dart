@@ -353,106 +353,9 @@ class LessonScreen extends StatelessWidget {
               ),
             ),
           ],
-          const SizedBox(height: 18),
-          const Text(
-            'সহজ ব্যাখ্যা',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
-          ),
-          const SizedBox(height: 8),
-          for (final paragraph in lesson.contentBn) ...[
-            Text(paragraph, style: const TextStyle(fontSize: 16, height: 1.6)),
-            const SizedBox(height: 14),
-          ],
-          if (lesson.hasEnglishExplanation) ...[
-            Card(
-              child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Row(
-                      children: [
-                        Icon(Icons.translate_rounded, size: 20),
-                        SizedBox(width: 8),
-                        Text(
-                          'English Explanation',
-                          style: TextStyle(fontWeight: FontWeight.w900),
-                        ),
-                      ],
-                    ),
-                    if (lesson.titleEn.trim().isNotEmpty) ...[
-                      const SizedBox(height: 12),
-                      Text(
-                        lesson.titleEn,
-                        style: const TextStyle(
-                          fontSize: 17,
-                          fontWeight: FontWeight.w900,
-                        ),
-                      ),
-                    ],
-                    if (lesson.summaryEn.trim().isNotEmpty) ...[
-                      const SizedBox(height: 8),
-                      Text(
-                        lesson.summaryEn,
-                        style: const TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w700,
-                          height: 1.5,
-                        ),
-                      ),
-                    ],
-                    for (final paragraph in lesson.contentEn) ...[
-                      const SizedBox(height: 10),
-                      Text(
-                        paragraph,
-                        style: const TextStyle(fontSize: 15, height: 1.55),
-                      ),
-                    ],
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(height: 14),
-          ],
-          if (lesson.examplesBn.isNotEmpty) ...[
-            const Text(
-              'উদাহরণ',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
-            ),
-            const SizedBox(height: 8),
-            Card(
-              child: Padding(
-                padding: const EdgeInsets.all(14),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    for (final item in lesson.examplesBn)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
-                        child: Text('• $item'),
-                      ),
-                    if (lesson.examplesEn.isNotEmpty) ...[
-                      const Divider(height: 22),
-                      const Text(
-                        'Examples in English',
-                        style: TextStyle(fontWeight: FontWeight.w900),
-                      ),
-                      const SizedBox(height: 6),
-                      for (final item in lesson.examplesEn)
-                        Padding(
-                          padding: const EdgeInsets.only(bottom: 8),
-                          child: Text('• $item'),
-                        ),
-                    ],
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(height: 14),
-          ],
           if (lesson.hasVisualAsset) ...[
             const Text(
-              'শেখার ছবি',
+              'ছবি দেখে শুরু করি',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
             ),
             const SizedBox(height: 8),
@@ -566,6 +469,103 @@ class LessonScreen extends StatelessWidget {
                     ),
                   ),
                 ],
+              ),
+            ),
+            const SizedBox(height: 14),
+          ],
+          const SizedBox(height: 18),
+          const Text(
+            'সহজ ব্যাখ্যা',
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+          ),
+          const SizedBox(height: 8),
+          for (final paragraph in lesson.contentBn) ...[
+            Text(paragraph, style: const TextStyle(fontSize: 16, height: 1.6)),
+            const SizedBox(height: 14),
+          ],
+          if (lesson.hasEnglishExplanation) ...[
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Row(
+                      children: [
+                        Icon(Icons.translate_rounded, size: 20),
+                        SizedBox(width: 8),
+                        Text(
+                          'English Explanation',
+                          style: TextStyle(fontWeight: FontWeight.w900),
+                        ),
+                      ],
+                    ),
+                    if (lesson.titleEn.trim().isNotEmpty) ...[
+                      const SizedBox(height: 12),
+                      Text(
+                        lesson.titleEn,
+                        style: const TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w900,
+                        ),
+                      ),
+                    ],
+                    if (lesson.summaryEn.trim().isNotEmpty) ...[
+                      const SizedBox(height: 8),
+                      Text(
+                        lesson.summaryEn,
+                        style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.w700,
+                          height: 1.5,
+                        ),
+                      ),
+                    ],
+                    for (final paragraph in lesson.contentEn) ...[
+                      const SizedBox(height: 10),
+                      Text(
+                        paragraph,
+                        style: const TextStyle(fontSize: 15, height: 1.55),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 14),
+          ],
+          if (lesson.examplesBn.isNotEmpty) ...[
+            const Text(
+              'উদাহরণ',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (final item in lesson.examplesBn)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 8),
+                        child: Text('• $item'),
+                      ),
+                    if (lesson.examplesEn.isNotEmpty) ...[
+                      const Divider(height: 22),
+                      const Text(
+                        'Examples in English',
+                        style: TextStyle(fontWeight: FontWeight.w900),
+                      ),
+                      const SizedBox(height: 6),
+                      for (final item in lesson.examplesEn)
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 8),
+                          child: Text('• $item'),
+                        ),
+                    ],
+                  ],
+                ),
               ),
             ),
             const SizedBox(height: 14),

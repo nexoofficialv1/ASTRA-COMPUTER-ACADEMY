@@ -1,0 +1,1199 @@
+{
+  "schemaVersion": 1,
+  "grade": 5,
+  "release": "1.1.0+22",
+  "purpose": "Additive deep-learning enrichment applied on top of the existing Class V syllabus without replacing quizzes, practical mappings or coverage tags.",
+  "lessonOverrides": {
+    "c5_01_01": {
+      "appendContentBn": [
+        "আরও গভীরে বুঝি: প্রথম প্রজন্মের কম্পিউটার ছিল ঘরভর্তি বড় এবং Vacuum Tube ব্যবহার করত। এগুলো অনেক বিদ্যুৎ খেত, প্রচুর তাপ তৈরি করত এবং রক্ষণাবেক্ষণ কঠিন ছিল।",
+        "Transistor আসার পরে দ্বিতীয় প্রজন্ম ছোট ও নির্ভরযোগ্য হলো; IC আসার পরে তৃতীয় প্রজন্মে বহু electronic component একটি chip-এ বসানো সম্ভব হলো; Microprocessor চতুর্থ প্রজন্মে CPU-র মূল কাজকে ছোট chip-এ এনে Personal Computer জনপ্রিয় করে।",
+        "পঞ্চম প্রজন্ম বলতে শুধু robot বোঝায় না। AI, pattern recognition, natural language, machine learning এবং intelligent decision support-এর মতো ক্ষমতা আধুনিক computing-কে আরও smart করে। ছবিতে machine-এর আকার ও রূপের পরিবর্তন দেখে এই evolution বোঝার চেষ্টা করো।"
+      ],
+      "appendContentEn": [
+        "Go deeper: first-generation computers were room-sized vacuum-tube machines. Transistors, integrated circuits and microprocessors successively reduced size and increased speed and reliability. Modern fifth-generation ideas focus on AI-assisted and intelligent computing rather than simply on robots."
+      ],
+      "appendLearningGoalsBn": [
+        "প্রতিটি generation-এর technology পরিবর্তন এবং তার ফলে size, speed ও capability কীভাবে বদলেছে তা ব্যাখ্যা করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Explain how the core technology of each generation changed computer size, speed and capability."
+      ],
+      "appendExamplesBn": [
+        "একটি বড় room-size ENIAC-এর ছবি এবং একটি modern desktop/AI system পাশাপাশি দেখলে evolution সহজে বোঝা যায়।"
+      ],
+      "appendExamplesEn": [
+        "Compare a room-sized early computer with a modern desktop or AI system to see the evolution clearly."
+      ],
+      "appendRecapBn": [
+        "Vacuum Tube → Transistor → IC → Microprocessor → AI-oriented computing হলো মূল বিবর্তনধারা।"
+      ],
+      "appendRecapEn": [
+        "Vacuum Tube → Transistor → IC → Microprocessor → AI-oriented computing is the key progression."
+      ],
+      "appendCommonMistakesBn": [
+        "শুধু সাল মুখস্থ করলেই generation বোঝা হয় না; কোন technology কী পরিবর্তন আনল সেটাই আসল।"
+      ],
+      "appendCommonMistakesEn": [
+        "Memorising years alone does not explain generations; understand what each technology changed."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Transistor",
+          "meaningBn": "Vacuum Tube-এর তুলনায় ছোট ও কম তাপ তৈরি করা electronic switching component"
+        },
+        {
+          "word": "Integrated Circuit (IC)",
+          "meaningBn": "একটি ছোট chip-এর মধ্যে বহু electronic component-এর সমন্বয়"
+        },
+        {
+          "word": "AI-oriented computing",
+          "meaningBn": "pattern, language বা data ব্যবহার করে smart সাহায্য/decision দেওয়া computing"
+        }
+      ],
+      "visualAsset": "assets/visuals/class5/computer_generations_visual_first.jpg",
+      "visualCaptionBn": "ছবিতে ১ম থেকে ৫ম প্রজন্মের কম্পিউটারের চেহারার পরিবর্তন দেখো—ঘরভর্তি machine থেকে desktop, তারপর AI-oriented smart system।",
+      "visualCaptionEn": "Observe how computers changed visually from room-sized machines to desktop systems and AI-oriented smart computing."
+    },
+    "c5_01_02": {
+      "appendContentBn": [
+        "IPO cycle-কে একটি রান্নাঘরের মতো ভাবো: তুমি উপকরণ দাও (Input), রান্না হয় (Processing), খাবার তৈরি হয় (Output), আর পরে রাখলে সেটি Storage-এর মতো। Computer-এ একই logic data ও instruction-এর ওপর কাজ করে।",
+        "Input-এর quality ভুল হলে output-ও ভুল হতে পারে। তাই computer খুব দ্রুত হলেও ভুল data দিলে ভুল result দিতে পারে—এটিকে সহজভাবে 'garbage in, garbage out' ধারণা বলা হয়।",
+        "Storage processing-এর অংশ নয়; এটি data/result পরে ব্যবহার করার জন্য ধরে রাখে। RAM কাজের সময় temporary memory দেয়, SSD/HDD দীর্ঘ সময় data রাখে।"
+      ],
+      "appendContentEn": [
+        "Think of IPO as a cycle: input supplies data, processing works on it, output presents the result, and storage keeps information for later. Correct input matters because computers can process wrong data very quickly too."
+      ],
+      "appendLearningGoalsBn": [
+        "একটি দৈনন্দিন কাজকে Input, Processing, Output ও Storage—এই চার ধাপে ভাঙতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Break a real-life computer task into Input, Processing, Output and Storage."
+      ],
+      "appendExamplesBn": [
+        "Calculator-এ 25 + 17 টাইপ করা Input, calculation Processing, 42 Output, আর result save করা Storage।"
+      ],
+      "appendExamplesEn": [
+        "Typing 25 + 17 is input, calculation is processing, 42 is output, and saving it is storage."
+      ],
+      "appendRecapBn": [
+        "Input data দেয়, CPU process করে, output result দেখায়, storage পরে রাখে।"
+      ],
+      "appendRecapEn": [
+        "Input gives data, the CPU processes it, output shows the result, and storage keeps it."
+      ],
+      "appendCommonMistakesBn": [
+        "Monitor-কে processing device ভাবা ভুল—Monitor শুধু output দেখায়।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not treat the monitor as the processor; it displays output."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Processing",
+          "meaningBn": "data বা instruction-এর ওপর CPU-র কাজ"
+        },
+        {
+          "word": "Storage",
+          "meaningBn": "data ভবিষ্যতের জন্য সংরক্ষণ"
+        }
+      ]
+    },
+    "c5_01_03": {
+      "appendContentBn": [
+        "Device চিনতে শুধু তার নাম নয়, কাজ দেখো। Keyboard ও mouse computer-কে information দেয়, তাই Input; monitor ও printer result দেখায়/বের করে, তাই Output।",
+        "CPU processing করে, কিন্তু RAM ও SSD একই ধরনের memory নয়। RAM খুব দ্রুত temporary working memory; power off হলে এর data থাকে না। SSD/HDD হলো long-term storage।",
+        "একটি device কখনো একাধিক কাজও করতে পারে—যেমন touchscreen একই সঙ্গে display (output) এবং touch input গ্রহণ করে। তাই category বোঝার সময় কাজটি লক্ষ্য করো।"
+      ],
+      "appendContentEn": [
+        "Classify devices by what they do. Keyboard and mouse provide input; monitor and printer provide output; the CPU processes; RAM is temporary working memory while SSD/HDD provide long-term storage."
+      ],
+      "appendLearningGoalsBn": [
+        "device-এর কাজ দেখে Input, Processing, Output, Memory/Storage category ঠিক করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Classify devices by function into input, processing, output and memory/storage."
+      ],
+      "appendExamplesBn": [
+        "Touchscreen একই সঙ্গে screen output দেখায় এবং finger touch input নেয়।"
+      ],
+      "appendExamplesEn": [
+        "A touchscreen both displays output and accepts touch input."
+      ],
+      "appendRecapBn": [
+        "RAM temporary; SSD/HDD long-term; CPU processing; keyboard/mouse input।"
+      ],
+      "appendRecapEn": [
+        "RAM is temporary, SSD/HDD are long-term, CPU processes, and keyboard/mouse provide input."
+      ],
+      "appendCommonMistakesBn": [
+        "RAM এবং SSD-কে একই জিনিস ভাবো না।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not confuse RAM with SSD storage."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "RAM",
+          "meaningBn": "কাজের সময় ব্যবহৃত temporary fast memory"
+        },
+        {
+          "word": "SSD",
+          "meaningBn": "দীর্ঘ সময় file/data রাখার storage device"
+        }
+      ]
+    },
+    "c5_02_01": {
+      "appendContentBn": [
+        "Hardware হলো computer-এর physical অংশ—যা দেখা বা ছোঁয়া যায়। শুধু বাইরে থাকা parts নয়, motherboard, RAM, processor, storage drive-ও hardware।",
+        "Hardware-এর প্রতিটি অংশের নির্দিষ্ট কাজ আছে। একটি monitor display করে, keyboard input দেয়, CPU process করে, storage data রাখে। একটি complete system-এ এগুলো একসঙ্গে কাজ করে।",
+        "Hardware নষ্ট হলে software ঠিক থাকলেও কাজ ব্যাহত হয়। তাই device care, clean handling এবং safe power use-ও computer learning-এর অংশ।"
+      ],
+      "appendContentEn": [
+        "Hardware means all physical computer components, including internal parts such as the motherboard, processor, RAM and storage. Different parts perform different jobs and work together as one system."
+      ],
+      "appendLearningGoalsBn": [
+        "বাইরের ও ভিতরের hardware-এর উদাহরণ দিতে এবং তাদের কাজ বলতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Identify both external and internal hardware and describe their jobs."
+      ],
+      "appendExamplesBn": [
+        "Keyboard, monitor, motherboard, CPU chip, RAM stick এবং SSD—সবই hardware।"
+      ],
+      "appendExamplesEn": [
+        "Keyboard, monitor, motherboard, CPU chip, RAM stick and SSD are all hardware."
+      ],
+      "appendRecapBn": [
+        "Hardware = physical component; শুধু keyboard-mouse নয়, internal parts-ও hardware।"
+      ],
+      "appendRecapEn": [
+        "Hardware means physical components, including internal parts."
+      ],
+      "appendCommonMistakesBn": [
+        "CPU cabinet-কে একাই 'CPU' বলা technically ঠিক নয়; cabinet-এর ভিতরে processor/CPU থাকে।"
+      ],
+      "appendCommonMistakesEn": [
+        "Technically, the whole system unit is not the CPU; the processor/CPU is inside it."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Motherboard",
+          "meaningBn": "computer-এর প্রধান circuit board যেখানে বিভিন্ন hardware যুক্ত থাকে"
+        },
+        {
+          "word": "Peripheral",
+          "meaningBn": "computer-এর সাথে যুক্ত সহায়ক device, যেমন keyboard বা printer"
+        }
+      ]
+    },
+    "c5_02_02": {
+      "appendContentBn": [
+        "Software হলো instruction/program-এর সমষ্টি যা hardware-কে কী করতে হবে বলে। Software-কে হাতে ধরা যায় না, কিন্তু screen-এ তার কাজ দেখা যায়।",
+        "System software computer চালানোর ভিত্তি তৈরি করে—Operating System hardware manage করে এবং application চালাতে সাহায্য করে। Application software নির্দিষ্ট কাজ করে, যেমন Word-এ document লেখা বা Paint-এ ছবি আঁকা।",
+        "একটি app install করা মানে hardware যোগ করা নয়; নতুন software যোগ করা। আবার software-এর কাজ করতে hardware resource—CPU, RAM, storage—প্রয়োজন হয়।"
+      ],
+      "appendContentEn": [
+        "Software is a set of programs and instructions. System software such as an operating system manages the computer, while application software helps users perform specific tasks such as writing or drawing."
+      ],
+      "appendLearningGoalsBn": [
+        "System software ও Application software-এর ভূমিকা আলাদা করে বুঝতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Distinguish the roles of system software and application software."
+      ],
+      "appendExamplesBn": [
+        "Windows Operating System; Microsoft Word Application software।"
+      ],
+      "appendExamplesEn": [
+        "Windows is system software; Microsoft Word is application software."
+      ],
+      "appendRecapBn": [
+        "Software instruction দেয়; Operating System হলো system software-এর প্রধান উদাহরণ।"
+      ],
+      "appendRecapEn": [
+        "Software provides instructions; an operating system is a major example of system software."
+      ],
+      "appendCommonMistakesBn": [
+        "Windows এবং Word-কে একই ধরনের software ভাবো না।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not treat Windows and Word as the same type of software."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Operating System",
+          "meaningBn": "hardware manage করে ও application চালানোর environment দেয় এমন system software"
+        },
+        {
+          "word": "Application Software",
+          "meaningBn": "নির্দিষ্ট user task করার program"
+        }
+      ]
+    },
+    "c5_02_03": {
+      "appendContentBn": [
+        "Hardware এবং software আলাদা হলেও একে অপরের ওপর নির্ভরশীল। Keyboard-এ key চাপা hardware action, Word সেই input গ্রহণ করা software, CPU instruction process করা hardware, monitor result দেখানো hardware।",
+        "একটি typing task-এর ভেতরে Input → Software instruction → Processing → Output—সব একসঙ্গে ঘটে। তাই computer system-কে isolated part নয়, coordinated system হিসেবে ভাবতে শেখো।",
+        "Troubleshooting-এও এই সম্পর্ক কাজে লাগে: screen-এ কিছু না দেখালে সমস্যা hardware, cable, power বা software—একাধিক জায়গায় হতে পারে।"
+      ],
+      "appendContentEn": [
+        "Hardware and software cooperate. In a typing task, the keyboard provides input, the application handles the task, the processor works on instructions, and the monitor displays the result."
+      ],
+      "appendLearningGoalsBn": [
+        "একটি computer task-এ কোন hardware ও software একসঙ্গে কাজ করছে তা শনাক্ত করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Identify the hardware and software cooperating in a computer task."
+      ],
+      "appendExamplesBn": [
+        "Word-এ typing করতে keyboard + Word + CPU + RAM + monitor একসঙ্গে কাজ করে।"
+      ],
+      "appendExamplesEn": [
+        "Typing in Word uses the keyboard, Word, CPU, RAM and monitor together."
+      ],
+      "appendRecapBn": [
+        "Useful computer work = hardware + software + user instruction একসঙ্গে।"
+      ],
+      "appendRecapEn": [
+        "Useful computer work combines hardware, software and user instructions."
+      ],
+      "appendCommonMistakesBn": [
+        "Hardware বা software একাই সব কাজ করে—এমন ভাবা ভুল।"
+      ],
+      "appendCommonMistakesEn": [
+        "It is wrong to think hardware or software works completely alone."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Computer System",
+          "meaningBn": "hardware, software, data ও user-এর সমন্বিত কাজের ব্যবস্থা"
+        }
+      ]
+    },
+    "c5_03_01": {
+      "appendContentBn": [
+        "Computer power on করার পরে Operating System load হওয়ার প্রক্রিয়াকে booting বলা হয়। Boot complete হলে Windows desktop কাজের প্রধান starting area হিসেবে দেখা যায়।",
+        "Desktop-এর icon shortcut হতে পারে, Start menu program/settings খুঁজতে সাহায্য করে, আর Taskbar open/running app দ্রুত switch করতে সাহায্য করে।",
+        "Window-এর minimize, maximize/restore এবং close action আলাদা। Close করলে app/window বন্ধ হয়; minimize করলে কাজ চলতে পারে কিন্তু Taskbar-এ নেমে যায়।"
+      ],
+      "appendContentEn": [
+        "Booting loads the operating system. After Windows starts, the desktop provides icons, the Start menu and the Taskbar, while window controls help users minimise, maximise, restore or close applications."
+      ],
+      "appendLearningGoalsBn": [
+        "Windows boot থেকে desktop ব্যবহার পর্যন্ত basic flow বুঝতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Understand the basic flow from booting Windows to using the desktop."
+      ],
+      "appendExamplesBn": [
+        "একটি app minimize করলে Taskbar-এ থাকে; close করলে window বন্ধ হয়।"
+      ],
+      "appendExamplesEn": [
+        "A minimised app remains on the Taskbar, while closing ends the window."
+      ],
+      "appendRecapBn": [
+        "Boot → Desktop → Start/Taskbar → Open app হলো basic navigation flow।"
+      ],
+      "appendRecapEn": [
+        "Boot → Desktop → Start/Taskbar → Open app is a basic navigation flow."
+      ],
+      "appendCommonMistakesBn": [
+        "Minimize এবং Close একই action নয়।"
+      ],
+      "appendCommonMistakesEn": [
+        "Minimise and Close are not the same action."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Booting",
+          "meaningBn": "computer চালু হয়ে Operating System load হওয়ার প্রক্রিয়া"
+        },
+        {
+          "word": "Taskbar",
+          "meaningBn": "open/pinned apps ও system controls দেখানো bar"
+        }
+      ]
+    },
+    "c5_03_02": {
+      "appendContentBn": [
+        "File হলো saved information-এর unit—যেমন document, picture বা audio। Folder হলো files ও subfolders গুছিয়ে রাখার container। পরিষ্কার folder structure তৈরি করলে পরে file খুঁজে পাওয়া সহজ হয়।",
+        "Copy করলে original file থাকে এবং আরেকটি copy তৈরি হয়; Move করলে file-এর location বদলে যায়। Rename শুধু নাম বদলায়; Delete করলে file recycle/trash বা removal-এর দিকে যায়।",
+        "File name meaningful রাখো—যেমন Class5_Science_Project.docx। অস্পষ্ট নাম যেমন new1, finalfinal2 পরে confusion তৈরি করে।"
+      ],
+      "appendContentEn": [
+        "Files store information; folders organise files. Copy creates another copy, Move changes location, Rename changes the name, and Delete removes the item from its current place."
+      ],
+      "appendLearningGoalsBn": [
+        "Create, Copy, Move, Rename ও Delete-এর পার্থক্য ব্যবহার করে বুঝতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Use and explain the differences among Create, Copy, Move, Rename and Delete."
+      ],
+      "appendExamplesBn": [
+        "Homework folder-এর ভিতরে Bengali, English, Science নামে subfolder করলে file গুছিয়ে রাখা সহজ।"
+      ],
+      "appendExamplesEn": [
+        "Subfolders named Bengali, English and Science can organise homework files clearly."
+      ],
+      "appendRecapBn": [
+        "Folder গুছিয়ে রাখে; Copy duplicate করে; Move স্থান বদলায়; Rename নাম বদলায়।"
+      ],
+      "appendRecapEn": [
+        "Folders organise; Copy duplicates; Move changes location; Rename changes a name."
+      ],
+      "appendCommonMistakesBn": [
+        "Copy এবং Move-কে একই কাজ ভাবো না।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not confuse Copy with Move."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "File Extension",
+          "meaningBn": "file-এর type বোঝাতে নামের শেষে থাকা অংশ, যেমন .docx বা .png"
+        },
+        {
+          "word": "Folder",
+          "meaningBn": "files/subfolders গুছিয়ে রাখার container"
+        }
+      ]
+    },
+    "c5_03_03": {
+      "appendContentBn": [
+        "Windows Settings/Control Panel থেকে display, devices, personalization এবং অন্যান্য system option বদলানো যায়। Wallpaper desktop-এর background; Theme একসঙ্গে color, background বা appearance-এর বিভিন্ন অংশ বদলাতে পারে।",
+        "Browser হলো website/web page দেখার software। Browser icon desktop-এ থাকলেও browser নিজে Internet নয়—এটি Internet content access করার tool।",
+        "Personalization করার সময় unknown theme বা random download এড়ানো উচিত। সুন্দর দেখানোর পাশাপাশি security ও system stability-ও গুরুত্বপূর্ণ।"
+      ],
+      "appendContentEn": [
+        "Windows Settings control system options and personalisation. Wallpaper changes the desktop background, themes can change several appearance settings, and a browser is software used to access web content—it is not the Internet itself."
+      ],
+      "appendLearningGoalsBn": [
+        "Settings, wallpaper, theme ও browser-এর কাজ আলাদা করে বলতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Explain the different purposes of Settings, wallpaper, themes and browsers."
+      ],
+      "appendExamplesBn": [
+        "Wallpaper শুধু background বদলায়; Theme একসঙ্গে একাধিক appearance element বদলাতে পারে।"
+      ],
+      "appendExamplesEn": [
+        "Wallpaper changes the background; a theme can change several appearance elements together."
+      ],
+      "appendRecapBn": [
+        "Browser = web access tool; Internet = connected networks-এর বৃহৎ ব্যবস্থা।"
+      ],
+      "appendRecapEn": [
+        "A browser is a web-access tool; the Internet is the larger network system."
+      ],
+      "appendCommonMistakesBn": [
+        "Browser-কে Internet-এর আরেক নাম ভাবা ভুল।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not treat a browser as another name for the Internet."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Personalization",
+          "meaningBn": "desktop-এর look/appearance নিজের পছন্দে সাজানো"
+        },
+        {
+          "word": "Browser",
+          "meaningBn": "web page/website access করার software"
+        }
+      ]
+    },
+    "c5_04_01": {
+      "appendContentBn": [
+        "Word editing মানে শুধু typing নয়; existing text দ্রুত ঠিক করা ও পুনর্বিন্যাস করাও editing। Cut text সরিয়ে clipboard-এ রাখে, Copy original রেখে duplicate করে, Paste clipboard-এর content বসায়।",
+        "Find একটি word/phrase দ্রুত খুঁজে দেয়; Replace একই text একাধিক জায়গায় বদলাতে পারে। বড় document-এ এটি সময় বাঁচায়, তবে Replace All ব্যবহারের আগে result ভেবে নেওয়া জরুরি।",
+        "Spelling/Grammar tool সম্ভাব্য ভুল দেখায়, আর Thesaurus কাছাকাছি অর্থের alternative word খুঁজতে সাহায্য করে। Tool suggestion সবসময় context অনুযায়ী যাচাই করতে হবে।"
+      ],
+      "appendContentEn": [
+        "Advanced editing includes Cut/Copy/Paste, Find and Replace, spelling and grammar checks, and Thesaurus suggestions. Tools speed up editing, but users must still review context before accepting changes."
+      ],
+      "appendLearningGoalsBn": [
+        "Word-এর editing ও proofing tools নিরাপদভাবে ব্যবহার করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Use Word editing and proofing tools carefully and correctly."
+      ],
+      "appendExamplesBn": [
+        "একটি 5-page report-এ একটি ভুল নাম 20 বার থাকলে Find & Replace দ্রুত correction করতে পারে।"
+      ],
+      "appendExamplesEn": [
+        "Find & Replace can correct a repeated wrong name across a long report quickly."
+      ],
+      "appendRecapBn": [
+        "Cut moves content, Copy duplicates it, Find searches, Replace changes matching text।"
+      ],
+      "appendRecapEn": [
+        "Cut moves content, Copy duplicates it, Find searches, and Replace changes matching text."
+      ],
+      "appendCommonMistakesBn": [
+        "Spelling suggestion দেখলেই blindly accept করা ঠিক নয়।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not blindly accept every spelling or grammar suggestion."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Clipboard",
+          "meaningBn": "Cut/Copy করা content সাময়িকভাবে রাখার area"
+        },
+        {
+          "word": "Thesaurus",
+          "meaningBn": "সমার্থক বা কাছাকাছি অর্থের word খুঁজতে সাহায্য করা tool"
+        }
+      ]
+    },
+    "c5_04_02": {
+      "appendContentBn": [
+        "Formatting-এর উদ্দেশ্য document-কে শুধু সুন্দর করা নয়—পড়তে সহজ, পরিষ্কার ও organized করা। Font, size, bold/italic, color text-এর look বদলায়; alignment ও line spacing paragraph-এর presentation বদলায়।",
+        "Bullets unordered points-এর জন্য, Numbering ordered steps/sequence-এর জন্য বেশি উপযোগী। Page margin content ও paper edge-এর space ঠিক করে, Orientation Portrait বা Landscape layout বেছে দেয়।",
+        "একটি ভালো document-এ খুব বেশি font/color ব্যবহার না করে consistent style রাখা উচিত। Heading, body text ও list-এর hierarchy দেখলে reader দ্রুত structure বুঝতে পারে।"
+      ],
+      "appendContentEn": [
+        "Formatting improves readability and structure. Text formatting changes appearance, paragraph formatting controls layout, bullets and numbering organise points, and page settings such as margins and orientation control the page."
+      ],
+      "appendLearningGoalsBn": [
+        "Text, paragraph এবং page formatting-এর উদ্দেশ্য ও পার্থক্য বুঝতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Understand the purposes of text, paragraph and page formatting."
+      ],
+      "appendExamplesBn": [
+        "Steps লিখলে Numbering, আর unordered features লিখলে Bullets বেশি পরিষ্কার।"
+      ],
+      "appendExamplesEn": [
+        "Use numbering for ordered steps and bullets for unordered features."
+      ],
+      "appendRecapBn": [
+        "Consistent formatting document-কে clear ও professional করে।"
+      ],
+      "appendRecapEn": [
+        "Consistent formatting makes a document clear and professional."
+      ],
+      "appendCommonMistakesBn": [
+        "সব text bold/colorful করলে important অংশ আর আলাদা করে চোখে পড়ে না।"
+      ],
+      "appendCommonMistakesEn": [
+        "Making all text bold or colourful reduces useful visual hierarchy."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Alignment",
+          "meaningBn": "paragraph left, center, right বা justify ভাবে সাজানো"
+        },
+        {
+          "word": "Orientation",
+          "meaningBn": "page Portrait বা Landscape direction নির্বাচন"
+        }
+      ]
+    },
+    "c5_04_03": {
+      "appendContentBn": [
+        "Picture বা graphic document-কে visual করে, কিন্তু image কোথায় থাকবে তা Text Wrapping নির্ধারণ করে। In Line, Square বা অন্য wrapping style text-এর সাথে picture-এর সম্পর্ক বদলায়।",
+        "Draw tools freehand mark/annotation করতে পারে, আর WordArt decorative text তৈরি করে। এগুলো project title বা creative work-এ useful, কিন্তু formal document-এ সীমিত ব্যবহার ভালো।",
+        "Save কাজের গুরুত্বপূর্ণ ধাপ। Meaningful file name ও সঠিক folder বেছে Save করলে পরে document খুঁজে পাওয়া সহজ হয়। বড় কাজের মাঝে মাঝে save করা data loss কমায়।"
+      ],
+      "appendContentEn": [
+        "Graphics, text wrapping, drawing tools and WordArt add visual elements to a document. Saving with a meaningful name and correct folder is essential to protect and find work later."
+      ],
+      "appendLearningGoalsBn": [
+        "Picture insertion, Text Wrapping ও Save workflow মিলিয়ে একটি neat document বানাতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Combine pictures, text wrapping and a correct Save workflow to create a neat document."
+      ],
+      "appendExamplesBn": [
+        "School poster-এ title WordArt, picture Square Wrap, শেষে Projects folder-এ meaningful name দিয়ে Save করা যায়।"
+      ],
+      "appendExamplesEn": [
+        "A school poster can use WordArt for a title, Square Wrap for a picture, and a meaningful saved filename."
+      ],
+      "appendRecapBn": [
+        "Visual tools usefulness বাড়ায়; Save work-কে নিরাপদ রাখে।"
+      ],
+      "appendRecapEn": [
+        "Visual tools improve presentation; Save protects the work."
+      ],
+      "appendCommonMistakesBn": [
+        "Save icon চাপা মানেই file কোথায় আছে জানা হয়ে যায় না—folder ও filename বুঝতে হবে।"
+      ],
+      "appendCommonMistakesEn": [
+        "Pressing Save is not enough; know the filename and folder location."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Text Wrapping",
+          "meaningBn": "picture-এর চারপাশে text কীভাবে বসবে তার setting"
+        },
+        {
+          "word": "WordArt",
+          "meaningBn": "decorative/stylized text তৈরি করার feature"
+        }
+      ]
+    },
+    "c5_05_01": {
+      "appendContentBn": [
+        "Paint 3D workspace-এ tool area, canvas এবং object কাজের area আলাদা। Canvas-কে drawing paper-এর digital version ভাবতে পারো—তুমি 2D/3D object, text, sticker বা colour এখানে সাজাও।",
+        "Tool select করার আগে কী বানাতে চাও তা ভাবো। Shape-এর জন্য shape tool, free drawing-এর জন্য brush, text-এর জন্য text tool—ঠিক tool বাছাই কাজকে সহজ করে।",
+        "Undo/Redo creative work-এ খুব useful কারণ ভুল হলে পুরো project শুরু থেকে করতে হয় না। Experiment করা শেখার একটি গুরুত্বপূর্ণ অংশ।"
+      ],
+      "appendContentEn": [
+        "Paint 3D has a workspace with tools and a canvas. Choosing the right tool for shapes, drawing, text or objects makes creative work easier, while Undo/Redo supports safe experimentation."
+      ],
+      "appendLearningGoalsBn": [
+        "Paint 3D workspace-এর main area ও tool-এর উদ্দেশ্য চিনতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Identify the main Paint 3D workspace areas and tool purposes."
+      ],
+      "appendExamplesBn": [
+        "Canvas হলো digital drawing area; brush বা shape tool দিয়ে এর ওপর কাজ করা হয়।"
+      ],
+      "appendExamplesEn": [
+        "The canvas is the digital drawing area where brush and shape tools are used."
+      ],
+      "appendRecapBn": [
+        "Tool বাছাই → Canvas-এ কাজ → Review/Undo → Save হলো সহজ workflow।"
+      ],
+      "appendRecapEn": [
+        "Choose tool → work on canvas → review/undo → save is a simple workflow."
+      ],
+      "appendCommonMistakesBn": [
+        "Canvas-কে tool ভাবা ভুল; এটি কাজের area।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not confuse the canvas with a drawing tool; it is the work area."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Canvas",
+          "meaningBn": "Paint 3D-তে ছবি/object তৈরি ও সাজানোর work area"
+        },
+        {
+          "word": "Undo",
+          "meaningBn": "শেষ action বাতিল করা"
+        }
+      ]
+    },
+    "c5_05_02": {
+      "appendContentBn": [
+        "2D shape-এর length ও width থাকে; 3D object-এ depth-ও দেখা যায়। Screen-এ 3D object rotate করলে different side দেখা যায়—এটি 2D drawing থেকে বড় পার্থক্য।",
+        "Brush freehand line/paint তৈরি করে; color নির্বাচন visual meaning বদলাতে পারে। Sticker ready-made decorative element, তবে design-এ অতিরিক্ত sticker ব্যবহার করলে clutter হতে পারে।",
+        "একটি scene বানাতে shape, colour, depth এবং position একসঙ্গে ভাবো। Computer art-এ creative choice-এর পাশাপাশি clear composition-ও গুরুত্বপূর্ণ।"
+      ],
+      "appendContentEn": [
+        "2D shapes have length and width, while 3D objects also represent depth. Brushes, colours and stickers help build a scene, but clear composition matters more than adding many decorations."
+      ],
+      "appendLearningGoalsBn": [
+        "2D ও 3D object-এর visual difference এবং basic tool use বুঝতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Understand the visual difference between 2D and 3D objects and use basic tools."
+      ],
+      "appendExamplesBn": [
+        "Circle একটি 2D shape; ball/sphere একটি 3D object হিসেবে depth বোঝায়।"
+      ],
+      "appendExamplesEn": [
+        "A circle is 2D, while a sphere represents a 3D object with depth."
+      ],
+      "appendRecapBn": [
+        "2D = flat; 3D = depth-সহ; brush = free drawing; sticker = ready decoration।"
+      ],
+      "appendRecapEn": [
+        "2D is flat; 3D includes depth; brush draws freely; stickers add ready-made decoration."
+      ],
+      "appendCommonMistakesBn": [
+        "3D মানে শুধু বড় size-এর 2D shape নয়।"
+      ],
+      "appendCommonMistakesEn": [
+        "3D does not simply mean a larger 2D shape."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "2D",
+          "meaningBn": "দুই dimension—length ও width-এর flat representation"
+        },
+        {
+          "word": "3D",
+          "meaningBn": "depth-সহ তিন dimension-এর representation"
+        }
+      ]
+    },
+    "c5_05_03": {
+      "appendContentBn": [
+        "Project workflow শুধু আঁকা নয়: idea ঠিক করা, rough layout ভাবা, tools দিয়ে তৈরি করা, spelling/visual check করা, Save করা এবং পরে Open করে verify করা—সব ধাপ গুরুত্বপূর্ণ।",
+        "Healthy Food Poster-এ art-এর সঙ্গে science/health learning যুক্ত হয়। Fruit, vegetables, water ইত্যাদি visually সাজিয়ে healthy choice communicate করা যায়—এটি cross-curricular learning।",
+        "Digital project-এর file name ও save location মনে রাখা creativity-এর মতোই জরুরি। কাজ তৈরি করে save না করলে শেখার output হারিয়ে যেতে পারে।"
+      ],
+      "appendContentEn": [
+        "A good digital project follows a workflow: plan, create, review, save and reopen to verify. A Healthy Food Poster connects computer art with health and science learning."
+      ],
+      "appendLearningGoalsBn": [
+        "Plan → Create → Review → Save → Open/Verify project workflow complete করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Complete a Plan → Create → Review → Save → Open/Verify project workflow."
+      ],
+      "appendExamplesBn": [
+        "HealthyFoodPoster_Dishika.png-এর মতো clear filename project পরে খুঁজে পেতে সাহায্য করে।"
+      ],
+      "appendExamplesEn": [
+        "A clear filename such as HealthyFoodPoster.png makes a project easy to find later."
+      ],
+      "appendRecapBn": [
+        "Creative project-এ content + design + save workflow—তিনটাই গুরুত্বপূর্ণ।"
+      ],
+      "appendRecapEn": [
+        "Content, design and the save workflow all matter in a creative project."
+      ],
+      "appendCommonMistakesBn": [
+        "শুধু সুন্দর design হলেই project complete নয়; message ও saved file-ও ঠিক থাকতে হবে।"
+      ],
+      "appendCommonMistakesEn": [
+        "A beautiful design alone is not complete; the message and saved file must also be correct."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Project Workflow",
+          "meaningBn": "পরিকল্পনা থেকে save/verify পর্যন্ত কাজের ধারাবাহিক ধাপ"
+        },
+        {
+          "word": "Art Integration",
+          "meaningBn": "অন্য subject-এর learning-কে art/creative activity-র সাথে যুক্ত করা"
+        }
+      ]
+    },
+    "c5_06_01": {
+      "appendContentBn": [
+        "Internet হলো একটি single computer বা single website নয়; এটি পৃথিবীর বহু network-কে communication rules-এর মাধ্যমে যুক্ত করা 'network of networks'।",
+        "Internet-এর শুরুর research networking ideas পরে education, communication, business এবং public information-এর বিশাল global system-এ পরিণত হয়েছে।",
+        "Internet এবং World Wide Web এক জিনিস নয়। Internet হলো network infrastructure; Web হলো browser দিয়ে access করা interconnected web pages/services-এর একটি বড় অংশ।"
+      ],
+      "appendContentEn": [
+        "The Internet is a network of networks connecting many devices and networks. The World Wide Web is one major service that uses the Internet, so the Internet and the Web are related but not identical."
+      ],
+      "appendLearningGoalsBn": [
+        "Internet-কে network of networks হিসেবে এবং Web-এর সাথে তার পার্থক্য সহজভাবে বুঝতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Understand the Internet as a network of networks and distinguish it from the Web."
+      ],
+      "appendExamplesBn": [
+        "Internet road network-এর মতো infrastructure; website/web page সেই network ব্যবহার করে পৌঁছানো destination/content-এর মতো।"
+      ],
+      "appendExamplesEn": [
+        "Think of the Internet as road infrastructure and websites as destinations/content reached through it."
+      ],
+      "appendRecapBn": [
+        "Internet infrastructure; Web হলো তার ওপর চলা একটি major information service।"
+      ],
+      "appendRecapEn": [
+        "The Internet is infrastructure; the Web is a major information service using it."
+      ],
+      "appendCommonMistakesBn": [
+        "Internet = Google বা কোনো এক website—এমন ভাবা ভুল।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not think the Internet means Google or any single website."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Network",
+          "meaningBn": "data share/communication-এর জন্য যুক্ত devices-এর ব্যবস্থা"
+        },
+        {
+          "word": "World Wide Web",
+          "meaningBn": "Internet ব্যবহার করে linked web pages/resources access করার system"
+        }
+      ]
+    },
+    "c5_06_02": {
+      "appendContentBn": [
+        "Browser, website, web page, URL এবং search engine একে অপরের সাথে related কিন্তু আলাদা। Browser হলো software; Website হলো বহু related web page-এর collection; URL হলো কোনো resource-এর address।",
+        "Search engine keywords ব্যবহার করে relevant pages খুঁজতে সাহায্য করে। ভালো search keyword ছোট কিন্তু specific হওয়া উচিত—যেমন 'water cycle for class 5' শুধু 'water' লেখার চেয়ে ভালো।",
+        "Address bar-এ URL টাইপ করা এবং search box-এ keyword লেখা আলাদা action। Exact address জানা থাকলে URL, না জানলে search engine ব্যবহার করা যায়।"
+      ],
+      "appendContentEn": [
+        "A browser is software, a website contains related web pages, a URL is an address, and a search engine helps find information using keywords. Specific search terms usually give better results."
+      ],
+      "appendLearningGoalsBn": [
+        "Browser, website, web page, URL ও search engine-এর পার্থক্য উদাহরণসহ বলতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Explain the differences among browser, website, web page, URL and search engine."
+      ],
+      "appendExamplesBn": [
+        "Chrome/Edge browser; example.com একটি website address; search engine keyword দিয়ে site/page খুঁজতে সাহায্য করে।"
+      ],
+      "appendExamplesEn": [
+        "Chrome or Edge is a browser; a URL is an address; a search engine finds pages using keywords."
+      ],
+      "appendRecapBn": [
+        "Browser opens web content; URL locates; search engine finds।"
+      ],
+      "appendRecapEn": [
+        "A browser opens web content, a URL locates it, and a search engine helps find it."
+      ],
+      "appendCommonMistakesBn": [
+        "Search engine এবং browser-কে একই জিনিস ভাবা ভুল।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not confuse a search engine with a browser."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "URL",
+          "meaningBn": "web resource-এর address"
+        },
+        {
+          "word": "Search Keyword",
+          "meaningBn": "search engine-এ তথ্য খোঁজার জন্য লেখা গুরুত্বপূর্ণ word/phrase"
+        }
+      ]
+    },
+    "c5_06_03": {
+      "appendContentBn": [
+        "Search result-এর প্রথম link সবসময় সবচেয়ে reliable নয়। Source কে প্রকাশ করেছে, তথ্য কতটা recent, অন্য trusted source একই কথা বলছে কি না—এই clues দেখে বিশ্বাসযোগ্যতা বিচার করতে হয়।",
+        "Cyber safety-তে strong password, personal information protection, suspicious link এড়ানো এবং unknown download না করা গুরুত্বপূর্ণ। কোনো site যদি অযথা password/OTP চায়, adult/teacher-এর সাহায্য নাও।",
+        "Online information share করার আগে ভাবো: এটি private কি না, সত্য কি না, এবং share করলে কারও ক্ষতি/অসুবিধা হতে পারে কি না। Safe Internet use-এর সাথে digital ethics-ও জড়িত।"
+      ],
+      "appendContentEn": [
+        "Safe browsing means choosing specific search terms, checking trusted sources, protecting passwords and personal data, avoiding suspicious links/downloads, and verifying information before sharing it."
+      ],
+      "appendLearningGoalsBn": [
+        "Search result থেকে trusted source বেছে নেওয়া এবং basic cyber-safety rule প্রয়োগ করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Choose trustworthy search results and apply basic cyber-safety rules."
+      ],
+      "appendExamplesBn": [
+        "School project-এর তথ্য official/educational source থেকে cross-check করা random unknown blog-এর ওপর একা নির্ভর করার চেয়ে ভালো।"
+      ],
+      "appendExamplesEn": [
+        "Cross-checking a school project with official or educational sources is safer than relying on one unknown page."
+      ],
+      "appendRecapBn": [
+        "Search → Check source → Verify → Use/Share safely।"
+      ],
+      "appendRecapEn": [
+        "Search → Check source → Verify → Use or share safely."
+      ],
+      "appendCommonMistakesBn": [
+        "HTTPS padlock থাকলেই website-এর সব information সত্য—এমন নিশ্চয়তা নেই।"
+      ],
+      "appendCommonMistakesEn": [
+        "A secure connection icon does not guarantee that every claim on a website is true."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Trusted Source",
+          "meaningBn": "যার publisher, evidence ও reliability যাচাই করা যায় এমন তথ্যসূত্র"
+        },
+        {
+          "word": "Phishing",
+          "meaningBn": "ভুয়ো message/site দিয়ে password বা personal data নেওয়ার চেষ্টা"
+        }
+      ]
+    },
+    "c5_07_01": {
+      "appendContentBn": [
+        "Scratch block-based programming শেখায়, তাই syntax টাইপ না করেও logic বোঝা যায়। Sprite হলো character/object, Stage হলো যেখানে action দেখা যায়, আর Coding Area-তে blocks জুড়ে instruction তৈরি হয়।",
+        "Blocks category অনুযায়ী organized থাকে—Motion movement, Looks appearance, Sound audio, Events trigger ইত্যাদি। Category বুঝলে সঠিক block দ্রুত খুঁজে পাওয়া যায়।",
+        "Program আসলে ordered instructions। Block-এর order বদলালে result-ও বদলাতে পারে—এই cause-and-effect coding-এর মূল ধারণা।"
+      ],
+      "appendContentEn": [
+        "Scratch teaches programming logic with blocks. Sprites act on the Stage, blocks come from categories, and the Coding Area combines ordered instructions whose sequence affects the result."
+      ],
+      "appendLearningGoalsBn": [
+        "Stage, Sprite, Blocks Palette ও Coding Area-এর role বুঝতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Understand the roles of the Stage, Sprite, Blocks Palette and Coding Area."
+      ],
+      "appendExamplesBn": [
+        "Sprite-কে Move 10 Steps block দিলে Stage-এ তার position বদলায়।"
+      ],
+      "appendExamplesEn": [
+        "A Move 10 Steps block changes a sprite's position on the Stage."
+      ],
+      "appendRecapBn": [
+        "Sprite acts; Stage shows; blocks instruct; Coding Area arranges instructions।"
+      ],
+      "appendRecapEn": [
+        "Sprites act, the Stage shows, blocks instruct, and the Coding Area arranges instructions."
+      ],
+      "appendCommonMistakesBn": [
+        "Sprite এবং Stage একই জিনিস নয়।"
+      ],
+      "appendCommonMistakesEn": [
+        "A Sprite and the Stage are not the same thing."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Sprite",
+          "meaningBn": "Scratch project-এর programmable character/object"
+        },
+        {
+          "word": "Block",
+          "meaningBn": "একটি নির্দিষ্ট programming instruction-এর visual piece"
+        }
+      ]
+    },
+    "c5_07_02": {
+      "appendContentBn": [
+        "Move ও Turn blocks position/direction বদলায়। Repeat একই instruction বারবার চালায়, তাই একই block অনেকবার বসানোর বদলে loop ব্যবহার করা যায়।",
+        "Square আঁকতে 'move → turn 90°' pattern চারবার repeat করা যায়। এখানে pattern চিনে repeat ব্যবহার করাই computational thinking-এর উদাহরণ।",
+        "Programming-এ prediction জরুরি: Run করার আগে ভাবো sprite কোথায় যাবে বা কী shape হবে, তারপর result দেখে তোমার prediction ঠিক কি না যাচাই করো।"
+      ],
+      "appendContentEn": [
+        "Move and Turn change a sprite's position and direction. Repeat creates a loop so patterns can be expressed with fewer blocks. Predicting the result before running code develops computational thinking."
+      ],
+      "appendLearningGoalsBn": [
+        "Repeated pattern চিনে Repeat block ব্যবহার করে ছোট program বানাতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Recognise repeated patterns and use Repeat to build a small program."
+      ],
+      "appendExamplesBn": [
+        "Square: Repeat 4 times → Move → Turn 90 degrees।"
+      ],
+      "appendExamplesEn": [
+        "Square: Repeat 4 times → Move → Turn 90 degrees."
+      ],
+      "appendRecapBn": [
+        "Repeat একই pattern compact ও clear করে।"
+      ],
+      "appendRecapEn": [
+        "Repeat makes repeated patterns compact and clear."
+      ],
+      "appendCommonMistakesBn": [
+        "Repeat count বা turn angle ভুল হলে shape ভুল হবে—block ঠিক থাকলেই program ঠিক হয় না।"
+      ],
+      "appendCommonMistakesEn": [
+        "A wrong repeat count or turn angle can still produce the wrong shape."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Loop",
+          "meaningBn": "একই instruction/pattern বারবার চালানোর programming structure"
+        },
+        {
+          "word": "Computational Thinking",
+          "meaningBn": "problem-কে pattern, steps ও logic দিয়ে সমাধান করার চিন্তাপদ্ধতি"
+        }
+      ]
+    },
+    "c5_07_03": {
+      "appendContentBn": [
+        "Duplicate Sprite existing sprite-এর copy তৈরি করে, তাই একই ধরনের character/object দ্রুত বানানো যায়। Copy হওয়ার পরে costume, position বা code আলাদা করে বদলানো সম্ভব।",
+        "Save project মানে current code, sprites ও scene ভবিষ্যতের জন্য রাখা। Open করলে saved project আবার কাজের জন্য load হয়।",
+        "Exit করার আগে Save হয়েছে কি না যাচাই করা ভালো habit। Digital project workflow-এ create-এর মতো save/open/exit discipline-ও গুরুত্বপূর্ণ।"
+      ],
+      "appendContentEn": [
+        "Duplicating a sprite creates a reusable copy. Saving preserves the project, opening loads it again, and checking that work is saved before exiting is an essential project habit."
+      ],
+      "appendLearningGoalsBn": [
+        "Duplicate, Save, Open ও Exit—এই project workflow নিরাপদভাবে complete করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Complete the Duplicate, Save, Open and Exit project workflow safely."
+      ],
+      "appendExamplesBn": [
+        "দুইটি similar character দরকার হলে duplicate করে পরে costume/position বদলানো দ্রুত।"
+      ],
+      "appendExamplesEn": [
+        "Duplicate a similar character and then change its costume or position to work faster."
+      ],
+      "appendRecapBn": [
+        "Create/duplicate → edit → Save → Open/verify → Exit।"
+      ],
+      "appendRecapEn": [
+        "Create or duplicate → edit → Save → Open/verify → Exit."
+      ],
+      "appendCommonMistakesBn": [
+        "Save না করে Exit করলে কাজ হারাতে পারে।"
+      ],
+      "appendCommonMistakesEn": [
+        "Exiting without saving may lose work."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Duplicate",
+          "meaningBn": "existing object/sprite-এর copy তৈরি করা"
+        },
+        {
+          "word": "Project File",
+          "meaningBn": "Scratch-এর saved sprites, code ও scene রাখা file"
+        }
+      ]
+    },
+    "c5_08_01": {
+      "appendContentBn": [
+        "Sprite Library থেকে ready sprite বেছে নেওয়া যায়। Costume হলো একই sprite-এর different appearance/pose, আর Backdrop হলো Stage-এর background scene।",
+        "একটি story/game scene বানাতে character (sprite), appearance (costume) এবং location/scene (backdrop) আলাদা layer হিসেবে ভাবলে planning সহজ হয়।",
+        "Scene setup আগে করলে পরে coding clear হয়, কারণ কোন character কোথায় থাকবে এবং কী look দরকার তা আগেই ঠিক থাকে।"
+      ],
+      "appendContentEn": [
+        "The Sprite Library provides characters, costumes change a sprite's appearance, and backdrops define the Stage scene. Planning these elements before coding helps organise a story or game."
+      ],
+      "appendLearningGoalsBn": [
+        "Sprite, Costume ও Backdrop আলাদা করে scene planning করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Plan a scene by distinguishing Sprite, Costume and Backdrop."
+      ],
+      "appendExamplesBn": [
+        "Space game-এ rocket sprite, flying costume এবং space backdrop ব্যবহার করা যায়।"
+      ],
+      "appendExamplesEn": [
+        "A space game can use a rocket sprite, a flying costume and a space backdrop."
+      ],
+      "appendRecapBn": [
+        "Sprite = character; Costume = look; Backdrop = scene/background।"
+      ],
+      "appendRecapEn": [
+        "Sprite = character; Costume = appearance; Backdrop = scene/background."
+      ],
+      "appendCommonMistakesBn": [
+        "Costume বদলালে নতুন sprite তৈরি হয় না; একই sprite-এর appearance বদলায়।"
+      ],
+      "appendCommonMistakesEn": [
+        "Changing a costume does not create a new sprite; it changes the same sprite's appearance."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Costume",
+          "meaningBn": "একই sprite-এর alternative appearance/pose"
+        },
+        {
+          "word": "Backdrop",
+          "meaningBn": "Scratch Stage-এর background scene"
+        }
+      ]
+    },
+    "c5_08_02": {
+      "appendContentBn": [
+        "Event block program কখন শুরু হবে বা কোন ঘটনার পরে action হবে তা নির্ধারণ করে—যেমন green flag click। Say block message দেখায়, Sound audio চালায়, Repeat action বারবার চালাতে পারে।",
+        "একটি animation-এ Event trigger → Motion/Looks/Say → Sound → Repeat sequence তৈরি হতে পারে। Blocks শুধু category নয়; তাদের timing ও order মিলেই behavior তৈরি করে।",
+        "Debugging মানে code কেন expected result দিচ্ছে না তা step by step দেখা। Wrong order, missing event বা repeat count—সবই bug-এর কারণ হতে পারে।"
+      ],
+      "appendContentEn": [
+        "Events trigger code, Say displays messages, Sound plays audio and Repeat loops actions. Timing and block order shape behaviour, and debugging checks why a program does not match the expected result."
+      ],
+      "appendLearningGoalsBn": [
+        "Event, Say, Sound ও Repeat মিলিয়ে simple interactive sequence তৈরি করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Build a simple interactive sequence using Event, Say, Sound and Repeat."
+      ],
+      "appendExamplesBn": [
+        "Green Flag → Say 'Hello' → Play Sound একটি simple event-driven script।"
+      ],
+      "appendExamplesEn": [
+        "Green Flag → Say 'Hello' → Play Sound is a simple event-driven script."
+      ],
+      "appendRecapBn": [
+        "Event শুরু করে; other blocks behavior তৈরি করে; debugging error খুঁজে।"
+      ],
+      "appendRecapEn": [
+        "Events start scripts, other blocks create behaviour, and debugging finds errors."
+      ],
+      "appendCommonMistakesBn": [
+        "Green Flag/Event না দিলে code থাকলেও script start নাও হতে পারে।"
+      ],
+      "appendCommonMistakesEn": [
+        "A script may not start if its event trigger is missing."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Event",
+          "meaningBn": "কোন ঘটনার response হিসেবে code চালুর trigger"
+        },
+        {
+          "word": "Debugging",
+          "meaningBn": "program-এর ভুল cause খুঁজে ঠিক করার প্রক্রিয়া"
+        }
+      ]
+    },
+    "c5_08_03": {
+      "appendContentBn": [
+        "Quiz game বানাতে শুধু question text নয়—question sequence, player answer, feedback এবং score/flow ভাবতে হয়। এটি ছোট software design-এর মতো।",
+        "প্রথমে game-এর rules plan করো, তারপর sprites/backdrop ঠিক করো, প্রশ্ন/response blocks সাজাও, run করে test করো এবং ভুল হলে debug করো।",
+        "Testing-এ শুধু correct answer নয়, wrong answer বা unexpected click-ও try করা উচিত। ভালো program different user action কীভাবে handle করবে তা পরীক্ষা করে।"
+      ],
+      "appendContentEn": [
+        "A quiz game combines questions, user responses, feedback and program flow. Planning, building, testing both correct and incorrect answers, and debugging are all parts of a small software project."
+      ],
+      "appendLearningGoalsBn": [
+        "Plan → Code → Test → Debug → Improve cycle অনুসরণ করে mini quiz game complete করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Complete a mini quiz game using the Plan → Code → Test → Debug → Improve cycle."
+      ],
+      "appendExamplesBn": [
+        "Wrong answer দিলে 'Try again' feedback যোগ করলে game user-friendly হয়।"
+      ],
+      "appendExamplesEn": [
+        "Adding 'Try again' feedback for a wrong answer makes a quiz more user-friendly."
+      ],
+      "appendRecapBn": [
+        "Program তৈরি শেষ নয়; test ও debug করার পরই reliable project হয়।"
+      ],
+      "appendRecapEn": [
+        "A program becomes reliable only after testing and debugging."
+      ],
+      "appendCommonMistakesBn": [
+        "শুধু নিজের expected click test করলে hidden bug ধরা নাও পড়তে পারে।"
+      ],
+      "appendCommonMistakesEn": [
+        "Testing only the expected click may miss hidden bugs."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Program Flow",
+          "meaningBn": "program-এর action কোন order/condition-এ চলবে তার ধারা"
+        },
+        {
+          "word": "Feedback",
+          "meaningBn": "user action-এর পরে program যে response দেয়"
+        }
+      ]
+    },
+    "c5_09_01": {
+      "appendContentBn": [
+        "Intelligence বলতে information বুঝে, pattern চিনে, শেখা experience ব্যবহার করে এবং situation অনুযায়ী সিদ্ধান্ত নেওয়ার ক্ষমতা বোঝানো যায়। মানুষের intelligence emotion, common sense, values ও lived experience-এর সাথেও যুক্ত।",
+        "Artificial Intelligence computer system-কে data/pattern ব্যবহার করে কিছু task-এ smart output দিতে সাহায্য করে। AI মানুষের মতো consciousness বা feeling আছে—এমন ধরে নেওয়া ঠিক নয়।",
+        "AI system নির্দিষ্ট task-এ মানুষের চেয়ে দ্রুত হতে পারে, কিন্তু context, fairness, responsibility ও final judgement-এ human supervision গুরুত্বপূর্ণ।"
+      ],
+      "appendContentEn": [
+        "Human intelligence includes understanding, experience, common sense, emotions and values. AI systems use data and patterns to perform certain tasks, but they should not be assumed to have human consciousness or judgement."
+      ],
+      "appendLearningGoalsBn": [
+        "Human Intelligence ও Artificial Intelligence-এর basic meaning ও limitation বুঝতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Understand the basic meanings and limitations of human and artificial intelligence."
+      ],
+      "appendExamplesBn": [
+        "Voice assistant speech pattern process করতে পারে, কিন্তু মানুষের মতো সব context বা emotion সত্যিকারের বুঝে ফেলে না।"
+      ],
+      "appendExamplesEn": [
+        "A voice assistant can process speech patterns without understanding every human context or emotion."
+      ],
+      "appendRecapBn": [
+        "AI smart task করতে পারে; human intelligence broader context, values ও responsibility বহন করে।"
+      ],
+      "appendRecapEn": [
+        "AI can perform smart tasks; human intelligence includes broader context, values and responsibility."
+      ],
+      "appendCommonMistakesBn": [
+        "AI = robot বা AI = human brain—দুটোই oversimplification।"
+      ],
+      "appendCommonMistakesEn": [
+        "AI is not simply another word for robot or human brain."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Artificial Intelligence",
+          "meaningBn": "data/pattern ব্যবহার করে intelligent-like task করার computing technique/system"
+        },
+        {
+          "word": "Human Intelligence",
+          "meaningBn": "মানুষের reasoning, learning, common sense, emotion ও judgement-এর সামগ্রিক ক্ষমতা"
+        }
+      ]
+    },
+    "c5_09_02": {
+      "appendContentBn": [
+        "Human ও AI তুলনা করার সময় 'কে বেশি বুদ্ধিমান' এক কথায় বলা ঠিক নয়। Task অনুযায়ী strengths বদলে যায়—AI large data দ্রুত analyse করতে পারে; human novel context, empathy, values ও responsibility ভালোভাবে handle করতে পারে।",
+        "AI application voice assistant, recommendation, image recognition, translation, navigation বা pattern detection-এ দেখা যায়। কিন্তু output error বা bias থাকতে পারে, তাই important decision-এ verification দরকার।",
+        "Responsible use মানে AI output-কে সাহায্য হিসেবে নেওয়া, source/check করা, private data সাবধানে ব্যবহার করা এবং final responsibility human-এর রাখা।"
+      ],
+      "appendContentEn": [
+        "Humans and AI have different strengths. AI can process patterns and large data quickly, while humans contribute context, empathy, values and responsibility. Important AI outputs should be verified."
+      ],
+      "appendLearningGoalsBn": [
+        "Task অনুযায়ী human ও AI-এর strengths/limitations তুলনা করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Compare human and AI strengths and limitations according to the task."
+      ],
+      "appendExamplesBn": [
+        "Navigation app route suggest করতে পারে, কিন্তু road বন্ধ বা emergency context-এ human judgement এখনও দরকার হতে পারে।"
+      ],
+      "appendExamplesEn": [
+        "A navigation app can suggest routes, but human judgement may still be needed for closures or emergencies."
+      ],
+      "appendRecapBn": [
+        "AI assists; human verifies, judges context and carries responsibility।"
+      ],
+      "appendRecapEn": [
+        "AI assists; humans verify, judge context and carry responsibility."
+      ],
+      "appendCommonMistakesBn": [
+        "AI output confident দেখালেই সেটি অবশ্যই correct—এমন ভাবা ভুল।"
+      ],
+      "appendCommonMistakesEn": [
+        "A confident-looking AI answer is not automatically correct."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Bias",
+          "meaningBn": "data/system-এর কারণে result একদিকে unfair বা skewed হওয়ার প্রবণতা"
+        },
+        {
+          "word": "Verification",
+          "meaningBn": "result অন্য evidence/source দিয়ে যাচাই করা"
+        }
+      ]
+    },
+    "c5_09_03": {
+      "appendContentBn": [
+        "Prediction মানে নিশ্চিত ভবিষ্যৎ বলা নয়; available pattern/data দেখে সম্ভাব্য result অনুমান করা। Data কম বা pattern বদলে গেলে prediction ভুল হতে পারে।",
+        "Rock-Paper-Scissors activity-তে computer previous choice-এর pattern দেখে guess করতে পারে, কিন্তু player strategy বদলালে guess fail হতে পারে। এটিই uncertainty বোঝার সহজ উপায়।",
+        "AI decision দেখার পরে 'কেন এই result?', 'data যথেষ্ট ছিল?', 'আমি কীভাবে verify করব?'—এই তিনটি প্রশ্ন করা critical thinking গড়ে তোলে।"
+      ],
+      "appendContentEn": [
+        "Prediction uses patterns to estimate what may happen; it is not certainty. In a Rock-Paper-Scissors activity, changing player behaviour can make a pattern-based guess fail, which demonstrates uncertainty and the need for verification."
+      ],
+      "appendLearningGoalsBn": [
+        "Pattern, prediction, uncertainty ও verification-এর সম্পর্ক activity-র মাধ্যমে ব্যাখ্যা করতে পারবে।"
+      ],
+      "appendLearningGoalsEn": [
+        "Explain the relationship among patterns, prediction, uncertainty and verification through an activity."
+      ],
+      "appendExamplesBn": [
+        "Computer যদি আগের তিনবার Rock দেখে Paper guess করে, পরেরবার player Scissors দিলে prediction ভুল হতে পারে।"
+      ],
+      "appendExamplesEn": [
+        "If a system sees Rock repeatedly and predicts Paper, a changed choice can make the prediction fail."
+      ],
+      "appendRecapBn": [
+        "Prediction = probability based on pattern; verification = result check; uncertainty সব prediction-এ থাকতে পারে।"
+      ],
+      "appendRecapEn": [
+        "Prediction is pattern-based probability; verification checks results; uncertainty can remain."
+      ],
+      "appendCommonMistakesBn": [
+        "Prediction-কে নিশ্চিত fact বা ভবিষ্যদ্বাণী ভাবা ভুল।"
+      ],
+      "appendCommonMistakesEn": [
+        "Do not treat a prediction as a guaranteed fact."
+      ],
+      "appendImportantWords": [
+        {
+          "word": "Prediction",
+          "meaningBn": "pattern/data থেকে সম্ভাব্য result অনুমান"
+        },
+        {
+          "word": "Uncertainty",
+          "meaningBn": "result নিশ্চিত না হওয়ার অবস্থা"
+        }
+      ]
+    }
+  }
+}

@@ -1,3 +1,13 @@
+## 1.1.0+22 - Class V Deep Visual Learning Upgrade
+- Added an additive deep-learning enrichment layer for all 27 Class V lessons across all 9 chapters.
+- Expanded Bengali-first conceptual explanations, English support, learning goals, examples, vocabulary, recaps and misconception checks.
+- Changed the lesson flow to visual-first: the learning image is shown before the long explanation.
+- Upgraded Computer Generations with a child-friendly 1st-to-5th visual comparison poster emphasizing how the machines looked across generations.
+- Preserved existing quizzes, interactive practicals, progress tracking, chapter tests and final exam routes.
+- Added Phase 8.2 integrity tests and build-22 Android CI configuration.
+- Upgraded GitHub Actions Java setup to actions/setup-java@v5.
+- No database migration is required.
+
 ## 1.1.0+21 - Class V Visual Zoom & Guided Mockups
 - Rebuilt the 12 Class V learning visuals in a portrait, mobile-first layout with larger labels.
 - Learning images are now tappable and open in a full-screen InteractiveViewer with pinch zoom, pan, zoom-in, zoom-out and reset controls.

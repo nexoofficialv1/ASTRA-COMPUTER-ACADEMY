@@ -10,3 +10,4 @@ scratch_interface.png
 scratch_quiz_flow.png
 windows_desktop.png
 word_tools.png
+computer_generations_visual_first.jpg
