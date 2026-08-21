@@ -309,7 +309,54 @@ class LessonScreen extends StatelessWidget {
                   fontWeight: FontWeight.w700,
                 ),
           ),
+          if (lesson.learningGoalsBn.isNotEmpty) ...[
+            const SizedBox(height: 14),
+            const Text(
+              'এই lesson-এ কী শিখবে',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (final item in lesson.learningGoalsBn)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 7),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text('✓  '),
+                            Expanded(child: Text(item)),
+                          ],
+                        ),
+                      ),
+                    if (lesson.learningGoalsEn.isNotEmpty) ...[
+                      const Divider(height: 22),
+                      const Text(
+                        'What you will learn',
+                        style: TextStyle(fontWeight: FontWeight.w900),
+                      ),
+                      const SizedBox(height: 6),
+                      for (final item in lesson.learningGoalsEn)
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 6),
+                          child: Text('• $item'),
+                        ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
+          ],
           const SizedBox(height: 18),
+          const Text(
+            'সহজ ব্যাখ্যা',
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+          ),
+          const SizedBox(height: 8),
           for (final paragraph in lesson.contentBn) ...[
             Text(paragraph, style: const TextStyle(fontSize: 16, height: 1.6)),
             const SizedBox(height: 14),
@@ -365,6 +412,146 @@ class LessonScreen extends StatelessWidget {
             ),
             const SizedBox(height: 14),
           ],
+          if (lesson.examplesBn.isNotEmpty) ...[
+            const Text(
+              'উদাহরণ',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (final item in lesson.examplesBn)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 8),
+                        child: Text('• $item'),
+                      ),
+                    if (lesson.examplesEn.isNotEmpty) ...[
+                      const Divider(height: 22),
+                      const Text(
+                        'Examples in English',
+                        style: TextStyle(fontWeight: FontWeight.w900),
+                      ),
+                      const SizedBox(height: 6),
+                      for (final item in lesson.examplesEn)
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 8),
+                          child: Text('• $item'),
+                        ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 14),
+          ],
+          if (lesson.mockupCards.isNotEmpty) ...[
+            const Text(
+              'ভিজ্যুয়াল mockup',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            for (final card in lesson.mockupCards) ...[
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        width: 58,
+                        height: 58,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: Theme.of(context)
+                              .colorScheme
+                              .primaryContainer,
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        child: Text(
+                          card['icon']?.toString() ?? '🧩',
+                          style: const TextStyle(fontSize: 30),
+                        ),
+                      ),
+                      const SizedBox(width: 14),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              card['titleBn']?.toString() ?? '',
+                              style: const TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w900,
+                              ),
+                            ),
+                            const SizedBox(height: 5),
+                            Text(card['descriptionBn']?.toString() ?? ''),
+                            if ((card['descriptionEn']?.toString() ?? '')
+                                .trim()
+                                .isNotEmpty) ...[
+                              const SizedBox(height: 8),
+                              Text(
+                                'English: ${card['descriptionEn']}',
+                                style: Theme.of(context).textTheme.bodySmall,
+                              ),
+                            ],
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              const SizedBox(height: 8),
+            ],
+            const SizedBox(height: 6),
+          ],
+          if (lesson.importantWords.isNotEmpty) ...[
+            const Text(
+              'গুরুত্বপূর্ণ শব্দ',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Column(
+                  children: [
+                    for (final item in lesson.importantWords)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 10),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Expanded(
+                              flex: 2,
+                              child: Text(
+                                item['word']?.toString() ?? '',
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.w900,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              flex: 3,
+                              child: Text(
+                                item['meaningBn']?.toString() ?? '',
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 14),
+          ],
           if (lesson.steps.isNotEmpty) ...[
             const SizedBox(height: 8),
             Text(
@@ -408,6 +595,78 @@ class LessonScreen extends StatelessWidget {
                   ),
                 ),
             ],
+          ],
+          if (lesson.recapBn.isNotEmpty) ...[
+            const SizedBox(height: 16),
+            const Text(
+              'Quick Recap',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (final item in lesson.recapBn)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 7),
+                        child: Text('✓ $item'),
+                      ),
+                    if (lesson.recapEn.isNotEmpty) ...[
+                      const Divider(height: 22),
+                      const Text(
+                        'Quick Recap in English',
+                        style: TextStyle(fontWeight: FontWeight.w900),
+                      ),
+                      const SizedBox(height: 6),
+                      for (final item in lesson.recapEn)
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 7),
+                          child: Text('• $item'),
+                        ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
+          ],
+          if (lesson.commonMistakesBn.isNotEmpty) ...[
+            const SizedBox(height: 14),
+            const Text(
+              'Common Mistakes',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (final item in lesson.commonMistakesBn)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 7),
+                        child: Text('⚠ $item'),
+                      ),
+                    if (lesson.commonMistakesEn.isNotEmpty) ...[
+                      const Divider(height: 22),
+                      const Text(
+                        'Common Mistakes in English',
+                        style: TextStyle(fontWeight: FontWeight.w900),
+                      ),
+                      const SizedBox(height: 6),
+                      for (final item in lesson.commonMistakesEn)
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 7),
+                          child: Text('• $item'),
+                        ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
           ],
         ],
       ),

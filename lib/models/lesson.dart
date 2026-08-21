@@ -16,6 +16,16 @@ class Lesson {
     this.summaryEn = '',
     this.contentEn = const [],
     this.stepsEn = const [],
+    this.learningGoalsBn = const [],
+    this.learningGoalsEn = const [],
+    this.examplesBn = const [],
+    this.examplesEn = const [],
+    this.recapBn = const [],
+    this.recapEn = const [],
+    this.commonMistakesBn = const [],
+    this.commonMistakesEn = const [],
+    this.importantWords = const [],
+    this.mockupCards = const [],
   });
 
   final String id;
@@ -33,6 +43,16 @@ class Lesson {
   final String summaryEn;
   final List<String> contentEn;
   final List<String> stepsEn;
+  final List<String> learningGoalsBn;
+  final List<String> learningGoalsEn;
+  final List<String> examplesBn;
+  final List<String> examplesEn;
+  final List<String> recapBn;
+  final List<String> recapEn;
+  final List<String> commonMistakesBn;
+  final List<String> commonMistakesEn;
+  final List<Map<String, dynamic>> importantWords;
+  final List<Map<String, dynamic>> mockupCards;
 
   bool get isPractical => type == 'practical';
   bool get hasInteractivePractical => practicalKind != null;
@@ -59,6 +79,20 @@ class Lesson {
       summaryEn: json['summaryEn'] as String? ?? '',
       contentEn: List<String>.from(json['contentEn'] as List<dynamic>? ?? const []),
       stepsEn: List<String>.from(json['stepsEn'] as List<dynamic>? ?? const []),
+      learningGoalsBn: List<String>.from(json['learningGoalsBn'] as List<dynamic>? ?? const []),
+      learningGoalsEn: List<String>.from(json['learningGoalsEn'] as List<dynamic>? ?? const []),
+      examplesBn: List<String>.from(json['examplesBn'] as List<dynamic>? ?? const []),
+      examplesEn: List<String>.from(json['examplesEn'] as List<dynamic>? ?? const []),
+      recapBn: List<String>.from(json['recapBn'] as List<dynamic>? ?? const []),
+      recapEn: List<String>.from(json['recapEn'] as List<dynamic>? ?? const []),
+      commonMistakesBn: List<String>.from(json['commonMistakesBn'] as List<dynamic>? ?? const []),
+      commonMistakesEn: List<String>.from(json['commonMistakesEn'] as List<dynamic>? ?? const []),
+      importantWords: (json['importantWords'] as List<dynamic>? ?? const [])
+          .map((item) => Map<String, dynamic>.from(item as Map))
+          .toList(),
+      mockupCards: (json['mockupCards'] as List<dynamic>? ?? const [])
+          .map((item) => Map<String, dynamic>.from(item as Map))
+          .toList(),
     );
   }
 }

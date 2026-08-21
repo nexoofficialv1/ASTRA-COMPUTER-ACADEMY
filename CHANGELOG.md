@@ -1,3 +1,11 @@
+## 1.1.0+19 - Class V Deep Child-Friendly Content
+- Deep-enriched all 27 Class V lessons with simpler Bengali explanations and supporting English explanations.
+- Added "What you will learn", examples, important words, quick recap and common mistakes to every lesson.
+- Added visual mockup cards so children can understand key ideas more easily without relying only on long text.
+- Added bilingual quiz support with English question, options and answer explanation.
+- Upgraded the lesson screen to a study-friendly structure designed for Class V children.
+- Added deep-content integrity tests for all 27 lessons.
+
 ## 1.1.0+18 - Class V Bengali + English Learning Content
 - Added English explanations directly below Bengali explanations for all 27 Class V lessons.
 - Added English lesson titles, summaries, explanations and practice/key-point steps.

@@ -22,6 +22,8 @@
           "durationMinutes": 14,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা কম্পিউটারের বিবর্তন ও পাঁচটি Generation বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "কম্পিউটার একদিনে তৈরি হয়নি। বিভিন্ন সময়ে নতুন electronic technology ব্যবহারের ফলে computer-এর speed, size, reliability এবং capability বদলেছে।",
             "সাধারণভাবে computer evolution-কে পাঁচটি generation-এ বোঝানো হয়: Vacuum Tube, Transistor, Integrated Circuit (IC), Microprocessor এবং AI/advanced processing ভিত্তিক আধুনিক generation।",
             "Generation মনে রাখার উদ্দেশ্য শুধু সাল মুখস্থ করা নয়; কোন technology কীভাবে computer-কে ছোট, দ্রুত ও শক্তিশালী করেছে সেটি বোঝা।",
@@ -65,10 +67,11 @@
             "topic:c1_gen5"
           ],
           "titleEn": "Evolution of Computers and the Five Generations",
-          "summaryEn": "Learn how computers developed from vacuum tubes to modern AI-oriented systems.",
+          "summaryEn": "Learn how computers changed from very large early machines to fast modern systems.",
           "contentEn": [
-            "Computers evolved through major technological stages. Vacuum tubes were replaced by transistors, then integrated circuits, microprocessors and finally advanced intelligent computing.",
-            "The purpose of studying generations is to understand how each technology made computers smaller, faster, more reliable and more capable."
+            "Computers changed over time. Earlier computers were very large and used more electricity. New technology made them smaller and faster.",
+            "The five generations are commonly explained by their main technology: Vacuum Tubes, Transistors, Integrated Circuits, Microprocessors and modern AI-oriented systems.",
+            "The main idea is to understand improvement from one generation to the next."
           ],
           "stepsEn": [
             "1st: Vacuum Tubes",
@@ -76,6 +79,65 @@
             "3rd: Integrated Circuits",
             "4th: Microprocessors",
             "5th: AI and advanced intelligent computing"
+          ],
+          "learningGoalsBn": [
+            "কম্পিউটারের ৫টি generation চিনবে",
+            "কেন নতুন generation এ speed বেড়েছে বুঝবে",
+            "small, fast, smart — এই উন্নতির ধারণা পাবে"
+          ],
+          "learningGoalsEn": [
+            "Identify the 5 generations of computers",
+            "Understand why newer generations became faster",
+            "Understand the idea of smaller, faster and smarter computers"
+          ],
+          "examplesBn": [
+            "আগে computer অনেক বড় room জুড়ে থাকত, এখন laptop ব্যাগে রাখা যায়।",
+            "আগে কাজ করতে সময় লাগত, এখন seconds-এ result পাওয়া যায়।"
+          ],
+          "examplesEn": [
+            "Earlier computers filled large rooms, but now a laptop fits in a bag.",
+            "Earlier tasks took much longer, but now results appear in seconds."
+          ],
+          "recapBn": [
+            "Generation মানে কম্পিউটারের উন্নতির ধাপ।",
+            "নতুন technology এ size কমে, speed বাড়ে।",
+            "5th generation-এ AI-এর ব্যবহার দেখা যায়।"
+          ],
+          "recapEn": [
+            "A generation is a stage in computer development.",
+            "New technology reduces size and increases speed.",
+            "Fifth-generation systems are linked with AI-based computing."
+          ],
+          "commonMistakesBn": [
+            "Generation কে class-এর মতো ভেবে ফেলো না।",
+            "AI মানে computer মানুষ হয়ে গেছে — এমন ভাবা ভুল।"
+          ],
+          "commonMistakesEn": [
+            "Do not confuse computer generation with school class level.",
+            "It is incorrect to think AI means a computer becomes a human."
+          ],
+          "importantWords": [
+            {
+              "word": "Generation",
+              "meaningBn": "উন্নতির ধাপ"
+            },
+            {
+              "word": "Vacuum Tube",
+              "meaningBn": "প্রথম generation-এর technology"
+            },
+            {
+              "word": "Microprocessor",
+              "meaningBn": "ছোট chip যেটি computer চালায়"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🧠",
+              "titleBn": "কম্পিউটারের সময়-ভ্রমণ",
+              "titleEn": "Computer Time Travel",
+              "descriptionBn": "বড় machine থেকে ছোট smart machine পর্যন্ত পরিবর্তন।",
+              "descriptionEn": "The change from huge machines to small smart computers."
+            }
           ]
         },
         {
@@ -85,6 +147,8 @@
           "durationMinutes": 12,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা কম্পিউটারের Basic Working: Input → Process → Output বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Computer কাজ করার একটি সহজ model হলো Input → Processing → Output → Storage। User input device দিয়ে data বা instruction দেয়, processor সেটি process করে, output device result দেখায় এবং storage device প্রয়োজনে data সংরক্ষণ করে।",
             "একটি calculator app-এ 25 + 17 টাইপ করা input, CPU-র calculation processing, 42 দেখানো output এবং result save করলে সেটি storage-এর উদাহরণ।"
           ],
@@ -118,17 +182,72 @@
             "topic:c1_ipo",
             "topic:c1_storage"
           ],
-          "titleEn": "How a Computer Works: Input → Processing → Output",
-          "summaryEn": "Understand the basic working cycle of a computer.",
+          "titleEn": "How a Computer Works: Input, Processing and Output",
+          "summaryEn": "Understand the simple working cycle of a computer.",
           "contentEn": [
-            "A computer receives data through input devices, processes it in the CPU, presents results through output devices and can store information for later use.",
-            "For example, typing numbers into a calculator is input, calculation is processing, the answer on screen is output and saving it is storage."
+            "A computer works in a cycle. It receives data, processes it, shows a result and may store the information.",
+            "Keyboard, mouse or microphone can give input. The CPU processes the work. The monitor or printer shows the output."
           ],
           "stepsEn": [
             "Identify the input.",
             "Identify the processing stage.",
             "Identify the output.",
             "Explain where storage is used."
+          ],
+          "learningGoalsBn": [
+            "Input, Processing, Output বুঝবে",
+            "Storage কোথায় দরকার বুঝবে",
+            "একটি simple example দিয়ে পুরো cycle চিনবে"
+          ],
+          "learningGoalsEn": [
+            "Understand Input, Processing and Output",
+            "Understand where storage is needed",
+            "Recognize the full cycle through a simple example"
+          ],
+          "examplesBn": [
+            "তুমি keyboard-এ 2 + 3 লিখলে — এটা input। CPU হিসাব করল — এটা processing। monitor-এ 5 দেখালো — এটা output।"
+          ],
+          "examplesEn": [
+            "You type 2 + 3 on a keyboard — that is input. The CPU calculates — that is processing. The monitor shows 5 — that is output."
+          ],
+          "recapBn": [
+            "Input → Processing → Output হলো basic flow।",
+            "Result save করলে storage লাগে।"
+          ],
+          "recapEn": [
+            "Input → Processing → Output is the basic flow.",
+            "Storage is used when we save data or results."
+          ],
+          "commonMistakesBn": [
+            "Monitor processing করে — এটা ভুল।",
+            "Keyboard result দেখায় — এটাও ভুল।"
+          ],
+          "commonMistakesEn": [
+            "It is wrong to think the monitor does processing.",
+            "It is also wrong to think the keyboard shows the result."
+          ],
+          "importantWords": [
+            {
+              "word": "Input",
+              "meaningBn": "কম্পিউটারকে দেওয়া তথ্য"
+            },
+            {
+              "word": "Processing",
+              "meaningBn": "তথ্যের উপর কাজ করা"
+            },
+            {
+              "word": "Output",
+              "meaningBn": "কম্পিউটার থেকে পাওয়া ফল"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "➡️",
+              "titleBn": "IPO Flow",
+              "titleEn": "IPO Flow",
+              "descriptionBn": "Keyboard → CPU → Monitor",
+              "descriptionEn": "Keyboard → CPU → Monitor"
+            }
           ]
         },
         {
@@ -138,6 +257,8 @@
           "durationMinutes": 15,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Input, Output, Processing Device ও Memory বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Keyboard, mouse, scanner ও microphone সাধারণ input device; monitor, printer ও speaker output device। CPU processing-এর কেন্দ্রীয় অংশ।",
             "Memory বলতে computer-এর data ও instruction রাখার ব্যবস্থা বোঝায়। RAM কাজ চলাকালীন temporary memory হিসেবে ব্যবহৃত হয়; SSD/HDD দীর্ঘমেয়াদি storage হিসেবে কাজ করে।",
             "Cross-Curricular Science Link: Input, processing, output ও memory ধারণাকে মানব sensory input, thinking এবং response-এর সঙ্গে তুলনা করে similarity ও difference খুঁজুন।"
@@ -216,17 +337,78 @@
             "topic:c1_memory",
             "topic:c1_output"
           ],
-          "titleEn": "Input, Output, Processing Devices and Memory",
-          "summaryEn": "Recognize common devices and understand memory and storage.",
+          "titleEn": "Input, Output Devices, CPU and Memory",
+          "summaryEn": "Recognize common devices and the difference between memory and storage.",
           "contentEn": [
-            "Keyboard, mouse, scanner and microphone are input devices. Monitor, printer and speaker are output devices. The CPU is the main processing component.",
-            "RAM is temporary working memory, while SSD and HDD are used for longer-term storage."
+            "Input devices send data to the computer. Output devices show or play the result.",
+            "The CPU is the main processing unit. RAM is temporary memory used while work is happening. SSD or HDD stores data for a longer time."
           ],
           "stepsEn": [
             "List input devices.",
             "List output devices.",
             "Explain the role of the CPU.",
             "Compare RAM with SSD/HDD."
+          ],
+          "learningGoalsBn": [
+            "Input device, output device চিনবে",
+            "CPU-এর কাজ জানবে",
+            "RAM আর storage-এর পার্থক্য বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Identify input and output devices",
+            "Know the role of the CPU",
+            "Understand the difference between RAM and storage"
+          ],
+          "examplesBn": [
+            "Keyboard দিয়ে লিখি — input। Speaker দিয়ে sound শুনি — output।",
+            "Game চালানোর সময় RAM লাগে, কিন্তু game file SSD-তে save থাকে।"
+          ],
+          "examplesEn": [
+            "We type using a keyboard — input. We hear sound from speakers — output.",
+            "RAM is used while a game runs, but the game file is saved on the SSD."
+          ],
+          "recapBn": [
+            "Keyboard input device।",
+            "Monitor output device।",
+            "CPU কাজ করে।",
+            "RAM temporary memory।"
+          ],
+          "recapEn": [
+            "A keyboard is an input device.",
+            "A monitor is an output device.",
+            "The CPU does the processing.",
+            "RAM is temporary memory."
+          ],
+          "commonMistakesBn": [
+            "RAM আর SSD একই জিনিস নয়।",
+            "CPU কোনো output device নয়।"
+          ],
+          "commonMistakesEn": [
+            "RAM and SSD are not the same thing.",
+            "The CPU is not an output device."
+          ],
+          "importantWords": [
+            {
+              "word": "RAM",
+              "meaningBn": "অস্থায়ী memory"
+            },
+            {
+              "word": "Storage",
+              "meaningBn": "দীর্ঘ সময় data রাখা"
+            },
+            {
+              "word": "CPU",
+              "meaningBn": "প্রধান processing unit"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "⌨️",
+              "titleBn": "Device Sorting",
+              "titleEn": "Device Sorting",
+              "descriptionBn": "Keyboard, CPU, Monitor, RAM আলাদা category-তে রাখো।",
+              "descriptionEn": "Place Keyboard, CPU, Monitor and RAM in correct categories."
+            }
           ]
         }
       ]
@@ -249,6 +431,8 @@
           "durationMinutes": 10,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Hardware কী? বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Computer-এর physical components-কে hardware বলা হয়। Monitor, keyboard, mouse, motherboard, CPU cabinet, printer এবং storage device hardware-এর উদাহরণ।",
             "Hardware নিজে থেকে meaningful কাজ করতে পারে না; তাকে কাজ করাতে software instruction প্রয়োজন।"
           ],
@@ -283,17 +467,74 @@
             "topic:c2_hardware",
             "topic:c2_hardware_examples"
           ],
-          "titleEn": "What is Hardware?",
-          "summaryEn": "Identify the physical parts of a computer.",
+          "titleEn": "Hardware",
+          "summaryEn": "Understand that hardware means the physical parts of a computer.",
           "contentEn": [
-            "Hardware means the physical components of a computer that can be seen or touched, such as the monitor, keyboard, mouse, motherboard, printer and storage devices.",
-            "Hardware needs software instructions to perform useful tasks."
+            "Hardware means the physical parts of a computer. These parts can be seen and touched.",
+            "Examples include monitor, keyboard, mouse, CPU cabinet, printer and storage devices."
           ],
           "stepsEn": [
             "Identify input hardware.",
             "Identify output hardware.",
             "Identify processing hardware.",
             "Identify storage hardware."
+          ],
+          "learningGoalsBn": [
+            "Hardware কী তা জানবে",
+            "hardware-এর example দিতে পারবে",
+            "touch করা যায় এমন জিনিস hardware—এটা বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Know what hardware means",
+            "Give examples of hardware",
+            "Understand that hardware can be physically touched"
+          ],
+          "examplesBn": [
+            "Mouse হাতে ধরা যায় — তাই এটা hardware।",
+            "Monitor দেখা যায়, touch করা যায় — তাই এটা hardware।"
+          ],
+          "examplesEn": [
+            "A mouse can be held in the hand, so it is hardware.",
+            "A monitor can be seen and touched, so it is hardware."
+          ],
+          "recapBn": [
+            "যা physically আছে তা hardware।",
+            "Keyboard, mouse, monitor — hardware।"
+          ],
+          "recapEn": [
+            "Things that physically exist are hardware.",
+            "Keyboard, mouse and monitor are hardware."
+          ],
+          "commonMistakesBn": [
+            "MS Word hardware নয়।",
+            "Windows-ও hardware নয়।"
+          ],
+          "commonMistakesEn": [
+            "MS Word is not hardware.",
+            "Windows is not hardware either."
+          ],
+          "importantWords": [
+            {
+              "word": "Hardware",
+              "meaningBn": "কম্পিউটারের physical অংশ"
+            },
+            {
+              "word": "Monitor",
+              "meaningBn": "দেখার device"
+            },
+            {
+              "word": "Printer",
+              "meaningBn": "কাগজে output দেয়"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🖥️",
+              "titleBn": "Touch and Tell",
+              "titleEn": "Touch and Tell",
+              "descriptionBn": "যেটা হাতে ধরা বা দেখা যায় সেটি hardware।",
+              "descriptionEn": "If you can see and touch it, it is hardware."
+            }
           ]
         },
         {
@@ -303,6 +544,8 @@
           "durationMinutes": 12,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Software কী? বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Software হলো instruction ও program-এর সমষ্টি যা hardware-কে নির্দিষ্ট কাজ করতে নির্দেশ দেয়।",
             "Operating System যেমন Windows system software-এর উদাহরণ। MS Word, Paint 3D, browser এবং Scratch-এর মতো program application software হিসেবে ব্যবহার করা হয়।"
           ],
@@ -337,16 +580,75 @@
             "topic:c2_software",
             "topic:c2_system"
           ],
-          "titleEn": "What is Software?",
-          "summaryEn": "Understand system software and application software.",
+          "titleEn": "Software",
+          "summaryEn": "Learn that software is the set of programs and instructions used by a computer.",
           "contentEn": [
-            "Software is a set of programs and instructions that tells computer hardware what to do.",
-            "Windows is system software. MS Word, Paint 3D, browsers and Scratch are examples of application software."
+            "Software is a set of programs or instructions. It tells the hardware what to do.",
+            "Windows is system software, while MS Word, Paint 3D and Scratch are application software."
           ],
           "stepsEn": [
             "Give an example of system software.",
             "Give examples of application software.",
             "Explain the role of an operating system."
+          ],
+          "learningGoalsBn": [
+            "Software কী বুঝবে",
+            "system software ও application software আলাদা করতে পারবে",
+            "computer শুধু hardware দিয়ে চলে না—এটা বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Understand what software is",
+            "Distinguish system software and application software",
+            "Understand that hardware alone cannot do useful work"
+          ],
+          "examplesBn": [
+            "তুমি Word-এ letter লেখো — Word হলো software।",
+            "Paint 3D-তে drawing করো — Paint 3D-ও software।"
+          ],
+          "examplesEn": [
+            "You write a letter in Word — Word is software.",
+            "You draw in Paint 3D — Paint 3D is also software."
+          ],
+          "recapBn": [
+            "Software দেখা যায়, কিন্তু হাতে ধরা যায় না।",
+            "Windows system software।",
+            "Word application software।"
+          ],
+          "recapEn": [
+            "Software can be seen on screen but not touched like hardware.",
+            "Windows is system software.",
+            "Word is application software."
+          ],
+          "commonMistakesBn": [
+            "Software মানেই Internet নয়।",
+            "Screen-এ দেখা যায় বলে সবকিছু hardware—এটা ভুল।"
+          ],
+          "commonMistakesEn": [
+            "Software does not simply mean the Internet.",
+            "It is wrong to think everything seen on screen is hardware."
+          ],
+          "importantWords": [
+            {
+              "word": "Software",
+              "meaningBn": "program/instruction"
+            },
+            {
+              "word": "System Software",
+              "meaningBn": "computer চালায়"
+            },
+            {
+              "word": "Application Software",
+              "meaningBn": "user-এর কাজ করায়"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "💿",
+              "titleBn": "Brain and Body",
+              "titleEn": "Brain and Body",
+              "descriptionBn": "Hardware হলো body, software হলো নির্দেশ।",
+              "descriptionEn": "Hardware is like the body; software gives the instructions."
+            }
           ]
         },
         {
@@ -356,6 +658,8 @@
           "durationMinutes": 12,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Hardware ও Software একসঙ্গে কীভাবে কাজ করে বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "User যখন keyboard দিয়ে Word-এ text টাইপ করে, keyboard hardware input পাঠায়, Word software সেটি গ্রহণ করে, CPU process করে এবং monitor hardware result দেখায়।",
             "এই কারণে hardware এবং software একে অপরের পরিপূরক। শুধু hardware বা শুধু software দিয়ে সম্পূর্ণ user task চালানো যায় না।",
             "Cyber Ethics: software ব্যবহার করার সময় legal/licensed source, safe installation এবং অন্যের digital work-এর প্রতি respect রাখা responsible technology use-এর অংশ।"
@@ -424,16 +728,73 @@
           "coverageTags": [
             "topic:c2_relation"
           ],
-          "titleEn": "How Hardware and Software Work Together",
-          "summaryEn": "Understand how hardware and software depend on each other.",
+          "titleEn": "Hardware and Software Together",
+          "summaryEn": "Understand how hardware and software work together in real tasks.",
           "contentEn": [
-            "When a user types in Word, the keyboard sends input, Word handles the text, the CPU processes it and the monitor displays the result.",
-            "Hardware and software work together to complete user tasks. Responsible users should also use software from trusted and legal sources."
+            "Hardware and software work together. If one is missing, most user tasks cannot be completed properly.",
+            "When typing in Word, the keyboard gives input, Word handles the document, the CPU processes it and the monitor shows the result."
           ],
           "stepsEn": [
             "Explain the typing hardware-software chain.",
             "Explain the printing hardware-software chain.",
             "Identify hardware and software used in one everyday task."
+          ],
+          "learningGoalsBn": [
+            "hardware ও software-এর সম্পর্ক বুঝবে",
+            "typing/printing-এর example বুঝবে",
+            "trusted software কেন দরকার বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Understand the relationship between hardware and software",
+            "Follow typing and printing examples",
+            "Understand why trusted software is important"
+          ],
+          "examplesBn": [
+            "Printer আছে কিন্তু print software command না দিলে কাজ হবে না।",
+            "Keyboard আছে কিন্তু app না খুললে লেখা যাবে না।"
+          ],
+          "examplesEn": [
+            "If a printer exists but no software command is sent, printing will not happen.",
+            "If a keyboard exists but no app is open, typing into a task is not useful."
+          ],
+          "recapBn": [
+            "Hardware ও software একসাথে কাজ করে।",
+            "trusted software ব্যবহার করা নিরাপদ।"
+          ],
+          "recapEn": [
+            "Hardware and software work together.",
+            "Using trusted software is safer and more responsible."
+          ],
+          "commonMistakesBn": [
+            "শুধু hardware থাকলেই কাজ হবে — ভুল।",
+            "যেকোনো software install করাই safe — এটাও ভুল।"
+          ],
+          "commonMistakesEn": [
+            "It is wrong to think hardware alone is enough.",
+            "It is also wrong to think every software install is safe."
+          ],
+          "importantWords": [
+            {
+              "word": "Install",
+              "meaningBn": "software যোগ করা"
+            },
+            {
+              "word": "Trusted",
+              "meaningBn": "বিশ্বাসযোগ্য"
+            },
+            {
+              "word": "Application",
+              "meaningBn": "কাজ করার program"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🤝",
+              "titleBn": "Work Together",
+              "titleEn": "Work Together",
+              "descriptionBn": "Keyboard + Word + CPU + Monitor = typing task",
+              "descriptionEn": "Keyboard + Word + CPU + Monitor = a typing task"
+            }
           ]
         }
       ]
@@ -456,6 +817,8 @@
           "durationMinutes": 12,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Windows 10: Booting, Desktop ও প্রধান অংশ বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Operating System computer-এর hardware ও application-এর মধ্যে coordination করে। Windows 10 চালু হলে boot process সম্পন্ন হয়ে desktop দেখা যায়।",
             "Desktop-এ icons, taskbar, Start menu এবং notification area-এর মতো অংশ থাকে। এগুলো program চালু করা ও computer পরিচালনায় সাহায্য করে।"
           ],
@@ -492,17 +855,76 @@
             "topic:c3_start",
             "topic:c3_taskbar"
           ],
-          "titleEn": "Windows 10: Booting, Desktop and Main Parts",
-          "summaryEn": "Learn the basic flow from starting Windows to using the desktop.",
+          "titleEn": "Windows 10: Booting, Desktop, Start Menu and Taskbar",
+          "summaryEn": "Learn what happens when Windows starts and identify the main parts of the desktop.",
           "contentEn": [
-            "The operating system coordinates hardware and applications. During booting, Windows loads and then shows the desktop.",
-            "The desktop includes icons, the Start menu and the taskbar, which help users open programs and switch between tasks."
+            "When a computer starts, Windows loads. This starting process is called booting.",
+            "After booting, the desktop appears. The Start menu and taskbar help the user open programs and switch between tasks."
           ],
           "stepsEn": [
             "Understand booting.",
             "Recognize the desktop.",
             "Locate the Start menu.",
             "Recognize the taskbar."
+          ],
+          "learningGoalsBn": [
+            "booting কী তা জানবে",
+            "desktop, start menu, taskbar চিনবে",
+            "Windows কেন দরকার বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Know what booting means",
+            "Identify the desktop, Start menu and taskbar",
+            "Understand why Windows is needed"
+          ],
+          "examplesBn": [
+            "কম্পিউটার on করে কিছুক্ষণ পরে desktop দেখা যায় — এটি booting-এর পর।",
+            "Start menu থেকে Paint বা Word খোলা যায়।"
+          ],
+          "examplesEn": [
+            "After turning on a computer, the desktop appears after Windows finishes booting.",
+            "Programs such as Paint or Word can be opened from the Start menu."
+          ],
+          "recapBn": [
+            "Booting = Windows চালু হওয়া।",
+            "Desktop = screen-এর main area।",
+            "Taskbar = নিচের bar।"
+          ],
+          "recapEn": [
+            "Booting means Windows is starting.",
+            "The desktop is the main screen area.",
+            "The taskbar is the bar usually shown at the bottom."
+          ],
+          "commonMistakesBn": [
+            "Monitor on হলেই Windows boot complete — এটা সবসময় ঠিক নয়।",
+            "Desktop মানে শুধু wallpaper নয়।"
+          ],
+          "commonMistakesEn": [
+            "It is not always correct to say booting is complete just because the monitor is on.",
+            "The desktop is more than only the wallpaper."
+          ],
+          "importantWords": [
+            {
+              "word": "Booting",
+              "meaningBn": "চালু হওয়ার process"
+            },
+            {
+              "word": "Desktop",
+              "meaningBn": "main screen area"
+            },
+            {
+              "word": "Taskbar",
+              "meaningBn": "program/info bar"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🪟",
+              "titleBn": "Windows Parts",
+              "titleEn": "Windows Parts",
+              "descriptionBn": "Desktop, Start, Taskbar কোথায় আছে তা দেখো।",
+              "descriptionEn": "See where the Desktop, Start and Taskbar are located."
+            }
           ]
         },
         {
@@ -512,6 +934,8 @@
           "durationMinutes": 14,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Files ও Folders বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "File হলো নির্দিষ্ট data বা document-এর সংরক্ষিত unit এবং folder ফাইলগুলোকে গুছিয়ে রাখতে ব্যবহৃত হয়।",
             "একই file-এর duplicate তৈরি করতে Copy ব্যবহার করা যায়, আর location বদলাতে Move ব্যবহার করা হয়। Rename নাম বদলায়; Delete অপ্রয়োজনীয় item সরায়।"
           ],
@@ -585,17 +1009,74 @@
             "topic:c3_file",
             "topic:c3_folder"
           ],
-          "titleEn": "Files and Folders",
-          "summaryEn": "Practice organizing files and folders in Windows.",
+          "titleEn": "Files and Folders in Windows",
+          "summaryEn": "Learn to organize files and folders clearly.",
           "contentEn": [
-            "A file stores information such as a document, image or project. A folder organizes files and other folders.",
-            "Important file-management actions include creating folders, moving or copying files, renaming files and deleting items carefully."
+            "A file stores information such as text, pictures or project data. A folder stores and organizes files.",
+            "Useful file actions include creating, renaming, copying, moving and deleting."
           ],
           "stepsEn": [
             "Create a folder.",
             "Move or copy a file.",
             "Rename a file.",
             "Delete an unnecessary file."
+          ],
+          "learningGoalsBn": [
+            "file ও folder-এর পার্থক্য জানবে",
+            "new folder বানাতে পারবে",
+            "copy/move/rename/delete বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Know the difference between files and folders",
+            "Create a new folder",
+            "Understand copy, move, rename and delete"
+          ],
+          "examplesBn": [
+            "Homework.docx একটি file। Homework নামের folder-এর মধ্যে এই file রাখা যায়।"
+          ],
+          "examplesEn": [
+            "Homework.docx is a file. It can be kept inside a folder named Homework."
+          ],
+          "recapBn": [
+            "File তথ্য রাখে।",
+            "Folder file গুছিয়ে রাখে।",
+            "Rename মানে নতুন নাম দেওয়া।"
+          ],
+          "recapEn": [
+            "A file stores information.",
+            "A folder organizes files.",
+            "Rename means giving a new name."
+          ],
+          "commonMistakesBn": [
+            "Folder-কে file ভাবা ভুল।",
+            "Delete করলেই সবসময় permanently নষ্ট হয় — এটা সবক্ষেত্রে ঠিক নয়।"
+          ],
+          "commonMistakesEn": [
+            "It is wrong to think a folder is the same as a file.",
+            "Deleting does not always mean permanently destroyed immediately."
+          ],
+          "importantWords": [
+            {
+              "word": "File",
+              "meaningBn": "তথ্য রাখার item"
+            },
+            {
+              "word": "Folder",
+              "meaningBn": "file গুছিয়ে রাখে"
+            },
+            {
+              "word": "Rename",
+              "meaningBn": "নতুন নাম দেওয়া"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "📁",
+              "titleBn": "File Home",
+              "titleEn": "File Home",
+              "descriptionBn": "Folder হলো file-এর ঘর।",
+              "descriptionEn": "A folder is like a home for files."
+            }
           ]
         },
         {
@@ -605,6 +1086,8 @@
           "durationMinutes": 12,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Control Panel, Browser, Wallpaper ও Themes বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Windows settings বা Control Panel থেকে device, display, account এবং অন্যান্য configuration পরিচালনা করা যায়।",
             "Wallpaper desktop-এর background image এবং theme একসঙ্গে color, background ও appearance-এর কিছু setting বদলাতে পারে। Browser web page দেখার application।",
             "Cyber Smart: personalization করার সময় unknown theme বা unsafe download এড়ান; device settings বদলানোর আগে trusted adult বা teacher-এর guidance নিন।"
@@ -653,11 +1136,11 @@
             "topic:c3_theme",
             "topic:c3_wallpaper"
           ],
-          "titleEn": "Control Panel, Browser, Wallpaper and Themes",
-          "summaryEn": "Explore Windows settings and personalization safely.",
+          "titleEn": "Settings, Browser, Wallpaper and Themes",
+          "summaryEn": "Use Windows settings and personalization carefully.",
           "contentEn": [
-            "Windows Settings and Control Panel are used to manage system settings. A browser is used to access websites.",
-            "Wallpaper changes the desktop background and themes change the visual appearance. Avoid unsafe downloads and unknown themes."
+            "Settings and Control Panel help users change system options. A browser is used to visit websites.",
+            "Wallpaper changes the background, and themes change the overall look and feel of Windows."
           ],
           "stepsEn": [
             "Open Settings and Control Panel.",
@@ -665,6 +1148,67 @@
             "Change theme.",
             "Open a browser.",
             "Use trusted settings and downloads."
+          ],
+          "learningGoalsBn": [
+            "Settings ও Control Panel চিনবে",
+            "wallpaper/theme-এর কাজ জানবে",
+            "browser কী জানবে",
+            "safe change করার অভ্যাস করবে"
+          ],
+          "learningGoalsEn": [
+            "Recognize Settings and Control Panel",
+            "Know the purpose of wallpaper and themes",
+            "Know what a browser is",
+            "Develop the habit of making safe changes"
+          ],
+          "examplesBn": [
+            "Wallpaper বদলে ফুলের ছবি দেওয়া যায়।",
+            "Chrome বা Edge হলো browser-এর example।"
+          ],
+          "examplesEn": [
+            "You can change the wallpaper to a flower picture.",
+            "Chrome or Edge are examples of browsers."
+          ],
+          "recapBn": [
+            "Settings দিয়ে computer-এর কিছু option বদলানো যায়।",
+            "Wallpaper background বদলায়।",
+            "Browser দিয়ে website খোলা হয়।"
+          ],
+          "recapEn": [
+            "Settings can change some computer options.",
+            "Wallpaper changes the background.",
+            "A browser opens websites."
+          ],
+          "commonMistakesBn": [
+            "যে-কোনো theme download করা safe — ভুল।",
+            "Browser মানেই Internet — এমন ভাবা সহজ কিন্তু পুরোটা ঠিক নয়।"
+          ],
+          "commonMistakesEn": [
+            "It is unsafe to think any downloaded theme is fine.",
+            "A browser is used for the Internet, but it is not the same thing as the Internet itself."
+          ],
+          "importantWords": [
+            {
+              "word": "Theme",
+              "meaningBn": "look and feel"
+            },
+            {
+              "word": "Wallpaper",
+              "meaningBn": "background image"
+            },
+            {
+              "word": "Browser",
+              "meaningBn": "website দেখার app"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🎨",
+              "titleBn": "Make It Your Own",
+              "titleEn": "Make It Your Own",
+              "descriptionBn": "Wallpaper, theme, browser—সব আলাদা কাজ করে।",
+              "descriptionEn": "Wallpaper, themes and browsers all have different jobs."
+            }
           ]
         }
       ]
@@ -687,6 +1231,8 @@
           "durationMinutes": 15,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Move/Copy Text, Spelling, Grammar, Thesaurus ও Find/Replace বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Word-এ text select করে Cut/Copy/Paste ব্যবহার করে content স্থানান্তর বা duplicate করা যায়। Find দ্রুত নির্দিষ্ট শব্দ খুঁজে দেয় এবং Replace একই ধরনের text পরিবর্তনে সাহায্য করে।",
             "Spelling/Grammar tools ভুল শনাক্ত করতে সাহায্য করে, আর Thesaurus কাছাকাছি অর্থের alternative word খুঁজতে কাজে লাগে।"
           ],
@@ -742,17 +1288,76 @@
             "topic:c4_spelling",
             "topic:c4_thesaurus"
           ],
-          "titleEn": "Editing, Proofing and Find & Replace in Word 2019",
-          "summaryEn": "Use advanced editing and proofing tools in Word.",
+          "titleEn": "Editing and Proofing in Word 2019",
+          "summaryEn": "Learn editing tools and proofing features in Word.",
           "contentEn": [
-            "Cut, Copy and Paste move or duplicate text. Spelling and Grammar tools help find writing errors.",
-            "The Thesaurus suggests similar words, while Find and Replace can change repeated text quickly throughout a document."
+            "Cut moves text, Copy duplicates text and Paste inserts it. These tools make editing easier.",
+            "Spelling and Grammar help identify mistakes. Find and Replace helps change the same word in many places quickly."
           ],
           "stepsEn": [
             "Use Cut, Copy and Paste.",
             "Run Spelling and Grammar check.",
             "Use the Thesaurus.",
             "Use Find and Replace."
+          ],
+          "learningGoalsBn": [
+            "Cut/Copy/Paste শিখবে",
+            "Spelling & Grammar বুঝবে",
+            "Find & Replace ব্যবহার বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Learn Cut/Copy/Paste",
+            "Understand Spelling & Grammar",
+            "Understand how to use Find & Replace"
+          ],
+          "examplesBn": [
+            "একবার নাম লিখে Copy করে অনেক জায়গায় Paste করা যায়।",
+            "school-এর জায়গায় School লিখতে Find & Replace কাজে লাগে।"
+          ],
+          "examplesEn": [
+            "A name can be copied once and pasted many times.",
+            "Find & Replace is useful for changing 'school' to 'School' in many places."
+          ],
+          "recapBn": [
+            "Copy মানে নকল করা।",
+            "Cut মানে সরিয়ে নেওয়া।",
+            "Find & Replace repeated word বদলায়।"
+          ],
+          "recapEn": [
+            "Copy means making a duplicate.",
+            "Cut means moving the text away from its original place.",
+            "Find & Replace changes repeated words quickly."
+          ],
+          "commonMistakesBn": [
+            "Cut আর Copy এক নয়।",
+            "Spell Check সব ভুল ধরবেই — এমন নয়।"
+          ],
+          "commonMistakesEn": [
+            "Cut and Copy are not the same.",
+            "Spell Check does not catch every kind of mistake."
+          ],
+          "importantWords": [
+            {
+              "word": "Paste",
+              "meaningBn": "কাটা/কপি করা জিনিস বসানো"
+            },
+            {
+              "word": "Grammar",
+              "meaningBn": "ভাষার নিয়ম"
+            },
+            {
+              "word": "Replace",
+              "meaningBn": "একটির জায়গায় আরেকটি বসানো"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "✂️",
+              "titleBn": "Edit Fast",
+              "titleEn": "Edit Fast",
+              "descriptionBn": "Cut, Copy, Paste ও Find-Replace editing সহজ করে।",
+              "descriptionEn": "Cut, Copy, Paste and Find & Replace make editing easier."
+            }
           ]
         },
         {
@@ -762,6 +1367,8 @@
           "durationMinutes": 16,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Text, Paragraph, List ও Page Formatting বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Font, size, bold, italic, underline ও color text formatting-এর অংশ। Alignment, line spacing এবং indentation paragraph formatting-এর অংশ।",
             "Bullets ও Numbering list-কে structured করে। Page formatting-এর মধ্যে margin, orientation ও page size-এর মতো setting থাকতে পারে।"
           ],
@@ -822,17 +1429,78 @@
             "topic:c4_para",
             "topic:c4_textformat"
           ],
-          "titleEn": "Text, Paragraph, List and Page Formatting",
-          "summaryEn": "Format text, paragraphs, lists and pages in Word.",
+          "titleEn": "Formatting Text, Paragraphs, Lists and Pages",
+          "summaryEn": "Learn how to make a document neat and attractive.",
           "contentEn": [
-            "Text formatting includes font, size, bold and italic. Paragraph formatting includes alignment and spacing.",
-            "Bullets and numbering organize lists, while page settings include margins and portrait or landscape orientation."
+            "Text formatting changes how words look. Paragraph formatting changes alignment and spacing.",
+            "Bullets and numbering make lists clearer, and page settings control margins and orientation."
           ],
           "stepsEn": [
             "Apply text formatting.",
             "Use paragraph alignment.",
             "Create a list.",
             "Change page orientation."
+          ],
+          "learningGoalsBn": [
+            "font/size/bold/italic শিখবে",
+            "paragraph alignment বুঝবে",
+            "bullets ও numbering ব্যবহার করবে",
+            "page setup জানবে"
+          ],
+          "learningGoalsEn": [
+            "Use font, size, bold and italic",
+            "Understand paragraph alignment",
+            "Use bullets and numbering",
+            "Know basic page setup"
+          ],
+          "examplesBn": [
+            "Title bold করলে সেটা বেশি clear দেখায়।",
+            "দুইটি point bullets দিয়ে লিখলে পড়তে সহজ হয়।"
+          ],
+          "examplesEn": [
+            "A bold title looks clearer.",
+            "Writing two points with bullets makes reading easier."
+          ],
+          "recapBn": [
+            "Formatting document সুন্দর করে।",
+            "Bullets list গুছিয়ে দেয়।",
+            "Orientation portrait/landscape হতে পারে।"
+          ],
+          "recapEn": [
+            "Formatting makes a document look neat.",
+            "Bullets organize a list.",
+            "Orientation can be portrait or landscape."
+          ],
+          "commonMistakesBn": [
+            "সবকিছু bold করলে document সুন্দর হয় না।",
+            "Bullets আর numbering সবসময় একই কাজের নয়।"
+          ],
+          "commonMistakesEn": [
+            "Making everything bold does not improve a document.",
+            "Bullets and numbering are not always used for the same purpose."
+          ],
+          "importantWords": [
+            {
+              "word": "Font",
+              "meaningBn": "অক্ষরের ধরন"
+            },
+            {
+              "word": "Alignment",
+              "meaningBn": "লেখার অবস্থান"
+            },
+            {
+              "word": "Orientation",
+              "meaningBn": "পাতার দিক"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "📝",
+              "titleBn": "Neat Document",
+              "titleEn": "Neat Document",
+              "descriptionBn": "Formatting করলে লেখা পরিষ্কার ও সুন্দর হয়।",
+              "descriptionEn": "Formatting makes writing clean and attractive."
+            }
           ]
         },
         {
@@ -842,6 +1510,8 @@
           "durationMinutes": 16,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Graphics, Text Wrapping, Draw, WordArt ও Saving বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Word document-এ picture বা graphic insert করার পরে Text Wrapping ব্যবহার করে text ও image-এর অবস্থান নিয়ন্ত্রণ করা যায়।",
             "Draw tools annotation বা drawing-এ সাহায্য করে এবং WordArt decorative text তৈরি করে। কাজ শেষে document যথাযথ file name দিয়ে Save করা জরুরি।",
             "Cross-Curricular Activity: Science বা Social Studies-এর একটি topic নিয়ে picture, heading, WordArt ও clean page layout ব্যবহার করে one-page report পরিকল্পনা করুন।"
@@ -906,11 +1576,11 @@
             "topic:c4_wordart",
             "topic:c4_wrap"
           ],
-          "titleEn": "Graphics, Text Wrapping, Draw, WordArt and Saving",
-          "summaryEn": "Create richer Word documents using graphics and design tools.",
+          "titleEn": "Graphics, WordArt and Saving in Word",
+          "summaryEn": "Use pictures and design tools to create a better-looking document.",
           "contentEn": [
-            "Word can insert pictures and control how text wraps around them. The Draw tools support simple annotations and WordArt creates decorative headings.",
-            "Saving preserves the document for later use. Use clear file names and suitable folders."
+            "Pictures make a document more interesting. Text wrapping controls how text sits near an image.",
+            "WordArt creates decorative titles. Saving keeps the document for later use."
           ],
           "stepsEn": [
             "Insert a picture.",
@@ -918,6 +1588,67 @@
             "Use Draw tools.",
             "Create WordArt.",
             "Save the document."
+          ],
+          "learningGoalsBn": [
+            "picture insert করতে পারবে",
+            "text wrapping বুঝবে",
+            "WordArt ব্যবহার করবে",
+            "document save করবে"
+          ],
+          "learningGoalsEn": [
+            "Insert a picture",
+            "Understand text wrapping",
+            "Use WordArt",
+            "Save a document correctly"
+          ],
+          "examplesBn": [
+            "Science project-এ tree-এর picture দিলে report সুন্দর হয়।",
+            "WordArt দিয়ে বড় colourful heading বানানো যায়।"
+          ],
+          "examplesEn": [
+            "A Science report looks better with a tree picture.",
+            "A large colourful heading can be made with WordArt."
+          ],
+          "recapBn": [
+            "Picture document-কে আকর্ষণীয় করে।",
+            "Text Wrapping text-এর অবস্থান ঠিক করে।",
+            "Save করলে document রক্ষা পায়।"
+          ],
+          "recapEn": [
+            "Pictures make documents more attractive.",
+            "Text Wrapping controls text position around images.",
+            "Saving protects your work."
+          ],
+          "commonMistakesBn": [
+            "অতিরিক্ত picture দিলেই document ভালো হয় না।",
+            "Save না করলে কাজ হারিয়ে যেতে পারে।"
+          ],
+          "commonMistakesEn": [
+            "Too many pictures do not always make a document better.",
+            "If you do not save, you may lose your work."
+          ],
+          "importantWords": [
+            {
+              "word": "WordArt",
+              "meaningBn": "সাজানো title"
+            },
+            {
+              "word": "Wrap",
+              "meaningBn": "চারপাশে বসানো"
+            },
+            {
+              "word": "Save",
+              "meaningBn": "সংরক্ষণ করা"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🖼️",
+              "titleBn": "Picture + Text",
+              "titleEn": "Picture + Text",
+              "descriptionBn": "Image আর text সুন্দরভাবে সাজাও।",
+              "descriptionEn": "Arrange images and text neatly together."
+            }
           ]
         }
       ]
@@ -940,6 +1671,8 @@
           "durationMinutes": 11,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Paint 3D Window ও Tools পরিচিতি বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Paint 3D এমন একটি creative application যেখানে 2D drawing-এর পাশাপাশি 3D object নিয়ে basic কাজ করা যায়।",
             "Workspace-এ brushes, shapes, stickers এবং canvas-related tools ব্যবহার করে visual composition তৈরি করা যায়।"
           ],
@@ -974,15 +1707,70 @@
             "topic:c5_interface"
           ],
           "titleEn": "Getting Started with Paint 3D",
-          "summaryEn": "Recognize the Paint 3D workspace and main tools.",
+          "summaryEn": "Recognize the Paint 3D workspace and basic tool area.",
           "contentEn": [
-            "Paint 3D is used to create and edit 2D and 3D visual projects.",
-            "The workspace contains a canvas and tools for shapes, brushes, stickers and other visual elements."
+            "Paint 3D is used to create and edit visual projects. It can work with simple 2D and 3D objects.",
+            "The workspace contains a canvas and a set of tools for drawing, shaping and decorating."
           ],
           "stepsEn": [
             "Locate the workspace.",
             "Locate the canvas.",
             "Identify the main tool groups."
+          ],
+          "learningGoalsBn": [
+            "Paint 3D কী কাজ করে বুঝবে",
+            "workspace ও canvas চিনবে",
+            "tool area চিনবে"
+          ],
+          "learningGoalsEn": [
+            "Understand what Paint 3D does",
+            "Identify the workspace and canvas",
+            "Identify the tool area"
+          ],
+          "examplesBn": [
+            "Poster, shape drawing, simple design — এসব Paint 3D-তে করা যায়।"
+          ],
+          "examplesEn": [
+            "Posters, shape drawings and simple designs can be made in Paint 3D."
+          ],
+          "recapBn": [
+            "Canvas হলো কাজের জায়গা।",
+            "Tools দিয়ে shape, brush, sticker ব্যবহার করা যায়।"
+          ],
+          "recapEn": [
+            "The canvas is the main work area.",
+            "Tools are used for shapes, brushes and stickers."
+          ],
+          "commonMistakesBn": [
+            "Paint 3D শুধু 3D-এর জন্য — পুরোটা ঠিক নয়।",
+            "Canvas আর whole screen এক জিনিস নয়।"
+          ],
+          "commonMistakesEn": [
+            "It is not fully correct to think Paint 3D is only for 3D work.",
+            "The canvas is not the same as the entire screen."
+          ],
+          "importantWords": [
+            {
+              "word": "Canvas",
+              "meaningBn": "কাজের area"
+            },
+            {
+              "word": "Tool",
+              "meaningBn": "ব্যবহারের উপকরণ"
+            },
+            {
+              "word": "Workspace",
+              "meaningBn": "কাজের পুরো screen area"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🎨",
+              "titleBn": "Find the Canvas",
+              "titleEn": "Find the Canvas",
+              "descriptionBn": "এখানেই drawing/poster তৈরি হবে।",
+              "descriptionEn": "This is where the drawing or poster is made."
+            }
           ]
         },
         {
@@ -992,6 +1780,8 @@
           "durationMinutes": 15,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা 2D Shapes, 3D Shapes, Brush Colour ও Stickers বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "2D shape flat visual element, আর 3D shape depth সহ object-এর ধারণা দেয়। Brush tool দিয়ে color বা freehand drawing করা যায়।",
             "Sticker design-এর decorative element হিসেবে ব্যবহার করা যায়। Object selection, size ও position ঠিক রাখলে poster পরিষ্কার দেখায়।"
           ],
@@ -1038,16 +1828,75 @@
             "topic:c5_sticker"
           ],
           "titleEn": "2D Shapes, 3D Shapes, Brushes and Stickers",
-          "summaryEn": "Use common Paint 3D tools in a practice project.",
+          "summaryEn": "Use important Paint 3D tools in a fun way.",
           "contentEn": [
-            "2D shapes are flat, while 3D shapes include depth. Brushes add colour or freehand marks and stickers decorate a design.",
-            "Combining these tools helps learners understand basic visual composition."
+            "2D shapes are flat, while 3D shapes show depth. Paint 3D allows both kinds of shapes.",
+            "Brushes help colour the work, and stickers help decorate and label the design."
           ],
           "stepsEn": [
             "Add 2D shapes.",
             "Add a 3D shape.",
             "Use a brush or colour.",
             "Add a sticker."
+          ],
+          "learningGoalsBn": [
+            "2D ও 3D shape-এর পার্থক্য জানবে",
+            "brush ব্যবহার করবে",
+            "sticker ব্যবহার করবে"
+          ],
+          "learningGoalsEn": [
+            "Know the difference between 2D and 3D shapes",
+            "Use brushes",
+            "Use stickers"
+          ],
+          "examplesBn": [
+            "Circle হলো 2D। Cube হলো 3D।",
+            "ফল-এর poster-এ sticker লাগালে সেটা আরও সুন্দর হয়।"
+          ],
+          "examplesEn": [
+            "A circle is 2D. A cube is 3D.",
+            "Adding a sticker to a fruit poster can make it more attractive."
+          ],
+          "recapBn": [
+            "2D flat, 3D depthসহ।",
+            "Brush colour দেয়।",
+            "Sticker সাজায়।"
+          ],
+          "recapEn": [
+            "2D is flat, while 3D includes depth.",
+            "A brush adds colour.",
+            "A sticker decorates the design."
+          ],
+          "commonMistakesBn": [
+            "সব shape 3D নয়।",
+            "Sticker মানে brush নয়।"
+          ],
+          "commonMistakesEn": [
+            "Not every shape is 3D.",
+            "A sticker is not the same as a brush."
+          ],
+          "importantWords": [
+            {
+              "word": "2D",
+              "meaningBn": "flat shape"
+            },
+            {
+              "word": "3D",
+              "meaningBn": "depthসহ shape"
+            },
+            {
+              "word": "Sticker",
+              "meaningBn": "সাজানোর label/picture"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🔷",
+              "titleBn": "2D vs 3D",
+              "titleEn": "2D vs 3D",
+              "descriptionBn": "Circle flat, cube depthসহ।",
+              "descriptionEn": "A circle is flat; a cube has depth."
+            }
           ]
         },
         {
@@ -1057,6 +1906,8 @@
           "durationMinutes": 18,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Project: Healthy Food Poster বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Project-based learning-এ বিভিন্ন tool একসঙ্গে ব্যবহার করতে হয়। Healthy Food poster-এ পরিষ্কার title, fruit/vegetable-inspired shapes, balanced color এবং short message রাখা যায়।",
             "এই project-এ লক্ষ্য হলো শুধু সুন্দর drawing নয়; information-কে visualভাবে সহজে বোঝানো।",
             "SDG Link: Healthy Living, responsible consumption এবং well-being বিষয়কে visual poster-এর মাধ্যমে communicate করা যায়।",
@@ -1111,10 +1962,10 @@
             "topic:c5_save_open"
           ],
           "titleEn": "Project: Healthy Food Poster",
-          "summaryEn": "Create, save and reopen a Healthy Food poster.",
+          "summaryEn": "Create a healthy-food poster and learn Save/Open properly.",
           "contentEn": [
-            "A poster communicates an idea visually using a title, shapes, colour and stickers.",
-            "Saving keeps the project for later, and opening a saved project allows further editing. Use healthy-living messages responsibly and avoid misleading claims."
+            "A poster should be clear, colourful and meaningful. A good title helps people understand the message quickly.",
+            "Saving keeps the project for later, and opening allows you to continue editing the same work."
           ],
           "stepsEn": [
             "Create a clear title.",
@@ -1122,6 +1973,63 @@
             "Save the project.",
             "Open the saved project.",
             "Review clarity and visual balance."
+          ],
+          "learningGoalsBn": [
+            "poster তৈরি করবে",
+            "clear message লিখবে",
+            "Save/Open শিখবে"
+          ],
+          "learningGoalsEn": [
+            "Create a poster",
+            "Write a clear message",
+            "Learn Save/Open properly"
+          ],
+          "examplesBn": [
+            "Title: Eat Healthy Food",
+            "Fruits, vegetables আর water-এর picture দিয়ে poster বানানো যায়।"
+          ],
+          "examplesEn": [
+            "Title example: Eat Healthy Food.",
+            "A poster may include fruits, vegetables and water with a healthy message."
+          ],
+          "recapBn": [
+            "Poster-এর message পরিষ্কার হতে হবে।",
+            "Save/Open জানা খুব দরকার।"
+          ],
+          "recapEn": [
+            "The message of a poster should be clear.",
+            "Knowing Save/Open is very important."
+          ],
+          "commonMistakesBn": [
+            "Poster-এ খুব বেশি জিনিস ঢোকালে message বোঝা কঠিন হয়।",
+            "Save না করলে কাজ হারাবে।"
+          ],
+          "commonMistakesEn": [
+            "If too many things are placed in a poster, the message becomes unclear.",
+            "If you do not save, the work may be lost."
+          ],
+          "importantWords": [
+            {
+              "word": "Poster",
+              "meaningBn": "বার্তা দেওয়ার design"
+            },
+            {
+              "word": "Title",
+              "meaningBn": "শিরোনাম"
+            },
+            {
+              "word": "Healthy",
+              "meaningBn": "স্বাস্থ্যকর"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🍎",
+              "titleBn": "Healthy Poster Layout",
+              "titleEn": "Healthy Poster Layout",
+              "descriptionBn": "Title + Fruit images + short message",
+              "descriptionEn": "Title + fruit images + a short message"
+            }
           ]
         }
       ]
@@ -1144,6 +2052,8 @@
           "durationMinutes": 12,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Internet কী এবং এর সংক্ষিপ্ত ইতিহাস বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Internet বিশ্বজুড়ে বহু network ও device-কে সংযুক্ত করে information exchange সম্ভব করে। এটি web browsing, communication, learning এবং online services-এর ভিত্তি।",
             "Internet ধীরে ধীরে research network থেকে সাধারণ মানুষের দৈনন্দিন communication ও information platform-এ পরিণত হয়েছে।"
           ],
@@ -1177,15 +2087,70 @@
             "topic:c6_network"
           ],
           "titleEn": "Introduction and History of the Internet",
-          "summaryEn": "Understand the Internet as a network of networks.",
+          "summaryEn": "Understand what the Internet is and how it grew.",
           "contentEn": [
-            "The Internet connects many computer networks around the world and allows devices and people to exchange information.",
-            "It developed from earlier research and communication networks into the global system used today."
+            "The Internet connects many networks across the world. It helps people share information and communicate.",
+            "It grew from earlier research and communication systems into the global system we use today."
           ],
           "stepsEn": [
             "Explain 'network of networks'.",
             "Describe early research networks.",
             "Give examples of Internet use."
+          ],
+          "learningGoalsBn": [
+            "Internet কী জানবে",
+            "network of networks বুঝবে",
+            "Internet-এর development সম্পর্কে basic idea পাবে"
+          ],
+          "learningGoalsEn": [
+            "Know what the Internet is",
+            "Understand 'network of networks'",
+            "Get a basic idea of Internet development"
+          ],
+          "examplesBn": [
+            "তুমি video দেখো, message পাঠাও, information খোঁজো — এগুলো Internet-এর ব্যবহার।"
+          ],
+          "examplesEn": [
+            "Watching videos, sending messages and searching for information are uses of the Internet."
+          ],
+          "recapBn": [
+            "Internet = network of networks।",
+            "এটি information আদান-প্রদান সহজ করে।"
+          ],
+          "recapEn": [
+            "The Internet is a network of networks.",
+            "It makes information sharing easier."
+          ],
+          "commonMistakesBn": [
+            "Internet মানেই শুধু YouTube নয়।",
+            "Wi-Fi আর Internet এক জিনিস নয়।"
+          ],
+          "commonMistakesEn": [
+            "The Internet is not only YouTube.",
+            "Wi-Fi and the Internet are not exactly the same thing."
+          ],
+          "importantWords": [
+            {
+              "word": "Internet",
+              "meaningBn": "বিশ্বজোড়া network"
+            },
+            {
+              "word": "Network",
+              "meaningBn": "সংযুক্ত system"
+            },
+            {
+              "word": "Communication",
+              "meaningBn": "যোগাযোগ"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🌐",
+              "titleBn": "World Connection",
+              "titleEn": "World Connection",
+              "descriptionBn": "অনেক network মিলে Internet।",
+              "descriptionEn": "Many networks together form the Internet."
+            }
           ]
         },
         {
@@ -1195,6 +2160,8 @@
           "durationMinutes": 14,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Browser, Website, Web Page, URL ও Search Engine বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Browser হলো web content দেখার application। Website বহু related web page-এর collection হতে পারে, আর URL কোনো web resource-এর address হিসেবে কাজ করে।",
             "Search engine keyword ব্যবহার করে relevant web information খুঁজতে সাহায্য করে। Search result দেখার সময় source-এর বিশ্বাসযোগ্যতা যাচাই করা গুরুত্বপূর্ণ।"
           ],
@@ -1231,17 +2198,76 @@
             "topic:c6_webpage",
             "topic:c6_website"
           ],
-          "titleEn": "Basic Internet Terms",
-          "summaryEn": "Learn browser, website, web page, URL and search engine.",
+          "titleEn": "Browser, Website, Web Page, URL and Search Engine",
+          "summaryEn": "Learn important Internet terms clearly.",
           "contentEn": [
-            "A browser is used to access web content. A website is a collection of related web pages.",
-            "A URL is a web address, and a search engine helps users find information using keywords."
+            "A browser is an app used to open websites. A website is a collection of web pages.",
+            "A web page is one page inside a website. A URL is the address of that page or website. A search engine helps find information."
           ],
           "stepsEn": [
             "Define browser.",
             "Explain website and web page.",
             "Explain URL.",
             "Explain search engine."
+          ],
+          "learningGoalsBn": [
+            "browser কী বুঝবে",
+            "website ও webpage আলাদা করতে পারবে",
+            "URL কী জানবে",
+            "search engine চিনবে"
+          ],
+          "learningGoalsEn": [
+            "Understand what a browser is",
+            "Distinguish website and webpage",
+            "Know what a URL is",
+            "Recognize a search engine"
+          ],
+          "examplesBn": [
+            "Google Chrome হলো browser।",
+            "school website-এর home page একটি webpage।"
+          ],
+          "examplesEn": [
+            "Google Chrome is a browser.",
+            "The home page of a school website is a web page."
+          ],
+          "recapBn": [
+            "Browser app, website page-এর collection, webpage একটি page।",
+            "URL হলো address।"
+          ],
+          "recapEn": [
+            "A browser is an app, a website is a collection of pages, and a web page is one page.",
+            "A URL is an address."
+          ],
+          "commonMistakesBn": [
+            "Website আর webpage এক নয়।",
+            "Google সবসময় browser নয় — search engine হিসেবেও পরিচিত।"
+          ],
+          "commonMistakesEn": [
+            "A website and a web page are not the same.",
+            "Google is not always referred to as a browser; it is also known as a search engine."
+          ],
+          "importantWords": [
+            {
+              "word": "Browser",
+              "meaningBn": "website দেখার app"
+            },
+            {
+              "word": "Web Page",
+              "meaningBn": "website-এর একটি পাতা"
+            },
+            {
+              "word": "URL",
+              "meaningBn": "web address"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🔎",
+              "titleBn": "Find It Online",
+              "titleEn": "Find It Online",
+              "descriptionBn": "Browser খুলে URL বা search দিয়ে page খোঁজা যায়।",
+              "descriptionEn": "You can find a page in a browser using a URL or search."
+            }
           ]
         },
         {
@@ -1251,6 +2277,8 @@
           "durationMinutes": 14,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Browsing ও Safe Search Practice বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Search করার সময় ছোট কিন্তু নির্দিষ্ট keyword ব্যবহার করলে ভালো result পাওয়া যায়। একই information একাধিক trusted source থেকে মিলিয়ে দেখা ভালো অভ্যাস।",
             "Unknown link, suspicious download, password চাওয়া page বা ব্যক্তিগত তথ্যের অনুরোধে সতর্ক থাকতে হবে। শিশুদের ক্ষেত্রে trusted adult/teacher-এর guidance গুরুত্বপূর্ণ।",
             "Cyber Smart & Ethics: password, OTP, address, phone number বা private information unknown site-এ দেবেন না; suspicious link বা download trusted adult/teacher-কে দেখান।"
@@ -1340,11 +2368,11 @@
             "topic:c6_safety",
             "topic:c6_trust"
           ],
-          "titleEn": "Browsing, Search Engines and Cyber Safety",
-          "summaryEn": "Search responsibly and protect private information online.",
+          "titleEn": "Browsing, Search and Cyber Safety",
+          "summaryEn": "Search safely and protect personal information online.",
           "contentEn": [
-            "Search engines use keywords to find relevant pages. Reliable information should be checked for source, purpose, security and consistency with other trusted sources.",
-            "Never share passwords, OTPs, addresses, phone numbers or other private information on unknown websites. Avoid suspicious links and downloads."
+            "Good searching starts with clear keywords. After opening a page, you should check whether the information looks trustworthy.",
+            "Never share passwords, OTPs, address or phone number on unknown sites. Ask a trusted adult or teacher if something looks suspicious."
           ],
           "stepsEn": [
             "Search with useful keywords.",
@@ -1352,6 +2380,65 @@
             "Check HTTPS.",
             "Compare trusted sources.",
             "Protect private information."
+          ],
+          "learningGoalsBn": [
+            "search keyword ব্যবহার করবে",
+            "trusted source চিনবে",
+            "password/OTP protect করবে"
+          ],
+          "learningGoalsEn": [
+            "Use search keywords",
+            "Recognize trusted sources",
+            "Protect passwords and OTPs"
+          ],
+          "examplesBn": [
+            "'healthy food for kids' লিখলে ভালো search result পাওয়া যায়।",
+            "OTP চাইলে unknown site-এ না দেওয়াই safe।"
+          ],
+          "examplesEn": [
+            "Typing 'healthy food for kids' can give better search results.",
+            "If an unknown site asks for an OTP, it is safer not to share it."
+          ],
+          "recapBn": [
+            "ভালো keyword দরকার।",
+            "trusted source দেখা দরকার।",
+            "private information গোপন রাখতে হবে।"
+          ],
+          "recapEn": [
+            "Good keywords are important.",
+            "Trusted sources should be checked.",
+            "Private information must be protected."
+          ],
+          "commonMistakesBn": [
+            "Internet-এর সব তথ্য সত্যি — এটা ভুল।",
+            "বন্ধু বলেছে বলে password share করা safe — এটাও ভুল।"
+          ],
+          "commonMistakesEn": [
+            "It is wrong to think all Internet information is true.",
+            "It is also wrong to think sharing a password is safe just because a friend asked."
+          ],
+          "importantWords": [
+            {
+              "word": "OTP",
+              "meaningBn": "one-time password"
+            },
+            {
+              "word": "Private",
+              "meaningBn": "গোপন"
+            },
+            {
+              "word": "Trusted",
+              "meaningBn": "বিশ্বাসযোগ্য"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🛡️",
+              "titleBn": "Stay Safe Online",
+              "titleEn": "Stay Safe Online",
+              "descriptionBn": "Password, OTP, phone number গোপন রাখো।",
+              "descriptionEn": "Keep passwords, OTPs and phone numbers private."
+            }
           ]
         }
       ]
@@ -1374,6 +2461,8 @@
           "durationMinutes": 13,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Scratch 3 কী এবং Interface পরিচিতি বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Scratch 3 একটি block-based programming environment যেখানে code block জুড়ে animation, story ও game তৈরি করা যায়।",
             "Stage, Sprite, Blocks Palette, Coding Area এবং Sprite List—এই অংশগুলো বুঝলে project তৈরি করা সহজ হয়।"
           ],
@@ -1410,16 +2499,71 @@
             "topic:c7_stage"
           ],
           "titleEn": "Introduction to Scratch 3 and Its Interface",
-          "summaryEn": "Recognize the main parts of the Scratch 3 workspace.",
+          "summaryEn": "Recognize the basic parts of the Scratch programming screen.",
           "contentEn": [
-            "Scratch 3 is a block-based programming environment used to create interactive stories, animations and games.",
-            "The Stage shows the project, Sprites are programmable objects, the Blocks Palette contains coding blocks and the Coding Area is where blocks are assembled."
+            "Scratch 3 is a block-based programming environment for creating animations, games and stories.",
+            "The Stage shows what happens, Sprites are the objects, the Blocks Palette holds blocks and the Coding Area is where blocks are joined."
           ],
           "stepsEn": [
             "Locate the Stage.",
             "Identify a Sprite.",
             "Find the Blocks Palette.",
             "Find the Coding Area."
+          ],
+          "learningGoalsBn": [
+            "Scratch 3 কী জানবে",
+            "Stage, Sprite, Blocks Palette, Coding Area চিনবে"
+          ],
+          "learningGoalsEn": [
+            "Know what Scratch 3 is",
+            "Identify Stage, Sprite, Blocks Palette and Coding Area"
+          ],
+          "examplesBn": [
+            "cat sprite নড়ানো বা কথা বলানো Scratch-এ করা যায়।"
+          ],
+          "examplesEn": [
+            "Moving or making a cat sprite speak can be done in Scratch."
+          ],
+          "recapBn": [
+            "Sprite = object/character।",
+            "Stage = দেখানোর জায়গা।",
+            "Blocks Palette = block-এর তালিকা।"
+          ],
+          "recapEn": [
+            "A Sprite is a character or object.",
+            "The Stage is where the project is shown.",
+            "The Blocks Palette contains blocks."
+          ],
+          "commonMistakesBn": [
+            "Stage আর Sprite এক নয়।",
+            "Palette মানে drawing colour palette নয়—এখানে block list।"
+          ],
+          "commonMistakesEn": [
+            "The Stage and a Sprite are not the same.",
+            "Here, Palette means the block list, not a paint colour palette."
+          ],
+          "importantWords": [
+            {
+              "word": "Sprite",
+              "meaningBn": "Scratch object"
+            },
+            {
+              "word": "Stage",
+              "meaningBn": "দেখানোর area"
+            },
+            {
+              "word": "Coding Area",
+              "meaningBn": "block বসানোর area"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🐱",
+              "titleBn": "Scratch Screen",
+              "titleEn": "Scratch Screen",
+              "descriptionBn": "Stage, Sprite, Blocks Palette, Coding Area কোথায় আছে তা দেখো।",
+              "descriptionEn": "See where the Stage, Sprite, Blocks Palette and Coding Area are."
+            }
           ]
         },
         {
@@ -1429,6 +2573,8 @@
           "durationMinutes": 16,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Blocks ও Pen: Colourful Shapes বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Scratch-এ block-এর order খুব গুরুত্বপূর্ণ। Move, Turn, Repeat এবং Pen block সঠিক sequence-এ দিলে sprite দিয়ে geometric pattern আঁকা যায়।",
             "একই instruction বারবার দরকার হলে Repeat block code-কে ছোট ও পরিষ্কার করে।",
             "Computational Thinking: একটি বড় drawing problem-কে Move, Turn, Repeat এবং Pen-এর ছোট repeatable steps-এ ভাঙা হলো decomposition ও pattern-based problem solving-এর উদাহরণ।"
@@ -1476,11 +2622,11 @@
             "topic:c7_move_turn",
             "topic:c7_pen"
           ],
-          "titleEn": "Drawing Colourful Shapes with Pen Blocks",
-          "summaryEn": "Use Pen, Move, Turn and Repeat blocks to draw shapes.",
+          "titleEn": "Drawing with Pen Blocks",
+          "summaryEn": "Use Pen, Move, Turn and Repeat to draw shapes in Scratch.",
           "contentEn": [
-            "Pen blocks let a sprite draw while it moves. Move and Turn control motion, while Repeat runs the same instructions several times.",
-            "This is also an example of computational thinking because a larger drawing problem is broken into smaller repeatable steps."
+            "When the pen is down, the sprite draws as it moves. Move blocks control movement and Turn blocks control direction.",
+            "Repeat helps do the same steps again and again, which is useful for drawing shapes."
           ],
           "stepsEn": [
             "Use Pen Down.",
@@ -1488,6 +2634,63 @@
             "Turn by an angle.",
             "Repeat the pattern.",
             "Experiment with polygon angles."
+          ],
+          "learningGoalsBn": [
+            "Pen block ব্যবহার করবে",
+            "Move/Turn বুঝবে",
+            "Repeat block-এর কাজ জানবে"
+          ],
+          "learningGoalsEn": [
+            "Use Pen blocks",
+            "Understand Move and Turn",
+            "Know the use of the Repeat block"
+          ],
+          "examplesBn": [
+            "Move 50, Turn 90, Repeat 4 দিলে square আঁকা যায়।"
+          ],
+          "examplesEn": [
+            "Move 50, Turn 90 and Repeat 4 can be used to draw a square."
+          ],
+          "recapBn": [
+            "Pen down করলে drawing হয়।",
+            "Turn angle shape বদলায়।",
+            "Repeat time বাঁচায়।"
+          ],
+          "recapEn": [
+            "Drawing happens when the pen is down.",
+            "Turn angles affect the shape.",
+            "Repeat saves time."
+          ],
+          "commonMistakesBn": [
+            "Pen down না করলে line পড়বে না।",
+            "Repeat দিলে সব shape same হবে — এটা ভুল।"
+          ],
+          "commonMistakesEn": [
+            "Without Pen Down, no line will appear.",
+            "It is wrong to think Repeat always produces the same shape."
+          ],
+          "importantWords": [
+            {
+              "word": "Pen Down",
+              "meaningBn": "drawing শুরু"
+            },
+            {
+              "word": "Turn",
+              "meaningBn": "দিক বদলানো"
+            },
+            {
+              "word": "Repeat",
+              "meaningBn": "একই কাজ বারবার করা"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "📐",
+              "titleBn": "Square Formula",
+              "titleEn": "Square Formula",
+              "descriptionBn": "Move + Turn + Repeat = shape drawing",
+              "descriptionEn": "Move + Turn + Repeat = shape drawing"
+            }
           ]
         },
         {
@@ -1497,6 +2700,8 @@
           "durationMinutes": 12,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Duplicate Sprite, Save, Open ও Exit বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "একই ধরনের sprite দরকার হলে duplicate করলে সময় বাঁচে। তবে প্রতিটি sprite-এর script ও property দেখে নেওয়া দরকার।",
             "Project নিয়মিত save করলে কাজ হারানোর ঝুঁকি কমে। Existing project open করে editing চালিয়ে যাওয়া যায়।",
             "Project Save/Open শেষ হলে application থেকে নিরাপদভাবে Exit করুন।"
@@ -1546,16 +2751,75 @@
             "topic:c7_save"
           ],
           "titleEn": "Duplicate, Save, Open and Exit a Scratch Project",
-          "summaryEn": "Practice basic Scratch project-management actions.",
+          "summaryEn": "Learn important project-management actions in Scratch.",
           "contentEn": [
-            "Duplicating a sprite creates another similar object. Saving keeps a project for later and opening loads it again.",
-            "After checking that work is saved, the project can be closed safely."
+            "Duplicating a sprite creates another similar sprite and saves time.",
+            "Saving keeps the project for later. Opening loads the saved project again."
           ],
           "stepsEn": [
             "Duplicate a sprite.",
             "Save the project.",
             "Open the saved project.",
             "Exit safely."
+          ],
+          "learningGoalsBn": [
+            "sprite duplicate করবে",
+            "project save করবে",
+            "save করা project open করবে",
+            "safe exit করবে"
+          ],
+          "learningGoalsEn": [
+            "Duplicate a sprite",
+            "Save a project",
+            "Open a saved project",
+            "Exit safely"
+          ],
+          "examplesBn": [
+            "একটি star sprite duplicate করে অনেক star বানানো যায়।"
+          ],
+          "examplesEn": [
+            "One star sprite can be duplicated to make many stars."
+          ],
+          "recapBn": [
+            "Duplicate সময় বাঁচায়।",
+            "Save/Open খুব দরকার।",
+            "কাজ শেষে safely exit করতে হবে।"
+          ],
+          "recapEn": [
+            "Duplicate saves time.",
+            "Save/Open is very important.",
+            "The project should be exited safely after saving."
+          ],
+          "commonMistakesBn": [
+            "Save না করেও সব থাকবে — ভুল।",
+            "Duplicate আর Copy একইভাবে সব জায়গায় ব্যবহার হয় না।"
+          ],
+          "commonMistakesEn": [
+            "It is wrong to think unsaved work will always remain.",
+            "Duplicate and Copy are not always used in exactly the same way."
+          ],
+          "importantWords": [
+            {
+              "word": "Duplicate",
+              "meaningBn": "একইরকম আরেকটি বানানো"
+            },
+            {
+              "word": "Save",
+              "meaningBn": "সংরক্ষণ"
+            },
+            {
+              "word": "Open",
+              "meaningBn": "আবার খোলা"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "💾",
+              "titleBn": "Project Workflow",
+              "titleEn": "Project Workflow",
+              "descriptionBn": "Duplicate → Save → Open → Exit",
+              "descriptionEn": "Duplicate → Save → Open → Exit"
+            }
           ]
         }
       ]
@@ -1578,6 +2842,8 @@
           "durationMinutes": 13,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Sprite Library, Costume ও Backdrop বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Sprite Library থেকে project-এর জন্য নতুন character নেওয়া যায়। Costume sprite-এর appearance বদলাতে সাহায্য করে এবং Backdrop stage-এর background তৈরি করে।",
             "Story বা game design-এর আগে character, scene ও objective পরিকল্পনা করলে programming সহজ হয়।"
           ],
@@ -1624,15 +2890,74 @@
             "topic:c8_library"
           ],
           "titleEn": "Sprites, Costumes and Backdrops",
-          "summaryEn": "Set up a Scratch scene using visual project elements.",
+          "summaryEn": "Use visual elements to set up a Scratch project scene.",
           "contentEn": [
-            "The Sprite Library provides ready-made sprites. Costumes change how sprites look.",
-            "Backdrops change the Stage background and help establish the setting of a project."
+            "Sprites can be chosen from the library. Costumes change how a sprite looks.",
+            "Backdrops change the background of the Stage and help create the scene."
           ],
           "stepsEn": [
             "Choose a sprite.",
             "Choose or change a costume.",
             "Choose a backdrop."
+          ],
+          "learningGoalsBn": [
+            "sprite library থেকে sprite নেবে",
+            "costume বদলাবে",
+            "backdrop বদলাবে"
+          ],
+          "learningGoalsEn": [
+            "Choose a sprite from the library",
+            "Change costumes",
+            "Change backdrops"
+          ],
+          "examplesBn": [
+            "cat sprite-এর costume বদলে running pose দেখানো যায়।",
+            "park backdrop দিলে scene পার্কের মতো লাগে।"
+          ],
+          "examplesEn": [
+            "Changing a cat sprite costume can show a running pose.",
+            "A park backdrop makes the scene look like a park."
+          ],
+          "recapBn": [
+            "Sprite object।",
+            "Costume look বদলায়।",
+            "Backdrop background বদলায়।"
+          ],
+          "recapEn": [
+            "A Sprite is an object.",
+            "A costume changes the look.",
+            "A backdrop changes the background."
+          ],
+          "commonMistakesBn": [
+            "Backdrop আর costume এক নয়।",
+            "Sprite না বদলিয়েও costume change করা যায়।"
+          ],
+          "commonMistakesEn": [
+            "Backdrop and costume are not the same.",
+            "A costume changes the sprite, not the whole Stage."
+          ],
+          "importantWords": [
+            {
+              "word": "Costume",
+              "meaningBn": "sprite-এর look"
+            },
+            {
+              "word": "Backdrop",
+              "meaningBn": "stage background"
+            },
+            {
+              "word": "Library",
+              "meaningBn": "নিয়ে ব্যবহারের collection"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🌄",
+              "titleBn": "Scene Setup",
+              "titleEn": "Scene Setup",
+              "descriptionBn": "Sprite + Costume + Backdrop = full scene",
+              "descriptionEn": "Sprite + Costume + Backdrop = a complete scene"
+            }
           ]
         },
         {
@@ -1642,6 +2967,8 @@
           "durationMinutes": 15,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Say, Repeat, Events ও Sound বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Say block sprite-কে message দেখাতে পারে। Event block নির্দিষ্ট ঘটনা ঘটলে script শুরু করে, যেমন green flag click।",
             "Repeat block action পুনরাবৃত্তি করে এবং Sound block feedback বা effect দিতে পারে। এগুলো মিলিয়ে interactive project তৈরি করা যায়।"
           ],
@@ -1689,17 +3016,76 @@
             "topic:c8_say",
             "topic:c8_sound"
           ],
-          "titleEn": "Speech, Repetition, Events and Sound",
-          "summaryEn": "Make a Scratch project respond, speak, repeat actions and play sounds.",
+          "titleEn": "Say, Repeat, Events and Sound",
+          "summaryEn": "Make Scratch projects interactive with useful blocks.",
           "contentEn": [
-            "Say blocks display speech, Repeat blocks repeat actions and Event blocks start scripts when something happens.",
-            "Sound blocks add audio feedback and make projects more interactive."
+            "A Say block makes a sprite speak. Event blocks start scripts when something happens.",
+            "Repeat blocks repeat actions and Sound blocks add audio feedback."
           ],
           "stepsEn": [
             "Start with an Event.",
             "Use a Say block.",
             "Use Repeat.",
             "Play a sound."
+          ],
+          "learningGoalsBn": [
+            "Say block ব্যবহার করবে",
+            "Event block বুঝবে",
+            "Repeat block ব্যবহার করবে",
+            "sound add করবে"
+          ],
+          "learningGoalsEn": [
+            "Use Say blocks",
+            "Understand Event blocks",
+            "Use Repeat blocks",
+            "Add sound"
+          ],
+          "examplesBn": [
+            "Green flag click করলে cat বলল 'Hello' — এটি event + say block।"
+          ],
+          "examplesEn": [
+            "When the green flag is clicked, the cat says 'Hello' — this uses an event and a say block."
+          ],
+          "recapBn": [
+            "Event script শুরু করে।",
+            "Say কথা দেখায়।",
+            "Sound শুনতে দেয়।"
+          ],
+          "recapEn": [
+            "An Event starts a script.",
+            "Say shows speech.",
+            "Sound lets the project play audio."
+          ],
+          "commonMistakesBn": [
+            "Repeat আর forever একই নয়।",
+            "sound মানে শুধু music নয়, ছোট effect-ও হতে পারে।"
+          ],
+          "commonMistakesEn": [
+            "Repeat and forever are not the same.",
+            "Sound is not only music; it can also be a short effect."
+          ],
+          "importantWords": [
+            {
+              "word": "Event",
+              "meaningBn": "শুরু করার block"
+            },
+            {
+              "word": "Say",
+              "meaningBn": "কথা দেখায়"
+            },
+            {
+              "word": "Sound",
+              "meaningBn": "শব্দ"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🔊",
+              "titleBn": "Interactive Blocks",
+              "titleEn": "Interactive Blocks",
+              "descriptionBn": "Event + Say + Repeat + Sound = fun project",
+              "descriptionEn": "Event + Say + Repeat + Sound = a fun project"
+            }
           ]
         },
         {
@@ -1709,6 +3095,8 @@
           "durationMinutes": 20,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Project: Quiz Game in Scratch বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Quiz game-এ প্রশ্ন দেখানো, user response নেওয়া এবং correct/incorrect feedback দেওয়ার একটি স্পষ্ট flow দরকার।",
             "Game logic বানানোর আগে flow লিখুন: Start → Ask Question → Check Answer → Feedback → Next Question/End। এই computational thinking debugging সহজ করে।",
             "Collaboration & Debugging: quiz game test করার সময় friend-এর feedback নিন, ভুল block order খুঁজুন এবং একবারে একটি change করে result compare করুন।"
@@ -1756,10 +3144,10 @@
             "topic:c8_quiz"
           ],
           "titleEn": "Project: Build a Quiz Game in Scratch",
-          "summaryEn": "Create a simple question-and-answer program.",
+          "summaryEn": "Create a simple question-and-answer Scratch project.",
           "contentEn": [
-            "A quiz game asks a question, waits for an answer and then gives feedback such as Correct or Try Again.",
-            "Plan the flow before coding and test the program carefully. Debug one change at a time."
+            "A quiz game can ask a question, wait for an answer and then say whether the answer is correct.",
+            "Planning the steps first makes coding easier and helps in debugging."
           ],
           "stepsEn": [
             "Start with an event.",
@@ -1767,6 +3155,63 @@
             "Wait for an answer.",
             "Give feedback.",
             "Test the full flow."
+          ],
+          "learningGoalsBn": [
+            "quiz flow বুঝবে",
+            "question করবে",
+            "answer-এর জন্য wait করবে",
+            "feedback দেবে"
+          ],
+          "learningGoalsEn": [
+            "Understand quiz flow",
+            "Ask a question",
+            "Wait for an answer",
+            "Give feedback"
+          ],
+          "examplesBn": [
+            "Question: 2 + 2 = ? User answer দিলে project বলবে Correct or Try Again।"
+          ],
+          "examplesEn": [
+            "Question: 2 + 2 = ? After the user answers, the project says Correct or Try Again."
+          ],
+          "recapBn": [
+            "Quiz-এ question, answer, feedback থাকে।",
+            "আগে flow ভাবলে coding সহজ হয়।"
+          ],
+          "recapEn": [
+            "A quiz includes a question, an answer and feedback.",
+            "Thinking about the flow first makes coding easier."
+          ],
+          "commonMistakesBn": [
+            "answer নেওয়ার আগে feedback দিলে flow ভুল হবে।",
+            "একসাথে অনেক change করলে debugging কঠিন হয়।"
+          ],
+          "commonMistakesEn": [
+            "If feedback comes before the answer is taken, the flow is wrong.",
+            "Making too many changes at once makes debugging harder."
+          ],
+          "importantWords": [
+            {
+              "word": "Quiz",
+              "meaningBn": "প্রশ্নোত্তর game"
+            },
+            {
+              "word": "Feedback",
+              "meaningBn": "উত্তরের পর response"
+            },
+            {
+              "word": "Debug",
+              "meaningBn": "ভুল খুঁজে ঠিক করা"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "❓",
+              "titleBn": "Quiz Flow",
+              "titleEn": "Quiz Flow",
+              "descriptionBn": "Ask → Wait → Check → Respond",
+              "descriptionEn": "Ask → Wait → Check → Respond"
+            }
           ]
         }
       ]
@@ -1789,6 +3234,8 @@
           "durationMinutes": 12,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Intelligence কী? বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Intelligence বলতে information বুঝে শেখা, pattern চিনতে পারা, reason করা, সমস্যা সমাধান এবং পরিস্থিতি অনুযায়ী সিদ্ধান্ত নেওয়ার ক্ষমতার সমষ্টি বোঝানো যায়।",
             "মানুষ অভিজ্ঞতা, context, emotion, values এবং social understanding ব্যবহার করে সিদ্ধান্ত নিতে পারে।"
           ],
@@ -1824,15 +3271,72 @@
             "topic:c9_intelligence"
           ],
           "titleEn": "What is Intelligence?",
-          "summaryEn": "Understand intelligence and the basic idea of artificial intelligence.",
+          "summaryEn": "Understand intelligence in a simple way.",
           "contentEn": [
-            "Intelligence includes learning, reasoning, understanding, problem solving and adapting to new situations.",
-            "Human intelligence uses broad experience, senses, emotions and judgement. Artificial Intelligence uses computer systems to perform selected intelligent tasks."
+            "Intelligence means the ability to learn, think, understand and solve problems.",
+            "Humans show intelligence in many ways. Computers can also be designed to do some smart tasks through AI."
           ],
           "stepsEn": [
             "Describe intelligence.",
             "Give examples of human intelligence.",
             "Give examples of AI-based tasks."
+          ],
+          "learningGoalsBn": [
+            "intelligence-এর মানে জানবে",
+            "human intelligence-এর উদাহরণ দেবে",
+            "AI-এর basic idea পাবে"
+          ],
+          "learningGoalsEn": [
+            "Know the meaning of intelligence",
+            "Give examples of human intelligence",
+            "Get the basic idea of AI"
+          ],
+          "examplesBn": [
+            "একটি problem দেখে solution ভাবা human intelligence।",
+            "phone-এর voice assistant AI-এর example।"
+          ],
+          "examplesEn": [
+            "Thinking of a solution to a problem is an example of human intelligence.",
+            "A phone voice assistant is an example of AI."
+          ],
+          "recapBn": [
+            "Intelligence মানে শুধু মুখস্থ নয়।",
+            "Think + learn + solve = intelligence-এর অংশ।"
+          ],
+          "recapEn": [
+            "Intelligence is not only memorizing.",
+            "Thinking, learning and solving are parts of intelligence."
+          ],
+          "commonMistakesBn": [
+            "smart হওয়া মানেই সবকিছু জানা নয়।",
+            "AI মানে feeling থাকা — এটা ভুল।"
+          ],
+          "commonMistakesEn": [
+            "Being smart does not mean knowing everything.",
+            "It is incorrect to think AI has feelings like a human."
+          ],
+          "importantWords": [
+            {
+              "word": "Intelligence",
+              "meaningBn": "বুদ্ধি/বোঝার ক্ষমতা"
+            },
+            {
+              "word": "Learn",
+              "meaningBn": "শেখা"
+            },
+            {
+              "word": "Solve",
+              "meaningBn": "সমাধান করা"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🧠",
+              "titleBn": "Think and Solve",
+              "titleEn": "Think and Solve",
+              "descriptionBn": "Problem বুঝে solution বের করা intelligence।",
+              "descriptionEn": "Understanding a problem and finding a solution is intelligence."
+            }
           ]
         },
         {
@@ -1842,6 +3346,8 @@
           "durationMinutes": 15,
           "type": "theory",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা Artificial Intelligence ও Human vs AI বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Artificial Intelligence এমন computer system বা technique বোঝায় যা data ও algorithm ব্যবহার করে prediction, classification, language handling বা decision-support-এর মতো কাজ করতে পারে।",
             "AI নির্দিষ্ট task-এ খুব দ্রুত data process করতে পারে, কিন্তু মানুষের মতো সর্বাঙ্গীণ common sense, emotion, moral judgement বা real-world understanding সব ক্ষেত্রে থাকে না।",
             "AI result ব্যবহার করার সময় ভুল, bias এবং privacy-এর ঝুঁকি বিবেচনা করা দরকার।"
@@ -1876,17 +3382,76 @@
             "topic:c9_apps",
             "topic:c9_compare"
           ],
-          "titleEn": "Human Intelligence vs Artificial Intelligence",
-          "summaryEn": "Compare human and artificial intelligence.",
+          "titleEn": "Human Intelligence and Artificial Intelligence",
+          "summaryEn": "Compare human intelligence and artificial intelligence.",
           "contentEn": [
-            "Humans use broad experience, values, emotions and context. AI can process large amounts of data quickly and perform specific tasks consistently.",
-            "AI is used in recommendations, voice assistants, image recognition, translation and pattern detection, but it does not understand every situation exactly like a human."
+            "Humans use experience, feelings, values and judgement. AI systems can process large amounts of data quickly and perform some tasks consistently.",
+            "AI is used in recommendations, translation, voice assistants and pattern recognition."
           ],
           "stepsEn": [
             "List human strengths.",
             "List AI strengths.",
             "Identify AI applications.",
             "Explain why human judgement matters."
+          ],
+          "learningGoalsBn": [
+            "human ও AI-এর শক্তি আলাদা বুঝবে",
+            "AI-এর use জানবে",
+            "human judgement কেন দরকার বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Understand that humans and AI have different strengths",
+            "Know some uses of AI",
+            "Understand why human judgement is still needed"
+          ],
+          "examplesBn": [
+            "YouTube video suggestion AI দিতে পারে।",
+            "মানুষ story বুঝে emotion ধরতে পারে—এটা human strength।"
+          ],
+          "examplesEn": [
+            "AI may provide YouTube video suggestions.",
+            "Humans can understand stories and emotions — that is a human strength."
+          ],
+          "recapBn": [
+            "Human আর AI একই নয়।",
+            "AI কিছু কাজ দ্রুত করে।",
+            "মানুষ judgement দেয়।"
+          ],
+          "recapEn": [
+            "Humans and AI are not the same.",
+            "AI performs some tasks quickly.",
+            "Humans provide judgement."
+          ],
+          "commonMistakesBn": [
+            "AI সবসময় ঠিক — ভুল।",
+            "মানুষের আর দরকার নেই — এটাও ভুল।"
+          ],
+          "commonMistakesEn": [
+            "It is wrong to think AI is always correct.",
+            "It is also wrong to think humans are no longer needed."
+          ],
+          "importantWords": [
+            {
+              "word": "Judgement",
+              "meaningBn": "বিচারবুদ্ধি"
+            },
+            {
+              "word": "Pattern",
+              "meaningBn": "ধরন/রীতি"
+            },
+            {
+              "word": "AI",
+              "meaningBn": "কৃত্রিম বুদ্ধিমত্তা"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "⚖️",
+              "titleBn": "Human vs AI",
+              "titleEn": "Human vs AI",
+              "descriptionBn": "Human judgement + AI speed = better help",
+              "descriptionEn": "Human judgement + AI speed = better help"
+            }
           ]
         },
         {
@@ -1896,6 +3461,8 @@
           "durationMinutes": 16,
           "type": "practical",
           "contentBn": [
+            "সহজভাবে বললে, এই lesson-এ আমরা AI Fun Activity: Rock–Paper–Scissors বিষয়টি step by step বুঝব।",
+            "কঠিন শব্দ দেখলে ভয় পাবে না। উদাহরণ দেখলে বিষয়টি আরও সহজ হবে।",
             "Rock–Paper–Scissors activity ব্যবহার করে rules, choices এবং computer decision-এর ধারণা বোঝানো যায়। Random choice আর learned pattern-based choice এক জিনিস নয়—এই পার্থক্যটি বোঝা জরুরি।",
             "Activity শেষে প্রশ্ন করুন: computer কি সত্যিই 'ভাবছে', নাকি rule/data অনুসারে output দিচ্ছে? এই প্রশ্ন AI literacy গড়ে তোলে।",
             "Inference Practice: আগের choices থেকে pattern দেখে prediction করা inference-এর উদাহরণ; prediction certainty নয়।",
@@ -1942,10 +3509,10 @@
             "topic:c9_verify"
           ],
           "titleEn": "AI Activity: Rock–Paper–Scissors and Prediction",
-          "summaryEn": "Explore pattern-based prediction and the limits of AI.",
+          "summaryEn": "Explore prediction and understand that AI can make mistakes.",
           "contentEn": [
-            "A simple predictor can look at earlier choices and use a pattern to guess what might happen next. This demonstrates prediction from data.",
-            "A prediction is not certainty. AI can be wrong or biased, so important outputs should be verified and private data should be protected."
+            "A simple AI-like activity can look at earlier choices and guess what may happen next.",
+            "Predictions are not always correct. Important results should be checked because AI can make mistakes."
           ],
           "stepsEn": [
             "Play several rounds.",
@@ -1953,6 +3520,63 @@
             "Compare prediction with result.",
             "Explain why prediction can be wrong.",
             "Compare human judgement with AI prediction."
+          ],
+          "learningGoalsBn": [
+            "pattern দেখে prediction-এর idea পাবে",
+            "AI result verify করতে শিখবে",
+            "AI-এর limitation বুঝবে"
+          ],
+          "learningGoalsEn": [
+            "Get the idea of prediction from patterns",
+            "Learn to verify AI results",
+            "Understand the limitations of AI"
+          ],
+          "examplesBn": [
+            "আগের turn-এ তুমি বারবার Rock দিলে predictor next-এও Rock guess করতে পারে।"
+          ],
+          "examplesEn": [
+            "If you chose Rock many times before, a predictor may guess Rock again next time."
+          ],
+          "recapBn": [
+            "AI data দেখে guess করতে পারে।",
+            "Guess সবসময় ঠিক নয়।",
+            "Verify করা দরকার।"
+          ],
+          "recapEn": [
+            "AI can guess from data patterns.",
+            "A guess is not always correct.",
+            "Verification is important."
+          ],
+          "commonMistakesBn": [
+            "Prediction মানেই truth — ভুল।",
+            "AI result check না করেও বিশ্বাস করা উচিত — ভুল।"
+          ],
+          "commonMistakesEn": [
+            "Prediction is not the same as truth.",
+            "It is wrong to trust AI output without checking important results."
+          ],
+          "importantWords": [
+            {
+              "word": "Prediction",
+              "meaningBn": "আগাম guess"
+            },
+            {
+              "word": "Verify",
+              "meaningBn": "যাচাই করা"
+            },
+            {
+              "word": "Pattern",
+              "meaningBn": "পুনরাবৃত্ত ধরন"
+            }
+          ],
+          "mockupCards": [
+            {
+              "icon": "🤖",
+              "titleBn": "Guess and Check",
+              "titleEn": "Guess and Check",
+              "descriptionBn": "AI guess করতে পারে, কিন্তু মানুষকে check করতে হবে।",
+              "descriptionEn": "AI can guess, but humans should still check."
+            }
           ]
         }
       ]
