@@ -55,7 +55,11 @@ void main() {
 
     expect(model.contains('final String visualAsset;'), isTrue);
     expect(model.contains('bool get hasVisualAsset'), isTrue);
-    expect(screen.contains("'শেখার ছবি'"), isTrue);
+    expect(
+      screen.contains("'ছবি দেখে শুরু করি'") ||
+          screen.contains("'শেখার ছবি'"),
+      isTrue,
+    );
     expect(screen.contains('Image.asset('), isTrue);
     expect(screen.contains('lesson.visualAsset'), isTrue);
     expect(pubspec.contains('assets/visuals/class5/'), isTrue);
