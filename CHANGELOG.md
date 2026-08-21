@@ -1,3 +1,10 @@
+## 1.1.0+20 - Class V Real Visual Learning Pack
+- Added 12 child-friendly educational visual assets for Class V lessons.
+- Attached a real visual learning image to all 27 Class V lessons.
+- Added Bengali and English visual captions inside the lesson screen.
+- Preserved Phase 7 deep content, bilingual content and all existing practical routes.
+- Added visual-pack integrity tests.
+
 ## 1.1.0+19 - Class V Deep Child-Friendly Content
 - Deep-enriched all 27 Class V lessons with simpler Bengali explanations and supporting English explanations.
 - Added "What you will learn", examples, important words, quick recap and common mistakes to every lesson.

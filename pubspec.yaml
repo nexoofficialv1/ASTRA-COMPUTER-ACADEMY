@@ -1,7 +1,7 @@
 name: astra_computer_academy
 description: Offline-first interactive computer learning app foundation.
 publish_to: 'none'
-version: 1.1.0+19
+version: 1.1.0+20
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -26,3 +26,4 @@ flutter:
     - assets/content/curriculum.json
     - assets/content/class5_cursor_pro.json
     - assets/content/class5_coverage_manifest.json
+    - assets/visuals/class5/

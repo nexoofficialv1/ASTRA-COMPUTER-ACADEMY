@@ -26,6 +26,9 @@ class Lesson {
     this.commonMistakesEn = const [],
     this.importantWords = const [],
     this.mockupCards = const [],
+    this.visualAsset = '',
+    this.visualCaptionBn = '',
+    this.visualCaptionEn = '',
   });
 
   final String id;
@@ -53,11 +56,15 @@ class Lesson {
   final List<String> commonMistakesEn;
   final List<Map<String, dynamic>> importantWords;
   final List<Map<String, dynamic>> mockupCards;
+  final String visualAsset;
+  final String visualCaptionBn;
+  final String visualCaptionEn;
 
   bool get isPractical => type == 'practical';
   bool get hasInteractivePractical => practicalKind != null;
   bool get hasEnglishExplanation =>
       summaryEn.trim().isNotEmpty || contentEn.isNotEmpty || stepsEn.isNotEmpty;
+  bool get hasVisualAsset => visualAsset.trim().isNotEmpty;
 
   factory Lesson.fromJson(Map<String, dynamic> json) {
     return Lesson(
@@ -93,6 +100,9 @@ class Lesson {
       mockupCards: (json['mockupCards'] as List<dynamic>? ?? const [])
           .map((item) => Map<String, dynamic>.from(item as Map))
           .toList(),
+      visualAsset: json['visualAsset'] as String? ?? '',
+      visualCaptionBn: json['visualCaptionBn'] as String? ?? '',
+      visualCaptionEn: json['visualCaptionEn'] as String? ?? '',
     );
   }
 }

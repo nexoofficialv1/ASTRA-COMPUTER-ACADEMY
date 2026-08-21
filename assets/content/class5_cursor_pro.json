@@ -138,7 +138,10 @@
               "descriptionBn": "বড় machine থেকে ছোট smart machine পর্যন্ত পরিবর্তন।",
               "descriptionEn": "The change from huge machines to small smart computers."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/computer_generations.png",
+          "visualCaptionBn": "কম্পিউটারের generation-এর ছবি",
+          "visualCaptionEn": "Computer generations picture"
         },
         {
           "id": "c5_01_02",
@@ -248,7 +251,10 @@
               "descriptionBn": "Keyboard → CPU → Monitor",
               "descriptionEn": "Keyboard → CPU → Monitor"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/ipo_flow.png",
+          "visualCaptionBn": "Input → Processing → Output flow",
+          "visualCaptionEn": "Input → Processing → Output flow"
         },
         {
           "id": "c5_01_03",
@@ -409,7 +415,10 @@
               "descriptionBn": "Keyboard, CPU, Monitor, RAM আলাদা category-তে রাখো।",
               "descriptionEn": "Place Keyboard, CPU, Monitor and RAM in correct categories."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/device_sorting.png",
+          "visualCaptionBn": "device category chart",
+          "visualCaptionEn": "device category chart"
         }
       ]
     },
@@ -535,7 +544,10 @@
               "descriptionBn": "যেটা হাতে ধরা বা দেখা যায় সেটি hardware।",
               "descriptionEn": "If you can see and touch it, it is hardware."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/hardware_software.png",
+          "visualCaptionBn": "hardware অংশ চিনতে সাহায্যকারী ছবি",
+          "visualCaptionEn": "picture for identifying hardware"
         },
         {
           "id": "c5_02_02",
@@ -649,7 +661,10 @@
               "descriptionBn": "Hardware হলো body, software হলো নির্দেশ।",
               "descriptionEn": "Hardware is like the body; software gives the instructions."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/hardware_software.png",
+          "visualCaptionBn": "software উদাহরণসহ তুলনা",
+          "visualCaptionEn": "software comparison with examples"
         },
         {
           "id": "c5_02_03",
@@ -795,7 +810,10 @@
               "descriptionBn": "Keyboard + Word + CPU + Monitor = typing task",
               "descriptionEn": "Keyboard + Word + CPU + Monitor = a typing task"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/hardware_software.png",
+          "visualCaptionBn": "hardware + software একসাথে কাজ করছে",
+          "visualCaptionEn": "hardware and software working together"
         }
       ]
     },
@@ -925,7 +943,10 @@
               "descriptionBn": "Desktop, Start, Taskbar কোথায় আছে তা দেখো।",
               "descriptionEn": "See where the Desktop, Start and Taskbar are located."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/windows_desktop.png",
+          "visualCaptionBn": "Windows desktop-এর main অংশ",
+          "visualCaptionEn": "main parts of the Windows desktop"
         },
         {
           "id": "c5_03_02",
@@ -1077,7 +1098,10 @@
               "descriptionBn": "Folder হলো file-এর ঘর।",
               "descriptionEn": "A folder is like a home for files."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/files_folders.png",
+          "visualCaptionBn": "file ও folder গুছিয়ে রাখা",
+          "visualCaptionEn": "organizing files and folders"
         },
         {
           "id": "c5_03_03",
@@ -1209,7 +1233,10 @@
               "descriptionBn": "Wallpaper, theme, browser—সব আলাদা কাজ করে।",
               "descriptionEn": "Wallpaper, themes and browsers all have different jobs."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/windows_desktop.png",
+          "visualCaptionBn": "Windows settings ও desktop look",
+          "visualCaptionEn": "Windows settings and desktop look"
         }
       ]
     },
@@ -1358,7 +1385,10 @@
               "descriptionBn": "Cut, Copy, Paste ও Find-Replace editing সহজ করে।",
               "descriptionEn": "Cut, Copy, Paste and Find & Replace make editing easier."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/word_tools.png",
+          "visualCaptionBn": "Word editing tools",
+          "visualCaptionEn": "Word editing tools"
         },
         {
           "id": "c5_04_02",
@@ -1501,7 +1531,10 @@
               "descriptionBn": "Formatting করলে লেখা পরিষ্কার ও সুন্দর হয়।",
               "descriptionEn": "Formatting makes writing clean and attractive."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/word_tools.png",
+          "visualCaptionBn": "Word formatting tools",
+          "visualCaptionEn": "Word formatting tools"
         },
         {
           "id": "c5_04_03",
@@ -1649,7 +1682,10 @@
               "descriptionBn": "Image আর text সুন্দরভাবে সাজাও।",
               "descriptionEn": "Arrange images and text neatly together."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/word_tools.png",
+          "visualCaptionBn": "Word picture and save workflow",
+          "visualCaptionEn": "Word picture and save workflow"
         }
       ]
     },
@@ -1771,7 +1807,10 @@
               "descriptionBn": "এখানেই drawing/poster তৈরি হবে।",
               "descriptionEn": "This is where the drawing or poster is made."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/paint3d_tools.png",
+          "visualCaptionBn": "Paint 3D workspace",
+          "visualCaptionEn": "Paint 3D workspace"
         },
         {
           "id": "c5_05_02",
@@ -1897,7 +1936,10 @@
               "descriptionBn": "Circle flat, cube depthসহ।",
               "descriptionEn": "A circle is flat; a cube has depth."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/paint3d_tools.png",
+          "visualCaptionBn": "Paint 3D tools and shapes",
+          "visualCaptionEn": "Paint 3D tools and shapes"
         },
         {
           "id": "c5_05_03",
@@ -2030,7 +2072,10 @@
               "descriptionBn": "Title + Fruit images + short message",
               "descriptionEn": "Title + fruit images + a short message"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/paint3d_tools.png",
+          "visualCaptionBn": "healthy food poster idea",
+          "visualCaptionEn": "healthy food poster idea"
         }
       ]
     },
@@ -2151,7 +2196,10 @@
               "descriptionBn": "অনেক network মিলে Internet।",
               "descriptionEn": "Many networks together form the Internet."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/internet_safety.png",
+          "visualCaptionBn": "Internet ব্যবহারের basic idea",
+          "visualCaptionEn": "basic idea of Internet use"
         },
         {
           "id": "c5_06_02",
@@ -2268,7 +2316,10 @@
               "descriptionBn": "Browser খুলে URL বা search দিয়ে page খোঁজা যায়।",
               "descriptionEn": "You can find a page in a browser using a URL or search."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/internet_safety.png",
+          "visualCaptionBn": "browser ও safe search reminder",
+          "visualCaptionEn": "browser and safe search reminder"
         },
         {
           "id": "c5_06_03",
@@ -2439,7 +2490,10 @@
               "descriptionBn": "Password, OTP, phone number গোপন রাখো।",
               "descriptionEn": "Keep passwords, OTPs and phone numbers private."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/internet_safety.png",
+          "visualCaptionBn": "cyber safety poster",
+          "visualCaptionEn": "cyber safety poster"
         }
       ]
     },
@@ -2564,7 +2618,10 @@
               "descriptionBn": "Stage, Sprite, Blocks Palette, Coding Area কোথায় আছে তা দেখো।",
               "descriptionEn": "See where the Stage, Sprite, Blocks Palette and Coding Area are."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/scratch_interface.png",
+          "visualCaptionBn": "Scratch interface picture",
+          "visualCaptionEn": "Scratch interface picture"
         },
         {
           "id": "c5_07_02",
@@ -2691,7 +2748,10 @@
               "descriptionBn": "Move + Turn + Repeat = shape drawing",
               "descriptionEn": "Move + Turn + Repeat = shape drawing"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/scratch_interface.png",
+          "visualCaptionBn": "Scratch drawing blocks idea",
+          "visualCaptionEn": "Scratch drawing blocks idea"
         },
         {
           "id": "c5_07_03",
@@ -2820,7 +2880,10 @@
               "descriptionBn": "Duplicate → Save → Open → Exit",
               "descriptionEn": "Duplicate → Save → Open → Exit"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/scratch_interface.png",
+          "visualCaptionBn": "Scratch project workflow",
+          "visualCaptionEn": "Scratch project workflow"
         }
       ]
     },
@@ -2958,7 +3021,10 @@
               "descriptionBn": "Sprite + Costume + Backdrop = full scene",
               "descriptionEn": "Sprite + Costume + Backdrop = a complete scene"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/scratch_interface.png",
+          "visualCaptionBn": "sprite, costume, backdrop visual",
+          "visualCaptionEn": "sprite, costume, backdrop visual"
         },
         {
           "id": "c5_08_02",
@@ -3086,7 +3152,10 @@
               "descriptionBn": "Event + Say + Repeat + Sound = fun project",
               "descriptionEn": "Event + Say + Repeat + Sound = a fun project"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/scratch_quiz_flow.png",
+          "visualCaptionBn": "interactive blocks flow",
+          "visualCaptionEn": "interactive blocks flow"
         },
         {
           "id": "c5_08_03",
@@ -3212,7 +3281,10 @@
               "descriptionBn": "Ask → Wait → Check → Respond",
               "descriptionEn": "Ask → Wait → Check → Respond"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/scratch_quiz_flow.png",
+          "visualCaptionBn": "quiz game flow",
+          "visualCaptionEn": "quiz game flow"
         }
       ]
     },
@@ -3337,7 +3409,10 @@
               "descriptionBn": "Problem বুঝে solution বের করা intelligence।",
               "descriptionEn": "Understanding a problem and finding a solution is intelligence."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/human_vs_ai.png",
+          "visualCaptionBn": "intelligence-এর basic comparison",
+          "visualCaptionEn": "basic comparison of intelligence"
         },
         {
           "id": "c5_09_02",
@@ -3452,7 +3527,10 @@
               "descriptionBn": "Human judgement + AI speed = better help",
               "descriptionEn": "Human judgement + AI speed = better help"
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/human_vs_ai.png",
+          "visualCaptionBn": "Human vs AI chart",
+          "visualCaptionEn": "Human vs AI chart"
         },
         {
           "id": "c5_09_03",
@@ -3577,7 +3655,10 @@
               "descriptionBn": "AI guess করতে পারে, কিন্তু মানুষকে check করতে হবে।",
               "descriptionEn": "AI can guess, but humans should still check."
             }
-          ]
+          ],
+          "visualAsset": "assets/visuals/class5/human_vs_ai.png",
+          "visualCaptionBn": "AI prediction reminder",
+          "visualCaptionEn": "AI prediction reminder"
         }
       ]
     }

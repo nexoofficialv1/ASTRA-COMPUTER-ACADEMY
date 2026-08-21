@@ -448,6 +448,49 @@ class LessonScreen extends StatelessWidget {
             ),
             const SizedBox(height: 14),
           ],
+          if (lesson.hasVisualAsset) ...[
+            const Text(
+              'শেখার ছবি',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            Card(
+              clipBehavior: Clip.antiAlias,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Image.asset(
+                    lesson.visualAsset,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(14, 12, 14, 14),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        if (lesson.visualCaptionBn.trim().isNotEmpty)
+                          Text(
+                            lesson.visualCaptionBn,
+                            style: const TextStyle(
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                        if (lesson.visualCaptionEn.trim().isNotEmpty) ...[
+                          const SizedBox(height: 6),
+                          Text(
+                            lesson.visualCaptionEn,
+                            style: Theme.of(context).textTheme.bodySmall,
+                          ),
+                        ],
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 14),
+          ],
           if (lesson.mockupCards.isNotEmpty) ...[
             const Text(
               'ভিজ্যুয়াল mockup',

@@ -1,0 +1,12 @@
+computer_generations.png
+device_sorting.png
+files_folders.png
+hardware_software.png
+human_vs_ai.png
+internet_safety.png
+ipo_flow.png
+paint3d_tools.png
+scratch_interface.png
+scratch_quiz_flow.png
+windows_desktop.png
+word_tools.png
