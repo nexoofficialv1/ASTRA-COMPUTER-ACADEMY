@@ -1,4 +1,7 @@
 ## 1.1.0+22 - Class V Deep Visual Learning Upgrade
+- Replaced the complete Class V visual pack with child-friendly, high-detail educational posters in one consistent visual language.
+- Updated Computer Generations, IPO flow, device categories, hardware/software, Windows desktop, files/folders, Word, Paint 3D, Scratch, Internet safety and Human-vs-AI visuals.
+- Existing 27 lesson mappings are preserved, so upgraded posters appear without breaking quizzes, labs, progress or assessments.
 - Added an additive deep-learning enrichment layer for all 27 Class V lessons across all 9 chapters.
 - Expanded Bengali-first conceptual explanations, English support, learning goals, examples, vocabulary, recaps and misconception checks.
 - Changed the lesson flow to visual-first: the learning image is shown before the long explanation.
