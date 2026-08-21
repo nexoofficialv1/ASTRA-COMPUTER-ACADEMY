@@ -22,6 +22,8 @@ import 'word_advanced_lab_screen.dart';
 import 'paint3d_lab_screen.dart';
 import 'scratch_lab_screen.dart';
 import 'ai_decision_lab_screen.dart';
+import 'visual_zoom_screen.dart';
+import 'visual_concept_screen.dart';
 
 class LessonScreen extends StatelessWidget {
   const LessonScreen({
@@ -459,10 +461,71 @@ class LessonScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Image.asset(
-                    lesson.visualAsset,
-                    width: double.infinity,
-                    fit: BoxFit.cover,
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => VisualZoomScreen(
+                            assetPath: lesson.visualAsset,
+                            title: lesson.titleBn,
+                            captionBn: lesson.visualCaptionBn,
+                            captionEn: lesson.visualCaptionEn,
+                          ),
+                        ),
+                      );
+                    },
+                    child: Stack(
+                      children: [
+                        AspectRatio(
+                          aspectRatio: 4 / 5,
+                          child: Container(
+                            color: Theme.of(context)
+                                .colorScheme
+                                .surfaceContainerLowest,
+                            child: Image.asset(
+                              lesson.visualAsset,
+                              width: double.infinity,
+                              fit: BoxFit.contain,
+                              filterQuality: FilterQuality.high,
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          right: 10,
+                          bottom: 10,
+                          child: DecoratedBox(
+                            decoration: BoxDecoration(
+                              color: Colors.black87,
+                              borderRadius: BorderRadius.circular(18),
+                            ),
+                            child: const Padding(
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 10,
+                                vertical: 7,
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Icon(
+                                    Icons.zoom_in_rounded,
+                                    size: 18,
+                                    color: Colors.white,
+                                  ),
+                                  SizedBox(width: 5),
+                                  Text(
+                                    'Tap to zoom',
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w800,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(14, 12, 14, 14),
@@ -483,6 +546,22 @@ class LessonScreen extends StatelessWidget {
                             style: Theme.of(context).textTheme.bodySmall,
                           ),
                         ],
+                        const SizedBox(height: 9),
+                        const Row(
+                          children: [
+                            Icon(Icons.touch_app_rounded, size: 18),
+                            SizedBox(width: 6),
+                            Expanded(
+                              child: Text(
+                                'ছবিতে ট্যাপ করুন → Full screen → Pinch করে zoom করুন',
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                   ),
@@ -499,9 +578,18 @@ class LessonScreen extends StatelessWidget {
             const SizedBox(height: 8),
             for (final card in lesson.mockupCards) ...[
               Card(
-                child: Padding(
-                  padding: const EdgeInsets.all(16),
-                  child: Row(
+                clipBehavior: Clip.antiAlias,
+                child: InkWell(
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (_) => VisualConceptScreen(card: card),
+                      ),
+                    );
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
@@ -533,6 +621,27 @@ class LessonScreen extends StatelessWidget {
                             ),
                             const SizedBox(height: 5),
                             Text(card['descriptionBn']?.toString() ?? ''),
+                            if ((card['understandBn']?.toString() ?? '')
+                                .trim()
+                                .isNotEmpty) ...[
+                              const SizedBox(height: 10),
+                              Text(
+                                '💡 ${card['understandBn']}',
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.w700,
+                                  height: 1.4,
+                                ),
+                              ),
+                            ],
+                            if ((card['rememberBn']?.toString() ?? '')
+                                .trim()
+                                .isNotEmpty) ...[
+                              const SizedBox(height: 8),
+                              Text(
+                                '⭐ ${card['rememberBn']}',
+                                style: const TextStyle(height: 1.4),
+                              ),
+                            ],
                             if ((card['descriptionEn']?.toString() ?? '')
                                 .trim()
                                 .isNotEmpty) ...[
@@ -542,10 +651,27 @@ class LessonScreen extends StatelessWidget {
                                 style: Theme.of(context).textTheme.bodySmall,
                               ),
                             ],
+                            const SizedBox(height: 10),
+                            const Row(
+                              children: [
+                                Icon(Icons.open_in_full_rounded, size: 17),
+                                SizedBox(width: 5),
+                                Expanded(
+                                  child: Text(
+                                    'ট্যাপ করলে বড় করে step-by-step explanation দেখাবে',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w800,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ],
                         ),
                       ),
                     ],
+                  ),
                   ),
                 ),
               ),

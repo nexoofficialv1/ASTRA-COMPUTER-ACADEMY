@@ -136,7 +136,13 @@
               "titleBn": "কম্পিউটারের সময়-ভ্রমণ",
               "titleEn": "Computer Time Travel",
               "descriptionBn": "বড় machine থেকে ছোট smart machine পর্যন্ত পরিবর্তন।",
-              "descriptionEn": "The change from huge machines to small smart computers."
+              "descriptionEn": "The change from huge machines to small smart computers.",
+              "observeBn": "৫টি box-এ 1st থেকে 5th generation দেখানো হয়েছে।",
+              "understandBn": "প্রতিটি generation-এ নতুন technology এসেছে, তাই computer ধীরে ধীরে ছোট, দ্রুত ও শক্তিশালী হয়েছে।",
+              "rememberBn": "ক্রমটি মনে রাখো: Vacuum Tube → Transistor → IC → Microprocessor → AI.",
+              "observeEn": "The five boxes show the 1st to 5th generations.",
+              "understandEn": "Each generation introduced new technology, making computers smaller, faster and more capable.",
+              "rememberEn": "Remember: Vacuum Tube → Transistor → IC → Microprocessor → AI."
             }
           ],
           "visualAsset": "assets/visuals/class5/computer_generations.png",
@@ -249,7 +255,13 @@
               "titleBn": "IPO Flow",
               "titleEn": "IPO Flow",
               "descriptionBn": "Keyboard → CPU → Monitor",
-              "descriptionEn": "Keyboard → CPU → Monitor"
+              "descriptionEn": "Keyboard → CPU → Monitor",
+              "observeBn": "Input, CPU/Processing, Output এবং Storage-এর flow দেখানো হয়েছে।",
+              "understandBn": "computer প্রথমে data নেয়, তারপর CPU কাজ করে, result দেখায় এবং দরকারে save করে।",
+              "rememberBn": "Keyboard → CPU → Monitor হলো সহজ IPO example।",
+              "observeEn": "The flow shows Input, CPU/Processing, Output and Storage.",
+              "understandEn": "A computer receives data, processes it, shows a result and may save it.",
+              "rememberEn": "Keyboard → CPU → Monitor is a simple IPO example."
             }
           ],
           "visualAsset": "assets/visuals/class5/ipo_flow.png",
@@ -413,7 +425,13 @@
               "titleBn": "Device Sorting",
               "titleEn": "Device Sorting",
               "descriptionBn": "Keyboard, CPU, Monitor, RAM আলাদা category-তে রাখো।",
-              "descriptionEn": "Place Keyboard, CPU, Monitor and RAM in correct categories."
+              "descriptionEn": "Place Keyboard, CPU, Monitor and RAM in correct categories.",
+              "observeBn": "Keyboard/Mouse, Monitor/Printer, RAM/SSD আলাদা group-এ আছে।",
+              "understandBn": "device-এর কাজ অনুযায়ী Input, Output, Memory/Storage category তৈরি হয়।",
+              "rememberBn": "RAM temporary; SSD/HDD long-term storage।",
+              "observeEn": "Keyboard/Mouse, Monitor/Printer and RAM/SSD are shown in separate groups.",
+              "understandEn": "Devices are grouped by their jobs: Input, Output and Memory/Storage.",
+              "rememberEn": "RAM is temporary; SSD/HDD are long-term storage."
             }
           ],
           "visualAsset": "assets/visuals/class5/device_sorting.png",
@@ -542,7 +560,13 @@
               "titleBn": "Touch and Tell",
               "titleEn": "Touch and Tell",
               "descriptionBn": "যেটা হাতে ধরা বা দেখা যায় সেটি hardware।",
-              "descriptionEn": "If you can see and touch it, it is hardware."
+              "descriptionEn": "If you can see and touch it, it is hardware.",
+              "observeBn": "এক পাশে ছোঁয়া যায় এমন computer parts দেখানো হয়েছে।",
+              "understandBn": "যা physically দেখা ও ছোঁয়া যায়, যেমন keyboard, mouse, monitor—সেগুলো hardware।",
+              "rememberBn": "Hardware = physical part।",
+              "observeEn": "The card shows physical computer parts.",
+              "understandEn": "Things you can physically see and touch, such as a keyboard or monitor, are hardware.",
+              "rememberEn": "Hardware means physical computer parts."
             }
           ],
           "visualAsset": "assets/visuals/class5/hardware_software.png",
@@ -659,7 +683,13 @@
               "titleBn": "Brain and Body",
               "titleEn": "Brain and Body",
               "descriptionBn": "Hardware হলো body, software হলো নির্দেশ।",
-              "descriptionEn": "Hardware is like the body; software gives the instructions."
+              "descriptionEn": "Hardware is like the body; software gives the instructions.",
+              "observeBn": "Windows, Word, Paint 3D, Scratch-এর মতো program-এর example দেখানো হয়েছে।",
+              "understandBn": "Software হলো instruction/program; এটাকে hardware-এর মতো হাতে ধরা যায় না।",
+              "rememberBn": "Windows = system software; Word = application software।",
+              "observeEn": "Examples such as Windows, Word, Paint 3D and Scratch are shown.",
+              "understandEn": "Software is a program or instruction; it cannot be touched like hardware.",
+              "rememberEn": "Windows is system software; Word is application software."
             }
           ],
           "visualAsset": "assets/visuals/class5/hardware_software.png",
@@ -808,7 +838,13 @@
               "titleBn": "Work Together",
               "titleEn": "Work Together",
               "descriptionBn": "Keyboard + Word + CPU + Monitor = typing task",
-              "descriptionEn": "Keyboard + Word + CPU + Monitor = a typing task"
+              "descriptionEn": "Keyboard + Word + CPU + Monitor = a typing task",
+              "observeBn": "Keyboard + Word + CPU + Monitor একসাথে একটি typing task করছে।",
+              "understandBn": "একটি কাজ complete করতে hardware ও software একসাথে কাজ করে।",
+              "rememberBn": "Hardware + Software = useful computer task।",
+              "observeEn": "Keyboard + Word + CPU + Monitor work together in a typing task.",
+              "understandEn": "Hardware and software cooperate to complete a task.",
+              "rememberEn": "Hardware + Software = a useful computer task."
             }
           ],
           "visualAsset": "assets/visuals/class5/hardware_software.png",
@@ -941,7 +977,13 @@
               "titleBn": "Windows Parts",
               "titleEn": "Windows Parts",
               "descriptionBn": "Desktop, Start, Taskbar কোথায় আছে তা দেখো।",
-              "descriptionEn": "See where the Desktop, Start and Taskbar are located."
+              "descriptionEn": "See where the Desktop, Start and Taskbar are located.",
+              "observeBn": "Desktop-এর মধ্যে Start, Taskbar, icons এবং main area চিহ্নিত করা আছে।",
+              "understandBn": "Windows boot হওয়ার পরে এই desktop থেকেই program ও file ব্যবহার শুরু হয়।",
+              "rememberBn": "Start menu program খুলতে সাহায্য করে; Taskbar open apps দেখায়।",
+              "observeEn": "The desktop shows Start, Taskbar, icons and the main area.",
+              "understandEn": "After Windows boots, users begin working from the desktop.",
+              "rememberEn": "Start opens programs; Taskbar shows running/open apps."
             }
           ],
           "visualAsset": "assets/visuals/class5/windows_desktop.png",
@@ -1096,7 +1138,13 @@
               "titleBn": "File Home",
               "titleEn": "File Home",
               "descriptionBn": "Folder হলো file-এর ঘর।",
-              "descriptionEn": "A folder is like a home for files."
+              "descriptionEn": "A folder is like a home for files.",
+              "observeBn": "একটি Homework folder-এর ভিতরে বিভিন্ন file দেখানো হয়েছে।",
+              "understandBn": "Folder file গুছিয়ে রাখে; file-এর নিজস্ব name/type থাকে।",
+              "rememberBn": "Create, Copy, Move, Rename, Delete—এই ৫টি action মনে রাখো।",
+              "observeEn": "A Homework folder contains several files.",
+              "understandEn": "Folders organize files; each file has its own name and type.",
+              "rememberEn": "Remember Create, Copy, Move, Rename and Delete."
             }
           ],
           "visualAsset": "assets/visuals/class5/files_folders.png",
@@ -1231,7 +1279,13 @@
               "titleBn": "Make It Your Own",
               "titleEn": "Make It Your Own",
               "descriptionBn": "Wallpaper, theme, browser—সব আলাদা কাজ করে।",
-              "descriptionEn": "Wallpaper, themes and browsers all have different jobs."
+              "descriptionEn": "Wallpaper, themes and browsers all have different jobs.",
+              "observeBn": "Desktop-এর look, Start/Taskbar এবং personalization-এর ধারণা দেখানো হয়েছে।",
+              "understandBn": "Settings থেকে wallpaper/theme বদলানো যায়, browser দিয়ে website দেখা যায়।",
+              "rememberBn": "Unknown theme বা unsafe download এড়াও।",
+              "observeEn": "The picture shows the desktop look and personalization idea.",
+              "understandEn": "Settings can change wallpaper/themes; a browser opens websites.",
+              "rememberEn": "Avoid unknown themes and unsafe downloads."
             }
           ],
           "visualAsset": "assets/visuals/class5/windows_desktop.png",
@@ -1383,7 +1437,13 @@
               "titleBn": "Edit Fast",
               "titleEn": "Edit Fast",
               "descriptionBn": "Cut, Copy, Paste ও Find-Replace editing সহজ করে।",
-              "descriptionEn": "Cut, Copy, Paste and Find & Replace make editing easier."
+              "descriptionEn": "Cut, Copy, Paste and Find & Replace make editing easier.",
+              "observeBn": "Word toolbar-এ editing ও proofing tools-এর group দেখানো হয়েছে।",
+              "understandBn": "Cut/Copy/Paste editing করে; Spelling/Grammar ভুল ধরতে সাহায্য করে; Find & Replace repeated text বদলায়।",
+              "rememberBn": "Cut ≠ Copy; Replace repeated text দ্রুত বদলায়।",
+              "observeEn": "The Word toolbar shows editing and proofing tools.",
+              "understandEn": "Cut/Copy/Paste edit text; proofing helps find mistakes; Find & Replace changes repeated text.",
+              "rememberEn": "Cut is not Copy; Replace changes repeated text quickly."
             }
           ],
           "visualAsset": "assets/visuals/class5/word_tools.png",
@@ -1529,7 +1589,13 @@
               "titleBn": "Neat Document",
               "titleEn": "Neat Document",
               "descriptionBn": "Formatting করলে লেখা পরিষ্কার ও সুন্দর হয়।",
-              "descriptionEn": "Formatting makes writing clean and attractive."
+              "descriptionEn": "Formatting makes writing clean and attractive.",
+              "observeBn": "Font, Bold, Bullets, Alignment, Page Orientation-এর মতো tools দেখানো হয়েছে।",
+              "understandBn": "Formatting লেখাকে neat করে এবং তথ্য পড়তে সহজ করে।",
+              "rememberBn": "সবকিছু bold নয়—প্রয়োজনমতো formatting ব্যবহার করো।",
+              "observeEn": "Tools such as Font, Bold, Bullets, Alignment and Orientation are shown.",
+              "understandEn": "Formatting makes a document neat and easier to read.",
+              "rememberEn": "Do not make everything bold; format only where useful."
             }
           ],
           "visualAsset": "assets/visuals/class5/word_tools.png",
@@ -1680,7 +1746,13 @@
               "titleBn": "Picture + Text",
               "titleEn": "Picture + Text",
               "descriptionBn": "Image আর text সুন্দরভাবে সাজাও।",
-              "descriptionEn": "Arrange images and text neatly together."
+              "descriptionEn": "Arrange images and text neatly together.",
+              "observeBn": "Picture, WordArt, text wrapping এবং Save-এর workflow বোঝানো হয়েছে।",
+              "understandBn": "picture ও text সুন্দরভাবে সাজাতে wrapping লাগে, আর Save করলে কাজ হারায় না।",
+              "rememberBn": "Create → Arrange → Review → Save।",
+              "observeEn": "The picture explains Picture, WordArt, text wrapping and Save.",
+              "understandEn": "Wrapping arranges text around images, and Save protects your work.",
+              "rememberEn": "Create → Arrange → Review → Save."
             }
           ],
           "visualAsset": "assets/visuals/class5/word_tools.png",
@@ -1805,7 +1877,13 @@
               "titleBn": "Find the Canvas",
               "titleEn": "Find the Canvas",
               "descriptionBn": "এখানেই drawing/poster তৈরি হবে।",
-              "descriptionEn": "This is where the drawing or poster is made."
+              "descriptionEn": "This is where the drawing or poster is made.",
+              "observeBn": "Paint 3D-এর toolbar ও canvas আলাদা করে দেখানো হয়েছে।",
+              "understandBn": "Canvas হলো কাজের জায়গা; toolbar থেকে shape, brush, sticker ইত্যাদি নেওয়া হয়।",
+              "rememberBn": "Tool বেছে নাও → Canvas-এ ব্যবহার করো।",
+              "observeEn": "The Paint 3D toolbar and canvas are shown separately.",
+              "understandEn": "The canvas is the work area; tools provide shapes, brushes and stickers.",
+              "rememberEn": "Choose a tool → use it on the canvas."
             }
           ],
           "visualAsset": "assets/visuals/class5/paint3d_tools.png",
@@ -1934,7 +2012,13 @@
               "titleBn": "2D vs 3D",
               "titleEn": "2D vs 3D",
               "descriptionBn": "Circle flat, cube depthসহ।",
-              "descriptionEn": "A circle is flat; a cube has depth."
+              "descriptionEn": "A circle is flat; a cube has depth.",
+              "observeBn": "2D shape, 3D shape, brush ও sticker-এর কাজ তুলনা করা হয়েছে।",
+              "understandBn": "2D flat; 3D-তে depth থাকে; brush colour দেয়; sticker design সাজায়।",
+              "rememberBn": "Circle = 2D, Cube = 3D।",
+              "observeEn": "2D shapes, 3D shapes, brushes and stickers are compared.",
+              "understandEn": "2D is flat; 3D has depth; brushes add colour; stickers decorate.",
+              "rememberEn": "Circle = 2D, Cube = 3D."
             }
           ],
           "visualAsset": "assets/visuals/class5/paint3d_tools.png",
@@ -2070,7 +2154,13 @@
               "titleBn": "Healthy Poster Layout",
               "titleEn": "Healthy Poster Layout",
               "descriptionBn": "Title + Fruit images + short message",
-              "descriptionEn": "Title + fruit images + a short message"
+              "descriptionEn": "Title + fruit images + a short message",
+              "observeBn": "Healthy Food poster-এর simple layout দেখানো হয়েছে।",
+              "understandBn": "clear title, কম কিন্তু meaningful picture, short message এবং Save/Open—ভালো poster-এর মূল অংশ।",
+              "rememberBn": "Poster যেন সুন্দর হওয়ার পাশাপাশি message-ও পরিষ্কার দেয়।",
+              "observeEn": "A simple Healthy Food poster layout is shown.",
+              "understandEn": "A clear title, meaningful pictures, a short message and Save/Open are key parts.",
+              "rememberEn": "A good poster must be attractive and communicate clearly."
             }
           ],
           "visualAsset": "assets/visuals/class5/paint3d_tools.png",
@@ -2194,7 +2284,13 @@
               "titleBn": "World Connection",
               "titleEn": "World Connection",
               "descriptionBn": "অনেক network মিলে Internet।",
-              "descriptionEn": "Many networks together form the Internet."
+              "descriptionEn": "Many networks together form the Internet.",
+              "observeBn": "অনেক network একসাথে যুক্ত হওয়ার concept দেখানো হয়েছে।",
+              "understandBn": "Internet একটিমাত্র computer নয়; এটি অনেক network-এর সংযোগ।",
+              "rememberBn": "Internet = network of networks।",
+              "observeEn": "The concept shows many networks connected together.",
+              "understandEn": "The Internet is not one computer; it connects many networks.",
+              "rememberEn": "Internet = network of networks."
             }
           ],
           "visualAsset": "assets/visuals/class5/internet_safety.png",
@@ -2314,7 +2410,13 @@
               "titleBn": "Find It Online",
               "titleEn": "Find It Online",
               "descriptionBn": "Browser খুলে URL বা search দিয়ে page খোঁজা যায়।",
-              "descriptionEn": "You can find a page in a browser using a URL or search."
+              "descriptionEn": "You can find a page in a browser using a URL or search.",
+              "observeBn": "Browser, website/page, URL ও search-এর relationship বোঝানো হয়েছে।",
+              "understandBn": "Browser হলো app, URL হলো address, search engine তথ্য খুঁজে দেয়।",
+              "rememberBn": "Website আর webpage এক জিনিস নয়।",
+              "observeEn": "The relationship between browser, webpage, URL and search is shown.",
+              "understandEn": "A browser is an app, a URL is an address and a search engine finds information.",
+              "rememberEn": "A website and a web page are not the same."
             }
           ],
           "visualAsset": "assets/visuals/class5/internet_safety.png",
@@ -2488,7 +2590,13 @@
               "titleBn": "Stay Safe Online",
               "titleEn": "Stay Safe Online",
               "descriptionBn": "Password, OTP, phone number গোপন রাখো।",
-              "descriptionEn": "Keep passwords, OTPs and phone numbers private."
+              "descriptionEn": "Keep passwords, OTPs and phone numbers private.",
+              "observeBn": "Green side-এ safe কাজ, red side-এ unsafe কাজ দেখানো হয়েছে।",
+              "understandBn": "trusted source check করতে হবে এবং password/OTP/private data share করা যাবে না।",
+              "rememberBn": "Stop → Check → Ask a trusted adult।",
+              "observeEn": "Safe actions are shown on the green side and unsafe actions on the red side.",
+              "understandEn": "Check trusted sources and never share passwords, OTPs or private data.",
+              "rememberEn": "Stop → Check → Ask a trusted adult."
             }
           ],
           "visualAsset": "assets/visuals/class5/internet_safety.png",
@@ -2616,7 +2724,13 @@
               "titleBn": "Scratch Screen",
               "titleEn": "Scratch Screen",
               "descriptionBn": "Stage, Sprite, Blocks Palette, Coding Area কোথায় আছে তা দেখো।",
-              "descriptionEn": "See where the Stage, Sprite, Blocks Palette and Coding Area are."
+              "descriptionEn": "See where the Stage, Sprite, Blocks Palette and Coding Area are.",
+              "observeBn": "Scratch screen-এ Blocks Palette, Coding Area, Stage ও Sprite চিহ্নিত করা আছে।",
+              "understandBn": "Block palette থেকে code নিয়ে Coding Area-তে জোড়া হয়; Stage-এ result দেখা যায়।",
+              "rememberBn": "Blocks → Code → Sprite action → Stage result।",
+              "observeEn": "The Scratch screen labels Blocks Palette, Coding Area, Stage and Sprite.",
+              "understandEn": "Blocks are joined in the Coding Area and the result appears on the Stage.",
+              "rememberEn": "Blocks → Code → Sprite action → Stage result."
             }
           ],
           "visualAsset": "assets/visuals/class5/scratch_interface.png",
@@ -2746,7 +2860,13 @@
               "titleBn": "Square Formula",
               "titleEn": "Square Formula",
               "descriptionBn": "Move + Turn + Repeat = shape drawing",
-              "descriptionEn": "Move + Turn + Repeat = shape drawing"
+              "descriptionEn": "Move + Turn + Repeat = shape drawing",
+              "observeBn": "Move, Turn, Repeat এবং Pen ব্যবহার করে shape তৈরির idea দেখানো হয়েছে।",
+              "understandBn": "একই movement বারবার Repeat করলে square/triangle-এর মতো pattern তৈরি করা যায়।",
+              "rememberBn": "Square: Move + Turn 90° + Repeat 4।",
+              "observeEn": "The idea uses Move, Turn, Repeat and Pen to draw a shape.",
+              "understandEn": "Repeating the same movement can make patterns such as squares or triangles.",
+              "rememberEn": "Square: Move + Turn 90° + Repeat 4."
             }
           ],
           "visualAsset": "assets/visuals/class5/scratch_interface.png",
@@ -2878,7 +2998,13 @@
               "titleBn": "Project Workflow",
               "titleEn": "Project Workflow",
               "descriptionBn": "Duplicate → Save → Open → Exit",
-              "descriptionEn": "Duplicate → Save → Open → Exit"
+              "descriptionEn": "Duplicate → Save → Open → Exit",
+              "observeBn": "Scratch project-এর Duplicate → Save → Open → Exit flow দেখানো হয়েছে।",
+              "understandBn": "Duplicate সময় বাঁচায়, Save কাজ রক্ষা করে, Open আবার কাজ চালাতে দেয়।",
+              "rememberBn": "Exit করার আগে Save করো।",
+              "observeEn": "The flow shows Duplicate → Save → Open → Exit.",
+              "understandEn": "Duplicate saves time, Save protects work and Open lets you continue later.",
+              "rememberEn": "Save before you exit."
             }
           ],
           "visualAsset": "assets/visuals/class5/scratch_interface.png",
@@ -3019,7 +3145,13 @@
               "titleBn": "Scene Setup",
               "titleEn": "Scene Setup",
               "descriptionBn": "Sprite + Costume + Backdrop = full scene",
-              "descriptionEn": "Sprite + Costume + Backdrop = a complete scene"
+              "descriptionEn": "Sprite + Costume + Backdrop = a complete scene",
+              "observeBn": "Sprite, Costume এবং Backdrop-এর তিনটি role দেখানো হয়েছে।",
+              "understandBn": "Sprite হলো object, Costume তার look, Backdrop Stage-এর background।",
+              "rememberBn": "Sprite ≠ Costume ≠ Backdrop।",
+              "observeEn": "The three roles of Sprite, Costume and Backdrop are shown.",
+              "understandEn": "A Sprite is an object, a Costume changes its look and a Backdrop changes the Stage background.",
+              "rememberEn": "Sprite ≠ Costume ≠ Backdrop."
             }
           ],
           "visualAsset": "assets/visuals/class5/scratch_interface.png",
@@ -3150,7 +3282,13 @@
               "titleBn": "Interactive Blocks",
               "titleEn": "Interactive Blocks",
               "descriptionBn": "Event + Say + Repeat + Sound = fun project",
-              "descriptionEn": "Event + Say + Repeat + Sound = a fun project"
+              "descriptionEn": "Event + Say + Repeat + Sound = a fun project",
+              "observeBn": "Event, Say, Repeat ও Sound block-এর interaction flow দেখানো হয়েছে।",
+              "understandBn": "Event script শুরু করে, Say message দেখায়, Repeat action আবার করায়, Sound audio দেয়।",
+              "rememberBn": "Event দিয়ে শুরু—তারপর action blocks।",
+              "observeEn": "The interaction flow of Event, Say, Repeat and Sound is shown.",
+              "understandEn": "Event starts a script, Say shows speech, Repeat repeats actions and Sound plays audio.",
+              "rememberEn": "Start with an Event, then use action blocks."
             }
           ],
           "visualAsset": "assets/visuals/class5/scratch_quiz_flow.png",
@@ -3279,7 +3417,13 @@
               "titleBn": "Quiz Flow",
               "titleEn": "Quiz Flow",
               "descriptionBn": "Ask → Wait → Check → Respond",
-              "descriptionEn": "Ask → Wait → Check → Respond"
+              "descriptionEn": "Ask → Wait → Check → Respond",
+              "observeBn": "Quiz-এর চার ধাপ Ask → Wait → Check → Respond দেখানো হয়েছে।",
+              "understandBn": "user answer দেওয়ার আগে program feedback দিতে পারে না।",
+              "rememberBn": "Question → Answer → Check → Feedback।",
+              "observeEn": "The four quiz steps Ask → Wait → Check → Respond are shown.",
+              "understandEn": "The program must wait for the user's answer before giving feedback.",
+              "rememberEn": "Question → Answer → Check → Feedback."
             }
           ],
           "visualAsset": "assets/visuals/class5/scratch_quiz_flow.png",
@@ -3407,7 +3551,13 @@
               "titleBn": "Think and Solve",
               "titleEn": "Think and Solve",
               "descriptionBn": "Problem বুঝে solution বের করা intelligence।",
-              "descriptionEn": "Understanding a problem and finding a solution is intelligence."
+              "descriptionEn": "Understanding a problem and finding a solution is intelligence.",
+              "observeBn": "এক পাশে human thinking, অন্য পাশে AI-based smart task-এর ধারণা দেখানো হয়েছে।",
+              "understandBn": "Intelligence মানে শেখা, বোঝা, চিন্তা ও problem solve করা; AI কিছু selected smart task করে।",
+              "rememberBn": "AI intelligent task করতে পারে, কিন্তু মানুষ নয়।",
+              "observeEn": "Human thinking and AI-based smart tasks are compared.",
+              "understandEn": "Intelligence includes learning, understanding, thinking and solving problems; AI performs selected smart tasks.",
+              "rememberEn": "AI can perform intelligent tasks, but it is not a human."
             }
           ],
           "visualAsset": "assets/visuals/class5/human_vs_ai.png",
@@ -3525,7 +3675,13 @@
               "titleBn": "Human vs AI",
               "titleEn": "Human vs AI",
               "descriptionBn": "Human judgement + AI speed = better help",
-              "descriptionEn": "Human judgement + AI speed = better help"
+              "descriptionEn": "Human judgement + AI speed = better help",
+              "observeBn": "Human এবং AI-এর আলাদা strengths তুলনা করা হয়েছে।",
+              "understandBn": "Human context/emotion/judgement ভালো বোঝে; AI data দ্রুত process করতে পারে।",
+              "rememberBn": "Different strengths—একটিকে আরেকটির exact replacement ভাববে না।",
+              "observeEn": "Human and AI strengths are compared.",
+              "understandEn": "Humans understand context/emotion/judgement; AI can process data quickly.",
+              "rememberEn": "They have different strengths; one is not an exact replacement for the other."
             }
           ],
           "visualAsset": "assets/visuals/class5/human_vs_ai.png",
@@ -3653,7 +3809,13 @@
               "titleBn": "Guess and Check",
               "titleEn": "Guess and Check",
               "descriptionBn": "AI guess করতে পারে, কিন্তু মানুষকে check করতে হবে।",
-              "descriptionEn": "AI can guess, but humans should still check."
+              "descriptionEn": "AI can guess, but humans should still check.",
+              "observeBn": "AI pattern দেখে prediction করছে—কিন্তু result নিশ্চিত নয়।",
+              "understandBn": "prediction data-এর pattern থেকে আসে, তাই wrong বা biased হতে পারে।",
+              "rememberBn": "Important AI result সবসময় verify করো।",
+              "observeEn": "AI predicts from patterns, but the result is not guaranteed.",
+              "understandEn": "Predictions come from data patterns, so they can be wrong or biased.",
+              "rememberEn": "Always verify important AI results."
             }
           ],
           "visualAsset": "assets/visuals/class5/human_vs_ai.png",

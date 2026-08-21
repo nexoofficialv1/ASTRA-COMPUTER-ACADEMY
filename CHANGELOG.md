@@ -1,3 +1,11 @@
+## 1.1.0+21 - Class V Visual Zoom & Guided Mockups
+- Rebuilt the 12 Class V learning visuals in a portrait, mobile-first layout with larger labels.
+- Learning images are now tappable and open in a full-screen InteractiveViewer with pinch zoom, pan, zoom-in, zoom-out and reset controls.
+- Visual mockup cards are now tappable and open a larger guided concept view.
+- Every Class V mockup now explains: what the learner is seeing, what they should understand, and what they should remember, in Bengali and English.
+- Enlarged the in-lesson image preview to a 4:5 portrait learning area for better readability on phones.
+- Preserved all existing practical routes, progress behavior and bilingual lesson content.
+
 ## 1.1.0+20 - Class V Real Visual Learning Pack
 - Added 12 child-friendly educational visual assets for Class V lessons.
 - Attached a real visual learning image to all 27 Class V lessons.
