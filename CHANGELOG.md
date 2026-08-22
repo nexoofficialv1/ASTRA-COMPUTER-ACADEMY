@@ -1,3 +1,12 @@
+## 1.1.0+23 - Assessment, Word/Scratch Access & Excel Bonus
+- Expanded every Class V lesson quiz from the original single-question pattern to at least 4 bilingual questions.
+- Chapter Tests now receive at least 12 questions per syllabus chapter from the expanded lesson banks.
+- Fixed school chapters whose lessons were all practical (notably Advanced Features of Word 2019 and Simple Programming in Scratch) appearing empty in the Lessons tab.
+- School learning tab now shows every lesson; the Practicals tab separately lists lessons with an interactive practical.
+- Surfaced the existing full MS Excel course as a Class V Bonus Skill without changing the verified 9-chapter school syllabus.
+- Preserved all existing visual-first learning, practical routes, progress and assessment IDs.
+- Added regression tests for question depth, Word/Scratch accessibility, Excel visibility and bilingual question validity.
+
 ## 1.1.0+22 - Class V Deep Visual Learning Upgrade
 - Replaced the complete Class V visual pack with child-friendly, high-detail educational posters in one consistent visual language.
 - Updated Computer Generations, IPO flow, device categories, hardware/software, Windows desktop, files/folders, Word, Paint 3D, Scratch, Internet safety and Human-vs-AI visuals.

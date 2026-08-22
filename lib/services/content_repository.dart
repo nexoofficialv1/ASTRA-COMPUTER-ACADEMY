@@ -98,6 +98,7 @@ class ContentRepository {
       'appendCommonMistakesEn': 'commonMistakesEn',
       'appendImportantWords': 'importantWords',
       'appendMockupCards': 'mockupCards',
+      'appendQuiz': 'quiz',
     };
 
     for (final mapping in appendFields.entries) {

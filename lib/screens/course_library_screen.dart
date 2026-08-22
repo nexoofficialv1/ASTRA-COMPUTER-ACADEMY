@@ -86,8 +86,13 @@ class _CourseLibraryScreenState extends State<CourseLibraryScreen> {
           final courses = snapshot.data!;
           final schoolCourses =
               courses.where((course) => course.isSchoolCourse).toList();
-          final skillCourses =
-              courses.where((course) => !course.isSchoolCourse).toList();
+          final bonusCourses = courses
+              .where((course) => course.id == 'ms_excel')
+              .toList();
+          final skillCourses = courses
+              .where((course) =>
+                  !course.isSchoolCourse && course.id != 'ms_excel')
+              .toList();
 
           return ListView(
             padding: const EdgeInsets.fromLTRB(16, 18, 16, 28),
@@ -151,6 +156,26 @@ class _CourseLibraryScreenState extends State<CourseLibraryScreen> {
                 ),
                 const SizedBox(height: 12),
                 for (final course in schoolCourses) ...[
+                  CourseCard(
+                    compact: true,
+                    course: course,
+                    completedLessons: _completed(course),
+                    onTap: () => _openCourse(course),
+                  ),
+                  const SizedBox(height: 10),
+                ],
+              ],
+              if (bonusCourses.isNotEmpty) ...[
+                const SizedBox(height: 22),
+                _SectionHeading(
+                  icon: Icons.table_chart_rounded,
+                  title: 'Class V Bonus Skill',
+                  subtitle:
+                      'MS Excel • Cell, Formula, Functions, Chart, Sort/Filter ও Print Setup',
+                  badge: 'MS Excel',
+                ),
+                const SizedBox(height: 12),
+                for (final course in bonusCourses) ...[
                   CourseCard(
                     compact: true,
                     course: course,

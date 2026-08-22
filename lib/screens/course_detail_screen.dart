@@ -69,8 +69,14 @@ class _CourseDetailScreenState extends State<CourseDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final lessons = widget.course.lessons.where((item) => !item.isPractical).toList();
-    final practicals = widget.course.lessons.where((item) => item.isPractical).toList();
+    final lessons = widget.course.isSchoolCourse
+        ? widget.course.lessons
+        : widget.course.lessons.where((item) => !item.isPractical).toList();
+    final practicals = widget.course.isSchoolCourse
+        ? widget.course.lessons
+            .where((item) => item.hasInteractivePractical)
+            .toList()
+        : widget.course.lessons.where((item) => item.isPractical).toList();
     final completed = widget.course.lessons
         .where((item) => _progress[item.id]?.completed == true)
         .length;

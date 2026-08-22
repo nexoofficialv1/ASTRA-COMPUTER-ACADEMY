@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "grade": 5,
-  "release": "1.1.0+22",
-  "purpose": "Additive deep-learning enrichment applied on top of the existing Class V syllabus without replacing quizzes, practical mappings or coverage tags.",
+  "release": "1.1.0+23",
+  "purpose": "Deep visual learning plus expanded bilingual assessment bank for all Class V lessons.",
   "lessonOverrides": {
     "c5_01_01": {
       "appendContentBn": [
@@ -53,7 +53,66 @@
       ],
       "visualAsset": "assets/visuals/class5/computer_generations_visual_first.jpg",
       "visualCaptionBn": "ছবিতে ১ম থেকে ৫ম প্রজন্মের কম্পিউটারের চেহারার পরিবর্তন দেখো—ঘরভর্তি machine থেকে desktop, তারপর AI-oriented smart system।",
-      "visualCaptionEn": "Observe how computers changed visually from room-sized machines to desktop systems and AI-oriented smart computing."
+      "visualCaptionEn": "Observe how computers changed visually from room-sized machines to desktop systems and AI-oriented smart computing.",
+      "appendQuiz": [
+        {
+          "question": "প্রথম প্রজন্মের কম্পিউটারের প্রধান technology কোনটি ছিল?",
+          "options": [
+            "Vacuum Tube",
+            "Transistor",
+            "IC",
+            "Microprocessor"
+          ],
+          "correctIndex": 0,
+          "explanation": "প্রথম প্রজন্মে Vacuum Tube ব্যবহার করা হতো।",
+          "questionEn": "What was the main technology of first-generation computers?",
+          "optionsEn": [
+            "Vacuum Tubes",
+            "Transistors",
+            "Integrated Circuits",
+            "Microprocessors"
+          ],
+          "explanationEn": "First-generation computers used vacuum tubes."
+        },
+        {
+          "question": "Microprocessor কোন generation-এর প্রধান technology?",
+          "options": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th"
+          ],
+          "correctIndex": 3,
+          "explanation": "চতুর্থ প্রজন্মে Microprocessor-এর ব্যবহার Personal Computer-কে জনপ্রিয় করে।",
+          "questionEn": "Which generation is mainly associated with the microprocessor?",
+          "optionsEn": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th"
+          ],
+          "explanationEn": "The fourth generation is mainly associated with microprocessors."
+        },
+        {
+          "question": "Computer generation পরিবর্তনের সাধারণ ফল কোনটি?",
+          "options": [
+            "আকার বড় ও speed কম",
+            "আকার ছোট ও speed বেশি",
+            "সব generation একই",
+            "কেবল monitor বদলেছে"
+          ],
+          "correctIndex": 1,
+          "explanation": "নতুন technology কম্পিউটারকে ছোট, দ্রুত ও বেশি সক্ষম করেছে।",
+          "questionEn": "What is a general result of newer computer generations?",
+          "optionsEn": [
+            "Larger and slower computers",
+            "Smaller and faster computers",
+            "No change between generations",
+            "Only the monitor changed"
+          ],
+          "explanationEn": "Newer technologies generally made computers smaller and faster."
+        }
+      ]
     },
     "c5_01_02": {
       "appendContentBn": [
@@ -96,6 +155,65 @@
         {
           "word": "Storage",
           "meaningBn": "data ভবিষ্যতের জন্য সংরক্ষণ"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Input → Processing → Output ধারায় keyboard কোন ধাপে পড়ে?",
+          "options": [
+            "Input",
+            "Processing",
+            "Output",
+            "Storage"
+          ],
+          "correctIndex": 0,
+          "explanation": "Keyboard দিয়ে data বা instruction দেওয়া হয়।",
+          "questionEn": "In the Input → Processing → Output cycle, where does a keyboard belong?",
+          "optionsEn": [
+            "Input",
+            "Processing",
+            "Output",
+            "Storage"
+          ],
+          "explanationEn": "A keyboard is used to provide input."
+        },
+        {
+          "question": "Calculator-এ 8 + 7-এর result 15 দেখানো কোন ধাপ?",
+          "options": [
+            "Input",
+            "Processing",
+            "Output",
+            "Storage"
+          ],
+          "correctIndex": 2,
+          "explanation": "Screen-এ result দেখানো Output।",
+          "questionEn": "Showing 15 after calculating 8 + 7 is which stage?",
+          "optionsEn": [
+            "Input",
+            "Processing",
+            "Output",
+            "Storage"
+          ],
+          "explanationEn": "Displaying the result is output."
+        },
+        {
+          "question": "Storage-এর প্রধান উদ্দেশ্য কী?",
+          "options": [
+            "Data পরে ব্যবহারের জন্য রাখা",
+            "CPU ঠান্ডা করা",
+            "Mouse নড়ানো",
+            "Monitor উজ্জ্বল করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Storage data বা result পরে ব্যবহারের জন্য ধরে রাখে।",
+          "questionEn": "What is the main purpose of storage?",
+          "optionsEn": [
+            "Keep data for later use",
+            "Cool the CPU",
+            "Move the mouse",
+            "Brighten the monitor"
+          ],
+          "explanationEn": "Storage keeps data for later use."
         }
       ]
     },
@@ -141,6 +259,65 @@
           "word": "SSD",
           "meaningBn": "দীর্ঘ সময় file/data রাখার storage device"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "নিচের কোনটি Output Device?",
+          "options": [
+            "Keyboard",
+            "Mouse",
+            "Monitor",
+            "Scanner"
+          ],
+          "correctIndex": 2,
+          "explanation": "Monitor computer-এর result দেখায়।",
+          "questionEn": "Which of these is an output device?",
+          "optionsEn": [
+            "Keyboard",
+            "Mouse",
+            "Monitor",
+            "Scanner"
+          ],
+          "explanationEn": "A monitor displays computer output."
+        },
+        {
+          "question": "RAM সম্পর্কে কোনটি সঠিক?",
+          "options": [
+            "এটি temporary working memory",
+            "এটি printer",
+            "এটি input device",
+            "এটি permanent paper storage"
+          ],
+          "correctIndex": 0,
+          "explanation": "RAM কাজের সময় temporary memory দেয়।",
+          "questionEn": "Which statement about RAM is correct?",
+          "optionsEn": [
+            "It is temporary working memory",
+            "It is a printer",
+            "It is an input device",
+            "It is permanent paper storage"
+          ],
+          "explanationEn": "RAM is temporary working memory."
+        },
+        {
+          "question": "Touchscreen কেন একাধিক category-তে পড়তে পারে?",
+          "options": [
+            "এটি input ও output দুটোই করতে পারে",
+            "এটি শুধু storage",
+            "এটি শুধু CPU",
+            "এটি কোনো device নয়"
+          ],
+          "correctIndex": 0,
+          "explanation": "Touchscreen ছবি দেখায় এবং touch input-ও নেয়।",
+          "questionEn": "Why can a touchscreen belong to more than one device category?",
+          "optionsEn": [
+            "It can provide output and receive input",
+            "It is only storage",
+            "It is only a CPU",
+            "It is not a device"
+          ],
+          "explanationEn": "A touchscreen displays output and receives touch input."
+        }
       ]
     },
     "c5_02_01": {
@@ -184,6 +361,65 @@
         {
           "word": "Peripheral",
           "meaningBn": "computer-এর সাথে যুক্ত সহায়ক device, যেমন keyboard বা printer"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Hardware বলতে কী বোঝায়?",
+          "options": [
+            "যে physical অংশ দেখা/ছোঁয়া যায়",
+            "শুধু Internet",
+            "শুধু app",
+            "শুধু password"
+          ],
+          "correctIndex": 0,
+          "explanation": "Keyboard, mouse, monitor-এর মতো physical অংশ hardware।",
+          "questionEn": "What is hardware?",
+          "optionsEn": [
+            "Physical computer parts you can see or touch",
+            "Only the Internet",
+            "Only an app",
+            "Only a password"
+          ],
+          "explanationEn": "Physical computer components are hardware."
+        },
+        {
+          "question": "নিচের কোনটি Hardware?",
+          "options": [
+            "MS Word",
+            "Windows",
+            "Keyboard",
+            "Paint"
+          ],
+          "correctIndex": 2,
+          "explanation": "Keyboard একটি physical device।",
+          "questionEn": "Which of these is hardware?",
+          "optionsEn": [
+            "MS Word",
+            "Windows",
+            "Keyboard",
+            "Paint"
+          ],
+          "explanationEn": "A keyboard is a physical device."
+        },
+        {
+          "question": "CPU cabinet কোন category-তে পড়ে?",
+          "options": [
+            "Hardware",
+            "Software",
+            "Website",
+            "File extension"
+          ],
+          "correctIndex": 0,
+          "explanation": "CPU cabinet একটি physical computer part।",
+          "questionEn": "Which category does a system unit/CPU cabinet belong to?",
+          "optionsEn": [
+            "Hardware",
+            "Software",
+            "Website",
+            "File extension"
+          ],
+          "explanationEn": "A system unit is physical hardware."
         }
       ]
     },
@@ -229,6 +465,65 @@
           "word": "Application Software",
           "meaningBn": "নির্দিষ্ট user task করার program"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Software কী?",
+          "options": [
+            "Instruction/program-এর সমষ্টি",
+            "শুধু keyboard",
+            "শুধু wire",
+            "একটি table"
+          ],
+          "correctIndex": 0,
+          "explanation": "Software computer-কে কী করতে হবে তার instruction দেয়।",
+          "questionEn": "What is software?",
+          "optionsEn": [
+            "A set of programs/instructions",
+            "Only a keyboard",
+            "Only a wire",
+            "A table"
+          ],
+          "explanationEn": "Software contains programs and instructions."
+        },
+        {
+          "question": "Windows সাধারণত কোন ধরনের software?",
+          "options": [
+            "System software",
+            "Input device",
+            "Storage device",
+            "Printer driver only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Windows একটি Operating System, অর্থাৎ system software।",
+          "questionEn": "What type of software is Windows?",
+          "optionsEn": [
+            "System software",
+            "Input device",
+            "Storage device",
+            "Printer only"
+          ],
+          "explanationEn": "Windows is an operating system, a type of system software."
+        },
+        {
+          "question": "MS Word কোন ধরনের software?",
+          "options": [
+            "Application software",
+            "Hardware",
+            "Firmware cable",
+            "Output device"
+          ],
+          "correctIndex": 0,
+          "explanation": "Word নির্দিষ্ট document কাজের application software।",
+          "questionEn": "What type of software is MS Word?",
+          "optionsEn": [
+            "Application software",
+            "Hardware",
+            "A cable",
+            "Output device"
+          ],
+          "explanationEn": "MS Word is application software."
+        }
       ]
     },
     "c5_02_03": {
@@ -268,6 +563,65 @@
         {
           "word": "Computer System",
           "meaningBn": "hardware, software, data ও user-এর সমন্বিত কাজের ব্যবস্থা"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Hardware ও software-এর সম্পর্ক কোনটি সঠিক?",
+          "options": [
+            "দুটো একসঙ্গে কাজ করে",
+            "তারা কখনও একসঙ্গে কাজ করে না",
+            "Software ছুঁয়ে দেখা যায়",
+            "Hardware হলো website"
+          ],
+          "correctIndex": 0,
+          "explanation": "ব্যবহারযোগ্য computer task করতে hardware ও software একসঙ্গে কাজ করে।",
+          "questionEn": "Which statement best describes hardware and software?",
+          "optionsEn": [
+            "They work together",
+            "They never work together",
+            "Software can be physically touched",
+            "Hardware is a website"
+          ],
+          "explanationEn": "Hardware and software work together to perform tasks."
+        },
+        {
+          "question": "Word-এ typing task-এ keyboard-এর ভূমিকা কী?",
+          "options": [
+            "Input hardware",
+            "Application software",
+            "Output only",
+            "Storage only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Keyboard দিয়ে text input দেওয়া হয়।",
+          "questionEn": "In a Word typing task, what is the keyboard?",
+          "optionsEn": [
+            "Input hardware",
+            "Application software",
+            "Output only",
+            "Storage only"
+          ],
+          "explanationEn": "The keyboard provides input."
+        },
+        {
+          "question": "Hardware থাকলেও software না থাকলে কী সমস্যা?",
+          "options": [
+            "অনেক কাজের instruction থাকবে না",
+            "Monitor নিজে বই লিখবে",
+            "Mouse printer হবে",
+            "Storage সব মুছে যাবে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Software ছাড়া hardware কী কাজ করবে তার instruction পায় না।",
+          "questionEn": "What is a likely problem if hardware has no useful software?",
+          "optionsEn": [
+            "It lacks instructions for many tasks",
+            "The monitor writes books by itself",
+            "The mouse becomes a printer",
+            "All storage disappears"
+          ],
+          "explanationEn": "Software provides instructions for useful tasks."
         }
       ]
     },
@@ -313,6 +667,65 @@
           "word": "Taskbar",
           "meaningBn": "open/pinned apps ও system controls দেখানো bar"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Windows boot হওয়ার পরে সাধারণত কোন screen দেখা যায়?",
+          "options": [
+            "Desktop",
+            "Printer page",
+            "BIOS chip only",
+            "Pen drive"
+          ],
+          "correctIndex": 0,
+          "explanation": "Windows চালু হলে Desktop থেকে কাজ শুরু করা হয়।",
+          "questionEn": "What screen do you normally see after Windows starts?",
+          "optionsEn": [
+            "Desktop",
+            "Printer page",
+            "Only a BIOS chip",
+            "Pen drive"
+          ],
+          "explanationEn": "Users normally begin from the desktop."
+        },
+        {
+          "question": "Start Menu-এর কাজ কী?",
+          "options": [
+            "App ও settings খুঁজে/খুলতে সাহায্য করা",
+            "RAM মুছে ফেলা",
+            "Monitor ভাঙা",
+            "Printer ink বানানো"
+          ],
+          "correctIndex": 0,
+          "explanation": "Start Menu থেকে app ও settings access করা যায়।",
+          "questionEn": "What is the Start Menu used for?",
+          "optionsEn": [
+            "Opening apps and settings",
+            "Erasing RAM",
+            "Breaking the monitor",
+            "Making printer ink"
+          ],
+          "explanationEn": "The Start Menu helps open apps and settings."
+        },
+        {
+          "question": "Taskbar সাধারণত কোথায় থাকে?",
+          "options": [
+            "Desktop-এর নিচের অংশে",
+            "Keyboard-এর ভিতরে",
+            "Printer-এর কাগজে",
+            "Mouse-এর তারে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Taskbar desktop-এর নিচে open/pinned apps দেখায়।",
+          "questionEn": "Where is the taskbar usually located?",
+          "optionsEn": [
+            "Near the bottom of the desktop",
+            "Inside the keyboard",
+            "On printer paper",
+            "Inside the mouse cable"
+          ],
+          "explanationEn": "The taskbar is usually at the bottom of the desktop."
+        }
       ]
     },
     "c5_03_02": {
@@ -356,6 +769,65 @@
         {
           "word": "Folder",
           "meaningBn": "files/subfolders গুছিয়ে রাখার container"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Folder-এর কাজ কী?",
+          "options": [
+            "File গুছিয়ে রাখা",
+            "CPU process করা",
+            "Internet তৈরি করা",
+            "Sound record করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Folder file সংগঠিত রাখে।",
+          "questionEn": "What is the purpose of a folder?",
+          "optionsEn": [
+            "Organize files",
+            "Process CPU instructions",
+            "Create the Internet",
+            "Record sound"
+          ],
+          "explanationEn": "Folders organize files."
+        },
+        {
+          "question": "Rename করলে কী বদলায়?",
+          "options": [
+            "File/folder-এর নাম",
+            "সব content অবশ্যই মুছে যায়",
+            "Computer বন্ধ হয়",
+            "Mouse speed বাড়ে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Rename নাম বদলায়, content নয়।",
+          "questionEn": "What changes when you rename a file?",
+          "optionsEn": [
+            "Its name",
+            "All content is deleted",
+            "The computer shuts down",
+            "Mouse speed increases"
+          ],
+          "explanationEn": "Renaming changes the name, not the contents."
+        },
+        {
+          "question": "Copy ও Move-এর মধ্যে পার্থক্য কী?",
+          "options": [
+            "Copy duplicate রাখে, Move স্থান বদলায়",
+            "দুটো সবসময় delete করে",
+            "দুটো print করে",
+            "কোনো পার্থক্য নেই"
+          ],
+          "correctIndex": 0,
+          "explanation": "Copy কপি তৈরি করে, Move মূল item-কে নতুন জায়গায় সরায়।",
+          "questionEn": "What is the difference between Copy and Move?",
+          "optionsEn": [
+            "Copy makes a duplicate; Move changes location",
+            "Both always delete",
+            "Both print",
+            "There is no difference"
+          ],
+          "explanationEn": "Copy duplicates an item; Move changes its location."
         }
       ]
     },
@@ -401,6 +873,65 @@
           "word": "Browser",
           "meaningBn": "web page/website access করার software"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Wallpaper কী পরিবর্তন করে?",
+          "options": [
+            "Desktop background",
+            "CPU speed",
+            "Keyboard layout physically",
+            "Printer ink"
+          ],
+          "correctIndex": 0,
+          "explanation": "Wallpaper desktop-এর background image বদলায়।",
+          "questionEn": "What does wallpaper change?",
+          "optionsEn": [
+            "Desktop background",
+            "CPU speed",
+            "Physical keyboard layout",
+            "Printer ink"
+          ],
+          "explanationEn": "Wallpaper changes the desktop background."
+        },
+        {
+          "question": "Browser-এর কাজ কী?",
+          "options": [
+            "Website দেখা",
+            "RAM chip বানানো",
+            "Printer repair করা",
+            "Folder-এর নাম বদলানো মাত্র"
+          ],
+          "correctIndex": 0,
+          "explanation": "Browser web page/website access করতে ব্যবহৃত হয়।",
+          "questionEn": "What is a browser mainly used for?",
+          "optionsEn": [
+            "Viewing websites",
+            "Making RAM chips",
+            "Repairing printers",
+            "Only renaming folders"
+          ],
+          "explanationEn": "A browser is used to access websites."
+        },
+        {
+          "question": "Unknown theme/download-এর ক্ষেত্রে কী করা উচিত?",
+          "options": [
+            "Trusted source ছাড়া download না করা",
+            "সবকিছু download করা",
+            "Password share করা",
+            "Security বন্ধ করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Unknown source থেকে download নিরাপদ নয়।",
+          "questionEn": "What should you do with an unknown theme or download?",
+          "optionsEn": [
+            "Avoid it unless the source is trusted",
+            "Download everything",
+            "Share your password",
+            "Turn off security"
+          ],
+          "explanationEn": "Unknown downloads should be avoided unless the source is trusted."
+        }
       ]
     },
     "c5_04_01": {
@@ -444,6 +975,65 @@
         {
           "word": "Thesaurus",
           "meaningBn": "সমার্থক বা কাছাকাছি অর্থের word খুঁজতে সাহায্য করা tool"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Copy-এর পরে original text-এর কী হয়?",
+          "options": [
+            "Original থাকে",
+            "Original সবসময় মুছে যায়",
+            "Computer বন্ধ হয়",
+            "Font শূন্য হয়"
+          ],
+          "correctIndex": 0,
+          "explanation": "Copy original রেখে duplicate তৈরি করে।",
+          "questionEn": "What happens to the original text after Copy?",
+          "optionsEn": [
+            "It remains",
+            "It is always deleted",
+            "The computer shuts down",
+            "The font becomes zero"
+          ],
+          "explanationEn": "Copy keeps the original and creates a duplicate."
+        },
+        {
+          "question": "Thesaurus কী কাজে লাগে?",
+          "options": [
+            "কাছাকাছি অর্থের alternative word খুঁজতে",
+            "Page print করতে",
+            "Image crop করতে",
+            "Folder delete করতে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Thesaurus synonym বা related word খুঁজতে সাহায্য করে।",
+          "questionEn": "What is the Thesaurus used for?",
+          "optionsEn": [
+            "Finding similar or alternative words",
+            "Printing pages",
+            "Cropping images",
+            "Deleting folders"
+          ],
+          "explanationEn": "A thesaurus helps find synonyms and related words."
+        },
+        {
+          "question": "Spell Check-এর limitation কোনটি?",
+          "options": [
+            "সব context-এর ভুল ধরতেই হবে এমন নয়",
+            "এটি কখনও spelling দেখে না",
+            "এটি keyboard hardware",
+            "এটি শুধু picture save করে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Spell Check সব ধরনের context/meaning error ধরতে পারে না।",
+          "questionEn": "What is a limitation of spell check?",
+          "optionsEn": [
+            "It may not catch every contextual error",
+            "It never checks spelling",
+            "It is keyboard hardware",
+            "It only saves pictures"
+          ],
+          "explanationEn": "Spell check may not catch every contextual mistake."
         }
       ]
     },
@@ -489,6 +1079,65 @@
           "word": "Orientation",
           "meaningBn": "page Portrait বা Landscape direction নির্বাচন"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Portrait থেকে Landscape বদলাতে কোন setting ব্যবহৃত হয়?",
+          "options": [
+            "Orientation",
+            "Thesaurus",
+            "Clipboard",
+            "Zoom only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Page Orientation থেকে Portrait/Landscape নির্বাচন করা যায়।",
+          "questionEn": "Which setting changes Portrait to Landscape?",
+          "optionsEn": [
+            "Orientation",
+            "Thesaurus",
+            "Clipboard",
+            "Zoom only"
+          ],
+          "explanationEn": "Page Orientation controls Portrait and Landscape."
+        },
+        {
+          "question": "Bullets কখন উপযোগী?",
+          "options": [
+            "ক্রম না-লাগা item list দেখাতে",
+            "Computer বন্ধ করতে",
+            "Virus বানাতে",
+            "Mouse repair করতে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bullets unordered list সুন্দরভাবে দেখায়।",
+          "questionEn": "When are bullets useful?",
+          "optionsEn": [
+            "Showing an unordered list",
+            "Shutting down a computer",
+            "Creating a virus",
+            "Repairing a mouse"
+          ],
+          "explanationEn": "Bullets are useful for unordered lists."
+        },
+        {
+          "question": "Justify alignment কী করে?",
+          "options": [
+            "Paragraph-এর দুই প্রান্তকে সমানভাবে সাজায়",
+            "শুধু বামে রাখে",
+            "শুধু font color বদলায়",
+            "File delete করে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Justify বাম ও ডান দুই প্রান্তে text align করে।",
+          "questionEn": "What does Justify alignment do?",
+          "optionsEn": [
+            "Aligns text evenly along both margins",
+            "Only aligns left",
+            "Only changes font color",
+            "Deletes a file"
+          ],
+          "explanationEn": "Justify aligns text along both left and right margins."
+        }
       ]
     },
     "c5_04_03": {
@@ -532,6 +1181,65 @@
         {
           "word": "WordArt",
           "meaningBn": "decorative/stylized text তৈরি করার feature"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Text Wrapping-এর কাজ কী?",
+          "options": [
+            "Picture-এর চারপাশে text কীভাবে বসবে ঠিক করা",
+            "Password বানানো",
+            "CPU speed বাড়ানো",
+            "File compress করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Text Wrapping picture ও text-এর layout নিয়ন্ত্রণ করে।",
+          "questionEn": "What does Text Wrapping control?",
+          "optionsEn": [
+            "How text flows around a picture",
+            "How passwords are made",
+            "CPU speed",
+            "File compression"
+          ],
+          "explanationEn": "Text Wrapping controls how text flows around an image."
+        },
+        {
+          "question": "WordArt কী?",
+          "options": [
+            "Decorative/stylized text",
+            "Storage device",
+            "Internet browser",
+            "Antivirus"
+          ],
+          "correctIndex": 0,
+          "explanation": "WordArt দিয়ে decorative text তৈরি করা যায়।",
+          "questionEn": "What is WordArt?",
+          "optionsEn": [
+            "Decorative or stylized text",
+            "A storage device",
+            "An Internet browser",
+            "Antivirus software"
+          ],
+          "explanationEn": "WordArt creates decorative text."
+        },
+        {
+          "question": "Save করার মূল উদ্দেশ্য কী?",
+          "options": [
+            "Document পরে খোলার জন্য সংরক্ষণ করা",
+            "Monitor বন্ধ করা",
+            "Mouse lock করা",
+            "Printer reset করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Save document-কে storage-এ রাখে।",
+          "questionEn": "Why do we save a document?",
+          "optionsEn": [
+            "To keep it for later use",
+            "To turn off the monitor",
+            "To lock the mouse",
+            "To reset the printer"
+          ],
+          "explanationEn": "Saving stores the document for later use."
         }
       ]
     },
@@ -577,6 +1285,65 @@
           "word": "Undo",
           "meaningBn": "শেষ action বাতিল করা"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Paint 3D-তে Canvas কী?",
+          "options": [
+            "যেখানে drawing/design তৈরি হয়",
+            "Keyboard key",
+            "Printer tray",
+            "Internet address"
+          ],
+          "correctIndex": 0,
+          "explanation": "Canvas হলো কাজ করার drawing area।",
+          "questionEn": "What is the Canvas in Paint 3D?",
+          "optionsEn": [
+            "The area where you create artwork",
+            "A keyboard key",
+            "A printer tray",
+            "An Internet address"
+          ],
+          "explanationEn": "The canvas is the main artwork area."
+        },
+        {
+          "question": "Workspace বলতে কী বোঝায়?",
+          "options": [
+            "Tool ও canvas-সহ কাজের interface",
+            "শুধু file name",
+            "শুধু mouse",
+            "শুধু speaker"
+          ],
+          "correctIndex": 0,
+          "explanation": "Workspace হলো app-এর কাজের সম্পূর্ণ area।",
+          "questionEn": "What does workspace mean in Paint 3D?",
+          "optionsEn": [
+            "The working interface with tools and canvas",
+            "Only a file name",
+            "Only the mouse",
+            "Only the speaker"
+          ],
+          "explanationEn": "The workspace is the main working area."
+        },
+        {
+          "question": "Paint 3D project শুরু করার আগে কী বোঝা দরকার?",
+          "options": [
+            "Tool কোথায় ও কী কাজে লাগে",
+            "শুধু password",
+            "শুধু browser history",
+            "শুধু clock"
+          ],
+          "correctIndex": 0,
+          "explanation": "Tool location/role জানলে কাজ সহজ হয়।",
+          "questionEn": "What should you understand before creating in Paint 3D?",
+          "optionsEn": [
+            "Where tools are and what they do",
+            "Only passwords",
+            "Only browser history",
+            "Only the clock"
+          ],
+          "explanationEn": "Knowing the tools makes creation easier."
+        }
       ]
     },
     "c5_05_02": {
@@ -620,6 +1387,65 @@
         {
           "word": "3D",
           "meaningBn": "depth-সহ তিন dimension-এর representation"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "2D shape-এর example কোনটি?",
+          "options": [
+            "Square",
+            "Cube",
+            "Sphere",
+            "3D model only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Square একটি flat 2D shape।",
+          "questionEn": "Which is a 2D shape?",
+          "optionsEn": [
+            "Square",
+            "Cube",
+            "Sphere",
+            "Only a 3D model"
+          ],
+          "explanationEn": "A square is a two-dimensional shape."
+        },
+        {
+          "question": "3D shape-এর example কোনটি?",
+          "options": [
+            "Cube",
+            "Line",
+            "Flat circle drawing only",
+            "Text"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cube-এর length, width, height আছে।",
+          "questionEn": "Which is a 3D shape?",
+          "optionsEn": [
+            "Cube",
+            "Line",
+            "Only a flat circle drawing",
+            "Text"
+          ],
+          "explanationEn": "A cube is three-dimensional."
+        },
+        {
+          "question": "Sticker tool কী কাজে লাগে?",
+          "options": [
+            "Ready-made visual element যোগ করতে",
+            "CPU বদলাতে",
+            "Folder move করতে",
+            "Password reset করতে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sticker artwork-এ decorative element যোগ করে।",
+          "questionEn": "What is the Sticker tool used for?",
+          "optionsEn": [
+            "Adding ready-made visual elements",
+            "Replacing the CPU",
+            "Moving folders",
+            "Resetting passwords"
+          ],
+          "explanationEn": "Stickers add visual elements to artwork."
         }
       ]
     },
@@ -665,6 +1491,65 @@
           "word": "Art Integration",
           "meaningBn": "অন্য subject-এর learning-কে art/creative activity-র সাথে যুক্ত করা"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Project Save করলে কী সুবিধা?",
+          "options": [
+            "পরে আবার edit করা যায়",
+            "সব tool delete হয়",
+            "Computer format হয়",
+            "Internet বন্ধ হয়"
+          ],
+          "correctIndex": 0,
+          "explanation": "Save করলে project পরে open করে কাজ চালানো যায়।",
+          "questionEn": "Why save a Paint 3D project?",
+          "optionsEn": [
+            "So it can be edited later",
+            "All tools are deleted",
+            "The computer is formatted",
+            "The Internet stops"
+          ],
+          "explanationEn": "Saving lets you reopen and continue later."
+        },
+        {
+          "question": "Healthy Food Poster project কোন ধরনের learning-এর example?",
+          "options": [
+            "Art + health cross-curricular learning",
+            "শুধু typing",
+            "শুধু hardware repair",
+            "শুধু password practice"
+          ],
+          "correctIndex": 0,
+          "explanation": "Poster art skill-এর সঙ্গে healthy living concept জুড়ে দেয়।",
+          "questionEn": "What kind of learning is a Healthy Food Poster project?",
+          "optionsEn": [
+            "Art plus health cross-curricular learning",
+            "Only typing",
+            "Only hardware repair",
+            "Only password practice"
+          ],
+          "explanationEn": "It combines art with healthy-living learning."
+        },
+        {
+          "question": "Open command কখন ব্যবহার হয়?",
+          "options": [
+            "আগে save করা project খুলতে",
+            "নতুন CPU বানাতে",
+            "Printer ink ভরতে",
+            "Mouse clean করতে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Open existing saved project load করে।",
+          "questionEn": "When do you use Open?",
+          "optionsEn": [
+            "To load a previously saved project",
+            "To make a new CPU",
+            "To refill printer ink",
+            "To clean a mouse"
+          ],
+          "explanationEn": "Open loads a saved project."
+        }
       ]
     },
     "c5_06_01": {
@@ -708,6 +1593,65 @@
         {
           "word": "World Wide Web",
           "meaningBn": "Internet ব্যবহার করে linked web pages/resources access করার system"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Internet-কে 'network of networks' বলা হয় কেন?",
+          "options": [
+            "অনেক network একে অপরের সঙ্গে যুক্ত",
+            "এটি শুধু একটি computer",
+            "এটি শুধু printer",
+            "এটি শুধু game"
+          ],
+          "correctIndex": 0,
+          "explanation": "Internet বহু network-এর সংযোগ।",
+          "questionEn": "Why is the Internet called a network of networks?",
+          "optionsEn": [
+            "It connects many networks",
+            "It is only one computer",
+            "It is only a printer",
+            "It is only a game"
+          ],
+          "explanationEn": "The Internet connects many networks."
+        },
+        {
+          "question": "Internet-এর শুরুতে network research-এর উদ্দেশ্য কী ছিল?",
+          "options": [
+            "Computer-গুলোর মধ্যে communication/resource sharing",
+            "শুধু movie দেখা",
+            "শুধু painting",
+            "শুধু printing"
+          ],
+          "correctIndex": 0,
+          "explanation": "প্রাথমিক network গবেষণা যোগাযোগ ও resource sharing-এ গুরুত্ব দিয়েছিল।",
+          "questionEn": "What was an important goal of early computer networking research?",
+          "optionsEn": [
+            "Communication and resource sharing",
+            "Only watching movies",
+            "Only painting",
+            "Only printing"
+          ],
+          "explanationEn": "Early networking focused on communication and resource sharing."
+        },
+        {
+          "question": "Internet ও Web কি একই জিনিস?",
+          "options": [
+            "না, Web Internet-এর একটি service",
+            "হ্যাঁ, পুরোপুরি একই",
+            "Internet শুধু browser",
+            "Web শুধু keyboard"
+          ],
+          "correctIndex": 0,
+          "explanation": "Internet network infrastructure; Web তার ওপর চলা একটি service।",
+          "questionEn": "Are the Internet and the Web exactly the same?",
+          "optionsEn": [
+            "No, the Web is a service that uses the Internet",
+            "Yes, exactly the same",
+            "The Internet is only a browser",
+            "The Web is only a keyboard"
+          ],
+          "explanationEn": "The Internet is the network; the Web is one service that uses it."
         }
       ]
     },
@@ -753,6 +1697,65 @@
           "word": "Search Keyword",
           "meaningBn": "search engine-এ তথ্য খোঁজার জন্য লেখা গুরুত্বপূর্ণ word/phrase"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "URL কী?",
+          "options": [
+            "Web resource-এর address",
+            "RAM-এর type",
+            "Printer cable",
+            "Mouse button"
+          ],
+          "correctIndex": 0,
+          "explanation": "URL website/web page-এর address নির্দেশ করে।",
+          "questionEn": "What is a URL?",
+          "optionsEn": [
+            "The address of a web resource",
+            "A type of RAM",
+            "A printer cable",
+            "A mouse button"
+          ],
+          "explanationEn": "A URL is the address of a web resource."
+        },
+        {
+          "question": "Search Engine-এর কাজ কী?",
+          "options": [
+            "Keyword দিয়ে information খুঁজতে সাহায্য করা",
+            "Computer format করা",
+            "Keyboard repair করা",
+            "Printer page count করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Search engine web information খুঁজতে সাহায্য করে।",
+          "questionEn": "What does a search engine do?",
+          "optionsEn": [
+            "Helps find information using keywords",
+            "Formats the computer",
+            "Repairs keyboards",
+            "Counts printer pages"
+          ],
+          "explanationEn": "Search engines help find web information."
+        },
+        {
+          "question": "Website ও Web Page-এর সম্পর্ক কী?",
+          "options": [
+            "Website-এর মধ্যে এক বা একাধিক web page থাকে",
+            "দুটো unrelated",
+            "Web page হলো keyboard",
+            "Website হলো printer"
+          ],
+          "correctIndex": 0,
+          "explanation": "একটি website বহু web page নিয়ে তৈরি হতে পারে।",
+          "questionEn": "How are a website and a web page related?",
+          "optionsEn": [
+            "A website can contain one or more web pages",
+            "They are unrelated",
+            "A web page is a keyboard",
+            "A website is a printer"
+          ],
+          "explanationEn": "A website can contain multiple web pages."
+        }
       ]
     },
     "c5_06_03": {
@@ -796,6 +1799,65 @@
         {
           "word": "Phishing",
           "meaningBn": "ভুয়ো message/site দিয়ে password বা personal data নেওয়ার চেষ্টা"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Trusted source চেনার একটি ভালো পদ্ধতি কোনটি?",
+          "options": [
+            "Source/author/official site যাচাই করা",
+            "শুধু colorful logo দেখা",
+            "সব link বিশ্বাস করা",
+            "Password share করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Source, author ও official identity যাচাই করা উচিত।",
+          "questionEn": "What is a good way to judge a trusted source?",
+          "optionsEn": [
+            "Check the source, author, or official site",
+            "Trust colorful logos only",
+            "Believe every link",
+            "Share your password"
+          ],
+          "explanationEn": "Check source and author information."
+        },
+        {
+          "question": "Suspicious link পেলে কী করা উচিত?",
+          "options": [
+            "Click না করে trusted adult/teacher-এর সাহায্য নেওয়া",
+            "তৎক্ষণাৎ password দেওয়া",
+            "সব download করা",
+            "Security বন্ধ করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Unknown/suspicious link avoid করা নিরাপদ।",
+          "questionEn": "What should you do with a suspicious link?",
+          "optionsEn": [
+            "Do not click; ask a trusted adult or teacher",
+            "Enter your password immediately",
+            "Download everything",
+            "Disable security"
+          ],
+          "explanationEn": "Avoid suspicious links and ask for help."
+        },
+        {
+          "question": "Strong password-এর বৈশিষ্ট্য কোনটি?",
+          "options": [
+            "দীর্ঘ ও সহজে guess করা কঠিন",
+            "123456",
+            "নিজের নাম মাত্র",
+            "সবাইকে বলা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Strong password guess করা কঠিন হওয়া উচিত।",
+          "questionEn": "Which is a feature of a strong password?",
+          "optionsEn": [
+            "Long and hard to guess",
+            "123456",
+            "Only your name",
+            "Shared with everyone"
+          ],
+          "explanationEn": "Strong passwords are hard to guess."
         }
       ]
     },
@@ -841,6 +1903,65 @@
           "word": "Block",
           "meaningBn": "একটি নির্দিষ্ট programming instruction-এর visual piece"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Scratch-এ Sprite কী?",
+          "options": [
+            "Character/object",
+            "Stage background",
+            "Spreadsheet cell",
+            "Printer"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sprite হলো project-এর character বা object।",
+          "questionEn": "What is a Sprite in Scratch?",
+          "optionsEn": [
+            "A character or object",
+            "The Stage background",
+            "A spreadsheet cell",
+            "A printer"
+          ],
+          "explanationEn": "A sprite is a character or object."
+        },
+        {
+          "question": "Blocks Palette কী?",
+          "options": [
+            "Coding blocks-এর collection",
+            "Paint color box only",
+            "File folder",
+            "Monitor stand"
+          ],
+          "correctIndex": 0,
+          "explanation": "Blocks Palette থেকে coding blocks নেওয়া হয়।",
+          "questionEn": "What is the Blocks Palette?",
+          "optionsEn": [
+            "A collection of coding blocks",
+            "Only a paint color box",
+            "A file folder",
+            "A monitor stand"
+          ],
+          "explanationEn": "The Blocks Palette contains coding blocks."
+        },
+        {
+          "question": "Coding Area-তে কী করা হয়?",
+          "options": [
+            "Blocks জুড়ে script তৈরি",
+            "Paper print",
+            "Folder rename only",
+            "CPU install"
+          ],
+          "correctIndex": 0,
+          "explanation": "Coding Area-তে block sequence বসিয়ে script তৈরি করা হয়।",
+          "questionEn": "What do you do in the Coding Area?",
+          "optionsEn": [
+            "Join blocks to build scripts",
+            "Print paper",
+            "Only rename folders",
+            "Install a CPU"
+          ],
+          "explanationEn": "The Coding Area is where blocks are joined into scripts."
+        }
       ]
     },
     "c5_07_02": {
@@ -884,6 +2005,65 @@
         {
           "word": "Computational Thinking",
           "meaningBn": "problem-কে pattern, steps ও logic দিয়ে সমাধান করার চিন্তাপদ্ধতি"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Square আঁকতে 90° turn সাধারণত কতবার repeat করা হয়?",
+          "options": [
+            "4",
+            "2",
+            "7",
+            "10"
+          ],
+          "correctIndex": 0,
+          "explanation": "চারটি side-এর জন্য Move + Turn 90° চারবার করা হয়।",
+          "questionEn": "To draw a square, how many times is a 90° turn pattern usually repeated?",
+          "optionsEn": [
+            "4",
+            "2",
+            "7",
+            "10"
+          ],
+          "explanationEn": "A square has four sides, so the pattern repeats four times."
+        },
+        {
+          "question": "Pen Down না করলে কী হবে?",
+          "options": [
+            "Sprite move করলেও line নাও আঁকতে পারে",
+            "Computer বন্ধ হবে",
+            "Sound বাড়বে",
+            "File delete হবে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Pen Down drawing mode চালু করে।",
+          "questionEn": "What happens if Pen Down is not used?",
+          "optionsEn": [
+            "The sprite may move without drawing a line",
+            "The computer shuts down",
+            "Sound gets louder",
+            "A file is deleted"
+          ],
+          "explanationEn": "Pen Down enables drawing while the sprite moves."
+        },
+        {
+          "question": "Repeat block-এর সুবিধা কী?",
+          "options": [
+            "একই instructions বারবার না লিখেও চালানো যায়",
+            "Printer ink বানায়",
+            "Browser বন্ধ করে",
+            "RAM permanent করে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Repeat repeated code ছোট ও পরিষ্কার করে।",
+          "questionEn": "What is a benefit of the Repeat block?",
+          "optionsEn": [
+            "It runs repeated instructions without rewriting them",
+            "It makes printer ink",
+            "It closes the browser",
+            "It makes RAM permanent"
+          ],
+          "explanationEn": "Repeat reduces repeated code."
         }
       ]
     },
@@ -929,6 +2109,65 @@
           "word": "Project File",
           "meaningBn": "Scratch-এর saved sprites, code ও scene রাখা file"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Duplicate Sprite করলে কী সুবিধা?",
+          "options": [
+            "একই ধরনের sprite দ্রুত তৈরি",
+            "সব project delete",
+            "Sound বন্ধ",
+            "Backdrop lock"
+          ],
+          "correctIndex": 0,
+          "explanation": "Duplicate existing sprite-এর copy তৈরি করে সময় বাঁচায়।",
+          "questionEn": "What is a benefit of duplicating a Sprite?",
+          "optionsEn": [
+            "Quickly create a similar sprite",
+            "Delete every project",
+            "Turn off sound",
+            "Lock the backdrop"
+          ],
+          "explanationEn": "Duplicating makes a copy of an existing sprite."
+        },
+        {
+          "question": "Scratch থেকে Exit করার আগে কী করা ভালো?",
+          "options": [
+            "Project Save করা",
+            "সব blocks delete করা",
+            "Monitor off করা",
+            "Internet password share করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Save না করলে কাজ হারাতে পারে।",
+          "questionEn": "What should you do before exiting Scratch?",
+          "optionsEn": [
+            "Save the project",
+            "Delete all blocks",
+            "Turn off the monitor",
+            "Share the Internet password"
+          ],
+          "explanationEn": "Save your project before exiting."
+        },
+        {
+          "question": "Open command কী কাজে লাগে?",
+          "options": [
+            "আগে save করা project আবার খুলতে",
+            "New keyboard বানাতে",
+            "Paint color বদলাতে",
+            "Printer reset করতে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Open saved project load করে।",
+          "questionEn": "What is Open used for?",
+          "optionsEn": [
+            "Reopen a saved project",
+            "Make a new keyboard",
+            "Change paint color",
+            "Reset a printer"
+          ],
+          "explanationEn": "Open loads a saved project."
+        }
       ]
     },
     "c5_08_01": {
@@ -972,6 +2211,65 @@
         {
           "word": "Backdrop",
           "meaningBn": "Scratch Stage-এর background scene"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Costume কী পরিবর্তন করে?",
+          "options": [
+            "Sprite-এর appearance",
+            "Stage-এর সব file",
+            "Computer password",
+            "Printer paper"
+          ],
+          "correctIndex": 0,
+          "explanation": "Costume sprite-এর look বদলায়।",
+          "questionEn": "What does a Costume change?",
+          "optionsEn": [
+            "A sprite's appearance",
+            "All Stage files",
+            "The computer password",
+            "Printer paper"
+          ],
+          "explanationEn": "A costume changes how a sprite looks."
+        },
+        {
+          "question": "Backdrop কী পরিবর্তন করে?",
+          "options": [
+            "Stage background",
+            "Sprite name only",
+            "Keyboard keys",
+            "CPU fan"
+          ],
+          "correctIndex": 0,
+          "explanation": "Backdrop Stage-এর scene/background বদলায়।",
+          "questionEn": "What does a Backdrop change?",
+          "optionsEn": [
+            "The Stage background",
+            "Only the sprite name",
+            "Keyboard keys",
+            "CPU fan"
+          ],
+          "explanationEn": "A backdrop changes the Stage background."
+        },
+        {
+          "question": "Sprite Library-এর কাজ কী?",
+          "options": [
+            "Ready-made sprite বেছে নিতে সাহায্য করা",
+            "RAM clean করা",
+            "Word document print করা",
+            "Folder encrypt করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sprite Library থেকে character/object নেওয়া যায়।",
+          "questionEn": "What is the Sprite Library used for?",
+          "optionsEn": [
+            "Choosing ready-made sprites",
+            "Cleaning RAM",
+            "Printing a Word document",
+            "Encrypting a folder"
+          ],
+          "explanationEn": "The Sprite Library provides sprites to choose from."
         }
       ]
     },
@@ -1017,6 +2315,65 @@
           "word": "Debugging",
           "meaningBn": "program-এর ভুল cause খুঁজে ঠিক করার প্রক্রিয়া"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Green Flag কোন ধরনের block/action-এর সঙ্গে সম্পর্কিত?",
+          "options": [
+            "Event trigger",
+            "Storage",
+            "Page margin",
+            "Spell check"
+          ],
+          "correctIndex": 0,
+          "explanation": "Green Flag click একটি event trigger।",
+          "questionEn": "The Green Flag is related to which programming idea?",
+          "optionsEn": [
+            "Event trigger",
+            "Storage",
+            "Page margin",
+            "Spell check"
+          ],
+          "explanationEn": "Clicking the Green Flag triggers an event."
+        },
+        {
+          "question": "Say block কী করে?",
+          "options": [
+            "Sprite-এর speech/message দেখায়",
+            "Hard disk format করে",
+            "Printer চালায়",
+            "Folder rename করে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Say block sprite-কে message দেখাতে দেয়।",
+          "questionEn": "What does the Say block do?",
+          "optionsEn": [
+            "Shows a sprite's message",
+            "Formats a hard disk",
+            "Runs a printer",
+            "Renames a folder"
+          ],
+          "explanationEn": "The Say block displays a message from a sprite."
+        },
+        {
+          "question": "Repeat ও Forever-এর পার্থক্য কী?",
+          "options": [
+            "Repeat নির্দিষ্টবার, Forever চলতে থাকে",
+            "দুটো সম্পূর্ণ একই",
+            "Repeat শুধু sound",
+            "Forever শুধু picture"
+          ],
+          "correctIndex": 0,
+          "explanation": "Repeat count অনুযায়ী চলে; Forever stop না হওয়া পর্যন্ত চলে।",
+          "questionEn": "What is the difference between Repeat and Forever?",
+          "optionsEn": [
+            "Repeat runs a set number of times; Forever keeps running",
+            "They are exactly the same",
+            "Repeat is only for sound",
+            "Forever is only for pictures"
+          ],
+          "explanationEn": "Repeat has a count; Forever keeps looping."
+        }
       ]
     },
     "c5_08_03": {
@@ -1060,6 +2417,65 @@
         {
           "word": "Feedback",
           "meaningBn": "user action-এর পরে program যে response দেয়"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Quiz game flow-এর সঠিক order কোনটি?",
+          "options": [
+            "Ask → Wait → Check → Feedback",
+            "Feedback → Exit → Ask",
+            "Delete → Print → Ask",
+            "Save → Format → Restart"
+          ],
+          "correctIndex": 0,
+          "explanation": "প্রথমে question, তারপর answer, check ও feedback।",
+          "questionEn": "What is a sensible quiz-game flow?",
+          "optionsEn": [
+            "Ask → Wait → Check → Feedback",
+            "Feedback → Exit → Ask",
+            "Delete → Print → Ask",
+            "Save → Format → Restart"
+          ],
+          "explanationEn": "A quiz asks, waits, checks, then gives feedback."
+        },
+        {
+          "question": "Debugging বলতে কী বোঝায়?",
+          "options": [
+            "Program-এর ভুল খুঁজে ঠিক করা",
+            "Printer clean করা",
+            "Keyboard paint করা",
+            "Website download করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "Debugging code/logic-এর সমস্যা শনাক্ত ও fix করা।",
+          "questionEn": "What does debugging mean?",
+          "optionsEn": [
+            "Finding and fixing program errors",
+            "Cleaning a printer",
+            "Painting a keyboard",
+            "Downloading a website"
+          ],
+          "explanationEn": "Debugging means finding and fixing errors."
+        },
+        {
+          "question": "User answer নেওয়ার আগে feedback দিলে সমস্যা কী?",
+          "options": [
+            "Program flow ভুল হবে",
+            "CPU দ্রুত হবে",
+            "Sound quality বাড়বে",
+            "Backdrop বদলাবে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Feedback answer check-এর পরে হওয়া উচিত।",
+          "questionEn": "What is wrong with giving feedback before getting the user's answer?",
+          "optionsEn": [
+            "The program flow is wrong",
+            "The CPU becomes faster",
+            "Sound quality improves",
+            "The backdrop changes"
+          ],
+          "explanationEn": "Feedback should come after the answer is received and checked."
         }
       ]
     },
@@ -1105,6 +2521,65 @@
           "word": "Human Intelligence",
           "meaningBn": "মানুষের reasoning, learning, common sense, emotion ও judgement-এর সামগ্রিক ক্ষমতা"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Intelligence-এর অংশ কোনটি?",
+          "options": [
+            "Learning ও problem solving",
+            "শুধু screen size",
+            "শুধু battery",
+            "শুধু file name"
+          ],
+          "correctIndex": 0,
+          "explanation": "Learning, reasoning, problem solving intelligence-এর অংশ।",
+          "questionEn": "Which is part of intelligence?",
+          "optionsEn": [
+            "Learning and problem solving",
+            "Only screen size",
+            "Only battery level",
+            "Only file names"
+          ],
+          "explanationEn": "Learning and problem solving are parts of intelligence."
+        },
+        {
+          "question": "Human intelligence-এর একটি বিশেষ দিক কোনটি?",
+          "options": [
+            "Context ও emotion বোঝা",
+            "শুধু data copy",
+            "শুধু fast calculation",
+            "শুধু storage"
+          ],
+          "correctIndex": 0,
+          "explanation": "মানুষ context, emotion, values ব্যবহার করে সিদ্ধান্ত নিতে পারে।",
+          "questionEn": "Which is a special aspect of human intelligence?",
+          "optionsEn": [
+            "Understanding context and emotions",
+            "Only copying data",
+            "Only fast calculation",
+            "Only storage"
+          ],
+          "explanationEn": "Humans can use context, emotions, and values."
+        },
+        {
+          "question": "AI-এর basic idea কোনটি?",
+          "options": [
+            "Machine-কে কিছু smart task করতে সক্ষম করা",
+            "Computer-কে মানুষ বানানো",
+            "Monitor বড় করা",
+            "Printer দ্রুত করা"
+          ],
+          "correctIndex": 0,
+          "explanation": "AI কিছু smart task/pattern-based কাজ করার ক্ষমতা দেয়।",
+          "questionEn": "What is a basic idea of AI?",
+          "optionsEn": [
+            "Enable machines to perform some smart tasks",
+            "Turn computers into humans",
+            "Make monitors larger",
+            "Make printers faster"
+          ],
+          "explanationEn": "AI enables machines to perform certain smart tasks."
+        }
       ]
     },
     "c5_09_02": {
@@ -1149,6 +2624,65 @@
           "word": "Verification",
           "meaningBn": "result অন্য evidence/source দিয়ে যাচাই করা"
         }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Human ও AI-এর মধ্যে কোনটি সঠিক তুলনা?",
+          "options": [
+            "AI দ্রুত data process করতে পারে, মানুষ context/values বুঝতে পারে",
+            "AI সবসময় মানুষ",
+            "মানুষ কোনো pattern শেখে না",
+            "দুটো একই"
+          ],
+          "correctIndex": 0,
+          "explanation": "দুজনের ক্ষমতা আলাদা এবং complement করতে পারে।",
+          "questionEn": "Which comparison is reasonable?",
+          "optionsEn": [
+            "AI can process data quickly while humans use context and values",
+            "AI is always human",
+            "Humans cannot learn patterns",
+            "They are identical"
+          ],
+          "explanationEn": "Humans and AI have different strengths."
+        },
+        {
+          "question": "Recommendation system কোনটির example?",
+          "options": [
+            "AI application",
+            "Printer hardware only",
+            "Folder type",
+            "Keyboard shortcut"
+          ],
+          "correctIndex": 0,
+          "explanation": "Recommendation pattern/data ব্যবহার করে suggestion দেয়।",
+          "questionEn": "A recommendation system is an example of what?",
+          "optionsEn": [
+            "An AI application",
+            "Only printer hardware",
+            "A folder type",
+            "A keyboard shortcut"
+          ],
+          "explanationEn": "Recommendation systems are AI applications."
+        },
+        {
+          "question": "Human + AI একসঙ্গে কাজ করলে কী লাভ হতে পারে?",
+          "options": [
+            "Speed ও human judgement একসঙ্গে ব্যবহার",
+            "সব decision AI একাই করবে",
+            "Human thinking বন্ধ হবে",
+            "Data দরকার হবে না"
+          ],
+          "correctIndex": 0,
+          "explanation": "AI-এর processing ও মানুষের judgement একসঙ্গে উপকারী হতে পারে।",
+          "questionEn": "What can be a benefit of humans and AI working together?",
+          "optionsEn": [
+            "Combine speed with human judgment",
+            "Let AI make every decision alone",
+            "Stop human thinking",
+            "Remove the need for data"
+          ],
+          "explanationEn": "AI speed and human judgment can complement each other."
+        }
       ]
     },
     "c5_09_03": {
@@ -1192,6 +2726,65 @@
         {
           "word": "Uncertainty",
           "meaningBn": "result নিশ্চিত না হওয়ার অবস্থা"
+        }
+      ],
+      "appendQuiz": [
+        {
+          "question": "Pattern recognition কী?",
+          "options": [
+            "Data-তে পুনরাবৃত্তি/ধারা চিনতে পারা",
+            "File delete করা",
+            "Monitor repair",
+            "Printer refill"
+          ],
+          "correctIndex": 0,
+          "explanation": "Pattern recognition data-এর recurring structure চিনে।",
+          "questionEn": "What is pattern recognition?",
+          "optionsEn": [
+            "Finding recurring structures in data",
+            "Deleting files",
+            "Repairing monitors",
+            "Refilling printers"
+          ],
+          "explanationEn": "Pattern recognition finds recurring structures in data."
+        },
+        {
+          "question": "AI prediction সবসময় 100% সঠিক কি?",
+          "options": [
+            "না",
+            "হ্যাঁ",
+            "শুধু game-এ হ্যাঁ",
+            "Data ছাড়াই হ্যাঁ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Prediction uncertainty থাকে, তাই verify করা দরকার।",
+          "questionEn": "Are AI predictions always 100% correct?",
+          "optionsEn": [
+            "No",
+            "Yes",
+            "Only in games",
+            "Yes, even without data"
+          ],
+          "explanationEn": "Predictions can be uncertain and should be checked."
+        },
+        {
+          "question": "Rock-Paper-Scissors activity-তে verification কেন দরকার?",
+          "options": [
+            "Prediction-এর result সত্যি মিলল কি না দেখতে",
+            "Keyboard speed বাড়াতে",
+            "Printer page কমাতে",
+            "File rename করতে"
+          ],
+          "correctIndex": 0,
+          "explanation": "Prediction accuracy check করতে result compare করা হয়।",
+          "questionEn": "Why is verification useful in a Rock-Paper-Scissors AI activity?",
+          "optionsEn": [
+            "To check whether predictions match results",
+            "To increase keyboard speed",
+            "To reduce printer pages",
+            "To rename files"
+          ],
+          "explanationEn": "Verification checks predicted results against actual outcomes."
         }
       ]
     }
